@@ -3,6 +3,21 @@ from debian_linux.config import ConfigParser, SchemaItemList
 class Config(dict):
     config_name = "defines"
 
+    class FilepathItemList(SchemaItemList):
+        def __init__(self):
+            """Firmware filenames are listed one-per-line in each 'defines'
+            file, but newlines are removed during conversion of the entries.
+            That means that backslash-escaped spaces are used to identify
+            spaces within filenames.  Use a pattern that splits on any spaces
+            NOT preceded by a backslash.
+            """
+            super().__init__(type=r"(?<!\\)\s+")
+
+        def __call__(self, i):
+            """Remove escaping backslashes from the config filenames"""
+            filepaths = super().__call__(i)
+            return [filepath.replace("\\ ", " ") for filepath in filepaths]
+
     top_schemas = {
         'base': {
             'packages': SchemaItemList(),
@@ -11,7 +26,7 @@ class Config(dict):
 
     package_schemas = {
         'base': {
-            'files': SchemaItemList(),
+            'files': FilepathItemList(),
             'support': SchemaItemList(),
             'ignore-files': SchemaItemList(),
         }
