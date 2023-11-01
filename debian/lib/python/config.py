@@ -5,11 +5,20 @@ class Config(dict):
 
     class FilepathItemList(SchemaItemList):
         def __init__(self):
-            """Firmware filenames are listed one-per-line in each 'defines'
-            file, but newlines are removed during conversion of the entries.
-            That means that backslash-escaped spaces are used to identify
-            spaces within filenames.  Use a pattern that splits on any spaces
-            NOT preceded by a backslash.
+            """Firmware file paths are listed in multi-line 'files' entries
+            within the 'defines' file for each firmware package.
+
+            The SchemaItemList parser that is a superclass of this one
+            considers any whitespace[1] as a separator between items, but
+            that prevents encoding of filepaths that contain spaces - and
+            some device drivers do attempt to load firmware filenames that
+            contain spaces (see #1029843 for some examples).
+
+            This class exists to accommodate filepaths that contain spaces,
+            by breaking only on whitespace that is *not* preceded by a
+            backslash character.
+
+            [1] - https://sources.debian.org/src/linux/6.5.8-1/debian/lib/python/debian_linux/config.py/#L33
             """
             super().__init__(type=r"(?<!\\)\s+")
 
