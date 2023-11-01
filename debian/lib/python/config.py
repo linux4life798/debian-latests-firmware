@@ -20,12 +20,19 @@ class Config(dict):
 
             [1] - https://sources.debian.org/src/linux/6.5.8-1/debian/lib/python/debian_linux/config.py/#L33
             """
-            super().__init__(type=r"(?<!\\)\s+")
+            # break on a single space _not_ preceded by a backslash
+            # (negative lookbehind)
+            super().__init__(type=r"(?<!\\) ")
 
         def __call__(self, i):
             """Remove escaping backslashes from the config filenames"""
-            filepaths = super().__call__(i)
-            return [filepath.replace("\\ ", " ") for filepath in filepaths]
+            escaped_filepaths = super().__call__(i)
+            filepaths = [
+                escaped_filepath.replace("\\ ", " ")
+                for escaped_filepath in escaped_filepaths
+            ]
+            assert all(filepath.strip() == filepath for filepath in filepaths)
+            return filepaths
 
     top_schemas = {
         'base': {
