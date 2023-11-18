@@ -225,7 +225,14 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
                 module_names.add(module_name)
             if f in links:
                 continue
-            f, f_real, version = files_real[f]
+            try:
+                f, f_real, version = files_real[f]
+            except KeyError:
+                print("E: %s: missing file, please update debian/config/%s/defines" % (
+                    f,
+                    package),
+                      file=sys.stderr)
+                continue
             c = self.config.get(('base', package, f), {})
             desc = c.get('desc')
             if version is None:
