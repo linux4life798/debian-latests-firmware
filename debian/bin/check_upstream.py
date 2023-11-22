@@ -3,6 +3,7 @@
 import errno, filecmp, fnmatch, glob, os.path, re, sys
 from debian import deb822
 from enum import Enum
+import argparse
 
 sys.path.insert(0, "debian/lib/python")
 rules_defs = dict((match.group(1), match.group(2))
@@ -48,7 +49,7 @@ def check_section(section):
         # Unrecognised and probably undistributable
         return DistState.undistributable
 
-def main(source_dir='.'):
+def main(source_dir='.', show_licence=False):
     config = Config()
     over_dirs = ['debian/config/' + package for
                  package in config['base',]['packages']]
@@ -76,6 +77,11 @@ def main(source_dir='.'):
                 if os.path.isfile(file_info.binary):
                     print('W: %s appears to be undistributable' %
                           file_info.binary)
+                    if (show_licence):
+                        print("D: Licence:")
+                        for line in section.licence.splitlines():
+                            print("D:  %s" % (line))
+                        print('')
 
 def update_file(source_dir, over_dirs, filename):
     source_file = os.path.join(source_dir, filename)
@@ -88,4 +94,20 @@ def update_file(source_dir, over_dirs, filename):
                 return
 
 if __name__ == '__main__':
-    main(*sys.argv[1:])
+    parser = argparse.ArgumentParser(
+        description="Check debian package against upstream changes"
+    )
+    parser.add_argument(
+        "--show_licence",
+        action=argparse.BooleanOptionalAction,
+        default=False,
+        help="Display licence for undistributable files"
+    )
+    parser.add_argument(
+        "source_dir",
+        nargs='?',
+        default=".",
+        help="Path to the firmware-nonfree package source directory"
+    )
+    args = vars(parser.parse_args())
+    main(args["source_dir"], args["show_licence"])
