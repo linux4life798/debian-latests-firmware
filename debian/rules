@@ -61,20 +61,20 @@ debian/control-real: $(GENCONTROL) $(CONTROL_FILES)
 	exit 1
 
 DIR_ORIG = ../orig/$(SOURCE)-$(VERSION_UPSTREAM)
-TAR_ORIG_NAME = $(SOURCE)_$(VERSION_UPSTREAM).orig.tar.xz
-TAR_ORIG = $(firstword $(wildcard ../$(TAR_ORIG_NAME)) $(wildcard ../orig/$(TAR_ORIG_NAME)))
+TAR_ORIG = ../$(SOURCE)_$(VERSION_UPSTREAM).orig.tar.xz
 
 orig: $(DIR_ORIG)
 	rsync --delete --exclude /debian --exclude /.git --link-dest=$(DIR_ORIG)/ -a $(DIR_ORIG)/ .
 	QUILT_PATCHES='$(CURDIR)/debian/patches' QUILT_PC=.pc quilt push --quiltrc - -a -q --fuzz=0
 
-$(DIR_ORIG):
-ifeq ($(TAR_ORIG),)
-	$(error Cannot find orig tarball $(TAR_ORIG_NAME))
-else
+$(DIR_ORIG): $(TAR_ORIG)
+	rm -rf $(DIR_ORIG)
 	mkdir -p ../orig
 	tar -C ../orig -xaf $(TAR_ORIG)
-endif
+
+$(TAR_ORIG): debian/copyright
+	# debian/copyright contains Files-Excluded, used to repack upstream source
+	@echo E: Orig tarball $(TAR_ORIG) not found or obsolete, please run "origtargz -dt" to generate
 
 maintainerclean:
 	-rm debian/control debian/control.md5sum debian/rules.gen
