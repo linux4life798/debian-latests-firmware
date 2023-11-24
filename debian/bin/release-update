@@ -88,7 +88,7 @@ if __name__ == '__main__':
     if len(sys.argv) != 3:
         print('''\
 Usage: {} REPO VERSION
-REPO is the git repository to generate a changelog from
+REPO is the upstream firmware git repository to generate a changelog from
 VERSION is the upstream version'''.format(sys.argv[0]),
               file=sys.stderr)
         sys.exit(2)
