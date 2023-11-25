@@ -52,6 +52,7 @@ extract-source:
         python3-jinja2 \
         quilt \
         rsync \
+        rdfind \
         $(debian/rules linux-support-name)
 
     - version=$(dpkg-parsechangelog -SVersion)
