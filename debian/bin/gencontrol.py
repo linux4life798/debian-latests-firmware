@@ -96,7 +96,10 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
         self.write(packages, makefile)
 
     def do_source(self, packages):
-        packages['source'] = self.templates.get_source_control("control.source", {})[0]
+        linux_support_pkg = os.path.basename(sys.argv[1])
+        packages['source'] = self.templates.get_source_control(
+            "control.source",
+            {"linux_support": linux_support_pkg})[0]
 
     def do_extra(self, packages, makefile):
         config_entry = self.config['base',]
