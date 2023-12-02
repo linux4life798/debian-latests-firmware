@@ -79,6 +79,10 @@ Optional metadata:
 [base] replaces: Used as Replaces field
 [base] conflicts: Used as Conflicts field
 [base] provides: Used as Provides field
+[base] ignore-files: List of files and their md5-checksums to be
+       ignored by 'debian/bin/check_upstream.py', syntax is one file and
+       checksum per line, separated by '='
+       filename=md5sum
 
 Optional per-file metadata:
 

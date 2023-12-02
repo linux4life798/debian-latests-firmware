@@ -13,6 +13,7 @@ class Config(dict):
         'base': {
             'files': SchemaItemList(),
             'support': SchemaItemList(),
+            'ignore-files': SchemaItemList(),
         }
     }
 

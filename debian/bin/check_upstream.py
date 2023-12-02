@@ -3,6 +3,7 @@
 import errno, filecmp, fnmatch, glob, os.path, re, sys
 from debian import deb822
 from enum import Enum
+import hashlib
 import argparse
 
 sys.path.insert(0, "debian/lib/python")
@@ -50,6 +51,14 @@ def check_section(section):
         # Unrecognised and probably undistributable
         return DistState.undistributable
 
+def md5(fname):
+    hash_md5 = hashlib.md5()
+    with open(fname, "rb") as f:
+        for chunk in iter(lambda: f.read(4096), b""):
+            hash_md5.update(chunk)
+    return hash_md5.hexdigest()
+
+
 def main(source_dir='.', show_licence=False):
     config = Config()
     over_dirs = ['debian/config/' + package for
@@ -57,13 +66,35 @@ def main(source_dir='.', show_licence=False):
     with open("debian/copyright") as f:
         exclusions = deb822.Deb822(f).get("Files-Excluded", '').strip().split()
     packaged_files = {}
+    ignored_files = {}
     for package in config['base',]['packages']:
         for filename in config['base', package]['files']:
             packaged_files[filename] = package
+        for ignored_file in config['base', package].get('ignore-files', []):
+            if m:=re.match(r'^(.*)=(\S+)\s*$', ignored_file):
+                ignored_file = m.group(1)
+                ignored_md5sum = m.group(2)
+            else:
+                print('E: missing md5sum in ignore_files of package %s: %s' % (
+                    package, ignored_file))
+                continue
+            if ignored_file not in ignored_files:
+                ignored_files[ignored_file] = {}
+            ignored_files[ignored_file][ignored_md5sum] = package
 
     for section in FirmwareWhence(open(os.path.join(source_dir, 'WHENCE'))):
         dist_state = check_section(section)
         for file_info in section.files.values():
+            file_ignore = False
+            if file_info.binary in ignored_files:
+                # check md5sum against explicitly ignored files
+                file_md5 = md5(file_info.binary)
+                if file_md5 in ignored_files[file_info.binary]:
+                    # print('I: ignoring %s: %s' % (file_md5, file_info.binary))
+                    continue
+                else:
+                    print('D: new md5: %s=%s' % (file_info.binary, file_md5))
+
             if dist_state == DistState.non_free:
                 if not any(fnmatch.fnmatch(file_info.binary, exclusion)
                            for exclusion in exclusions):
