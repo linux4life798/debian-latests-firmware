@@ -106,7 +106,10 @@ def main(source_dir='.', show_licence=False):
                     else:
                         print('I: %s: could be added' % file_info.binary)
             elif dist_state == DistState.undistributable:
-                if os.path.isfile(file_info.binary):
+                if file_info.binary in packaged_files:
+                    # if file was packaged, someone must have manually checked licence
+                    update_file(source_dir, over_dirs, file_info.binary)
+                elif os.path.isfile(file_info.binary):
                     print('W: %s appears to be undistributable' %
                           file_info.binary)
                     if (show_licence):
