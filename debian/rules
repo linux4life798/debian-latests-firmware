@@ -1,11 +1,6 @@
 #!/usr/bin/make -f
 SHELL := sh -e
-SOURCE := $(shell dpkg-parsechangelog -SSource)
-VERSION := $(shell dpkg-parsechangelog -SVersion)
-VERSION_UPSTREAM := $(shell echo "$(VERSION)" | sed -e 's,-[^-]*$$,,')
-VERSION_BINNMU := $(shell echo "$(VERSION)" | sed -rne 's,.*\+b([0-9]+)$$,\1,p')
-VERSION_SOURCE := $(patsubst %+b$(VERSION_BINNMU),%,$(VERSION))
-
+include /usr/share/dpkg/pkg-info.mk
 include debian/rules.defs
 
 GENCONTROL = debian/bin/gencontrol.py
@@ -36,7 +31,7 @@ CONTROL_FILES += debian/bin/gencontrol.py debian/config/defines $(wildcard debia
 # in the checksum.
 debian/build/version-info: debian/changelog
 	mkdir -p $(@D)
-	printf >$@ 'Source: %s\nVersion: %s\n' $(SOURCE) $(VERSION_SOURCE)
+	printf >$@ 'Source: %s\nVersion: %s\n' $(DEB_SOURCE) $(DEB_VERSION)
 
 debian/control debian/rules.gen: $(GENCONTROL) $(CONTROL_FILES)
 ifeq ($(wildcard debian/control.md5sum),)
@@ -60,8 +55,8 @@ debian/control-real: $(GENCONTROL) $(CONTROL_FILES)
 	@echo
 	exit 1
 
-DIR_ORIG = ../orig/$(SOURCE)-$(VERSION_UPSTREAM)
-TAR_ORIG = ../$(SOURCE)_$(VERSION_UPSTREAM).orig.tar.xz
+DIR_ORIG = ../orig/$(DEB_SOURCE)-$(DEB_VERSION_UPSTREAM)
+TAR_ORIG = ../$(DEB_SOURCE)_$(DEB_VERSION_UPSTREAM).orig.tar.xz
 
 orig: $(DIR_ORIG)
 	rsync --delete --exclude /debian --exclude /.git --link-dest=$(DIR_ORIG)/ -a $(DIR_ORIG)/ .
