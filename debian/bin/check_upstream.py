@@ -138,6 +138,12 @@ if __name__ == '__main__':
         help="Display licence for undistributable files"
     )
     parser.add_argument(
+        "--build",
+        action=argparse.BooleanOptionalAction,
+        default=False,
+        help="Perform the checks after building the packages"
+    )
+    parser.add_argument(
         "source_dir",
         nargs='?',
         default=".",
