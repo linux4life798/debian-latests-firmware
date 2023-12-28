@@ -1,4 +1,5 @@
 [base]
+uri: https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
 packages:
  amd-graphics
  atheros
@@ -21,4 +22,3 @@ packages:
  samsung
  siano
  ti-connectivity
-uri: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git

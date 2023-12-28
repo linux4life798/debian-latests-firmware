@@ -1,5 +1,6 @@
 [base]
 desc: Siano MDTV receivers
+longdesc: Siano Mobile Digital TV receivers supported by the smsmdtv driver
 files:
  cmmb_vega_12mhz.inp
  cmmb_venice_12mhz.inp
@@ -14,4 +15,3 @@ files:
  sms1xxx-nova-b-dvbt-01.fw
  sms1xxx-stellar-dvbt-01.fw
  tdmb_nova_12mhz.inp
-longdesc: Siano Mobile Digital TV receivers supported by the smsmdtv driver

@@ -1,5 +1,7 @@
 [base]
 desc: Myri-10G Ethernet adapters
+longdesc: Myricom Myri-10G Ethernet adapters supported by the myri10ge driver
+support: initramfs-tools
 files:
  myri10ge_eth_big_z8e.dat
  myri10ge_eth_z8e.dat
@@ -9,8 +11,6 @@ files:
  myri10ge_rss_eth_z8e.dat
  myri10ge_rss_ethp_big_z8e.dat
  myri10ge_rss_ethp_z8e.dat
-longdesc: Myricom Myri-10G Ethernet adapters supported by the myri10ge driver
-support: initramfs-tools
 
 [myri10ge_eth_z8e.dat_base]
 desc: Myri-10G firmware (aligned)

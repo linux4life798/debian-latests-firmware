@@ -1,5 +1,11 @@
 [base]
 desc: Marvell wireless cards
+longdesc: wireless network cards with Marvell and NXP 88W8xxx chips supported
+ by the libertas_cs, libertas_sdio, libertas_spi, libertas_tf_usb,
+ mwifiex_pcie, mwifiex_sdio, mwifiex_usb, mwl8k and usb8xxx drivers
+breaks: libertas-firmware (<< 9.70.7.p0.0-2)
+replaces: libertas-firmware
+provides: libertas-firmware
 files:
  lbtf_usb.bin
  libertas/cf8381.bin
@@ -60,12 +66,6 @@ files:
  sd8688.bin
  sd8688_helper.bin
  usb8388.bin
-longdesc: wireless network cards with Marvell and NXP 88W8xxx chips supported
- by the libertas_cs, libertas_sdio, libertas_spi, libertas_tf_usb,
- mwifiex_pcie, mwifiex_sdio, mwifiex_usb, mwl8k and usb8xxx drivers
-replaces: libertas-firmware
-breaks: libertas-firmware (<< 9.70.7.p0.0-2)
-provides: libertas-firmware
 
 [lbtf_usb.bin_base]
 desc: Libertas 88W8388 'Thinfirm' firmware

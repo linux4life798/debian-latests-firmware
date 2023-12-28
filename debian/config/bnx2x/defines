@@ -1,5 +1,8 @@
 [base]
 desc: Broadcom NetXtreme II 10Gb
+longdesc: Broadcom NetXtreme II 10Gb network adapters supported by the
+ bnx2x driver
+support: initramfs-tools
 files:
  bnx2x/bnx2x-e1-7.13.1.0.fw
  bnx2x/bnx2x-e1h-7.13.1.0.fw
@@ -10,9 +13,6 @@ files:
  bnx2x/bnx2x-e1-7.13.21.0.fw
  bnx2x/bnx2x-e1h-7.13.21.0.fw
  bnx2x/bnx2x-e2-7.13.21.0.fw
-longdesc: Broadcom NetXtreme II 10Gb network adapters supported by the
- bnx2x driver
-support: initramfs-tools
 
 [bnx2x/bnx2x-e1-7.13.1.0.fw_base]
 desc: Broadcom NetXtreme II 10Gb 57710
