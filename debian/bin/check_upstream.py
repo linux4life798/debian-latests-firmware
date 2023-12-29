@@ -80,11 +80,15 @@ def update_file(source_dir, over_dirs, filename):
                 return
 
 
+def get_exclusions():
+    with open("debian/copyright") as f:
+        return deb822.Deb822(f).get("Files-Excluded", "").strip().split()
+
+
 def main(source_dir=".", show_licence=False):
     config = Config()
     over_dirs = ["debian/config/" + package for package in config["base",]["packages"]]
-    with open("debian/copyright") as f:
-        exclusions = deb822.Deb822(f).get("Files-Excluded", "").strip().split()
+    exclusions = get_exclusions()
     packaged_files = {}
     ignored_files = {}
     for package in config["base",]["packages"]:
