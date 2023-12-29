@@ -5,6 +5,7 @@ from debian import deb822
 from enum import Enum
 import hashlib
 import argparse
+import pathlib
 
 sys.path.insert(0, "debian/lib/python")
 rules_defs = dict(
@@ -124,6 +125,31 @@ def file_ignored(filename, ignored_files):
     return False
 
 
+def get_upstream_installed(source_dir):
+    upstream_installed = {}
+    upstream_install_path = pathlib.Path(source_dir + "/debian/build/install").resolve()
+    for installed_item in upstream_install_path.rglob("*"):
+        installed_item_base = installed_item.relative_to(upstream_install_path)
+        if installed_item.is_symlink():
+            ltarget = installed_item.resolve()
+            ltarget_rel = ltarget.relative_to(upstream_install_path)
+            if not ltarget.exists():
+                # print("symlink_dangling: %s -> %s" % (installed_item_base, ltarget_rel))
+                upstream_installed[installed_item_base] = None
+            elif ltarget.is_dir():
+                # print("symlink_dir: %s -> %s" % (installed_item_base, ltarget_rel))
+                upstream_installed[installed_item_base] = ltarget_rel
+            elif ltarget.is_file():
+                # print("symlink_file: %s -> %s" % (installed_item_base, ltarget_rel))
+                upstream_installed[installed_item_base] = ltarget_rel
+            else:
+                # print("symlink_other: %s -> %s" % (installed_item_base, ltarget_rel))
+                upstream_installed[installed_item_base] = ltarget_rel
+        elif installed_item.is_file():
+            upstream_installed[installed_item_base] = installed_item_base
+    return upstream_installed
+
+
 def check_whence(source_dir, show_licence):
     config = Config()
     exclusions = get_exclusions()
@@ -166,6 +192,8 @@ def check_build(source_dir):
     exclusions = get_exclusions()
     packaged_files = get_packaged_files(config)
     ignored_files = get_ignored_files(config)
+
+    upstream_installed = get_upstream_installed(source_dir)
 
 
 if __name__ == "__main__":
