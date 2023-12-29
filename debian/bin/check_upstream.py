@@ -216,6 +216,30 @@ def check_build(source_dir):
     upstream_installed = get_upstream_installed(source_dir)
     debian_installed = get_debian_installed(source_dir, config)
 
+    for upstream_item in sorted(upstream_installed.keys()):
+        debian_item = debian_installed.get(upstream_item, None)
+        if debian_item is not None:
+            continue
+        if file_ignored(str(upstream_item), ignored_files):
+            continue
+        if any(fnmatch.fnmatch(upstream_item, e) for e in exclusions):
+            continue
+        upstream_file = upstream_installed[upstream_item]
+        if upstream_file is None:
+            print("I: ignoring dangling symlink in upstream: %s" % (upstream_item))
+            continue
+        if upstream_item == upstream_file:
+            print("missing    file from packaging: %s" % (upstream_item))
+            continue
+        # symlink
+        target_package = debian_installed.get(upstream_file, None)
+        if target_package is None:
+            print("missing symlink from packaging: %s (package together with: %s)" % (
+                upstream_item, upstream_file))
+        else:
+            print("missing symlink from packaging: %s (suggested target pkg: %s)" % (
+                upstream_item, str(target_package)))
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
