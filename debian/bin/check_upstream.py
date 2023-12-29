@@ -161,6 +161,13 @@ def check_whence(source_dir, show_licence):
                         print("")
 
 
+def check_build(source_dir):
+    config = Config()
+    exclusions = get_exclusions()
+    packaged_files = get_packaged_files(config)
+    ignored_files = get_ignored_files(config)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Check debian package against upstream changes"
@@ -184,4 +191,7 @@ if __name__ == "__main__":
         help="Path to the firmware-nonfree package source directory",
     )
     args = vars(parser.parse_args())
-    check_whence(args["source_dir"], args["show_licence"])
+    if args["build"]:
+        check_build(args["source_dir"])
+    else:
+        check_whence(args["source_dir"], args["show_licence"])
