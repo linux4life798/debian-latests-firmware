@@ -124,7 +124,7 @@ def file_ignored(filename, ignored_files):
     return False
 
 
-def main(source_dir=".", show_licence=False):
+def check_whence(source_dir, show_licence):
     config = Config()
     exclusions = get_exclusions()
     packaged_files = get_packaged_files(config)
@@ -184,4 +184,4 @@ if __name__ == "__main__":
         help="Path to the firmware-nonfree package source directory",
     )
     args = vars(parser.parse_args())
-    main(args["source_dir"], args["show_licence"])
+    check_whence(args["source_dir"], args["show_licence"])
