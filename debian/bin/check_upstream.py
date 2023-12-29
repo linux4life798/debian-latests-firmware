@@ -150,6 +150,26 @@ def get_upstream_installed(source_dir):
     return upstream_installed
 
 
+def get_debian_installed(source_dir, config):
+    debian_installed = {}
+    for package in config["base",]["packages"]:
+        package_path = pathlib.Path(source_dir + "/debian/firmware-" + package).resolve()
+        if not package_path.is_dir():
+            print("E: missing debian package path %s" % (package_path))
+            continue
+        package_install_path = package_path / "lib/firmware"
+        if not package_install_path.is_dir():
+            package_install_path = package_path / "usr/lib/firmware"
+            if not package_install_path.is_dir():
+                print("E: debian/firmware-%s contains neither " +
+                      "lib/firmware nor usr/lib/firmware")
+                continue
+        for packaged_item in package_install_path.rglob("*"):
+            packaged_item_base = packaged_item.relative_to(package_install_path)
+            debian_installed[packaged_item_base] = package
+    return debian_installed
+
+
 def check_whence(source_dir, show_licence):
     config = Config()
     exclusions = get_exclusions()
@@ -194,6 +214,7 @@ def check_build(source_dir):
     ignored_files = get_ignored_files(config)
 
     upstream_installed = get_upstream_installed(source_dir)
+    debian_installed = get_debian_installed(source_dir, config)
 
 
 if __name__ == "__main__":
