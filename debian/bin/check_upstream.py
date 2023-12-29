@@ -85,15 +85,17 @@ def get_exclusions():
         return deb822.Deb822(f).get("Files-Excluded", "").strip().split()
 
 
-def main(source_dir=".", show_licence=False):
-    config = Config()
-    over_dirs = ["debian/config/" + package for package in config["base",]["packages"]]
-    exclusions = get_exclusions()
+def get_packaged_files(config):
     packaged_files = {}
-    ignored_files = {}
     for package in config["base",]["packages"]:
         for filename in config["base", package]["files"]:
             packaged_files[filename] = package
+    return packaged_files
+
+
+def get_ignored_files(config):
+    ignored_files = {}
+    for package in config["base",]["packages"]:
         for ignored_file in config["base", package].get("ignore-files", []):
             if m := re.match(r"^(.*)=(\S+)\s*$", ignored_file):
                 ignored_file = m.group(1)
@@ -107,19 +109,33 @@ def main(source_dir=".", show_licence=False):
             if ignored_file not in ignored_files:
                 ignored_files[ignored_file] = {}
             ignored_files[ignored_file][ignored_md5sum] = package
+    return ignored_files
 
+
+def file_ignored(filename, ignored_files):
+    if filename in ignored_files:
+        # check md5sum against explicitly ignored files
+        file_md5 = md5(filename)
+        if file_md5 in ignored_files[filename]:
+            print("I: ignoring %s=%s" % (filename, file_md5))
+            return True
+        else:
+            print("W: new md5sum for ignored file %s=%s" % (filename, file_md5))
+    return False
+
+
+def main(source_dir=".", show_licence=False):
+    config = Config()
+    exclusions = get_exclusions()
+    packaged_files = get_packaged_files(config)
+    ignored_files = get_ignored_files(config)
+
+    over_dirs = ["debian/config/" + package for package in config["base",]["packages"]]
     for section in FirmwareWhence(open(os.path.join(source_dir, "WHENCE"))):
         dist_state = check_section(section)
         for file_info in section.files.values():
-            file_ignore = False
-            if file_info.binary in ignored_files:
-                # check md5sum against explicitly ignored files
-                file_md5 = md5(file_info.binary)
-                if file_md5 in ignored_files[file_info.binary]:
-                    # print('I: ignoring %s: %s' % (file_md5, file_info.binary))
-                    continue
-                else:
-                    print("D: new md5: %s=%s" % (file_info.binary, file_md5))
+            if file_ignored(file_info.binary, ignored_files):
+                continue
 
             if dist_state == DistState.non_free:
                 if not any(fnmatch.fnmatch(file_info.binary, e) for e in exclusions):
