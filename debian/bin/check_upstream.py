@@ -125,7 +125,7 @@ def main(source_dir=".", show_licence=False):
                 if not any(fnmatch.fnmatch(file_info.binary, e) for e in exclusions):
                     if file_info.binary in packaged_files:
                         update_file(source_dir, over_dirs, file_info.binary)
-                    elif os.path.isfile(filename):
+                    elif os.path.isfile(file_info.binary):
                         print(
                             "I: %s is not included in any binary package"
                             % file_info.binary
