@@ -122,10 +122,7 @@ def main(source_dir=".", show_licence=False):
                     print("D: new md5: %s=%s" % (file_info.binary, file_md5))
 
             if dist_state == DistState.non_free:
-                if not any(
-                    fnmatch.fnmatch(file_info.binary, exclusion)
-                    for exclusion in exclusions
-                ):
+                if not any(fnmatch.fnmatch(file_info.binary, e) for e in exclusions):
                     if file_info.binary in packaged_files:
                         update_file(source_dir, over_dirs, file_info.binary)
                     elif os.path.isfile(filename):
