@@ -4,8 +4,6 @@ longdesc:
  various drivers in the Linux kernel. This is a collection of firmware blobs
  which are not individually large enough to warrant a standalone package
 support: initramfs-tools
-breaks: firmware-linux (<< 0.19), firmware-ivtv (<< 0.38~), firmware-linux-nonfree (<< 20151018-1~), firmware-adi (<< 20151018-1~), firmware-ralink (<< 20151018-1~)
-replaces: firmware-linux (<< 0.19), firmware-ivtv (<< 0.38~), firmware-linux-nonfree (<< 20151018-1~), firmware-adi (<< 20151018-1~), firmware-ralink (<< 20151018-1~)
 provides: firmware-adi, firmware-ralink
 files:
  3com/typhoon.bin

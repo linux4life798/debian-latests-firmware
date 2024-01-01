@@ -5,6 +5,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * d/bin/update-modinfo: Add compressed modules support
   * ci: extract-source: Install `dpkg-dev` early and explicitly
   * Harmonize control field sequence
+  * Remove constraints unnecessary since Buster (oldoldstable)
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 
