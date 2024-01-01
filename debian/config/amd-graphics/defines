@@ -112,6 +112,7 @@ files:
  amdgpu/gc_11_0_0_mec.bin
  amdgpu/gc_11_0_0_mes.bin
  amdgpu/gc_11_0_0_mes1.bin
+ amdgpu/gc_11_0_0_mes_2.bin
  amdgpu/gc_11_0_0_pfp.bin
  amdgpu/gc_11_0_0_rlc.bin
  amdgpu/gc_11_0_1_imu.bin
@@ -119,6 +120,7 @@ files:
  amdgpu/gc_11_0_1_mec.bin
  amdgpu/gc_11_0_1_mes.bin
  amdgpu/gc_11_0_1_mes1.bin
+ amdgpu/gc_11_0_1_mes_2.bin
  amdgpu/gc_11_0_1_pfp.bin
  amdgpu/gc_11_0_1_rlc.bin
  amdgpu/gc_11_0_2_imu.bin
@@ -126,6 +128,7 @@ files:
  amdgpu/gc_11_0_2_mec.bin
  amdgpu/gc_11_0_2_mes.bin
  amdgpu/gc_11_0_2_mes1.bin
+ amdgpu/gc_11_0_2_mes_2.bin
  amdgpu/gc_11_0_2_pfp.bin
  amdgpu/gc_11_0_2_rlc.bin
  amdgpu/gc_11_0_4_imu.bin
@@ -133,6 +136,7 @@ files:
  amdgpu/gc_11_0_4_mec.bin
  amdgpu/gc_11_0_4_mes.bin
  amdgpu/gc_11_0_4_mes1.bin
+ amdgpu/gc_11_0_4_mes_2.bin
  amdgpu/gc_11_0_4_pfp.bin
  amdgpu/gc_11_0_4_rlc.bin
  amdgpu/green_sardine_asd.bin
@@ -1121,6 +1125,9 @@ desc: GC 11.0.0 MES firmware
 [amdgpu/gc_11_0_0_mes1.bin_base]
 desc: GC 11.0.0 MES1 firmware
 
+[amdgpu/gc_11_0_0_mes_2.bin_base]
+desc: GC 11.0.0 MES 2 firmware
+
 [amdgpu/gc_11_0_0_pfp.bin_base]
 desc: GC 11.0.0 PFP firmware
 
@@ -1142,6 +1149,9 @@ desc: GC 11.0.1 MES firmware
 [amdgpu/gc_11_0_1_mes1.bin_base]
 desc: GC 11.0.1 MES1 firmware
 
+[amdgpu/gc_11_0_1_mes_2.bin_base]
+desc: GC 11.0.1 MES 2 firmware
+
 [amdgpu/gc_11_0_1_pfp.bin_base]
 desc: GC 11.0. PFP firmware
 
@@ -1159,6 +1169,9 @@ desc: GC 11.0.2 MEC firmware
 
 [amdgpu/gc_11_0_2_mes.bin_base]
 desc: GC 11.0.2 MES firmware
+
+[amdgpu/gc_11_0_2_mes_2.bin_base]
+desc: GC 11.0.2 MES 2 firmware
 
 [amdgpu/gc_11_0_2_mes1.bin_base]
 desc: GC 11.0.2 MES1 firmware
@@ -1183,6 +1196,9 @@ desc: GC 11.0.4 MES firmware
 
 [amdgpu/gc_11_0_4_mes1.bin_base]
 desc: GC 11.0.4 MES1 firmware
+
+[amdgpu/gc_11_0_4_mes_2.bin_base]
+desc: GC 11.0.4 MES 2 firmware
 
 [amdgpu/gc_11_0_4_pfp.bin_base]
 desc: GC 11.0.4 PFP firmware
