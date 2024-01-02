@@ -313,6 +313,103 @@ desc: Atheros AR3012 rev 31010100 config
 [ar3k/ramps_0x41020000_40.dfu_base]
 desc: Atheros AR3012 rev 41020000 config
 
+[ath6k/AR6003/hw1.0/athwlan.bin.z77_base]
+desc: Atheros AR6003 rev 1.0 firmware
+
+[ath6k/AR6003/hw1.0/bdata.SD31.bin_base]
+desc: Atheros AR6003 rev 1.0 SD31 board configuration
+
+[ath6k/AR6003/hw1.0/bdata.SD32.bin_base]
+desc: Atheros AR6003 rev 1.0 SD32 board configuration
+
+[ath6k/AR6003/hw1.0/bdata.WB31.bin_base]
+desc: Atheros AR6003 rev 1.0 WB31 board configuration
+
+[ath6k/AR6003/hw1.0/data.patch.bin_base]
+desc: Atheros AR6003 rev 1.0 data patch
+
+[ath6k/AR6003/hw1.0/otp.bin.z77_base]
+desc: Atheros AR6003 rev 1.0 OTP firmware
+
+[ath6k/AR6003/hw2.0/athwlan.bin.z77_base]
+desc: Atheros AR6003 rev 2.0 firmware
+
+[ath6k/AR6003/hw2.0/bdata.SD31.bin_base]
+desc: Atheros AR6003 rev 2.0 SD31 board configuration
+
+[ath6k/AR6003/hw2.0/bdata.SD32.bin_base]
+desc: Atheros AR6003 rev 2.0 SD32 board configuration
+
+[ath6k/AR6003/hw2.0/bdata.WB31.bin_base]
+desc: Atheros AR6003 rev 2.0 WB31 board configuration
+
+[ath6k/AR6003/hw2.0/data.patch.bin_base]
+desc: Atheros AR6003 rev 2.0 data patch
+
+[ath6k/AR6003/hw2.0/otp.bin.z77_base]
+desc: Atheros AR6003 rev 2.0 OTP firmware
+
+[ath6k/AR6003/hw2.1.1/athwlan.bin_base]
+desc: Atheros AR6003 rev 2.1.1 firmware
+
+[ath6k/AR6003/hw2.1.1/bdata.SD31.bin_base]
+desc: Atheros AR6003 rev 2.1.1 SD31 board configuration
+
+[ath6k/AR6003/hw2.1.1/bdata.SD32.bin_base]
+desc: Atheros AR6003 rev 2.1.1 SD32 board configuration
+
+[ath6k/AR6003/hw2.1.1/bdata.WB31.bin_base]
+desc: Atheros AR6003 rev 2.1.1 WB31 board configuration
+
+[ath6k/AR6003/hw2.1.1/data.patch.bin_base]
+desc: Atheros AR6003 rev 2.1.1 data patch
+
+[ath6k/AR6003/hw2.1.1/endpointping.bin_base]
+desc: Atheros AR6003 rev 2.1.1 endpointping firmware
+
+[ath6k/AR6003/hw2.1.1/fw-2.bin_base]
+desc: Atheros AR6003 rev 2.1.1 firmware
+
+[ath6k/AR6003/hw2.1.1/fw-3.bin_base]
+desc: Atheros AR6003 rev 2.1.1 firmware
+version: 3.2.0.144
+
+[ath6k/AR6003/hw2.1.1/otp.bin_base]
+desc: Atheros AR6003 rev 2.1.1 OTP firmware
+
+[ath6k/AR6003.1/hw2.1.1/athwlan.bin_base]
+desc: Atheros AR6003.1 rev 2.1.1 firmware
+
+[ath6k/AR6003.1/hw2.1.1/bdata.SD31.bin_base]
+desc: Atheros AR6003.1 rev 2.1.1 SD31 board configuration
+
+[ath6k/AR6003.1/hw2.1.1/bdata.SD32.bin_base]
+desc: Atheros AR6003.1 rev 2.1.1 SD32 board configuration
+
+[ath6k/AR6003.1/hw2.1.1/bdata.WB31.bin_base]
+desc: Atheros AR6003.1 rev 2.1.1 WB31 board configuration
+
+[ath6k/AR6003.1/hw2.1.1/data.patch.bin_base]
+desc: Atheros AR6003.1 rev 2.1.1 data patch
+
+[ath6k/AR6003.1/hw2.1.1/endpointping.bin_base]
+desc: Atheros AR6003.1 rev 2.1.1 endpointping firmware
+
+[ath6k/AR6003.1/hw2.1.1/otp.bin_base]
+desc: Atheros AR6003.1 rev 2.1.1 OTP firmware
+
+[ath6k/AR6004/hw1.2/bdata.bin_base]
+desc: Atheros AR6004 rev 1.2 board configuration
+
+[ath6k/AR6004/hw1.2/fw-2.bin_base]
+desc: Atheros AR6004 rev 1.2 firmware
+
+[ath6k/AR6004/hw1.3/bdata.bin_base]
+desc: Atheros AR6004 rev 1.3 board configuration
+
+[ath6k/AR6004/hw1.3/fw-3.bin_base]
+desc: Atheros AR6004 rev 1.3 firmware
+
 [ath10k/QCA4019/hw1.0/board-2.bin_base]
 desc: Qualcomm Atheros QCA4019 rev 1.0 board configuration
 
@@ -490,10 +587,6 @@ version: WLAN.HK.2.6.0.1-00861-QCAHKSWPL_SILICONZ-1
 
 [ath11k/IPQ5018/hw1.0/q6_fw.b11_base]
 desc: Qualcomm Atheros IPQ5018 802.11ax q6_fw.b11 firmware
-version: WLAN.HK.2.6.0.1-00861-QCAHKSWPL_SILICONZ-1
-
-[ath11k/IPQ5018/hw1.0/q6_fw.b12_base]
-desc: Qualcomm Atheros IPQ5018 802.11ax q6_fw.b12 firmware
 version: WLAN.HK.2.6.0.1-00861-QCAHKSWPL_SILICONZ-1
 
 [ath11k/IPQ5018/hw1.0/q6_fw.b13_base]

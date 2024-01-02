@@ -14,6 +14,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * amd-graphics: Sort defines entries and file stanzas
   * amd-graphics: Synchronize with 20230625's WHENCE file
   * atheros: Sort defines entries and file stanzas
+  * atheros: Add missing file stanzas
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 
