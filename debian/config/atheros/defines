@@ -1,7 +1,7 @@
 [base]
 desc: Qualcomm Atheros wireless cards
 longdesc: USB wireless network and Bluetooth cards supported by the ar5523,
- ath3k, ath6kl_sdio, ath6kl_usb, ath10k, or wilc6210 drivers
+ ath3k, ath6kl_sdio, ath6kl_usb, ath10k, ath11k, or wilc6210 drivers
 files:
  ar5523.bin
  ar7010.fw
@@ -412,6 +412,7 @@ desc: Atheros AR6004 rev 1.3 firmware
 
 [ath10k/QCA4019/hw1.0/board-2.bin_base]
 desc: Qualcomm Atheros QCA4019 rev 1.0 board configuration
+version: 2
 
 [ath10k/QCA4019/hw1.0/firmware-5.bin_base]
 desc: Qualcomm Atheros QCA4019 rev 1.0 firmware
@@ -435,6 +436,7 @@ version: 1
 
 [ath10k/QCA6174/hw3.0/board-2.bin_base]
 desc: Qualcomm Atheros QCA6174 rev 3.0 board configuration
+version: 2
 
 [ath10k/QCA6174/hw3.0/firmware-4.bin_base]
 desc: Qualcomm Atheros QCA6174 rev 3.0 firmware
@@ -442,7 +444,7 @@ version: WLAN.RM.2.0-00180-QCARMSWPZ-1
 
 [ath10k/QCA6174/hw3.0/firmware-6.bin_base]
 desc: Qualcomm Atheros QCA6174 rev 3.0 firmware
-version: WLAN.RM.4.4.1-00157-QCARMSWPZ-1
+version: WLAN.RM.4.4.1-00288-QCARMSWPZ-1
 
 [ath10k/QCA6174/hw3.0/firmware-sdio-6.bin_base]
 desc: Qualcomm Atheros QCA6174 SDIO rev 3.0 firmware
@@ -474,7 +476,7 @@ version: 1
 
 [ath10k/QCA9887/hw1.0/firmware-5.bin_base]
 desc: Qualcomm Atheros QCA9887 rev 1.0 firmware
-version: 10.2.4-1.0-00041
+version: 10.2.4-1.0-00047
 
 [ath10k/QCA9888/hw2.0/board-2.bin_base]
 desc: Qualcomm Atheros QCA9888 rev 2.0 board configuration
@@ -482,7 +484,7 @@ version: 2
 
 [ath10k/QCA9888/hw2.0/firmware-5.bin_base]
 desc: Qualcomm Atheros QCA9888 rev 2.0 firmware
-version: 10.4-3.9.0.2-00131
+version: 10.4-3.9.0.2-00157
 
 [ath10k/QCA988X/hw2.0/board.bin_base]
 desc: Qualcomm Atheros QCA988X board configuration
@@ -494,7 +496,7 @@ version: 10.2.4.45
 
 [ath10k/QCA988X/hw2.0/firmware-5.bin_base]
 desc: Qualcomm Atheros QCA988X firmware
-version: 10.2.4-1.0-00043
+version: 10.2.4-1.0-00047
 
 [ath10k/QCA9984/hw1.0/board-2.bin_base]
 desc: Qualcomm Atheros QCA9984 rev 1.0 board configuration
@@ -502,7 +504,7 @@ version: 2
 
 [ath10k/QCA9984/hw1.0/firmware-5.bin_base]
 desc: Qualcomm Atheros QCA9984 rev 1.0 firmware
-version: 10.4-3.9.0.2-00131
+version: 10.4-3.9.0.2-00157
 
 [ath10k/QCA99X0/hw2.0/board-2.bin_base]
 desc: Qualcomm Atheros QCA99X0 board configuration
@@ -514,16 +516,19 @@ version: 10.4.1.00030-1
 
 [ath10k/WCN3990/hw1.0/board-2.bin_base]
 desc: Qualcomm Atheros WCN3990 board-2.bin firmware
+version: 2
 
 [ath10k/WCN3990/hw1.0/firmware-5.bin_base]
 desc: Qualcomm Atheros WCN3990 firmware
+version: WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
 
 [ath10k/WCN3990/hw1.0/wlanmdsp.mbn_base]
 desc: Qualcomm Atheros WCN3990 wlan DSP firmware
+version: WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
 
 [ath11k/IPQ5018/hw1.0/board-2.bin_base]
 desc: Qualcomm Atheros IPQ5018 802.11ax board-2.bin firmware
-version: WLAN.HK.2.6.0.1-00861-QCAHKSWPL_SILICONZ-1
+version: 2
 
 [ath11k/IPQ5018/hw1.0/m3_fw.b00_base]
 desc: Qualcomm Atheros IPQ5018 802.11ax m3_fw.b00 firmware
@@ -607,7 +612,7 @@ version: WLAN.HK.2.6.0.1-00861-QCAHKSWPL_SILICONZ-1
 
 [ath11k/IPQ6018/hw1.0/board-2.bin_base]
 desc: Qualcomm Atheros IPQ6018 802.11ax board-2.bin firmware
-version: WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+version: 2
 
 [ath11k/IPQ6018/hw1.0/m3_fw.b00_base]
 desc: Qualcomm Atheros IPQ6018 802.11ax m3_fw.b00 firmware
@@ -671,7 +676,7 @@ version: WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
 
 [ath11k/IPQ8074/hw2.0/board-2.bin_base]
 desc: Qualcomm Atheros IPQ8074 board firmware
-version: WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+version: 2
 
 [ath11k/IPQ8074/hw2.0/m3_fw.b00_base]
 desc: Qualcomm Atheros IPQ8074 m3_fw.b00 firmware
@@ -735,15 +740,15 @@ version: WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
 
 [ath11k/QCA6390/hw2.0/amss.bin_base]
 desc: Qualcomm Atheros QCA6390 amss firmware
-version: WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+version: WLAN.HST.1.0.1-05266-QCAHSTSWPLZ_V2_TO_X86-1
 
 [ath11k/QCA6390/hw2.0/board-2.bin_base]
 desc: Qualcomm Atheros QCA6390 board-2 firmware
-version: WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+version: 2
 
 [ath11k/QCA6390/hw2.0/m3.bin_base]
 desc: Qualcomm Atheros QCA6390 m3 firmware
-version: WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+version: WLAN.HST.1.0.1-05266-QCAHSTSWPLZ_V2_TO_X86-1
 
 [ath11k/QCN9074/hw1.0/amss.bin_base]
 desc: Qualcomm Atheros QCN9074 amss firmware
@@ -751,7 +756,7 @@ version: WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
 
 [ath11k/QCN9074/hw1.0/board-2.bin_base]
 desc: Qualcomm Atheros QCN9074 board-2 firmware
-version: WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
+version: 2
 
 [ath11k/QCN9074/hw1.0/m3.bin_base]
 desc: Qualcomm Atheros QCN9074 m3 firmware
@@ -759,7 +764,7 @@ version: WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
 
 [ath11k/WCN6750/hw1.0/board-2.bin_base]
 desc: Qualcomm Atheros WCN6750 board-2 firmware
-version: WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1
+version: 2
 
 [ath11k/WCN6750/hw1.0/wpss.b00_base]
 desc: Qualcomm Atheros WCN6750 wpss.b00 firmware
@@ -807,6 +812,7 @@ version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.23
 
 [ath11k/WCN6855/hw2.0/board-2.bin_base]
 desc: Qualcomm Atheros WCN6855 board-2 firmware
+version: 2
 
 [ath11k/WCN6855/hw2.0/m3.bin_base]
 desc: Qualcomm Atheros WCN6855 m3 firmware
@@ -892,6 +898,7 @@ desc: Qualcomm Atheros QCA9377 Bluetooth firmware
 
 [qca/nvm_00440302.bin_base]
 desc: Qualcomm Atheros QCA6174 BT NVM configuration
+version: 28
 
 [qca/nvm_00440302_eu.bin_base]
 desc: Qualcomm Atheros QCA6174 BT NVM firmware
@@ -916,51 +923,67 @@ desc: Qualcomm Atheros QCA6174 firmware
 
 [qca/nvm_usb_00130200.bin_base]
 desc: Qualcomm Atheros WCN685x NVM BT firmware
+version: 2.0.0-00607
 
 [qca/nvm_usb_00130200_0104.bin_base]
 desc: Qualcomm Atheros WCN685x 0104 NVM BT firmware
+version: 2.0.0-00607
 
 [qca/nvm_usb_00130200_0105.bin_base]
 desc: Qualcomm Atheros WCN685x 0105 NVM BT firmware
+version: 2.0.0-00607
 
 [qca/nvm_usb_00130200_0106.bin_base]
 desc: Qualcomm Atheros WCN685x 0106 NVM BT firmware
+version: 2.0.0-00607
 
 [qca/nvm_usb_00130200_0107.bin_base]
 desc: Qualcomm Atheros WCN685x 0107 NVM BT firmware
+version: 2.0.0-00607
 
 [qca/nvm_usb_00130200_0109.bin_base]
 desc: Qualcomm Atheros WCN685x 0109 NVM BT firmware
+version: 2.0.0-00607
 
 [qca/nvm_usb_00130200_0110.bin_base]
 desc: Qualcomm Atheros WCN685x 0110 NVM BT firmware
+version: 2.0.0-00607
 
 [qca/nvm_usb_00130201.bin_base]
 desc: Qualcomm Atheros WCN685x NVM BT firmware
+version: 2.1.0-00438
 
 [qca/nvm_usb_00130201_010a.bin_base]
 desc: Qualcomm Atheros WCN685x 010a NVM BT firmware
+version: 2.1.0-00438
 
 [qca/nvm_usb_00130201_010b.bin_base]
 desc: Qualcomm Atheros WCN685x 010b NVM BT firmware
+version: 2.1.0-00438
 
 [qca/nvm_usb_00130201_0303.bin_base]
 desc: Qualcomm Atheros WCN685x 0303 NVM BT firmware
+version: 2.1.0-00438
 
 [qca/nvm_usb_00130201_gf.bin_base]
 desc: Qualcomm Atheros WCN685x gf NVM BT firmware
+version: 2.1.0-00438
 
 [qca/nvm_usb_00130201_gf_010a.bin_base]
 desc: Qualcomm Atheros WCN685x gf 010a NVM BT firmware
+version: 2.1.0-00438
 
 [qca/nvm_usb_00130201_gf_010b.bin_base]
 desc: Qualcomm Atheros WCN685x gf 010b NVM BT firmware
+version: 2.1.0-00438
 
 [qca/nvm_usb_00130201_gf_0303.bin_base]
 desc: Qualcomm Atheros WCN685x gf 0303 NVM BT firmware
+version: 2.1.0-00438
 
 [qca/nvm_usb_00190200.bin_base]
 desc: Qualcomm Atheros WCN785x NVM Bluetooth firmware
+version: 2.0.0-00515
 
 [qca/rampatch_00130300.bin_base]
 desc: Qualcomm Atheros QCA61x4 version 3.0 UART BT rampatch
@@ -969,10 +992,11 @@ desc: Qualcomm Atheros QCA61x4 version 3.0 UART BT rampatch
 desc: Qualcomm Atheros QCA61x4 version 3.2 UART BT rampatch
 
 [qca/rampatch_00230302.bin_base]
-desc: Qualcomm QCA9377 BT rampatch
+desc: Qualcomm Atheros QCA9377 version 3.2 UART BT rampatch
 
 [qca/rampatch_00440302.bin_base]
-desc: Qualcomm Atheros QCA6174 BT rampatch
+desc: Qualcomm Atheros QCA6174 version 3.2 UART BT rampatch
+version: 28
 
 [qca/rampatch_usb_00000200.bin_base]
 desc: Qualcomm Atheros QCA61x4 version 2.0 USB BT rampatch
@@ -984,13 +1008,17 @@ desc: Qualcomm Atheros QCA61x4 version 2.1 USB BT rampatch
 desc: Qualcomm Atheros QCA61x4 version 3.0 USB BT rampatch
 
 [qca/rampatch_usb_00000302.bin_base]
-desc: Qualcomm Atheros QCA61x4 version 3.2 USB BT rampatch
+desc: Qualcomm Atheros QCA6174 version 3.2 USB BT rampatch
+version: 28
 
 [qca/rampatch_usb_00130200.bin_base]
-desc: Qualcomm Atheros WCN685x 0110 RAM BT firmware
+desc: Qualcomm Atheros WCN685x version 2.0 USB BT rampatch
+version: 2.0.0-00609
 
 [qca/rampatch_usb_00130201.bin_base]
-desc: Qualcomm Atheros WCN685x RAM BT firmware
+desc: Qualcomm Atheros WCN685x version 2.1 USB BT rampatch
+version: 2.1.0-00438
 
 [qca/rampatch_usb_00190200.bin_base]
-desc: Qualcomm Atheros WCN785x RAM Bluetooth firmware
+desc: Qualcomm Atheros WCN785x version 2.0 USB BT rampatch
+version: 2.0.0-00515
