@@ -18,6 +18,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * atheros: Synchronize with 20230625's WHENCE file
   * bnx2: Sort defines entries and file stanzas
   * bnx2x: Sort defines entries and file stanzas
+  * brcm80211: Sort defines entries and file stanzas
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 
