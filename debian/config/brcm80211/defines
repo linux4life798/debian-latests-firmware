@@ -126,6 +126,9 @@ desc: Broadcom BCM4330 Prowise PT301 tablet NVRAM
 [brcm/brcmfmac4334-sdio.bin_base]
 desc: Broadcom BCM4334 firmware
 
+[brcm/brcmfmac4335-sdio.bin_base]
+desc: Broadcom BCM4335 firmware
+
 [brcm/brcmfmac4350-pcie.bin_base]
 desc: Broadcom BCM4350 rev 0-4 firmware
 
@@ -187,7 +190,7 @@ desc: Broadcom BCM43340 Predia Basic tablet NVRAM
 desc: Cubietech Cubietruck Ampak AP6210 Wifi/BT NVRAM
 
 [brcm/brcmfmac43430-sdio.AP6212.txt_base]
-desc: BCM43430 NRVAM AP6212 config
+desc: BCM43430 NVRAM AP6212 config
 
 [brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt_base]
 desc: Broadcom BCM43430 Chuwi Vi8 Plus tablet NVRAM
@@ -209,9 +212,6 @@ desc: Jumper EZpad mini 3 tablet AP6210 Wifi/BT NVRAM
 
 [brcm/brcmfmac43455-sdio.AW-CM256SM.txt_base]
 desc: BCM43455 NVRAM for AzureWave AW-CM256SM
-
-[brcm/brcmfmac43455-sdio.bin_base]
-desc: Broadcom BCM43455 firmware
 
 [brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt_base]
 desc: BCM43455 NVRAM for the Raspberry Pi 3 B+
