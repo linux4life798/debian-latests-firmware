@@ -81,5 +81,9 @@ version: 10.23.00.8551
 desc: Intel AudioDSP driver base firmware for SKL-based platforms
 version: 9.21.00.4899
 
+[intel/avs/skl/dsp_mod_7CAD0808-AB10-CD23-EF45-12AB34CD56EF.bin_base]
+desc: Intel AudioDSP driver base firmware for SKL-based platforms
+version: 9.21.00.4899
+
 [intel/catpt/bdw/dsp_basefw.bin_base]
-desc: Intel AudioDSP driver base firmware for HSW/BDW
+desc: Intel AudioDSP base firmware for BDW platforms
