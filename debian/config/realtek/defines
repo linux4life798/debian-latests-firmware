@@ -130,9 +130,6 @@ desc: Realtek RTL8192E main code
 [rtl_bt/rtl8192ee_fw.bin_base]
 desc: Realtek RTL8192EE Bluetooth firmware
 
-[rtl_bt/rtl8192eu_ap_wowlan.bin_base]
-desc: Realtek RTL8192EU AP Bluetooth firmware
-
 [rtl_bt/rtl8192eu_fw.bin_base]
 desc: Realtek RTL8192EU Bluetooth firmware
 
@@ -364,6 +361,9 @@ desc: Realtek RTL8192CU/RTL8188CU TMSC firmware
 [rtlwifi/rtl8192defw.bin_base]
 desc: Realtek RTL8192DE firmware
 
+[rtlwifi/rtl8192eu_ap_wowlan.bin_base]
+desc: Realtek RTL8192EU AP WoWLAN firmware
+
 [rtlwifi/rtl8192eu_nic.bin_base]
 desc: Realtek RTl8192EU non-WoWLAN firmware
 
@@ -418,7 +418,7 @@ desc: Realtek RTL8723AE rev B firmware
 desc: Realtek RTL8821AEFW firmware
 
 [rtlwifi/rtl8812aefw_wowlan.bin_base]
-desc: Realtek RTL8821AEFW wowlan firmware
+desc: Realtek RTL8821AEFW WoWLAN firmware
 
 [rtlwifi/rtl8821aefw.bin_base]
 desc: Realtek RTL8821AE firmware
@@ -428,10 +428,13 @@ desc: Realtek RTL8821AE firmware
 version: 29
 
 [rtlwifi/rtl8821aefw_wowlan.bin_base]
-desc: Realtek RTL8821AE firmware
+desc: Realtek RTL8821AE WoWLAN firmware
 
 [rtlwifi/rtl8822befw.bin_base]
 desc: Realtek RTL8822BE firmware
+
+[rtw88/rtw8723d_fw.bin_base]
+desc: Realtek RTW8723D firmware
 
 [rtw88/rtw8821c_fw.bin_base]
 desc: Realtek 8821C firmware
@@ -444,9 +447,6 @@ desc: Realtek 8822CE firmware
 
 [rtw88/rtw8822c_wow_fw.bin_base]
 desc: Realtek 8822C firmware
-
-[rtw88/rtw88/rtw8723d_fw.bin_base]
-desc: Realtek RTW8723D firmware
 
 [rtw89/rtw8852a_fw.bin_base]
 desc: Realtek RTL8852A firmware
