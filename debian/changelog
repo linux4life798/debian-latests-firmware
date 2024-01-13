@@ -6,6 +6,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * ci: extract-source: Install `dpkg-dev` early and explicitly
   * Harmonize control field sequence
   * Remove constraints unnecessary since Buster (oldoldstable)
+  * d/README.source: Update description wrt upstream
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 
