@@ -93,6 +93,9 @@ files:
  i915/kbl_huc_4.0.0.bin
  i915/kbl_huc_ver02_00_1810.bin
  i915/mtl_dmc.bin
+ i915/mtl_dmc_ver2_10.bin
+ i915/mtl_guc_70.bin
+ i915/mtl_huc_gsc.bin
  i915/rkl_dmc_ver2_02.bin
  i915/rkl_dmc_ver2_03.bin
  i915/skl_dmc_ver1.bin
@@ -464,6 +467,18 @@ version: 2.0.1810
 [i915/mtl_dmc.bin_base]
 desc: Intel "Meteorlake" DMC firmware
 version: 2.12
+
+[i915/mtl_dmc_ver2_10.bin_base]
+desc: Intel "Meteorlake" DMC firmware
+version: 2.10
+
+[i915/mtl_guc_70.bin_base]
+desc: Intel "Meteorlake" GuC firmware
+version: 70.6.6
+
+[i915/mtl_huc_gsc.bin_base]
+desc: Intel "Meteorlake" HuC firmware
+version: 8.5.0
 
 [i915/rkl_dmc_ver2_02.bin_base]
 desc: Intel "Rocketlake" DMC firmware
