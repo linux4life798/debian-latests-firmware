@@ -15,6 +15,7 @@ packages:
  iwlwifi
  libertas
  marvell-prestera
+ mediatek
  misc-nonfree
  myricom
  netronome

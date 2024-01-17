@@ -39,6 +39,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
     - Move Nvidia graphics firmware to new firmware-nvidia-graphics package
     - Move Intel graphics firmware to new firmware-intel-graphics package
     - Move other Intel firmware to new firmware-intel-misc package
+    - Move MediaTek/Ralink firmware to new firmware-mediatek package
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 
