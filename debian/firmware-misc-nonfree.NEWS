@@ -1,0 +1,8 @@
+firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
+
+  Several firmware files were moved from firmware-misc-nonfree into
+  their own package:
+  - firmware-nvidia-graphics: This package now holds the firmware files for
+    Nvidia GPU hardware.
+
+ -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100

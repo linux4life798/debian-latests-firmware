@@ -17,6 +17,7 @@ packages:
  myricom
  netronome
  netxen
+ nvidia-graphics
  qcom-soc
  qlogic
  realtek
