@@ -3378,7 +3378,7 @@ License: binary-redist-Netronome
 
 Files: qcom/yamato*
 Copyright: 2008-2011, QUALCOMM Incorporated
-License: License: BSD-3-clause-Qualcomm
+License: BSD-3-clause-Qualcomm
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
      * Redistributions of source code must retain the above copyright
