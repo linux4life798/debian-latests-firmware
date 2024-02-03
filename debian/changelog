@@ -72,6 +72,9 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * misc-nonfree: renesas: Add firmware for R-Car USB3 controller
   * misc-nonfree: ti: Add firmware for TI Keystone QMSS Accumulator PDSP
   * ti-connectivity: Move TI VPE firmware to misc-nonfree
+  * d/control: Update Standards-Version to 4.3.0:
+    - Specify ``Rules-Requires-Root: no``
+    - Add ``set -e`` to ``debian/templates/preinst.license.in``
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 
