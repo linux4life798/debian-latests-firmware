@@ -160,6 +160,14 @@ Copyright: 2006-2009, Bastian Blank <waldi@debian.org>
            2009-2010, dann frazier <dannf@debian.org>
 License: CC0-1.0
 
+Files: debian/config/ipw2x00/*.fw
+Copyright: 2003-2009, Intel Corporation
+License: binary-redist-EULA-Intel-Pro-Wireless
+
+Files: debian/config/ivtv/*.fw debian/config/ivtv/v4l-cx2341x-init.mpg
+Copyright: 2003-2006, Hauppauge
+License: binary-redist-EULA-Hauppuage
+
 Files: amdgpu/*.bin radeon/*.bin
 Copyright: 2009-2023, Advanced Micro Devices, Inc.
 License: binary-redist-AMD-restrictive
@@ -248,14 +256,6 @@ Copyright: 1981-2000, The Regents of the University of California
            1994-2014, Red Hat Inc. and other newlib contributors
            1993, 2014-15, Intel Corporation
 License: binary-redist-Intel-3
-
-Files: debian/config/ipw2x00/*.fw
-Copyright: 2003-2009, Intel Corporation
-License: binary-redist-EULA-Intel-Pro-Wireless
-
-Files: debian/config/ivtv/*.fw debian/config/ivtv/v4l-cx2341x-init.mpg
-Copyright: 2003-2006, Hauppauge
-License: binary-redist-EULA-Hauppuage
 
 Files: intel/ibt-* iwlwifi-*
 Copyright: 2006-2016, Intel Corporation
