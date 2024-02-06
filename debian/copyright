@@ -412,6 +412,15 @@ Files: brcm/bcm43xx*.fw brcm/brcmfmac*.bin
 Copyright: Broadcom Corporation
 License: binary-redist-Broadcom-wifi
 
+Files: brcm/BCM-0bb4-0306.hcd
+Copyright: 2018, Cypress Semiconductor Corporation
+License: binary-redist-Cypress
+
+Files: brcm/brcmfmac4373.bin cypress/cyfmac43*.bin cypress/cyfmac43*.clm_blob
+ cypress/cyfmac54591-pcie.bin cypress/cyfmac54591-pcie.clm_blob
+Copyright: Cypress
+License: binary-redist-Cypress
+
 Files: cavium/* liquidio/*
 Copyright: 2015, Cavium, Inc.
 License: binary-redist-Cavium
@@ -469,10 +478,6 @@ License: BSD-3-clause-Agere
 Files: as102_data?_st.hex
 Copyright: 2010, Abilis Systems Sarl
 License: binary-redist-Abilis
-
-Files: brcm/BCM-0bb4-0306.hcd
-Copyright: 2018, Cypress Semiconductor Corporation
-License: binary-redist-Cypress
 
 Files: ctefx.bin ctspeq.bin
 Copyright: 2012, Creative Technology Ltd
