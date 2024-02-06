@@ -507,8 +507,8 @@ Files: cxgb3/t3*.bin
 Copyright: 2003-2009, Chelsio, Inc.
 License: BSD-2-clause
 
-Files: cxgb4/*.bin cxgb4/*.cld
-Copyright: 2011-2013, Chelsio Communications
+Files: cxgb4/*.bin cxgb4/*.cld cxgb4/configs/t*-config-*.txt
+Copyright: 2010-2017, Chelsio Communications
 License: binary-redist-Chelsio
 
 Files: dabusb/*
