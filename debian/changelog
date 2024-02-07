@@ -7,6 +7,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * Harmonize control field sequence
   * Remove constraints unnecessary since Buster (oldoldstable)
   * d/README.source: Update description wrt upstream
+  * d/copyright: Update upstream Source URL
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 
