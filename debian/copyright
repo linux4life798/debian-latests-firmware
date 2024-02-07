@@ -421,6 +421,12 @@ Files: brcm/brcmfmac4373.bin cypress/cyfmac43*.bin cypress/cyfmac43*.clm_blob
 Copyright: Cypress
 License: binary-redist-Cypress
 
+Files: brcm/brcmfmac43241b4-sdio.*.txt brcm/brcmfmac433*.txt
+ brcm/brcmfmac43430*.txt brcm/brcmfmac43455-sdio.*.txt brcm/brcmfmac4356-*.txt
+Copyright: 2018, Linaro Ltd
+           2018, Raspberry Pi (Trading) Ltd.
+License: GPL-2
+
 Files: cavium/* liquidio/*
 Copyright: 2015, Cavium, Inc.
 License: binary-redist-Cavium
@@ -4888,6 +4894,19 @@ License: CC0-1.0
  .
  On Debian systems, the text of CC0 1.0 Universal can be found in
  /usr/share/common-licenses/CC0-1.0.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2 as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems the text of the GPL version 2 can be found in
+ /usr/share/common-licenses/GPL-2.
 
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
