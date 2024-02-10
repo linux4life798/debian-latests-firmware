@@ -182,13 +182,41 @@ Files: ar3k/* ar5523.bin ar7010.fw ar7010_1_1.fw ar9271.fw ath3k-1.fw
 Copyright: 2008-2010, Atheros Communications, Inc.
 License: binary-redist-Atheros
 
-Files: ath10k/QCA*/hw*/firmware-4.bin ath10k/QCA*/hw*/firmware-5.bin
-Copyright: 1986, Gary S. Brown
-           1988, 1990-1991, 1993, The Regents of the University of California
+Files: ath10k/QCA4019/hw1.0/firmware-5.bin ath10k/QCA9888/hw2.0/firmware-5.bin
+ ath10k/QCA9984/hw1.0/firmware-5.bin
+Copyright: 1988, 1990-1991, 1993, The Regents of the University of California
            1998, The NetBSD Foundation, Inc.
            1998, Todd C. Miller
+           1998-2008, Tensilica Inc.
+           2000-2001, Aaron D. Gifford
+           2002-2004, Sam Leffler, Errno Consulting
+           2002-2005, Jouni Malinen
+           2003-2006, Marcus Geelnard
+           2006-2007, Atheros Communications Inc.
+           2007, Synopsys
+           2011, The FreeBSD Foundation
+           2011-2012, 2014, Qualcomm Atheros, Inc.
+License: binary-redist-Qualcomm-Atheros
+
+Files: ath10k/QCA6174/hw2.1/firmware-5.bin ath10k/QCA9377/hw1.0/firmware-5.bin
+ ath10k/QCA9377/hw1.0/firmware-sdio-5.bin
+Copyright: 1991, 1993, The Regents of the University of California
+           1998, The NetBSD Foundation, Inc.
+           2000-2001, Aaron D. Gifford
+           2002-2004, Sam Leffler, Errno Consulting
+           2002-2005, Jouni Malinen
+           2003-2006, Marcus Geelnard
+           2006-2007, Atheros Communications Inc.
+           2007, 2013, Synopsys
+           2011, Qualcomm Technologies, Inc.
+           2011-2012, 2014, Qualcomm Atheros, Inc.
+License: binary-redist-Qualcomm-Atheros
+
+Files: ath10k/QCA6174/hw3.0/firmware-4.bin
+Copyright: 1986, Gary S. Brown
+           1988, 1991, 1993, The Regents of the University of California
+           1998, The NetBSD Foundation, Inc.
            1998-2002, Red Hat, Inc.
-           1999-2006, Tensilica Inc.
            2000-2001, Aaron D. Gifford
            2002, Gary Thomas
            2002-2004, Sam Leffler, Errno Consulting
@@ -196,30 +224,62 @@ Copyright: 1986, Gary S. Brown
            2003-2006, Marcus Geelnard
            2006-2007, 2012-2013, Atheros Communications Inc.
            2010-2011, embWiSe Technologies
-           2011, The FreeBSD Foundation
            2011, Qualcomm Technologies, Inc.
-           2011-2015, Qualcomm Atheros, Inc.
-           2013, Synopsys, Inc.
+           2011-2012, 2014, Qualcomm Atheros, Inc.
+           2013, Synopsys
 License: binary-redist-Qualcomm-Atheros
 
-Files: ath10k/QCA*/hw*/firmware-6.bin
-Copyright: 1988, 1990-1991, 1993, The Regents of the University of California
+Files: ath10k/QCA6174/hw3.0/firmware-6.bin
+ ath10k/QCA6174/hw3.0/firmware-sdio-6.bin ath10k/QCA9377/hw1.0/firmware-6.bin
+Copyright: 1986, Gary S. Brown
+           1988, 1990-1991, 1993, The Regents of the University of California
            1998, The NetBSD Foundation, Inc.
            2000-2001, Aaron D. Gifford
            2002-2004, Sam Leffler, Errno Consulting
            2002-2013, Jouni Malinen
            2003-2006, Marcus Geelnard
            2006-2007, 2012-2013, Atheros Communications Inc.
-           2010-2011, embWiSe Technologies
            2011, The FreeBSD Foundation
            2011, Qualcomm Technologies, Inc.
-           2011-2012, 2014-2015, Qualcomm Atheros, Inc.
-           2015-2016, The Android Open Source Project
+           2011-2012, 2014, Qualcomm Atheros, Inc.
+           2013, Synopsys
 License: binary-redist-Qualcomm-Atheros
 
-Files: ath10k/QCA*/hw*/board*.bin qca/nvm_*.bin qca/rampatch_*.bin
- qca/crbtfw*.tlv qca/crnv*.bin
-Copyright: 2015, Qualcomm Atheros, Inc.
+Files: ath10k/QCA9887/hw1.0/firmware-5.bin ath10k/QCA988X/hw2.0/firmware-5.bin
+Copyright: 1988, 1991, 1993, The Regents of the University of California
+           1999-2006, Tensilica Inc.
+           2002-2004, Sam Leffler, Errno Consulting
+           2003-2006, Marcus Geelnard
+           2006-2007, Atheros Communications Inc.
+           2011-2012, Qualcomm Atheros, Inc.
+License: binary-redist-Qualcomm-Atheros
+
+Files: ath10k/QCA988X/hw2.0/firmware-4.bin
+Copyright: 1988, 1991, 1993, The Regents of the University of California
+           2002-2004, Sam Leffler, Errno Consulting
+           2003-2006, Marcus Geelnard
+           2006-2007, Atheros Communications Inc.
+           2011-2012, Qualcomm Atheros, Inc.
+License: binary-redist-Qualcomm-Atheros
+
+Files: ath10k/QCA99X0/hw2.0/firmware-5.bin ath10k/WCN3990/hw1.0/firmware-5.bin
+ ath10k/WCN3990/hw1.0/wlanmdsp.mbn
+Copyright: 1988, 1990-1991, 1993, The Regents of the University of California
+           1998, The NetBSD Foundation, Inc.
+           1998, Todd C. Miller
+           2000-2001, Aaron D. Gifford
+           2002-2004, Sam Leffler, Errno Consulting
+           2002-2005, Jouni Malinen
+           2003-2006, Marcus Geelnard
+           2006-2007, Atheros Communications Inc.
+           2007, Synopsys, Inc
+           2011-2012, Qualcomm Atheros, Inc.
+License: binary-redist-Qualcomm-Atheros
+
+Files: ath10k/QCA*/hw*/board*.bin ath10k/QCA*/hw*/notice_ath10k_firmware-*.txt
+ ath10k/WCN3990/hw1.0/board-2.bin ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
+ qca/nvm_*.bin qca/rampatch_*.bin qca/crbtfw*.tlv qca/crnv*.bin
+Copyright: 2014-2017, Qualcomm Atheros, Inc.
 License: binary-redist-Qualcomm-Atheros
 
 Files: bnx2/* bnx2x/*
