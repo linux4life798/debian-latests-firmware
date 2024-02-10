@@ -282,6 +282,111 @@ Files: ath10k/QCA*/hw*/board*.bin ath10k/QCA*/hw*/notice_ath10k_firmware-*.txt
 Copyright: 2014-2017, Qualcomm Atheros, Inc.
 License: binary-redist-Qualcomm-Atheros
 
+Files: ath11k/IPQ*/hw*.0/m3* ath11k/IPQ*/hw*.0/q6* ath11k/QCN9074/hw1.0/amss.bin
+ ath11k/QCN9074/hw1.0/m3.bin
+Copyright: 1986, Gary S. Brown
+           1988, 1990-1991, 1993, The Regents of the University of California
+           1998, 2010, Todd C. Miller
+           2000-2001, Aaron D. Gifford
+           2002-2018, Jouni Malinen
+           2002-2004, Sam Leffler, Errno Consulting
+           2002-2021, The Linux Foundation
+           2007, Open Kernel Labs, Inc.
+           2011-2012, 2014, Qualcomm Atheros, Inc.
+           2011, 2016-2019, Qualcomm Technologies, Inc.
+           2011, The FreeBSD Foundation
+           2012, Atheros Communications Inc.
+           2013, Cozybit, Inc.
+           2015, Pali Rohár
+           2015, 2018, The Android Open Source Project
+           2021-2022, Qualcomm Innovation Center, Inc.
+License: binary-redist-Qualcomm-Atheros
+
+Files: ath11k/QCA6390/hw2.0/amss.bin ath11k/QCA6390/hw2.0/m3.bin
+Copyright: 1986, Gary S. Brown
+           1988, 1990-1991, 1993, The Regents of the University of California
+           1998, Todd C. Miller
+           2000-2001, Aaron D. Gifford
+           2002-2018, Jouni Malinen
+           2002-2004, Sam Leffler, Errno Consulting
+           2002-2022, The Linux Foundation
+           2003-2006, Marcus Geelnard
+           2004, National ICT Australia
+           2007, Open Kernel Labs, Inc.
+           2008, Atheros Communications Inc.
+           2009-2015, ARM Limited
+           2011, Dongsheng Song
+           2011, The FreeBSD Foundation
+           2013, Cozybit, Inc.
+           2013, Synopsys
+           2015, Daniel Tillett
+           2015, Pali RohÃ¡r
+           2015, 2018, The Android Open Source Project
+           2021-2022, Qualcomm Innovation Center, Inc.
+License: binary-redist-Qualcomm-Atheros
+
+Files: ath11k/WCN6750/hw1.0/wpss.*
+Copyright: 1982, 1986, 1988, 1990-1991, 1993, The Regents of the University of California
+           1986, Gary S. Brown
+           1991-1992, RSA Data Security, Inc.
+           1994, 1998, 2002, The NetBSD Foundation, Inc.
+           1995-1998, Eric Young
+           1995-2016, Jean-loup Gailly
+           1995-2016, Jean-loup Gailly and Mark Adler
+           1995-2016, Mark Adler
+           1996, John D. Polstra
+           1996, Matt Thomas
+           1998-2010, Brian Gladman
+           1998-2002, 2008, The OpenSSL Project
+           1998, 2010, Todd C. Miller
+           1999-2016, The OpenSSL Project Authors
+           2000-2001, Aaron D. Gifford
+           2000, The Internet Society
+           2001, Dr Brian Gladman
+           2002, Charles M. Hannum
+           2002-2018, Jouni Malinen
+           2002-2004, Karlsruhe University
+           2002-2004, Sam Leffler, Errno Consulting
+           2002-2021, The Linux Foundation
+           2004, National ICT Australia
+           2006, P.J. Plauger
+           2007, Open Kernel Labs, Inc.
+           2008, Atheros Communications Inc.
+           2010-2015, ARM Limited
+           2011-2017, Andy Goryachev
+           2011, Dongsheng Song
+           2011, The FreeBSD Foundation
+           2013, Cozybit, Inc.
+           2013, Qualcomm Technologies, Inc.
+           2015, Daniel Tillett
+           2015, Pali Rohár
+           2015, 2018, The Android Open Source Project
+           2018 IETF Trust and the persons identified as the document authors
+           2021-2022, Qualcomm Innovation Center, Inc.
+License: binary-redist-Qualcomm-Atheros
+
+Files: ath11k/WCN6855/hw2.0/amss.bin ath11k/WCN6855/hw2.0/m3.bin
+Copyright: 1986, Gary S. Brown
+           1988, 1990-1991, 1993, The Regents of the University of California
+           1998, Todd C. Miller
+           2000-2001, Aaron D. Gifford
+           2002-2018, Jouni Malinen
+           2002-2004, Sam Leffler, Errno Consulting
+           2002-2021, The Linux Foundation
+           2007, Open Kernel Labs, Inc.
+           2011, The FreeBSD Foundation
+           2012, Atheros Communications Inc.
+           2013, Cozybit, Inc.
+           2015, Pali RohÃ¡r
+           2015, 2018, The Android Open Source Project
+           2021-2022, Qualcomm Innovation Center, Inc.
+License: binary-redist-Qualcomm-Atheros
+
+Files: ath11k/*/hw*/board-2.bin ath11k/*/hw*/Notice.txt
+ ath11k/WCN6855/hw2.0/regdb.bin
+Copyright: 2022-2023 Qualcomm Technologies, Inc.
+License: binary-redist-Qualcomm-Atheros
+
 Files: bnx2/* bnx2x/*
 Copyright: Broadcom Corporation
 License: binary-redist-firmware

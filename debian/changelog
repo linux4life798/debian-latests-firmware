@@ -47,6 +47,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * d/copyright: Move debian/config Files stanzas to other debian stanzas
   * d/copyright: Update license for Intel qat* firmware
   * d/copyright: atheros: Update ath10k copyright data
+  * d/copyright: atheros: Add ath11k copyright data
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 
