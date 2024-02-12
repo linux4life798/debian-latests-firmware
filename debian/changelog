@@ -52,6 +52,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * d/copyright: atheros: Add wil6210 copyright data
   * d/copyright: brcm80211: Add Cypress copyright data
   * d/copyright: brcm80211: Add copyright data on config files
+  * d/copyright: intel-graphics: Add Intel irci copyright data
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 
