@@ -2,6 +2,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
 
   * Update to linux-support 6.8.11
     - ci: Add python3-dacite as Build Dependency
+  * d/bin/update-modinfo: Add compressed modules support
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 

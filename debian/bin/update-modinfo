@@ -14,7 +14,9 @@ def iter_modules(base_dir):
     for root, dirs, files in \
         os.walk(os.path.join(base_dir, 'kernel'), onerror=onerror):
         for name in files:
-            if name.endswith('.ko'):
+            if name.endswith('.ko.xz'):
+                yield name[:-6], os.path.join(root, name)
+            elif name.endswith('.ko'):
                 yield name[:-3], os.path.join(root, name)
 
 
