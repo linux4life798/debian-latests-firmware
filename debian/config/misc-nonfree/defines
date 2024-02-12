@@ -247,6 +247,7 @@ desc: Broadcom/Cypress Bluetooth firmware (HTC Vive)
 
 [cadence/mhdp8546.bin_base]
 desc: Cadence MHDP8546 DP bridge firmware
+version: 2.1.0
 
 [cxgb3/ael2005_opt_edc.bin_base]
 desc: Chelsio T3 optical EDC firmware (AEL2005 PHY)
