@@ -57,6 +57,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * d/copyright: mediatek: Update copyright data
   * d/copyright: misc-nonfree: Update cxgb4 copyright data
   * d/copyright: misc-nonfree: Add Cadence copyright data
+  * d/copyright: misc-nonfree: Add Lontium copyright data
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 

@@ -480,6 +480,10 @@ Files: mrvl/pcie*.bin mrvl/sd87*_uapsta.bin mrvl/sd88*_uapsta.bin
 Copyright: 2019, NXP B.V.
 License: binary-redist-NXP-1
 
+Files: lt9611uxc_fw.bin
+Copyright: Lontium Semiconductor Corp.
+License: binary-redist-Lontium
+
 Files: 3com/typhoon.bin
 Copyright: 1999-2004, 3Com Corporation
 License: BSD-3-clause-3Com
@@ -3190,6 +3194,21 @@ License: binary-redist-ITEtech
  PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
  TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
  PERFORMANCE OF THIS SOFTWARE.
+
+License: binary-redist-Lontium
+ Lontium Semiconductor Corp. grants permission to use and redistribute
+ aforementioned firmware file for the use with devices containing
+ Lontium chipsets, but not as part of the Linux kernel or in any other
+ form which would require the file itself to be covered by the terms
+ of the GNU General Public License or the GNU Lesser General Public
+ License.
+ .
+ The firmware file is distributed in the hope that it will be useful,
+ but is provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT LIMITED TO
+ IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+ PURPOSE.
+Comment:
+ This is LICENSE.Lontium, but slightly reformatted
 
 License: binary-redist-Marvell
  All rights reserved.
