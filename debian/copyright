@@ -462,13 +462,19 @@ Files: intel/ibt-* iwlwifi-*
 Copyright: 2006-2016, Intel Corporation
 License: binary-redist-Intel
 
-Files: libertas/* mwl8k/*
+Files: libertas/* mrvl/sd8688*.bin mrvl/cpt0*/*e.out mrvl/prestera/*.img
+ mwl8k/*
 Copyright: 2019, Marvell International Ltd.
-License: binary-redist-Marvell-1
+License: binary-redist-Marvell
 
 Files: lbtf_usb.bin libertas/usb8388_olpc.bin
 Copyright: 2006, One Laptop per Child and Marvell Corporation.
-License: binary-redist-Marvell-2
+License: binary-redist-Marvell-OLPC
+
+Files: mrvl/pcie*.bin mrvl/sd87*_uapsta.bin mrvl/sd88*_uapsta.bin
+ mrvl/sdsd89*.bin mrvl/usb8*_uapsta.bin mrvl/usbusb8997_combo_v4.bin
+Copyright: 2019, NXP B.V.
+License: binary-redist-NXP-1
 
 Files: 3com/typhoon.bin
 Copyright: 1999-2004, 3Com Corporation
@@ -551,7 +557,7 @@ License: binary-redist-Intel
 
 Files: imx/sdma/*
 Copyright: 2017, NXP
-License: binary-redist-NXP
+License: binary-redist-NXP-SDMA
 
 Files: kaweth/*
 Copyright: 1999, Kawasaki LSI.
@@ -3109,7 +3115,7 @@ License: binary-redist-ITEtech
  TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
  PERFORMANCE OF THIS SOFTWARE.
 
-License: binary-redist-Marvell-1
+License: binary-redist-Marvell
  All rights reserved.
  .
  Redistribution and use in binary form is permitted provided that the
@@ -3135,8 +3141,10 @@ License: binary-redist-Marvell-1
  RIGHTS.  MARVELL, ITS AFFILIATES AND THEIR SUPPLIERS DISCLAIM ANY
  WARRANTY THAT THE DELIVERABLES WILL OPERATE WITHOUT INTERRUPTION OR
  BE ERROR-FREE.
+Comment:
+ This is LICENCE.Marvell
 
-License: binary-redist-Marvell-2
+License: binary-redist-Marvell-OLPC
  All rights reserved.
  .
  Redistribution.  Redistribution and use in binary form, without
@@ -3169,6 +3177,8 @@ License: binary-redist-Marvell-2
  TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
  USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
  DAMAGE.
+Comment:
+ This is LICENCE.OLPC.
 
 License: binary-redist-Matrox
  All Rights Reserved.
@@ -3464,7 +3474,34 @@ License: binary-redist-Nvidia
  restrictions or regulations.  This LICENSE may only be modified in
  writing signed by an authorized officer of NVIDIA.
 
-License: binary-redist-NXP
+License: binary-redist-NXP-1
+ All rights reserved.
+ .
+ Redistribution and use in binary form is permitted provided that the following
+ conditions are met:
+ .
+ 1. Redistributions must reproduce the above copyright notice, this list of
+ conditions and the following disclaimer in the documentation and/or other
+ materials provided with the distribution.
+ .
+ 2. Redistribution and use shall be used only with NXP B.V. silicon products.
+ Any other use, reproduction, modification, translation, or compilation of the
+ Software is prohibited.
+ .
+ 3. No reverse engineering, decompilation, or disassembly is permitted.
+ .
+ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THIS SOFTWARE IS PROVIDED
+ "AS IS" WITHOUT WARRANTY OF ANY KIND, INCLUDING, WITHOUT LIMITATION, ANY
+ EXPRESS OR IMPLIED WARRANTIES OF MERCHANTABILITY, ACCURACY, FITNESS OR
+ SUFFICIENCY FOR A PARTICULAR PURPOSE, SATISFACTORY QUALITY, CORRESPONDENCE
+ WITH DESCRIPTION, QUIET ENJOYMENT OR NON-INFRINGEMENT OF THIRD PARTY
+ INTELLECTUAL PROPERTY RIGHTS.
+ NXP B.V., ITS AFFILIATES AND THEIR SUPPLIERS DISCLAIM ANY WARRANTY THAT THE
+ DELIVERABLES WILL OPERATE WITHOUT INTERRUPTION OR BE ERROR-FREE.
+Comment:
+ This is LICENCE.NXP, slightly reformatted for line length.
+
+License: binary-redist-NXP-SDMA
  All rights reserved.
  .
  Redistribution. Reproduction and redistribution in binary form, without
@@ -3511,6 +3548,8 @@ License: binary-redist-NXP
  ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
  TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
  USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Comment:
+ This is LICENSE.sdma_firmware
 
 License: binary-redist-QLogic-1
  Redistribution and use in source and binary forms are permitted provided
