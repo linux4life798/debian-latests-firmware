@@ -95,6 +95,21 @@ files:
  kaweth/trigger_code_fix.bin
  matrox/g200_warp.fw
  matrox/g400_warp.fw
+ meson/vdec/g12a_h264.bin
+ meson/vdec/g12a_hevc_mmu.bin
+ meson/vdec/g12a_vp9.bin
+ meson/vdec/gxbb_h264.bin
+ meson/vdec/gxl_h263.bin
+ meson/vdec/gxl_h264.bin
+ meson/vdec/gxl_hevc.bin
+ meson/vdec/gxl_hevc_mmu.bin
+ meson/vdec/gxl_mjpeg.bin
+ meson/vdec/gxl_mpeg12.bin
+ meson/vdec/gxl_mpeg4_5.bin
+ meson/vdec/gxl_vp9.bin
+ meson/vdec/gxm_h264.bin
+ meson/vdec/sm1_hevc_mmu.bin
+ meson/vdec/sm1_vp9_mmu.bin
  moxa/moxa-1110.fw
  moxa/moxa-1130.fw
  moxa/moxa-1131.fw
@@ -399,6 +414,51 @@ desc: Matrox G200 WARP engine microcode
 
 [matrox/g400_warp.fw_base]
 desc: Matrox G400/G550 WARP engine microcode
+
+[meson/vdec/g12a_h264.bin_base]
+desc: Amlogic G12A h264 meson decoder firmware
+
+[meson/vdec/g12a_hevc_mmu.bin_base]
+desc: Amlogic G12A hevc meson decoder firmware
+
+[meson/vdec/g12a_vp9.bin_base]
+desc: Amlogic G12A vp9 meson decoder firmware
+
+[meson/vdec/gxbb_h264.bin_base]
+desc: Amlogic S905 h264 meson decoder firmware
+
+[meson/vdec/gxl_h263.bin_base]
+desc: Amlogic S905X/W/D h263 meson decoder firmware
+
+[meson/vdec/gxl_h264.bin_base]
+desc: Amlogic S905X/W/D h264 meson decoder firmware
+
+[meson/vdec/gxl_hevc.bin_base]
+desc: Amlogic S905X/W/D hevc meson decoder firmware
+
+[meson/vdec/gxl_hevc_mmu.bin_base]
+desc: Amlogic S905X/W/D hevc mmu meson decoder firmware
+
+[meson/vdec/gxl_mjpeg.bin_base]
+desc: Amlogic S905X/W/D mjpeg meson decoder firmware
+
+[meson/vdec/gxl_mpeg12.bin_base]
+desc: Amlogic S905X/W/D mpeg12 meson decoder firmware
+
+[meson/vdec/gxl_mpeg4_5.bin_base]
+desc: Amlogic S905X/W/D mpeg4/5 meson decoder firmware
+
+[meson/vdec/gxl_vp9.bin_base]
+desc: Amlogic S905X/W/D vp9 meson decoder firmware
+
+[meson/vdec/gxm_h264.bin_base]
+desc: Amlogic S912 h264 meson decoder firmware
+
+[meson/vdec/sm1_hevc_mmu.bin_base]
+desc: Amlogic SM1 hevc meson decoder firmware
+
+[meson/vdec/sm1_vp9_mmu.bin_base]
+desc: Amlogic SM1 vp9 meson decoder firmware
 
 [moxa/moxa-1110.fw_base]
 desc: MOXA UPort 1110 firmware

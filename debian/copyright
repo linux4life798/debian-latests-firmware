@@ -609,6 +609,10 @@ Copyright: 2007, Ralink Technology Corporation
            2013, Ralink, A MediaTek Company
 License: binary-redist-Ralink
 
+Files: meson/vdec/*
+Copyright: Amlogic
+License: binary-redist-Amlogic-vdec
+
 Files: moxa/*.fw
 Copyright: Moxa Inc.
 License: binary-redist-Moxa
@@ -810,6 +814,23 @@ License: binary-redist-AMD-restrictive
  U.S. Department of Commerce and International Traffic in Arm Regulations
  administered by the U.S. Department of State.  These laws include
  restrictions on destinations, end users and end use.
+
+License: binary-redist-Amlogic-vdec
+ Amlogic Co., Inc. grants permission to use and redistribute
+ aforementioned firmware files for the use with devices containing
+ Amlogic chipsets, but not as part of the Linux kernel or in any other
+ form which would require these files themselves to be covered by the
+ terms of the GNU General Public License or the GNU Lesser General
+ Public License.
+ .
+ These firmware files are distributed in the hope that they will be
+ useful, but are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT
+ LIMITED TO IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A
+ PARTICULAR PURPOSE.
+ .
+ Amlogic Contact: Arden Jin <Arden.Jin@amlogic.com>
+Comment:
+ This is LICENSE.amlogic_vdec.
 
 License: binary-redist-Amphion
  All rights reserved.
