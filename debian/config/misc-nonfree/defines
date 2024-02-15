@@ -41,6 +41,8 @@ files:
  advansys/38C0800.bin
  advansys/38C1600.bin
  advansys/mcode.bin
+ amphion/vpu/vpu_fw_imx8_dec.bin
+ amphion/vpu/vpu_fw_imx8_enc.bin
  brcm/BCM-0a5c-6410.hcd
  brcm/BCM-0bb4-0306.hcd
  cadence/mhdp8546.bin
@@ -241,6 +243,14 @@ desc: AdvanSys ASC-38C1600 firmware
 
 [advansys/mcode.bin_base]
 desc: AdvanSys SCSI controller microcode
+
+[amphion/vpu/vpu_fw_imx8_dec.bin_base]
+desc: Amphion VPU Decoder firmware for NXP i.MX8QXP and i.MX8QM
+version: 1.8.8
+
+[amphion/vpu/vpu_fw_imx8_enc.bin_base]
+desc: Amphion VPU Encoder firmware for NXP i.MX8QXP and i.MX8QM
+version: 1.3.4
 
 [brcm/BCM-0bb4-0306.hcd_base]
 desc: Broadcom/Cypress Bluetooth firmware (HTC Vive)
