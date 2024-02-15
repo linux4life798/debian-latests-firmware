@@ -7,6 +7,15 @@ replaces: libertas-firmware
 provides: libertas-firmware
 files:
  lbtf_usb.bin
+ libertas_cs.fw
+ libertas_cs_helper.fw
+ sd8385.bin
+ sd8385_helper.bin
+ sd8686.bin
+ sd8686_helper.bin
+ sd8688.bin
+ sd8688_helper.bin
+ usb8388.bin
  libertas/cf8381.bin
  libertas/cf8381_helper.bin
  libertas/cf8385.bin
@@ -29,8 +38,6 @@ files:
  libertas/usb8388_v5.bin
  libertas/usb8388_v9.bin
  libertas/usb8682.bin
- libertas_cs.fw
- libertas_cs_helper.fw
  mrvl/pcie8897_uapsta.bin
  mrvl/pcie8997_wlan_v4.bin
  mrvl/pcieuart8997_combo_v4.bin
@@ -58,13 +65,6 @@ files:
  mwl8k/fmimage_8764_ap-1.fw
  mwl8k/helper_8366.fw
  mwl8k/helper_8687.fw
- sd8385.bin
- sd8385_helper.bin
- sd8686.bin
- sd8686_helper.bin
- sd8688.bin
- sd8688_helper.bin
- usb8388.bin
 
 [lbtf_usb.bin_base]
 desc: Libertas 88W8388 'Thinfirm' firmware

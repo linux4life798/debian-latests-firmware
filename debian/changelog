@@ -26,6 +26,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * intel-sound: Synchronize with 20230625's WHENCE file
   * iwlwifi: Sort defines entries and file stanzas
   * iwlwifi: Synchronize with 20230625's WHENCE file (Closes: #1059458)
+  * libertas: Sort defines entries and file stanzas
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 
