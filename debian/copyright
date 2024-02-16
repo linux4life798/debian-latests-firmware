@@ -629,7 +629,7 @@ Files: nvidia/*
 Copyright: 2014-2020, NVIDIA Corporation
 License: binary-redist-Nvidia
 
-Files: nxp/sr150_fw.bin
+Files: nxp/*.bin nxp/*.bin.se
 Copyright: 2018, NXP
 License: binary-redist-NXP-2
 

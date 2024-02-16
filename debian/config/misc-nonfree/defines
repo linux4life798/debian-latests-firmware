@@ -149,7 +149,13 @@ files:
  nvidia/tegra210/vic.bin
  nvidia/tegra210/vic04_ucode.bin
  nvidia/tegra210/xusb.bin
+ nxp/helper_uart_3000000.bin
  nxp/sr150_fw.bin
+ nxp/uartiw416_bt_v0.bin
+ nxp/uartspi_n61x_v1.bin.se
+ nxp/uartuart8987_bt.bin
+ nxp/uartuart8997_bt_v4.bin
+ nxp/uartuart9098_bt_v1.bin
  rockchip/dptx.bin
  tehuti/bdx.bin
  tigon/tg3.bin
@@ -587,9 +593,31 @@ desc: Nvidia Tegra 210 VIC firmware
 desc: Nvidia Tegra 210 XHCI firmware
 version: 50.26
 
+[nxp/helper_uart_3000000.bin_base]
+desc: NXP BT UART firmware helper
+version: 16.92.21.p81
+
 [nxp/sr150_fw.bin_base]
 desc: NXP Ultra Wide Band firmware
 version: 44.00.02
+
+[nxp/uartiw416_bt_v0.bin_base]
+desc: NXP BT UART firmware
+
+[nxp/uartspi_n61x_v1.bin.se_base]
+desc: NXP BT UART firmware
+version: 18.99.1.p154.40
+
+[nxp/uartuart8987_bt.bin_base]
+desc: NXP BT UART firmware
+version: 16.92.21.p76.5
+
+[nxp/uartuart8997_bt_v4.bin_base]
+desc: NXP BT UART firmware
+
+[nxp/uartuart9098_bt_v1.bin_base]
+desc: NXP BT UART firmware
+version: 17.92.1.p136.24
 
 [rockchip/dptx.bin_base]
 desc: Rockchip cdn DisplayPort controller firmware
