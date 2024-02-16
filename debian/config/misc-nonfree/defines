@@ -149,6 +149,7 @@ files:
  nvidia/tegra210/vic.bin
  nvidia/tegra210/vic04_ucode.bin
  nvidia/tegra210/xusb.bin
+ nxp/sr150_fw.bin
  rockchip/dptx.bin
  tehuti/bdx.bin
  tigon/tg3.bin
@@ -585,6 +586,10 @@ desc: Nvidia Tegra 210 VIC firmware
 [nvidia/tegra210/xusb.bin_base]
 desc: Nvidia Tegra 210 XHCI firmware
 version: 50.26
+
+[nxp/sr150_fw.bin_base]
+desc: NXP Ultra Wide Band firmware
+version: 44.00.02
 
 [rockchip/dptx.bin_base]
 desc: Rockchip cdn DisplayPort controller firmware

@@ -67,6 +67,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * misc-nonfree: cnm: Add firmware for Chips&Media wave521c codec
   * misc-nonfree: meson: Add firmware for Amlogic SoCs video decoders
   * misc-nonfree: microchip: Add firmware for Microchip Ethernet PHYs
+  * misc-nonfree: nxp: Add firmware for NXP Ultra Wide Band
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 
