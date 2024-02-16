@@ -110,6 +110,8 @@ files:
  meson/vdec/gxm_h264.bin
  meson/vdec/sm1_hevc_mmu.bin
  meson/vdec/sm1_vp9_mmu.bin
+ microchip/mscc_vsc8574_revb_int8051_29e8.bin
+ microchip/mscc_vsc8584_revb_int8051_fb48.bin
  moxa/moxa-1110.fw
  moxa/moxa-1130.fw
  moxa/moxa-1131.fw
@@ -459,6 +461,12 @@ desc: Amlogic SM1 hevc meson decoder firmware
 
 [meson/vdec/sm1_vp9_mmu.bin_base]
 desc: Amlogic SM1 vp9 meson decoder firmware
+
+[microchip/mscc_vsc8574_revb_int8051_29e8.bin_base]
+desc: Microchip VSC8574 Ethernet PHY firmware
+
+[microchip/mscc_vsc8584_revb_int8051_fb48.bin_base]
+desc: Microchip VSC8584 Ethernet PHY firmware
 
 [moxa/moxa-1110.fw_base]
 desc: MOXA UPort 1110 firmware
