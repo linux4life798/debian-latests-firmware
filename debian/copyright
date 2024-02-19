@@ -240,7 +240,7 @@ License: binary-redist-Cirrus
 
 Files: intel/catpt/bdw/dsp_basefw.bin
 Copyright: 2014, Intel Corporation.
-License: binary-redist-Intel-1
+License: binary-redist-Intel
 
 Files: intel/fw_sst_*
 Copyright: 2014, Intel Corporation
@@ -381,8 +381,8 @@ Copyright: 2014-2020, NVIDIA Corporation
 License: binary-redist-Nvidia
 
 Files: qat_*.bin
-Copyright: 2014, Intel Corporation.
-License: binary-redist-Intel
+Copyright: 2014-2023, Intel Corporation.
+License: binary-redist-Intel-1
 
 Files: rockchip/dptx.bin
 Copyright: 2016, Fuzhou Rockchip Electronics Co.Ltd
@@ -1828,6 +1828,10 @@ License: binary-redist-Intel
  TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
  USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
  DAMAGE.
+Comment:
+ LICENCE.ibt_firmware, LICENCE.IntcSST2, LICENCE.iwlwifi_firmware and
+ LICENSE.i915 all have the same contents, apart from the copyright
+ statement.
 
 License: binary-redist-Intel-1
  All rights reserved.
@@ -1849,12 +1853,9 @@ License: binary-redist-Intel-1
  royalty-free, non-exclusive license under patents it now or hereafter
  owns or controls to make, have made, use, import, offer to sell and
  sell ("Utilize") this software, but solely to the extent that any
- such patent is necessary to Utilize the software alone, or in
- combination with an operating system licensed under an approved Open
- Source license as listed by the Open Source Initiative at
- http://opensource.org/licenses.  The patent license shall not apply to
- any other combinations which include this software.  No hardware per
- se is licensed hereunder.
+ such patent is necessary to Utilize the software alone. The patent
+ license shall not apply to any other combinations which include this
+ software. No hardware per se is licensed hereunder.
  .
  DISCLAIMER.  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
  CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
@@ -1868,6 +1869,11 @@ License: binary-redist-Intel-1
  TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
  USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
  DAMAGE.
+Comment:
+ This is LICENCE.qat_firmware (since 2023-03-08).
+ Note that its contents (apart from formatting) is the same as
+ binary-redist-Intel-2 except that -1 has "shall not apply to any other
+ combinations" whereas -2 has "shall not apply to any combinations".
 
 License: binary-redist-Intel-2
  All rights reserved.
