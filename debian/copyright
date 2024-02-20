@@ -400,6 +400,10 @@ Copyright: 1990, The Regents of the University of California
            2009, Red Hat Inc.
 License: binary-redist-Qualcomm-Atheros
 
+Files: wil6210.*
+Copyright: 2015-2017, Qualcomm Atheros, Inc
+License: binary-redist-Qualcomm-Atheros
+
 Files: bnx2/* bnx2x/*
 Copyright: Broadcom Corporation
 License: binary-redist-firmware
