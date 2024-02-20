@@ -46,6 +46,7 @@ files:
  brcm/BCM-0a5c-6410.hcd
  brcm/BCM-0bb4-0306.hcd
  cadence/mhdp8546.bin
+ cnm/wave521c_k3_codec_fw.bin
  cxgb3/ael2005_opt_edc.bin
  cxgb3/ael2005_twx_edc.bin
  cxgb3/ael2020_twx_edc.bin
@@ -258,6 +259,10 @@ desc: Broadcom/Cypress Bluetooth firmware (HTC Vive)
 [cadence/mhdp8546.bin_base]
 desc: Cadence MHDP8546 DP bridge firmware
 version: 2.1.0
+
+[cnm/wave521c_k3_codec_fw.bin_base]
+desc: Chips&Media wave521c codec firmware for K3 architecture
+version: 1.0.3
 
 [cxgb3/ael2005_opt_edc.bin_base]
 desc: Chelsio T3 optical EDC firmware (AEL2005 PHY)

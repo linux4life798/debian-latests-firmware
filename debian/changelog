@@ -64,6 +64,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * d/copyright: samsung: Update copyright data
   * intel-misc: Update ice firmware
   * misc-nonfree: amphion: Add VPU firmware for NXP i.MX8Q SoCs
+  * misc-nonfree: cnm: Add firmware for Chips&Media wave521c codec
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 
