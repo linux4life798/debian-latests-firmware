@@ -533,4 +533,4 @@ desc: ADI Eagle IV firmware
 
 [wfx/wfm_wf200_C0.sec_base]
 desc: Silicon Labs WF200 firmware
-Version: 3.12.1
+Version: 3.14
