@@ -160,6 +160,7 @@ files:
  nxp/uartuart9098_bt_v1.bin
  rockchip/dptx.bin
  tehuti/bdx.bin
+ ti-keystone/ks2_qmss_pdsp_acc48_k2_le_1_0_0_9.bin
  tigon/tg3.bin
  tigon/tg3_tso.bin
  tigon/tg3_tso5.bin
@@ -633,6 +634,9 @@ version: 3.1
 
 [tehuti/bdx.bin_base]
 desc: Tehuti network card firmware
+
+[ti-keystone/ks2_qmss_pdsp_acc48_k2_le_1_0_0_9.bin_base]
+desc: TI Keystone QMSS Accumulator PDSP firmware
 
 [tigon/tg3.bin_base]
 desc: Broadcom BCM5701A0 firmware

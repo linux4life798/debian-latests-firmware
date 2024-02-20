@@ -725,9 +725,9 @@ Files: cmmb_*.inp dvb_nova_*.inp isdbt_nova_*.inp isdbt_rio.inp sms1xxx-*.fw
 Copyright: 2005-2014, Siano Mobile Silicon Ltd.
 License: binary-redist-Siano
 
-Files: ti-connectivity/*
-Copyright: 2000-2016, Texas Instruments Incorporated
-License: binary-redist-wl1251
+Files: ti-connectivity/* ti-keystone/*
+Copyright: 2000-2013, 2015-2016, Texas Instruments Incorporated
+License: binary-redist-Texas-Instruments
 
 Files: vntwusb.fw
 Copyright: 1998-2010, VIA Technologies, Inc.
@@ -5124,7 +5124,7 @@ License: binary-redist-Terratec
  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-License: binary-redist-wl1251
+License: binary-redist-Texas-Instruments
  All rights reserved not granted herein.
  .
  Limited License.
@@ -5182,6 +5182,9 @@ License: binary-redist-wl1251
  LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
  OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Comment:
+ The text of LICENCE.ti-connectivity, LICENCE.ti-keystone and LICENCE.wl1251
+ are the same, except for formatting and copyright years.
 
 License: binary-redist-VIA-vt6656
  All Rights Reserved.
