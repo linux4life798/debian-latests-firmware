@@ -682,7 +682,7 @@ Files: rtl_nic/rtl8153*.fw rtl_nic/rtl8156*.fw rtl_bt/*
 Copyright: 2009-2010, Realtek Semiconductor Corporation
 License: binary-redist-Realtek-restrictive
 
-Files: s5p-mfc-*
+Files: s5p-mfc*.fw
 Copyright: 2011-2014, Samsung Electronics Co.
 License: binary-redist-Samsung
 
@@ -4629,6 +4629,8 @@ License: binary-redist-Samsung
  These firmware files are distributed in the hope that they will be
  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+Comment:
+ This license text is included in the WHENCE file.
 
 License: binary-redist-Sensoray
  Sensoray grants permission to use and redistribute these firmware
