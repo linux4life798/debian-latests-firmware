@@ -71,6 +71,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * misc-nonfree: nxp: Add firmware for NXP BT UART
   * misc-nonfree: renesas: Add firmware for R-Car USB3 controller
   * misc-nonfree: ti: Add firmware for TI Keystone QMSS Accumulator PDSP
+  * ti-connectivity: Move TI VPE firmware to misc-nonfree
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 

@@ -4,7 +4,6 @@ longdesc: Texas Instruments WL1251, WL127x, WL128x and WL18xx wireless
  network chips supported by the wl1251, wl12xx and wl18xx drivers and
  BT/FM/GPS chips supported by the st_drv driver
 files:
- ti/vpdma-1b8.bin
  ti-connectivity/TIInit_6.2.31.bts
  ti-connectivity/TIInit_6.6.15.bts
  ti-connectivity/TIInit_7.2.31.bts
@@ -23,9 +22,6 @@ files:
  ti-connectivity/wl18xx-fw-2.bin
  ti-connectivity/wl18xx-fw-3.bin
  ti-connectivity/wl18xx-fw-4.bin
-
-[ti/vpdma-1b8.bin_base]
-desc: TI VPDMA firmare
 
 [ti-connectivity/wl1251-fw.bin_base]
 desc: TI WL1251 firmware
