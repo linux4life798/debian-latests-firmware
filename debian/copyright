@@ -278,7 +278,6 @@ License: binary-redist-Qualcomm-Atheros
 
 Files: ath10k/QCA*/hw*/board*.bin ath10k/QCA*/hw*/notice_ath10k_firmware-*.txt
  ath10k/WCN3990/hw1.0/board-2.bin ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
- qca/nvm_*.bin qca/rampatch_*.bin qca/crbtfw*.tlv qca/crnv*.bin
 Copyright: 2014-2017, Qualcomm Atheros, Inc.
 License: binary-redist-Qualcomm-Atheros
 
@@ -385,6 +384,20 @@ License: binary-redist-Qualcomm-Atheros
 Files: ath11k/*/hw*/board-2.bin ath11k/*/hw*/Notice.txt
  ath11k/WCN6855/hw2.0/regdb.bin
 Copyright: 2022-2023 Qualcomm Technologies, Inc.
+License: binary-redist-Qualcomm-Atheros
+
+Files: qca/crbtfw*.tlv qca/crnv*.bin qca/hpbtfw21.tlv qca/hpnv21*.*
+ qca/htbtfw20.tlv qca/htnv20.bin qca/msbtfw11.* qca/msnv11.*
+ qca/nvm_*.bin qca/rampatch_*.bin
+Copyright: 1990, The Regents of the University of California
+           1998, Todd C. Miller
+           1998-2002, The OpenSSL Project
+           2000-2001, Aaron D. Gifford
+           2001, Dr B. R. Gladman
+           2001-2003, Steven Knight
+           2003, Stichting NLnet Labs
+           2009, Jerome Glisse
+           2009, Red Hat Inc.
 License: binary-redist-Qualcomm-Atheros
 
 Files: bnx2/* bnx2x/*
