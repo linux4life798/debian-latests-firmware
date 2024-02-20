@@ -26,6 +26,8 @@ files:
  mts_cdma.fw
  mts_edge.fw
  mts_gsm.fw
+ r8a779x_usb3_v1.dlmem
+ r8a779x_usb3_v3.dlmem
  rp2.fw
  s2250.fw
  s2250_loader.fw
@@ -228,6 +230,12 @@ desc: Multi-Tech USB EDGE modem firmware
 
 [mts_gsm.fw_base]
 desc: Multi-Tech USB GPRS modem firmware
+
+[r8a779x_usb3_v1.dlmem_base]
+desc: Renesas R-Car H2/M2 USB3 host controller firmware
+
+[r8a779x_usb3_v3.dlmem_base]
+desc: Renesas R-Car M3-W USB3 host controller firmware
 
 [rp2.fw_base]
 desc: Comtrol RocketPort 2 firmware
