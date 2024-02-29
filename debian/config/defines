@@ -8,6 +8,7 @@ packages:
  brcm80211
  cavium
  intel-graphics
+ intel-misc
  intel-sound
  ipw2x00
  ivtv
