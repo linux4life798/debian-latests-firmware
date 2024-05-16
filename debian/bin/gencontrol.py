@@ -4,6 +4,7 @@ import io
 import json
 import locale
 import os
+import pathlib
 import re
 import sys
 
@@ -141,7 +142,9 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
             if optional not in vars:
                 vars[optional] = ''
 
-        package_dir = "debian/config/%s" % package
+        cur_dir = pathlib.Path.cwd()
+        install_dir = pathlib.Path('debian/build/install')
+        package_dir = pathlib.Path('debian/config') / package
 
         try:
             os.unlink('debian/firmware-%s.bug-presubj' % package)
@@ -156,35 +159,43 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
         links_rev = {}
 
         # Look for additional and replacement files in binary package config
-        for root, dirs, files in os.walk(package_dir):
-            for f in files:
-                cur_path = root + '/' + f
-                if root != package_dir:
-                    f = root[len(package_dir) + 1 : ] + '/' + f
-                if f in files_orig:
-                    if os.path.islink(cur_path):
-                        links[f] = os.readlink(cur_path)
+        for root, dir_names, file_names in os.walk(package_dir):
+            root = pathlib.Path(root)
+
+            for name in file_names:
+                # Exclude files not expected to be installed as firmware
+                if root == package_dir \
+                   and name in ['defines', 'LICENSE.install',
+                                'update.py', 'update.sh']:
+                    continue
+
+                cur_path = root / name
+                canon_path = root.relative_to(package_dir) / name
+                canon_name = str(canon_path)
+                if canon_name in files_orig:
+                    if cur_path.is_symlink():
+                        links[canon_path] = cur_path.readlink()
                     else:
-                        files_real[f] = cur_path
+                        files_real[canon_path] = cur_path
                     continue
-                # Whitelist files not expected to be installed as firmware
-                if f in ['defines', 'LICENSE.install',
-                         'update.py', 'update.sh']:
-                    continue
-                files_unused.append(f)
+
+                files_unused.append(canon_name)
 
         # Take all the other files from upstream
-        for f in files_orig:
-            if f not in files_real and f not in links:
-                f_upstream = os.path.join('debian/build/install', f)
-                if os.path.islink(f_upstream):
-                    links[f] = os.readlink(f_upstream)
-                elif os.path.isfile(f_upstream):
-                    files_real[f] = f_upstream
+        for canon_name in files_orig:
+            canon_path = pathlib.Path(canon_name)
+            if canon_path not in files_real and canon_path not in links:
+                cur_path = install_dir / canon_path
+                if cur_path.is_symlink():
+                    links[canon_path] = cur_path.readlink()
+                elif cur_path.is_file():
+                    files_real[canon_path] = cur_path
 
-        for f in links:
-            link_target = os.path.normpath(os.path.join(f, '..', links[f]))
-            links_rev.setdefault(link_target, []).append(f)
+        for canon_path in links:
+            link_target = ((canon_path.parent / links[canon_path])
+                           .resolve(strict=False)
+                           .relative_to(cur_dir))
+            links_rev.setdefault(link_target, []).append(canon_path)
 
         if files_unused:
             print('W: %s: unused files:' % package, ' '.join(files_unused),
@@ -204,27 +215,30 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
         wrap = TextWrapper(width = 71, fix_sentence_endings = True,
                            initial_indent = ' * ',
                            subsequent_indent = '   ').wrap
-        for f in config_entry['files']:
+        for canon_name in config_entry['files']:
+            canon_path = pathlib.Path(canon_name)
             firmware_meta_list.append(self.substitute(firmware_meta_temp,
-                                                      {'filename': f}))
-            for module_name in self.firmware_modules.get(f, []):
+                                                      {'filename': canon_name}))
+            for module_name in self.firmware_modules.get(canon_name, []):
                 module_names.add(module_name)
-            if f in links:
+            if canon_path in links:
                 continue
-            f_real = files_real[f]
-            c = self.config.get(('base', package, f), {})
+            cur_path = files_real[canon_path]
+            c = self.config.get(('base', package, canon_name), {})
             desc = c.get('desc')
             version = c.get('version')
             try:
-                f = f + ', ' + ', '.join(sorted(links_rev[f]))
+                canon_names = (canon_name + ', '
+                               + ', '.join(str(path) for path in
+                                           sorted(links_rev[canon_path])))
             except KeyError:
-                pass
+                canon_names = canon_name
             if desc and version:
-                desc = "%s, version %s (%s)" % (desc, version, f)
+                desc = "%s, version %s (%s)" % (desc, version, canon_names)
             elif desc:
-                desc = "%s (%s)" % (desc, f)
+                desc = "%s (%s)" % (desc, canon_names)
             else:
-                desc = "%s" % f
+                desc = "%s" % canon_names
             files_desc.extend(wrap(desc))
 
         modaliases = set()
