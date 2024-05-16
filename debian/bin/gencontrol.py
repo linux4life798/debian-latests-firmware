@@ -165,22 +165,12 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
                 cur_path = root + '/' + f
                 if root != package_dir:
                     f = root[len(package_dir) + 1 : ] + '/' + f
-                if os.path.islink(cur_path):
-                    if f in files_orig:
-                        links[f] = os.readlink(cur_path)
-                    continue
-                f1 = f.rsplit('-', 1)
                 if f in files_orig:
-                    files_real[f] = f, cur_path, None
+                    if os.path.islink(cur_path):
+                        links[f] = os.readlink(cur_path)
+                    else:
+                        files_real[f] = cur_path
                     continue
-                if len(f1) > 1:
-                    f_base, f_version = f1
-                    if f_base in files_orig:
-                        if f_base in files_real:
-                            raise RuntimeError("Multiple files for %s" % f_base)
-                        files_real[f_base] = f_base, package_dir + '/' + f, \
-                                             f_version
-                        continue
                 # Whitelist files not expected to be installed as firmware
                 if f in ['defines', 'LICENSE.install',
                          'update.py', 'update.sh']:
@@ -194,7 +184,7 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
                 if os.path.islink(f_upstream):
                     links[f] = os.readlink(f_upstream)
                 elif os.path.isfile(f_upstream):
-                    files_real[f] = f, f_upstream, None
+                    files_real[f] = f_upstream
 
         for f in links:
             link_target = os.path.normpath(os.path.join(f, '..', links[f]))
@@ -204,7 +194,7 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
             print('W: %s: unused files:' % package, ' '.join(files_unused),
                   file=sys.stderr)
 
-        makeflags['FILES'] = ' '.join(["%s:%s" % (i[1], i[0]) for i in sorted(files_real.values())])
+        makeflags['FILES'] = ' '.join(["%s:%s" % (i[1], i[0]) for i in sorted(files_real.items())])
         vars['files_real'] = ' '.join(["/lib/firmware/%s" % i for i in config_entry['files']])
 
         makeflags['LINKS'] = ' '.join(["%s:%s" % (link, target)
@@ -225,11 +215,10 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
                 module_names.add(module_name)
             if f in links:
                 continue
-            f, f_real, version = files_real[f]
+            f_real = files_real[f]
             c = self.config.get(('base', package, f), {})
             desc = c.get('desc')
-            if version is None:
-                version = c.get('version')
+            version = c.get('version')
             try:
                 f = f + ', ' + ', '.join(sorted(links_rev[f]))
             except KeyError:
