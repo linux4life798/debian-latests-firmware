@@ -10,19 +10,12 @@ breaks: firmware-ti-connectivity (<< 20230625-3~)
 replaces: firmware-ti-connectivity (<< 20230625-3~)
 provides: firmware-adi, firmware-ralink
 files:
- agere_ap_fw.bin
- agere_sta_fw.bin
- as102_data1_st.hex
- as102_data2_st.hex
+ agere_*
+ as102_*
  ctefx.bin
  ctspeq.bin
- dvb-fe-xc4000-1.4.1.fw
- dvb-fe-xc5000-1.6.114.fw
- dvb-fe-xc5000c-4.1.30.7.fw
- dvb-usb-dib0700-1.20.fw
- dvb-usb-it9135-01.fw
- dvb-usb-it9135-02.fw
- dvb-usb-terratec-h5-drxk.fw
+ dvb-fe-*
+ dvb-usb-*
  f2255usb.bin
  lt9611uxc_fw.bin
  mts_cdma.fw
@@ -33,144 +26,35 @@ files:
  rp2.fw
  s2250.fw
  s2250_loader.fw
- v4l-cx231xx-avcore-01.fw
- v4l-cx23418-apu.fw
- v4l-cx23418-cpu.fw
- v4l-cx23418-dig.fw
- v4l-cx23885-avcore-01.fw
- v4l-cx25840.fw
+ v4l-cx*
  vntwusb.fw
  3com/typhoon.bin
- advansys/3550.bin
- advansys/38C0800.bin
- advansys/38C1600.bin
- advansys/mcode.bin
- amphion/vpu/vpu_fw_imx8_dec.bin
- amphion/vpu/vpu_fw_imx8_enc.bin
+ advansys/*
+ amphion/vpu/*
  brcm/BCM-0a5c-6410.hcd
  brcm/BCM-0bb4-0306.hcd
  cadence/mhdp8546.bin
  cnm/wave521c_k3_codec_fw.bin
- cxgb3/ael2005_opt_edc.bin
- cxgb3/ael2005_twx_edc.bin
- cxgb3/ael2020_twx_edc.bin
- cxgb3/t3b_psram-1.1.0.bin
- cxgb3/t3c_psram-1.1.0.bin
- cxgb3/t3fw-7.4.0.bin
- cxgb3/t3fw-7.10.0.bin
- cxgb3/t3fw-7.12.0.bin
- cxgb4/aq1202_fw.cld
- cxgb4/bcm8483.bin
- cxgb4/t4-config.txt
- cxgb4/t4fw.bin
- cxgb4/t4fw-1.27.3.0.bin
- cxgb4/t5-config.txt
- cxgb4/t5fw.bin
- cxgb4/t5fw-1.27.3.0.bin
- cxgb4/t6-config.txt
- cxgb4/t6fw.bin
- cxgb4/t6fw-1.27.3.0.bin
- cxgb4/configs/t4-config-default.txt
- cxgb4/configs/t5-config-default.txt
- cxgb4/configs/t5-config-hashfilter.txt
- cxgb4/configs/t6-config-default.txt
- cxgb4/configs/t6-config-hashfilter.txt
- dabusb/bitstream.bin
- dabusb/firmware.fw
- ene-ub6250/ms_init.bin
- ene-ub6250/ms_rdwr.bin
- ene-ub6250/msp_rdwr.bin
- ene-ub6250/sd_init1.bin
- ene-ub6250/sd_init2.bin
- ene-ub6250/sd_rdwr.bin
- go7007/go7007fw.bin
- go7007/go7007tv.bin
- go7007/lr192.fw
- go7007/px-m402u.fw
- go7007/px-tv402u.fw
- go7007/s2250-1.fw
- go7007/s2250-2.fw
- go7007/wis-startrek.fw
- imx/sdma/sdma-imx6q.bin
- imx/sdma/sdma-imx7d.bin
- kaweth/new_code.bin
- kaweth/new_code_fix.bin
- kaweth/trigger_code.bin
- kaweth/trigger_code_fix.bin
- matrox/g200_warp.fw
- matrox/g400_warp.fw
- meson/vdec/g12a_h264.bin
- meson/vdec/g12a_hevc_mmu.bin
- meson/vdec/g12a_vp9.bin
- meson/vdec/gxbb_h264.bin
- meson/vdec/gxl_h263.bin
- meson/vdec/gxl_h264.bin
- meson/vdec/gxl_hevc.bin
- meson/vdec/gxl_hevc_mmu.bin
- meson/vdec/gxl_mjpeg.bin
- meson/vdec/gxl_mpeg12.bin
- meson/vdec/gxl_mpeg4_5.bin
- meson/vdec/gxl_vp9.bin
- meson/vdec/gxm_h264.bin
- meson/vdec/sm1_hevc_mmu.bin
- meson/vdec/sm1_vp9_mmu.bin
- microchip/mscc_vsc8574_revb_int8051_29e8.bin
- microchip/mscc_vsc8584_revb_int8051_fb48.bin
- moxa/moxa-1110.fw
- moxa/moxa-1130.fw
- moxa/moxa-1131.fw
- moxa/moxa-1150.fw
- moxa/moxa-1151.fw
- moxa/moxa-1250.fw
- moxa/moxa-1251.fw
- moxa/moxa-1410.fw
- moxa/moxa-1450.fw
- moxa/moxa-1451.fw
- moxa/moxa-1613.fw
- moxa/moxa-1618.fw
- moxa/moxa-1653.fw
- moxa/moxa-1658.fw
- mrvl/cpt01/ae.out
- mrvl/cpt01/ie.out
- mrvl/cpt01/se.out
- mrvl/cpt02/ae.out
- mrvl/cpt02/ie.out
- mrvl/cpt02/se.out
- mrvl/cpt03/ae.out
- mrvl/cpt03/ie.out
- mrvl/cpt03/se.out
- mrvl/cpt04/ae.out
- mrvl/cpt04/ie.out
- mrvl/cpt04/se.out
- nvidia/tegra124/vic.bin
- nvidia/tegra124/vic03_ucode.bin
- nvidia/tegra124/xusb.bin
- nvidia/tegra186/vic.bin
- nvidia/tegra186/vic04_ucode.bin
- nvidia/tegra186/xusb.bin
- nvidia/tegra194/vic.bin
- nvidia/tegra194/xusb.bin
- nvidia/tegra210/vic.bin
- nvidia/tegra210/vic04_ucode.bin
- nvidia/tegra210/xusb.bin
- nxp/helper_uart_3000000.bin
- nxp/sr150_fw.bin
- nxp/uartiw416_bt_v0.bin
- nxp/uartspi_n61x_v1.bin.se
- nxp/uartuart8987_bt.bin
- nxp/uartuart8997_bt_v4.bin
- nxp/uartuart9098_bt_v1.bin
+ cxgb3/*
+ cxgb4/**/*
+ dabusb/*
+ ene-ub6250/*
+ go7007/*
+ imx/sdma/*
+ kaweth/*
+ matrox/*
+ meson/vdec/*
+ microchip/*
+ moxa/*
+ mrvl/cpt*/*
+ nvidia/tegra*/*
+ nxp/*
  rockchip/dptx.bin
  tehuti/bdx.bin
  ti/vpdma-1b8.bin
  ti-keystone/ks2_qmss_pdsp_acc48_k2_le_1_0_0_9.bin
- tigon/tg3.bin
- tigon/tg3_tso.bin
- tigon/tg3_tso5.bin
- tigon/tg357766.bin
- ueagle-atm/CMV4p.bin.v2
- ueagle-atm/DSP4p.bin
- ueagle-atm/eagleIV.fw
+ tigon/*
+ ueagle-atm/*
  wfx/wfm_wf200_C0.sec
 
 [agere_ap_fw.bin_base]

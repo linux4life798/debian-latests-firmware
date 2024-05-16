@@ -5,6 +5,7 @@ firmware-nonfree (20230625-3~exp2) UNRELEASED; urgency=medium
   * d/b/gencontrol.py: Use path objects where possible
   * d/b/{gencontrol,check_upstream}.py: Support wildcards in file lists
     (Closes: #1035505)
+  * d/config: Use wildcards in file lists
 
  -- Ben Hutchings <benh@debian.org>  Mon, 17 Jun 2024 19:44:17 +0100
 

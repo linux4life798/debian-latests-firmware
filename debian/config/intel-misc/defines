@@ -8,24 +8,12 @@ longdesc:
 breaks: firmware-misc-nonfree (<< 20230625-3~)
 replaces: firmware-misc-nonfree (<< 20230625-3~)
 files:
- hfi1_dc8051.fw
- hfi1_fabric.fw
- hfi1_pcie.fw
- hfi1_sbus.fw
- qat_895xcc.bin
- qat_895xcc_mmp.bin
- qat_c3xxx.bin
- qat_c3xxx_mmp.bin
- qat_c62x.bin
- qat_c62x_mmp.bin
- qat_mmp.bin
- e100/d101m_ucode.bin
- e100/d101s_ucode.bin
- e100/d102e_ucode.bin
- intel/ice/ddp/ice.pkg
- intel/ice/ddp/ice-1.3.30.0.pkg
- intel/ice/ddp-comms/ice_comms-1.3.40.0.pkg
- intel/ice/ddp-wireless_edge/ice_wireless_edge-1.3.10.0.pkg
+ hfi1_*
+ qat_*
+ e100/*
+ intel/ice/**/*
+files-excluded:
+ qat_4xxx*
 
 [hfi1_dc8051.fw_base]
 desc: Intel OPA Gen1 DC firmware

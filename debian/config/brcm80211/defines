@@ -2,128 +2,9 @@
 desc: Broadcom/Cypress 802.11 wireless cards
 longdesc: wireless network cards supported by the brcmsmac or brcmfmac driver
 files:
- brcm/bcm43xx-0.fw
- brcm/bcm43xx_hdr-0.fw
- brcm/brcmfmac4329-sdio.bin
- brcm/brcmfmac4330-sdio.bin
- brcm/brcmfmac4330-sdio.Prowise-PT301.txt
- brcm/brcmfmac4334-sdio.bin
- brcm/brcmfmac4335-sdio.bin
- brcm/brcmfmac4339-sdio.bin
- brcm/brcmfmac4350-pcie.bin
- brcm/brcmfmac4350c2-pcie.bin
- brcm/brcmfmac4354-sdio.bin
- brcm/brcmfmac4354-sdio.clm_blob
- brcm/brcmfmac4356-pcie.bin
- brcm/brcmfmac4356-pcie.clm_blob
- brcm/brcmfmac4356-pcie.gpd-win-pocket.txt
-# brcm/brcmfmac4356-pcie.Intel Corporation-CHERRYVIEW D1 PLATFORM.txt
-# brcm/brcmfmac4356-pcie.Xiaomi Inc-Mipad2.txt
- brcm/brcmfmac4356-sdio.AP6356S.txt
- brcm/brcmfmac4356-sdio.bin
- brcm/brcmfmac4356-sdio.clm_blob
- brcm/brcmfmac4356-sdio.firefly,firefly-rk3399.txt
- brcm/brcmfmac4356-sdio.khadas,vim2.txt
- brcm/brcmfmac4356-sdio.vamrs,rock960.txt
- brcm/brcmfmac4358-pcie.bin
- brcm/brcmfmac4366b-pcie.bin
- brcm/brcmfmac4366c-pcie.bin
- brcm/brcmfmac4371-pcie.bin
- brcm/brcmfmac4373.bin
- brcm/brcmfmac4373-sdio.bin
- brcm/brcmfmac4373-sdio.clm_blob
- brcm/brcmfmac43012-sdio.bin
- brcm/brcmfmac43012-sdio.clm_blob
- brcm/brcmfmac43143.bin
- brcm/brcmfmac43143-sdio.bin
- brcm/brcmfmac43236b.bin
- brcm/brcmfmac43241b0-sdio.bin
- brcm/brcmfmac43241b4-sdio.bin
- brcm/brcmfmac43241b4-sdio.Advantech-MICA-071.txt
-# brcm/brcmfmac43241b4-sdio.Intel Corp.-VALLEYVIEW C0 PLATFORM.txt
- brcm/brcmfmac43241b5-sdio.bin
- brcm/brcmfmac43242a.bin
-# brcm/brcmfmac43340-sdio.ASUSTeK COMPUTER INC.-TF103CE.txt
- brcm/brcmfmac43340-sdio.bin
- brcm/brcmfmac43340-sdio.meegopad-t08.txt
- brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt
- brcm/brcmfmac43340-sdio.predia-basic.txt
- brcm/brcmfmac43362-sdio.bin
- brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt
- brcm/brcmfmac43362-sdio.kobo,aura.txt
- brcm/brcmfmac43362-sdio.kobo,tolino-shine2hd.txt
- brcm/brcmfmac43362-sdio.lemaker,bananapro.txt
- brcm/brcmfmac43362-sdio.WC121.txt
- brcm/brcmfmac43430-sdio.AP6212.txt
- brcm/brcmfmac43430-sdio.bin
- brcm/brcmfmac43430-sdio.clm_blob
- brcm/brcmfmac43430-sdio.beagle,beaglev-starlight-jh7100-a1.txt
- brcm/brcmfmac43430-sdio.beagle,beaglev-starlight-jh7100-r0.txt
- brcm/brcmfmac43430-sdio.friendlyarm,nanopi-r1.txt
- brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt
- brcm/brcmfmac43430-sdio.MUR1DX.txt
- brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt
- brcm/brcmfmac43430-sdio.raspberrypi,model-zero-2-w.txt
- brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.txt
- brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-plus.txt
- brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-ultra.txt
- brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt
- brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt
- brcm/brcmfmac43430-sdio.starfive,visionfive-v1.txt
- brcm/brcmfmac43430a0-sdio.bin
- brcm/brcmfmac43430a0-sdio.ilife-S806.txt
- brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt
-# brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt
- brcm/brcmfmac43455-sdio.acepc-t8.txt
- brcm/brcmfmac43455-sdio.AW-CM256SM.txt
- brcm/brcmfmac43455-sdio.beagle,am5729-beagleboneai.txt
- brcm/brcmfmac43455-sdio.bin
- brcm/brcmfmac43455-sdio.clm_blob
-# brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt
- brcm/brcmfmac43455-sdio.pine64,pinebook-pro.txt
- brcm/brcmfmac43455-sdio.pine64,pinenote-v1.1.txt
- brcm/brcmfmac43455-sdio.pine64,pinenote-v1.2.txt
- brcm/brcmfmac43455-sdio.pine64,pinephone-pro.txt
- brcm/brcmfmac43455-sdio.pine64,quartz64-a.txt
- brcm/brcmfmac43455-sdio.pine64,quartz64-b.txt
- brcm/brcmfmac43455-sdio.pine64,rockpro64-v2.0.txt
- brcm/brcmfmac43455-sdio.pine64,rockpro64-v2.1.txt
- brcm/brcmfmac43455-sdio.pine64,soquartz-blade.txt
- brcm/brcmfmac43455-sdio.pine64,soquartz-cm4io.txt
- brcm/brcmfmac43455-sdio.pine64,soquartz-model-a.txt
-# brcm/brcmfmac43455-sdio.Raspberry\ Pi\ Foundation-Raspberry\ Pi\ 4\ Model\ B.txt
-# brcm/brcmfmac43455-sdio.Raspberry\ Pi\ Foundation-Raspberry\ Pi\ Compute\ Module\ 4.txt
- brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt
- brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
- brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt
- brcm/brcmfmac43569.bin
- brcm/brcmfmac43602-pcie.bin
- brcm/brcmfmac43602-pcie.ap.bin
- brcm/brcmfmac43570-pcie.bin
- brcm/brcmfmac43570-pcie.clm_blob
- brcm/brcmfmac54591-pcie.bin
- brcm/brcmfmac54591-pcie.clm_blob
- cypress/cyfmac4339-sdio.bin
- cypress/cyfmac4354-sdio.bin
- cypress/cyfmac4354-sdio.clm_blob
- cypress/cyfmac4356-pcie.bin
- cypress/cyfmac4356-pcie.clm_blob
- cypress/cyfmac4356-sdio.bin
- cypress/cyfmac4356-sdio.clm_blob
- cypress/cyfmac4373-sdio.bin
- cypress/cyfmac4373-sdio.clm_blob
- cypress/cyfmac43012-sdio.bin
- cypress/cyfmac43012-sdio.clm_blob
- cypress/cyfmac43340-sdio.bin
- cypress/cyfmac43362-sdio.bin
- cypress/cyfmac43430-sdio.bin
- cypress/cyfmac43430-sdio.clm_blob
- cypress/cyfmac43455-sdio.bin
- cypress/cyfmac43455-sdio.clm_blob
- cypress/cyfmac43570-pcie.bin
- cypress/cyfmac43570-pcie.clm_blob
- cypress/cyfmac54591-pcie.bin
- cypress/cyfmac54591-pcie.clm_blob
+ brcm/bcm43xx*
+ brcm/brcmfmac*
+ cypress/cyfmac*
 
 [brcm/bcm43xx-0.fw_base]
 desc: Broadcom 802.11 firmware
@@ -157,10 +38,10 @@ desc: Broadcom BCM4350 rev 5+ firmware
 [brcm/brcmfmac4356-pcie.gpd-win-pocket.txt_base]
 desc: Broadcom BCM4356-PCIe NVRAM for GPD Pocket and Win
 
-#[brcm/brcmfmac4356-pcie.Intel Corporation-CHERRYVIEW D1 PLATFORM.txt_base]
+[brcm/brcmfmac4356-pcie.Intel Corporation-CHERRYVIEW D1 PLATFORM.txt_base]
 #desc: Broadcom BCM4356-PCIe NVRAM for Lenovo Yoga Book X90F / X90L convertible
 
-#[brcm/brcmfmac4356-pcie.Xiaomi Inc-Mipad2.txt_base]
+[brcm/brcmfmac4356-pcie.Xiaomi Inc-Mipad2.txt_base]
 #desc: Broadcom BCM4356-PCIe NVRAM for Xiaomi Mi Pad 2 tablet
 
 [brcm/brcmfmac4356-sdio.AP6356S.txt_base]
@@ -199,7 +80,7 @@ desc: Broadcom BCM43241 rev 4 firmware
 [brcm/brcmfmac43241b4-sdio.Advantech-MICA-071.txt_base]
 desc: Broadcom BCM43241 rev 4 NVRAM for Advantech MICA-071
 
-#[brcm/brcmfmac43241b4-sdio.Intel Corp.-VALLEYVIEW C0 PLATFORM.txt_base]
+[brcm/brcmfmac43241b4-sdio.Intel Corp.-VALLEYVIEW C0 PLATFORM.txt_base]
 #desc: Broadcom BCM43241 rev 4 NVRAM for Lenovo Yoga Tablet 2 1050F/L
 
 [brcm/brcmfmac43241b5-sdio.bin_base]
@@ -208,7 +89,7 @@ desc: Broadcom BCM43241 rev 5+ firmware
 [brcm/brcmfmac43242a.bin_base]
 desc: Broadcom BCM43242 firmware
 
-#[brcm/brcmfmac43340-sdio.ASUSTeK COMPUTER INC.-TF103CE.txt_base]
+[brcm/brcmfmac43340-sdio.ASUSTeK COMPUTER INC.-TF103CE.txt_base]
 #desc: Broadcom BCM43340 NVRAM for Asus TF103C
 
 [brcm/brcmfmac43340-sdio.meegopad-t08.txt_base]
@@ -256,7 +137,7 @@ desc: BCM43455 NVRAM for AP6255 module on ACEPC T8, T11 and Cyberbook T116 table
 [brcm/brcmfmac43455-sdio.AW-CM256SM.txt_base]
 desc: BCM43455 NVRAM for AzureWave AW-CM256SM
 
-#[brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt_base]
+[brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt_base]
 #desc: BCM43455 NVRAM for AP6255 module on Minix Neo Z83-4 Mini PC
 
 [brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt_base]
