@@ -157,10 +157,6 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
 
         # Look for additional and replacement files in binary package config
         for root, dirs, files in os.walk(package_dir):
-            try:
-                dirs.remove('.svn')
-            except ValueError:
-                pass
             for f in files:
                 cur_path = root + '/' + f
                 if root != package_dir:
