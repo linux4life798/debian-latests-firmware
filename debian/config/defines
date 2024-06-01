@@ -12,6 +12,7 @@ packages:
  ivtv
  iwlwifi
  libertas
+ marvell-prestera
  misc-nonfree
  myricom
  netronome
