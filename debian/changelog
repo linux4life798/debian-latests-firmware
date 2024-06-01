@@ -34,6 +34,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * realtek: Synchronize with 20230625's WHENCE file
   * misc-nonfree: Sort defines entries and file stanzas
   * misc-nonfree: Add missing file stanzas
+  * misc-nonfree: Synchronize with 20230625's WHENCE file
 
  -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
 

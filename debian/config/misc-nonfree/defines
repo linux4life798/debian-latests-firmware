@@ -291,6 +291,18 @@ files:
  moxa/moxa-1618.fw
  moxa/moxa-1653.fw
  moxa/moxa-1658.fw
+ mrvl/cpt01/ae.out
+ mrvl/cpt01/ie.out
+ mrvl/cpt01/se.out
+ mrvl/cpt02/ae.out
+ mrvl/cpt02/ie.out
+ mrvl/cpt02/se.out
+ mrvl/cpt03/ae.out
+ mrvl/cpt03/ie.out
+ mrvl/cpt03/se.out
+ mrvl/cpt04/ae.out
+ mrvl/cpt04/ie.out
+ mrvl/cpt04/se.out
  nvidia/ga102/acr/ucode_ahesasc.bin
  nvidia/ga102/acr/ucode_asb.bin
  nvidia/ga102/acr/ucode_unload.bin
@@ -588,12 +600,15 @@ files:
  nvidia/gv100/sec2/desc.bin
  nvidia/gv100/sec2/image.bin
  nvidia/gv100/sec2/sig.bin
+ nvidia/tegra124/vic.bin
  nvidia/tegra124/vic03_ucode.bin
  nvidia/tegra124/xusb.bin
+ nvidia/tegra186/vic.bin
  nvidia/tegra186/vic04_ucode.bin
  nvidia/tegra186/xusb.bin
  nvidia/tegra194/vic.bin
  nvidia/tegra194/xusb.bin
+ nvidia/tegra210/vic.bin
  nvidia/tegra210/vic04_ucode.bin
  nvidia/tegra210/xusb.bin
  nvidia/tu102/acr/bl.bin
@@ -1677,6 +1692,54 @@ desc: MOXA UPort 1650-16 firmware
 [moxa/moxa-1658.fw_base]
 desc: MOXA UPort 1650-8 firmware
 
+[mrvl/cpt01/ae.out_base]
+desc: Marvell CPT AE microcode
+version: 1.21
+
+[mrvl/cpt01/ie.out_base]
+desc: Marvell CPT IPSEC microcode for IE
+version: 1.21
+
+[mrvl/cpt01/se.out_base]
+desc: Marvell CPT IPSEC microcode for SE
+version: 1.21
+
+[mrvl/cpt02/ae.out_base]
+desc: Marvell CPT AE microcode
+version: 1.21
+
+[mrvl/cpt02/ie.out_base]
+desc: Marvell CPT IPSEC microcode for IE
+version: 1.21
+
+[mrvl/cpt02/se.out_base]
+desc: Marvell CPT IPSEC microcode for SE
+version: 1.21
+
+[mrvl/cpt03/ae.out_base]
+desc: Marvell CPT AE microcode
+version: 1.21
+
+[mrvl/cpt03/ie.out_base]
+desc: Marvell CPT IPSEC microcode for IE
+version: 1.21
+
+[mrvl/cpt03/se.out_base]
+desc: Marvell CPT IPSEC microcode for SE
+version: 1.21
+
+[mrvl/cpt04/ae.out_base]
+desc: Marvell CPT AE microcode
+version: 1.21
+
+[mrvl/cpt04/ie.out_base]
+desc: Marvell CPT IPSEC microcode for IE
+version: 1.21
+
+[mrvl/cpt04/se.out_base]
+desc: Marvell CPT IPSEC microcode for SE
+version: 1.21
+
 [nvidia/ga102/acr/ucode_ahesasc.bin_base]
 desc: Nvidia Ampere GA102 ACR ucode ahesasc
 
@@ -2238,21 +2301,21 @@ desc: Nvidia Tegra 186 VIC firmware
 
 [nvidia/tegra186/xusb.bin_base]
 desc: Nvidia Tegra 186 XHCI firmware
-version: 55.15
+version: 55.18
 
 [nvidia/tegra194/vic.bin_base]
 desc: Nvidia Tegra 194 VIC firmware
 
 [nvidia/tegra194/xusb.bin_base]
 desc: Nvidia Tegra 194 XHCI firmware
-version: 60.06
+version: 60.09
 
 [nvidia/tegra210/vic04_ucode.bin_base]
 desc: Nvidia Tegra 210 VIC firmware
 
 [nvidia/tegra210/xusb.bin_base]
 desc: Nvidia Tegra 210 XHCI firmware
-version: 50.24
+version: 50.26
 
 [nvidia/tu102/acr/bl.bin_base]
 desc: Nvidia TU102 ACR bl
