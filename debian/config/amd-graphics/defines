@@ -1,23 +1,22 @@
 [base]
 desc: AMD/ATI graphics chips
 longdesc: AMD/ATI graphics chips supported by the radeon, amdgpu and r128 drivers
-replaces: firmware-linux-nonfree (<< 20151018-1~)
-breaks: firmware-linux-nonfree (<< 20151018-1~)
+support: initramfs-tools
 files:
  amdgpu/aldebaran_mec.bin
  amdgpu/aldebaran_mec2.bin
  amdgpu/aldebaran_rlc.bin
+ amdgpu/aldebaran_sdma.bin
  amdgpu/aldebaran_sjt_mec.bin
  amdgpu/aldebaran_sjt_mec2.bin
- amdgpu/aldebaran_sdma.bin
  amdgpu/aldebaran_smc.bin
  amdgpu/aldebaran_sos.bin
  amdgpu/aldebaran_ta.bin
  amdgpu/aldebaran_vcn.bin
  amdgpu/arcturus_asd.bin
  amdgpu/arcturus_gpu_info.bin
- amdgpu/arcturus_mec2.bin
  amdgpu/arcturus_mec.bin
+ amdgpu/arcturus_mec2.bin
  amdgpu/arcturus_rlc.bin
  amdgpu/arcturus_sdma.bin
  amdgpu/arcturus_smc.bin
@@ -111,8 +110,9 @@ files:
  amdgpu/gc_11_0_0_imu.bin
  amdgpu/gc_11_0_0_me.bin
  amdgpu/gc_11_0_0_mec.bin
- amdgpu/gc_11_0_0_mes1.bin
  amdgpu/gc_11_0_0_mes.bin
+ amdgpu/gc_11_0_0_mes1.bin
+ amdgpu/gc_11_0_0_mes_2.bin
  amdgpu/gc_11_0_0_pfp.bin
  amdgpu/gc_11_0_0_rlc.bin
  amdgpu/gc_11_0_1_imu.bin
@@ -120,13 +120,15 @@ files:
  amdgpu/gc_11_0_1_mec.bin
  amdgpu/gc_11_0_1_mes.bin
  amdgpu/gc_11_0_1_mes1.bin
+ amdgpu/gc_11_0_1_mes_2.bin
  amdgpu/gc_11_0_1_pfp.bin
  amdgpu/gc_11_0_1_rlc.bin
  amdgpu/gc_11_0_2_imu.bin
  amdgpu/gc_11_0_2_me.bin
  amdgpu/gc_11_0_2_mec.bin
- amdgpu/gc_11_0_2_mes1.bin
  amdgpu/gc_11_0_2_mes.bin
+ amdgpu/gc_11_0_2_mes1.bin
+ amdgpu/gc_11_0_2_mes_2.bin
  amdgpu/gc_11_0_2_pfp.bin
  amdgpu/gc_11_0_2_rlc.bin
  amdgpu/gc_11_0_4_imu.bin
@@ -134,14 +136,15 @@ files:
  amdgpu/gc_11_0_4_mec.bin
  amdgpu/gc_11_0_4_mes.bin
  amdgpu/gc_11_0_4_mes1.bin
+ amdgpu/gc_11_0_4_mes_2.bin
  amdgpu/gc_11_0_4_pfp.bin
  amdgpu/gc_11_0_4_rlc.bin
  amdgpu/green_sardine_asd.bin
  amdgpu/green_sardine_ce.bin
  amdgpu/green_sardine_dmcub.bin
  amdgpu/green_sardine_me.bin
- amdgpu/green_sardine_mec2.bin
  amdgpu/green_sardine_mec.bin
+ amdgpu/green_sardine_mec2.bin
  amdgpu/green_sardine_pfp.bin
  amdgpu/green_sardine_rlc.bin
  amdgpu/green_sardine_sdma.bin
@@ -221,8 +224,8 @@ files:
  amdgpu/navi12_sdma1.bin
  amdgpu/navi12_smc.bin
  amdgpu/navi12_sos.bin
- amdgpu/navi12_vcn.bin
  amdgpu/navi12_ta.bin
+ amdgpu/navi12_vcn.bin
  amdgpu/navi14_asd.bin
  amdgpu/navi14_ce.bin
  amdgpu/navi14_ce_wks.bin
@@ -289,11 +292,11 @@ files:
  amdgpu/polaris10_k_smc.bin
  amdgpu/polaris10_mc.bin
  amdgpu/polaris10_me.bin
+ amdgpu/polaris10_me_2.bin
  amdgpu/polaris10_mec.bin
  amdgpu/polaris10_mec2.bin
  amdgpu/polaris10_mec2_2.bin
  amdgpu/polaris10_mec_2.bin
- amdgpu/polaris10_me_2.bin
  amdgpu/polaris10_pfp.bin
  amdgpu/polaris10_pfp_2.bin
  amdgpu/polaris10_rlc.bin
@@ -310,11 +313,11 @@ files:
  amdgpu/polaris11_k_smc.bin
  amdgpu/polaris11_mc.bin
  amdgpu/polaris11_me.bin
+ amdgpu/polaris11_me_2.bin
  amdgpu/polaris11_mec.bin
  amdgpu/polaris11_mec2.bin
  amdgpu/polaris11_mec2_2.bin
  amdgpu/polaris11_mec_2.bin
- amdgpu/polaris11_me_2.bin
  amdgpu/polaris11_pfp.bin
  amdgpu/polaris11_pfp_2.bin
  amdgpu/polaris11_rlc.bin
@@ -331,11 +334,11 @@ files:
  amdgpu/polaris12_k_smc.bin
  amdgpu/polaris12_mc.bin
  amdgpu/polaris12_me.bin
+ amdgpu/polaris12_me_2.bin
  amdgpu/polaris12_mec.bin
  amdgpu/polaris12_mec2.bin
  amdgpu/polaris12_mec2_2.bin
  amdgpu/polaris12_mec_2.bin
- amdgpu/polaris12_me_2.bin
  amdgpu/polaris12_pfp.bin
  amdgpu/polaris12_pfp_2.bin
  amdgpu/polaris12_rlc.bin
@@ -399,8 +402,6 @@ files:
  amdgpu/sdma_6_0_0.bin
  amdgpu/sdma_6_0_1.bin
  amdgpu/sdma_6_0_2.bin
- amdgpu/smu_13_0_0.bin
- amdgpu/smu_13_0_7.bin
  amdgpu/si58_mc.bin
  amdgpu/sienna_cichlid_ce.bin
  amdgpu/sienna_cichlid_dmcub.bin
@@ -414,6 +415,8 @@ files:
  amdgpu/sienna_cichlid_sos.bin
  amdgpu/sienna_cichlid_ta.bin
  amdgpu/sienna_cichlid_vcn.bin
+ amdgpu/smu_13_0_0.bin
+ amdgpu/smu_13_0_7.bin
  amdgpu/stoney_ce.bin
  amdgpu/stoney_me.bin
  amdgpu/stoney_mec.bin
@@ -458,8 +461,8 @@ files:
  amdgpu/vangogh_ce.bin
  amdgpu/vangogh_dmcub.bin
  amdgpu/vangogh_me.bin
- amdgpu/vangogh_mec2.bin
  amdgpu/vangogh_mec.bin
+ amdgpu/vangogh_mec2.bin
  amdgpu/vangogh_pfp.bin
  amdgpu/vangogh_rlc.bin
  amdgpu/vangogh_sdma.bin
@@ -509,9 +512,9 @@ files:
  amdgpu/vega20_sdma1.bin
  amdgpu/vega20_smc.bin
  amdgpu/vega20_sos.bin
+ amdgpu/vega20_ta.bin
  amdgpu/vega20_uvd.bin
  amdgpu/vega20_vce.bin
- amdgpu/vega20_ta.bin
  amdgpu/vegam_ce.bin
  amdgpu/vegam_me.bin
  amdgpu/vegam_mec.bin
@@ -791,7 +794,6 @@ files:
  radeon/verde_rlc.bin
  radeon/VERDE_smc.bin
  radeon/verde_smc.bin
-support: initramfs-tools
 
 [amdgpu/aldebaran_mec.bin_base]
 desc: "Aldebaran" MEC firmware
@@ -802,14 +804,14 @@ desc: "Aldebaran" MEC2 firmware
 [amdgpu/aldebaran_rlc.bin_base]
 desc: "Aldebaran" RLC firmware
 
+[amdgpu/aldebaran_sdma.bin_base]
+desc: "Aldebaran" SDMA firmware
+
 [amdgpu/aldebaran_sjt_mec.bin_base]
 desc: "Aldebaran" SJT MEC firmware
 
 [amdgpu/aldebaran_sjt_mec2.bin_base]
 desc: "Aldebaran" SJT MEC2 firmware
-
-[amdgpu/aldebaran_sdma.bin_base]
-desc: "Aldebaran" SDMA firmware
 
 [amdgpu/aldebaran_smc.bin_base]
 desc: "Aldebaran" SMC firmware
@@ -829,11 +831,11 @@ desc: "Arcturus" ASDN firmware
 [amdgpu/arcturus_gpu_info.bin_base]
 desc: "Arcturus" GPU info firmware
 
-[amdgpu/arcturus_mec2.bin_base]
-desc: "Arcturus" MEC2 firmware
-
 [amdgpu/arcturus_mec.bin_base]
 desc: "Arcturus" MEC firmware
+
+[amdgpu/arcturus_mec2.bin_base]
+desc: "Arcturus" MEC2 firmware
 
 [amdgpu/arcturus_rlc.bin_base]
 desc: "Arcturus" RLC firmware
@@ -1117,11 +1119,14 @@ desc: GC 11.0.0 ME firmware
 [amdgpu/gc_11_0_0_mec.bin_base]
 desc: GC 11.0.0 MEC firmware
 
+[amdgpu/gc_11_0_0_mes.bin_base]
+desc: GC 11.0.0 MES firmware
+
 [amdgpu/gc_11_0_0_mes1.bin_base]
 desc: GC 11.0.0 MES1 firmware
 
-[amdgpu/gc_11_0_0_mes.bin_base]
-desc: GC 11.0.0 MES firmware
+[amdgpu/gc_11_0_0_mes_2.bin_base]
+desc: GC 11.0.0 MES 2 firmware
 
 [amdgpu/gc_11_0_0_pfp.bin_base]
 desc: GC 11.0.0 PFP firmware
@@ -1144,6 +1149,9 @@ desc: GC 11.0.1 MES firmware
 [amdgpu/gc_11_0_1_mes1.bin_base]
 desc: GC 11.0.1 MES1 firmware
 
+[amdgpu/gc_11_0_1_mes_2.bin_base]
+desc: GC 11.0.1 MES 2 firmware
+
 [amdgpu/gc_11_0_1_pfp.bin_base]
 desc: GC 11.0. PFP firmware
 
@@ -1159,11 +1167,14 @@ desc: GC 11.0.2 ME firmware
 [amdgpu/gc_11_0_2_mec.bin_base]
 desc: GC 11.0.2 MEC firmware
 
-[amdgpu/gc_11_0_2_mes1.bin_base]
-desc: GC 11.0.2 MES1 firmware
-
 [amdgpu/gc_11_0_2_mes.bin_base]
 desc: GC 11.0.2 MES firmware
+
+[amdgpu/gc_11_0_2_mes_2.bin_base]
+desc: GC 11.0.2 MES 2 firmware
+
+[amdgpu/gc_11_0_2_mes1.bin_base]
+desc: GC 11.0.2 MES1 firmware
 
 [amdgpu/gc_11_0_2_pfp.bin_base]
 desc: GC 11.0.2 PFP firmware
@@ -1186,6 +1197,9 @@ desc: GC 11.0.4 MES firmware
 [amdgpu/gc_11_0_4_mes1.bin_base]
 desc: GC 11.0.4 MES1 firmware
 
+[amdgpu/gc_11_0_4_mes_2.bin_base]
+desc: GC 11.0.4 MES 2 firmware
+
 [amdgpu/gc_11_0_4_pfp.bin_base]
 desc: GC 11.0.4 PFP firmware
 
@@ -1204,11 +1218,11 @@ desc: Ryzen 5000 DMCUB firmware
 [amdgpu/green_sardine_me.bin_base]
 desc: Ryzen 5000 ME firmware
 
-[amdgpu/green_sardine_mec2.bin_base]
-desc: Ryzen 5000 MEC2 firmware
-
 [amdgpu/green_sardine_mec.bin_base]
 desc: Ryzen 5000 MEC firmware
+
+[amdgpu/green_sardine_mec2.bin_base]
+desc: Ryzen 5000 MEC2 firmware
 
 [amdgpu/green_sardine_pfp.bin_base]
 desc: Ryzen 5000 PFP firmware
@@ -1447,11 +1461,11 @@ desc: "Navi 12" SMC firmware
 [amdgpu/navi12_sos.bin_base]
 desc: "Navi 12" SOS firmware
 
-[amdgpu/navi12_vcn.bin_base]
-desc: "Navi 12" VCN firmware
-
 [amdgpu/navi12_ta.bin_base]
 desc: "Navi 12" TA firmware
+
+[amdgpu/navi12_vcn.bin_base]
+desc: "Navi 12" VCN firmware
 
 [amdgpu/navi14_asd.bin_base]
 desc: "Navi 14" ASD firmware
@@ -1652,6 +1666,9 @@ desc: "Polaris 10" MC firmware
 [amdgpu/polaris10_me.bin_base]
 desc: "Polaris 10" old ME firmware
 
+[amdgpu/polaris10_me_2.bin_base]
+desc: "Polaris 10" new ME firmware
+
 [amdgpu/polaris10_mec.bin_base]
 desc: "Polaris 10" old MEC firmware
 
@@ -1663,9 +1680,6 @@ desc: "Polaris 10" new MEC2 firmware
 
 [amdgpu/polaris10_mec_2.bin_base]
 desc: "Polaris 10" new MEC firmware
-
-[amdgpu/polaris10_me_2.bin_base]
-desc: "Polaris 10" new ME firmware
 
 [amdgpu/polaris10_pfp.bin_base]
 desc: "Polaris 10" old PFP firmware
@@ -1717,6 +1731,9 @@ desc: "Polaris 11" MC firmware
 [amdgpu/polaris11_me.bin_base]
 desc: "Polaris 11" old ME firmware
 
+[amdgpu/polaris11_me_2.bin_base]
+desc: "Polaris 11" new ME firmware
+
 [amdgpu/polaris11_mec.bin_base]
 desc: "Polaris 11" old MEC firmware
 
@@ -1728,9 +1745,6 @@ desc: "Polaris 11" new MEC2 firmware
 
 [amdgpu/polaris11_mec_2.bin_base]
 desc: "Polaris 11" new MEC firmware
-
-[amdgpu/polaris11_me_2.bin_base]
-desc: "Polaris 11" new ME firmware
 
 [amdgpu/polaris11_pfp.bin_base]
 desc: "Polaris 11" old PFP firmware
@@ -1782,6 +1796,9 @@ desc: "Polaris 12" MC firmware
 [amdgpu/polaris12_me.bin_base]
 desc: "Polaris 12" old ME firmware
 
+[amdgpu/polaris12_me_2.bin_base]
+desc: "Polaris 12" new ME firmware
+
 [amdgpu/polaris12_mec.bin_base]
 desc: "Polaris 12" old MEC firmware
 
@@ -1793,9 +1810,6 @@ desc: "Polaris 12" new MEC2 firmware
 
 [amdgpu/polaris12_mec_2.bin_base]
 desc: "Polaris 12" new MEC firmware
-
-[amdgpu/polaris12_me_2.bin_base]
-desc: "Polaris 12" new ME firmware
 
 [amdgpu/polaris12_pfp.bin_base]
 desc: "Polaris 12" old PFP firmware
@@ -1988,12 +2002,6 @@ desc: SDMA 6.0.1 firmware
 [amdgpu/sdma_6_0_2.bin_base]
 desc: SDMA 6.0.2 firmware
 
-[amdgpu/smu_13_0_0.bin_base]
-desc: SMU 13.0.0 firmware
-
-[amdgpu/smu_13_0_7.bin_base]
-desc: SMU 13.0.7 firmware
-
 [amdgpu/si58_mc.bin_base]
 desc: Radeon "SI58" MC microcode
 
@@ -2033,6 +2041,12 @@ desc: "Sienna Cichlid" TA firmware
 
 [amdgpu/sienna_cichlid_vcn.bin_base]
 desc: "Sienna Cichlid" VCN firmware
+
+[amdgpu/smu_13_0_0.bin_base]
+desc: SMU 13.0.0 firmware
+
+[amdgpu/smu_13_0_7.bin_base]
+desc: SMU 13.0.7 firmware
 
 [amdgpu/stoney_ce.bin_base]
 desc: "Stoney" CE firmware

@@ -1,7 +1,22 @@
 [base]
 desc: Marvell wireless cards
+longdesc: wireless network cards with Marvell and NXP 88W8xxx chips supported
+ by the libertas_cs, libertas_sdio, libertas_spi, libertas_tf_usb,
+ mwifiex_pcie, mwifiex_sdio, mwifiex_usb, mwl8k and usb8xxx drivers
+recommends: firmware-marvell-prestera
+replaces: libertas-firmware
+provides: libertas-firmware
 files:
  lbtf_usb.bin
+ libertas_cs.fw
+ libertas_cs_helper.fw
+ sd8385.bin
+ sd8385_helper.bin
+ sd8686.bin
+ sd8686_helper.bin
+ sd8688.bin
+ sd8688_helper.bin
+ usb8388.bin
  libertas/cf8381.bin
  libertas/cf8381_helper.bin
  libertas/cf8385.bin
@@ -24,8 +39,6 @@ files:
  libertas/usb8388_v5.bin
  libertas/usb8388_v9.bin
  libertas/usb8682.bin
- libertas_cs.fw
- libertas_cs_helper.fw
  mrvl/pcie8897_uapsta.bin
  mrvl/pcie8997_wlan_v4.bin
  mrvl/pcieuart8997_combo_v4.bin
@@ -44,8 +57,6 @@ files:
  mrvl/usb8801_uapsta.bin
  mrvl/usb8897_uapsta.bin
  mrvl/usbusb8997_combo_v4.bin
- mrvl/prestera/mvsw_prestera_fw-v2.0.img
- mrvl/prestera/mvsw_prestera_fw-v3.0.img
  mwl8k/fmimage_8366.fw
  mwl8k/fmimage_8366_ap-2.fw
  mwl8k/fmimage_8366_ap-3.fw
@@ -53,28 +64,18 @@ files:
  mwl8k/fmimage_8764_ap-1.fw
  mwl8k/helper_8366.fw
  mwl8k/helper_8687.fw
- sd8385.bin
- sd8385_helper.bin
- sd8686.bin
- sd8686_helper.bin
- sd8688.bin
- sd8688_helper.bin
- usb8388.bin
-longdesc: wireless network cards with Marvell and NXP 88W8xxx chips supported
- by the libertas_cs, libertas_sdio, libertas_spi, libertas_tf_usb,
- mwifiex_pcie, mwifiex_sdio, mwifiex_usb, mwl8k and usb8xxx drivers
-replaces: libertas-firmware
-breaks: libertas-firmware (<< 9.70.7.p0.0-2)
-provides: libertas-firmware
 
 [lbtf_usb.bin_base]
 desc: Libertas 88W8388 'Thinfirm' firmware
+version: 5.132.3.p1
 
 [libertas/cf8381.bin_base]
 desc: Libertas 88W8381 main code
+version: 5.11.9p0
 
 [libertas/cf8381_helper.bin_base]
 desc: Libertas 88W8381 boot code
+version: 5.11.9p0
 
 [libertas/cf8385.bin_base]
 desc: Libertas 88W8385-CF main code
@@ -147,7 +148,7 @@ version: 16.68.1.p179 (WLAN) / 16.26.1.p179 (BT)
 
 [mrvl/pcieusb8997_combo_v4.bin_base]
 desc: Avastar 88W8997-PCIe-USB firmware
-version: 16.68.1.p195 (WLAN) / 16.26.1.p195 (BT)
+version: 16.68.10.p159 (WLAN) / 16.26.10.p159 (BT)
 
 [mrvl/sd8688.bin_base]
 desc: 88W8688-SDIO main code
@@ -173,7 +174,7 @@ version: 15.68.7.p189 (WLAN) / 15.26.7.p189 (BT)
 
 [mrvl/sd8897_uapsta.bin_base]
 desc: Avastar 88W8897-SDIO firmware
-version: 15.68.19.17 (WLAN) / 15.26.19.17 (BT)
+version: 15.68.19.p54 (WLAN) / 15.26.19.p54 (BT)
 
 [mrvl/sdsd8977_combo_v2.bin_base]
 desc: NXP 88W8977-SDIO firmware
@@ -181,7 +182,7 @@ version: 16.68.1.p195 (WLAN) / 16.26.1.p195 (BT)
 
 [mrvl/sdsd8997_combo_v4.bin_base]
 desc: NXP 88W8997-SDIO firmware
-version: 16.68.1.p179 (WLAN) / 16.26.1.p179 (BT)
+version: 16.68.1.p197 (WLAN) / 16.26.1.p197 (BT)
 
 [mrvl/usb8766_uapsta.bin_base]
 desc: Avastar 88W8766 firmware
@@ -203,17 +204,12 @@ version: 15.68.4.p103 (WLAN) / 15.28.4.p103 (BT)
 desc: Avastar 88W8997-USB firmware
 version: 16.68.1.p183 (WLAN) / 16.26.1.p183 (BT)
 
-[mrvl/prestera/mvsw_prestera_fw-v2.0.img_base]
-desc: Prestera ASIC firmware
-
-[mrvl/prestera/mvsw_prestera_fw-v3.0.img_base]
-desc: Prestera ASIC firmware
-
 [mwl8k/fmimage_8366.fw_base]
 desc: TopDog 88W8366 main code
 
 [mwl8k/fmimage_8366_ap-2.fw_base]
 desc: TopDog 88W8366 AP-mode main code
+version: 5.2.6.14
 
 [mwl8k/fmimage_8366_ap-3.fw_base]
 desc: TopDog 88W8366 AP-mode main code

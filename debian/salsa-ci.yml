@@ -41,13 +41,14 @@ extract-source:
     # Install dependencies of gencontrol.py and debian/rules orig
     # plus origtargz
     - apt-get update
-    - eatmydata apt-get install --no-install-recommends -y make
+    - eatmydata apt-get install --no-install-recommends -y make dpkg-dev
     - |
       eatmydata apt-get install --no-install-recommends -y \
         debhelper \
         devscripts \
         git \
         python3 \
+        python3-dacite \
         python3-jinja2 \
         quilt \
         rsync \

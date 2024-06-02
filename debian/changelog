@@ -1,3 +1,83 @@
+firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
+
+  * Update to linux-support 6.8.11
+    - ci: Add python3-dacite as Build Dependency
+  * d/bin/update-modinfo: Add compressed modules support
+  * ci: extract-source: Install `dpkg-dev` early and explicitly
+  * Harmonize control field sequence
+  * Remove constraints unnecessary since Buster (oldoldstable)
+  * d/README.source: Update description wrt upstream
+  * d/copyright: Update upstream Source URL
+  * d/copyright: Fix double 'License: ' statement
+  * d/copyright: Fix lintian's superfluous-file-pattern warnings
+  * lintian: Fix mismatched-override and unused-override issues
+  * amd-graphics: Sort defines entries and file stanzas
+  * amd-graphics: Synchronize with 20230625's WHENCE file
+  * atheros: Sort defines entries and file stanzas
+  * atheros: Add missing file stanzas
+  * atheros: Synchronize with 20230625's WHENCE file
+  * bnx2: Sort defines entries and file stanzas
+  * bnx2x: Sort defines entries and file stanzas
+  * brcm80211: Sort defines entries and file stanzas
+  * brcm80211: Add missing file stanzas
+  * brcm80211: Synchronize with 20230625's WHENCE file
+  * intel-sound: Sort defines entries and file stanzas
+  * intel-sound: Add missing file stanzas
+  * intel-sound: Synchronize with 20230625's WHENCE file
+  * iwlwifi: Sort defines entries and file stanzas
+  * iwlwifi: Synchronize with 20230625's WHENCE file (Closes: #1059458)
+  * libertas: Sort defines entries and file stanzas
+  * libertas: Synchronize with 20230625's WHENCE file
+  * libertas: Move Prestera firmware to new firmware-marvell-prestera package
+  * realtek: Sort defines entries and file stanzas
+  * realtek: Add missing file stanzas
+  * realtek: Synchronize with 20230625's WHENCE file
+  * misc-nonfree: Sort defines entries and file stanzas
+  * misc-nonfree: Add missing file stanzas
+  * misc-nonfree: Synchronize with 20230625's WHENCE file
+  * misc-nonfree: Extract firmware to standalone packages (Closes: #1057786)
+    - Move Nvidia graphics firmware to new firmware-nvidia-graphics package
+    - Move Intel graphics firmware to new firmware-intel-graphics package
+    - Move other Intel firmware to new firmware-intel-misc package
+    - Move MediaTek/Ralink firmware to new firmware-mediatek package
+  * intel-graphics: Synchronize with 20230625's WHENCE file
+  * mediatek: Synchronize with 20230625's WHENCE file
+  * Add new firmware-cirrus package for Cirrus Logic firmware (Closes: #1031912)
+  * d/copyright: Move license texts to Stand-alone License Stanzas
+  * d/copyright: Move debian/config Files stanzas to other debian stanzas
+  * d/copyright: Update license for Intel qat* firmware
+  * d/copyright: atheros: Update ath10k copyright data
+  * d/copyright: atheros: Add ath11k copyright data
+  * d/copyright: atheros: Update qca copyright data
+  * d/copyright: atheros: Add wil6210 copyright data
+  * d/copyright: brcm80211: Add Cypress copyright data
+  * d/copyright: brcm80211: Add copyright data on config files
+  * d/copyright: intel-graphics: Add Intel irci copyright data
+  * d/copyright: libertas: Update copyright data
+  * d/copyright: mediatek: Update copyright data
+  * d/copyright: misc-nonfree: Update cxgb4 copyright data
+  * d/copyright: misc-nonfree: Add Cadence copyright data
+  * d/copyright: misc-nonfree: Add Lontium copyright data
+  * d/copyright: misc-nonfree: Add VIA vt6656 copyright data
+  * d/copyright: misc-nonfree: Add Silicon Labs copyright data
+  * d/copyright: realtek: Update copyright data
+  * d/copyright: samsung: Update copyright data
+  * intel-misc: Update ice firmware
+  * misc-nonfree: amphion: Add VPU firmware for NXP i.MX8Q SoCs
+  * misc-nonfree: cnm: Add firmware for Chips&Media wave521c codec
+  * misc-nonfree: meson: Add firmware for Amlogic SoCs video decoders
+  * misc-nonfree: microchip: Add firmware for Microchip Ethernet PHYs
+  * misc-nonfree: nxp: Add firmware for NXP Ultra Wide Band
+  * misc-nonfree: nxp: Add firmware for NXP BT UART
+  * misc-nonfree: renesas: Add firmware for R-Car USB3 controller
+  * misc-nonfree: ti: Add firmware for TI Keystone QMSS Accumulator PDSP
+  * ti-connectivity: Move TI VPE firmware to misc-nonfree
+  * d/control: Update Standards-Version to 4.3.0:
+    - Specify ``Rules-Requires-Root: no``
+    - Add ``set -e`` to ``debian/templates/preinst.license.in``
+
+ -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
+
 firmware-nonfree (20230625-2) unstable; urgency=medium
 
   [ Diederik de Haas ]
