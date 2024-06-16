@@ -15,6 +15,19 @@
       "acenic/tg1.bin"
     ]
   },
+  "adf7242": {
+    "alias": [
+      "of:N*T*Cadi,adf7241C*",
+      "of:N*T*Cadi,adf7241",
+      "of:N*T*Cadi,adf7242C*",
+      "of:N*T*Cadi,adf7242",
+      "spi:adf7241",
+      "spi:adf7242"
+    ],
+    "firmware": [
+      "adf7242_firmware.bin"
+    ]
+  },
   "advansys": {
     "alias": [
       "eisa:sABP7501*",
@@ -59,6 +72,7 @@
   },
   "amdgpu": {
     "alias": [
+      "pci:v00001002d*sv*sd*bc12sc00i00*",
       "pci:v00001002d*sv*sd*bc03sc80i00*",
       "pci:v00001002d*sv*sd*bc03sc00i00*",
       "pci:v00001002d0000743Fsv*sd*bc*sc*i*",
@@ -489,6 +503,10 @@
       "amdgpu/green_sardine_asd.bin",
       "amdgpu/renoir_ta.bin",
       "amdgpu/renoir_asd.bin",
+      "amdgpu/psp_14_0_0_ta.bin",
+      "amdgpu/psp_14_0_0_toc.bin",
+      "amdgpu/psp_13_0_6_ta.bin",
+      "amdgpu/psp_13_0_6_sos.bin",
       "amdgpu/psp_13_0_11_ta.bin",
       "amdgpu/psp_13_0_11_toc.bin",
       "amdgpu/psp_13_0_10_ta.bin",
@@ -631,6 +649,8 @@
       "amdgpu/vega10_me.bin",
       "amdgpu/vega10_pfp.bin",
       "amdgpu/vega10_ce.bin",
+      "amdgpu/gc_9_4_3_rlc.bin",
+      "amdgpu/gc_9_4_3_mec.bin",
       "amdgpu/gc_10_3_7_rlc.bin",
       "amdgpu/gc_10_3_7_mec2.bin",
       "amdgpu/gc_10_3_7_mec.bin",
@@ -708,11 +728,16 @@
       "amdgpu/navi10_me.bin",
       "amdgpu/navi10_pfp.bin",
       "amdgpu/navi10_ce.bin",
+      "amdgpu/gc_11_5_0_imu.bin",
       "amdgpu/gc_11_0_4_imu.bin",
       "amdgpu/gc_11_0_3_imu.bin",
       "amdgpu/gc_11_0_2_imu.bin",
       "amdgpu/gc_11_0_1_imu.bin",
       "amdgpu/gc_11_0_0_imu.bin",
+      "amdgpu/gc_11_5_0_rlc.bin",
+      "amdgpu/gc_11_5_0_mec.bin",
+      "amdgpu/gc_11_5_0_me.bin",
+      "amdgpu/gc_11_5_0_pfp.bin",
       "amdgpu/gc_11_0_4_rlc.bin",
       "amdgpu/gc_11_0_4_mec.bin",
       "amdgpu/gc_11_0_4_me.bin",
@@ -764,6 +789,7 @@
       "amdgpu/vega12_sdma.bin",
       "amdgpu/vega10_sdma1.bin",
       "amdgpu/vega10_sdma.bin",
+      "amdgpu/sdma_4_4_2.bin",
       "amdgpu/cyan_skillfish2_sdma1.bin",
       "amdgpu/cyan_skillfish2_sdma.bin",
       "amdgpu/navi12_sdma1.bin",
@@ -780,6 +806,7 @@
       "amdgpu/dimgrey_cavefish_sdma.bin",
       "amdgpu/navy_flounder_sdma.bin",
       "amdgpu/sienna_cichlid_sdma.bin",
+      "amdgpu/sdma_6_1_0.bin",
       "amdgpu/sdma_6_0_3.bin",
       "amdgpu/sdma_6_0_2.bin",
       "amdgpu/sdma_6_0_1.bin",
@@ -787,6 +814,8 @@
       "amdgpu/sienna_cichlid_mes1.bin",
       "amdgpu/sienna_cichlid_mes.bin",
       "amdgpu/navi10_mes.bin",
+      "amdgpu/gc_11_5_0_mes1.bin",
+      "amdgpu/gc_11_5_0_mes_2.bin",
       "amdgpu/gc_11_0_4_mes1.bin",
       "amdgpu/gc_11_0_4_mes_2.bin",
       "amdgpu/gc_11_0_4_mes.bin",
@@ -838,7 +867,9 @@
       "amdgpu/kaveri_vce.bin",
       "amdgpu/kabini_vce.bin",
       "amdgpu/bonaire_vce.bin",
+      "amdgpu/vcn_4_0_5.bin",
       "amdgpu/vcn_4_0_4.bin",
+      "amdgpu/vcn_4_0_3.bin",
       "amdgpu/vcn_4_0_2.bin",
       "amdgpu/vcn_4_0_0.bin",
       "amdgpu/vcn_3_1_2.bin",
@@ -858,6 +889,7 @@
       "amdgpu/raven2_vcn.bin",
       "amdgpu/picasso_vcn.bin",
       "amdgpu/raven_vcn.bin",
+      "amdgpu/vpe_6_1_0.bin",
       "amdgpu/beige_goby_smc.bin",
       "amdgpu/dimgrey_cavefish_smc.bin",
       "amdgpu/navy_flounder_smc.bin",
@@ -870,6 +902,8 @@
       "amdgpu/smu_13_0_7.bin",
       "amdgpu/smu_13_0_0.bin",
       "amdgpu/aldebaran_smc.bin",
+      "amdgpu/smu_13_0_6.bin",
+      "amdgpu/smu_14_0_2.bin",
       "amdgpu/vega20_smc.bin",
       "amdgpu/vega12_smc.bin",
       "amdgpu/vega10_acg_smc.bin",
@@ -904,6 +938,7 @@
       "amdgpu/pitcairn_k_smc.bin",
       "amdgpu/pitcairn_smc.bin",
       "amdgpu/tahiti_smc.bin",
+      "amdgpu/dcn_3_5_dmcub.bin",
       "amdgpu/navi12_dmcu.bin",
       "amdgpu/raven_dmcu.bin",
       "amdgpu/dcn_3_2_1_dmcub.bin",
@@ -1104,9 +1139,10 @@
       "pci:v000017CBd00001101sv*sd*bc*sc*i*"
     ],
     "firmware": [
-      "ath11k/QCA6390/hw2.0/m3.bin",
-      "ath11k/QCA6390/hw2.0/amss.bin",
-      "ath11k/QCA6390/hw2.0/board-2.bin"
+      "ath11k/WCN6855/hw2.1/*",
+      "ath11k/WCN6855/hw2.0/*",
+      "ath11k/QCN9074/hw1.0/*",
+      "ath11k/QCA6390/hw2.0/*"
     ]
   },
   "ath3k": {
@@ -1244,7 +1280,6 @@
       "usb:v083ApA704d*dc*dsc*dp*ic*isc*ip*in*",
       "usb:v0846p9018d*dc*dsc*dp*ic*isc*ip*in*",
       "usb:v0CF3p7010d*dc*dsc*dp*ic*isc*ip*in*",
-      "usb:v1668p1200d*dc*dsc*dp*ic*isc*ip*in*",
       "usb:v0CF3p7015d*dc*dsc*dp*ic*isc*ip*in*",
       "usb:v1EDAp2315d*dc*dsc*dp*ic*isc*ip*in*",
       "usb:v0471p209Ed*dc*dsc*dp*ic*isc*ip*in*",
@@ -1544,12 +1579,15 @@
       "brcm/brcmfmac43242a.bin",
       "brcm/brcmfmac43236b.bin",
       "brcm/brcmfmac43143.bin",
+      "brcm/brcmfmac*-pcie.*.txcap_blob",
       "brcm/brcmfmac*-pcie.*.clm_blob",
       "brcm/brcmfmac*-pcie.*.bin",
       "brcm/brcmfmac*-pcie.*.txt",
       "brcm/brcmfmac*-pcie.txt",
       "brcm/brcmfmac4387c2-pcie.clm_blob",
       "brcm/brcmfmac4387c2-pcie.bin",
+      "brcm/brcmfmac4378b3-pcie.clm_blob",
+      "brcm/brcmfmac4378b3-pcie.bin",
       "brcm/brcmfmac4378b1-pcie.clm_blob",
       "brcm/brcmfmac4378b1-pcie.bin",
       "brcm/brcmfmac4377b3-pcie.clm_blob",
@@ -1563,6 +1601,7 @@
       "brcm/brcmfmac4364b3-pcie.bin",
       "brcm/brcmfmac4364b2-pcie.clm_blob",
       "brcm/brcmfmac4364b2-pcie.bin",
+      "brcm/brcmfmac4359c-pcie.bin",
       "brcm/brcmfmac4359-pcie.bin",
       "brcm/brcmfmac4358-pcie.bin",
       "brcm/brcmfmac43570-pcie.clm_blob",
@@ -1633,6 +1672,7 @@
   "btmtk": {
     "alias": [],
     "firmware": [
+      "mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin",
       "mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin",
       "mediatek/mt7668pr2h.bin",
       "mediatek/mt7663pr2h.bin",
@@ -1642,22 +1682,39 @@
   "btrtl": {
     "alias": [],
     "firmware": [
-      "rtl_bt/rtl8851bu_config.bin",
-      "rtl_bt/rtl8851bu_fw.bin",
       "rtl_bt/rtl8852cu_config.bin",
+      "rtl_bt/rtl8852cu_fw_v2.bin",
       "rtl_bt/rtl8852cu_fw.bin",
       "rtl_bt/rtl8852bu_config.bin",
       "rtl_bt/rtl8852bu_fw.bin",
+      "rtl_bt/rtl8852bs_config.bin",
+      "rtl_bt/rtl8852bs_fw.bin",
       "rtl_bt/rtl8852au_config.bin",
       "rtl_bt/rtl8852au_fw.bin",
+      "rtl_bt/rtl8851bu_config.bin",
+      "rtl_bt/rtl8851bu_fw.bin",
+      "rtl_bt/rtl8822cu_config.bin",
+      "rtl_bt/rtl8822cu_fw.bin",
+      "rtl_bt/rtl8822cs_config.bin",
+      "rtl_bt/rtl8822cs_fw.bin",
       "rtl_bt/rtl8822b_config.bin",
       "rtl_bt/rtl8822b_fw.bin",
+      "rtl_bt/rtl8821cs_config.bin",
+      "rtl_bt/rtl8821cs_fw.bin",
+      "rtl_bt/rtl8821c_config.bin",
+      "rtl_bt/rtl8821c_fw.bin",
       "rtl_bt/rtl8821a_config.bin",
       "rtl_bt/rtl8821a_fw.bin",
+      "rtl_bt/rtl8761bu_config.bin",
+      "rtl_bt/rtl8761bu_fw.bin",
+      "rtl_bt/rtl8761b_config.bin",
+      "rtl_bt/rtl8761b_fw.bin",
       "rtl_bt/rtl8761a_config.bin",
       "rtl_bt/rtl8761a_fw.bin",
       "rtl_bt/rtl8723ds_config.bin",
       "rtl_bt/rtl8723ds_fw.bin",
+      "rtl_bt/rtl8723d_config.bin",
+      "rtl_bt/rtl8723d_fw.bin",
       "rtl_bt/rtl8723cs_xx_config.bin",
       "rtl_bt/rtl8723cs_xx_fw.bin",
       "rtl_bt/rtl8723cs_vf_config.bin",
@@ -1669,6 +1726,18 @@
       "rtl_bt/rtl8723b_config.bin",
       "rtl_bt/rtl8723b_fw.bin",
       "rtl_bt/rtl8723a_fw.bin"
+    ]
+  },
+  "bttv": {
+    "alias": [
+      "pci:v0000109Ed0000036Csv*sd*bc*sc*i*",
+      "pci:v0000109Ed0000036Fsv*sd*bc*sc*i*",
+      "pci:v0000109Ed0000036Esv*sd*bc*sc*i*",
+      "pci:v0000109Ed00000351sv*sd*bc*sc*i*",
+      "pci:v0000109Ed00000350sv*sd*bc*sc*i*"
+    ],
+    "firmware": [
+      "hcwamc.rbf"
     ]
   },
   "carl9170": {
@@ -1717,6 +1786,8 @@
   },
   "ccp": {
     "alias": [
+      "pci:v00001022d0000156Esv*sd*bc*sc*i*",
+      "pci:v00001022d000017E0sv*sd*bc*sc*i*",
       "pci:v00001022d00001649sv*sd*bc*sc*i*",
       "pci:v00001022d000015C7sv*sd*bc*sc*i*",
       "pci:v00001022d000014CAsv*sd*bc*sc*i*",
@@ -1739,6 +1810,12 @@
     "firmware": [
       "regulatory.db",
       "regulatory.db.p7s"
+    ]
+  },
+  "cs42l43": {
+    "alias": [],
+    "firmware": [
+      "cs42l43.bin"
     ]
   },
   "csiostor": {
@@ -2646,9 +2723,10 @@
   "i915": {
     "alias": [
       "pci:v00008086d00007DD5sv*sd*bc03sc*i*",
+      "pci:v00008086d00007D67sv*sd*bc03sc*i*",
+      "pci:v00008086d00007D60sv*sd*bc03sc*i*",
       "pci:v00008086d00007D55sv*sd*bc03sc*i*",
       "pci:v00008086d00007D45sv*sd*bc03sc*i*",
-      "pci:v00008086d00007D60sv*sd*bc03sc*i*",
       "pci:v00008086d00007D40sv*sd*bc03sc*i*",
       "pci:v00008086d000056C1sv*sd*bc03sc*i*",
       "pci:v00008086d000056C0sv*sd*bc03sc*i*",
@@ -2658,6 +2736,10 @@
       "pci:v00008086d000056A3sv*sd*bc03sc*i*",
       "pci:v00008086d00005697sv*sd*bc03sc*i*",
       "pci:v00008086d00005696sv*sd*bc03sc*i*",
+      "pci:v00008086d000056BDsv*sd*bc03sc*i*",
+      "pci:v00008086d000056BCsv*sd*bc03sc*i*",
+      "pci:v00008086d000056BBsv*sd*bc03sc*i*",
+      "pci:v00008086d000056BAsv*sd*bc03sc*i*",
       "pci:v00008086d000056B1sv*sd*bc03sc*i*",
       "pci:v00008086d000056B0sv*sd*bc03sc*i*",
       "pci:v00008086d000056A6sv*sd*bc03sc*i*",
@@ -2671,12 +2753,16 @@
       "pci:v00008086d00005692sv*sd*bc03sc*i*",
       "pci:v00008086d00005691sv*sd*bc03sc*i*",
       "pci:v00008086d00005690sv*sd*bc03sc*i*",
-      "pci:v00008086d0000A7A9sv*sd*bc03sc*i*",
+      "pci:v00008086d0000A7ABsv*sd*bc03sc*i*",
+      "pci:v00008086d0000A7AAsv*sd*bc03sc*i*",
       "pci:v00008086d0000A7A8sv*sd*bc03sc*i*",
-      "pci:v00008086d0000A7A1sv*sd*bc03sc*i*",
       "pci:v00008086d0000A7A0sv*sd*bc03sc*i*",
-      "pci:v00008086d0000A721sv*sd*bc03sc*i*",
       "pci:v00008086d0000A720sv*sd*bc03sc*i*",
+      "pci:v00008086d0000A7ADsv*sd*bc03sc*i*",
+      "pci:v00008086d0000A7ACsv*sd*bc03sc*i*",
+      "pci:v00008086d0000A7A9sv*sd*bc03sc*i*",
+      "pci:v00008086d0000A7A1sv*sd*bc03sc*i*",
+      "pci:v00008086d0000A721sv*sd*bc03sc*i*",
       "pci:v00008086d0000A78Bsv*sd*bc03sc*i*",
       "pci:v00008086d0000A78Asv*sd*bc03sc*i*",
       "pci:v00008086d0000A789sv*sd*bc03sc*i*",
@@ -2742,6 +2828,7 @@
       "pci:v00008086d00004E55sv*sd*bc03sc*i*",
       "pci:v00008086d00004E51sv*sd*bc03sc*i*",
       "pci:v00008086d00004571sv*sd*bc03sc*i*",
+      "pci:v00008086d00004570sv*sd*bc03sc*i*",
       "pci:v00008086d00004557sv*sd*bc03sc*i*",
       "pci:v00008086d00004555sv*sd*bc03sc*i*",
       "pci:v00008086d00004551sv*sd*bc03sc*i*",
@@ -2993,6 +3080,7 @@
       "pci:v00008086d00003577sv*sd*bc03sc*i*"
     ],
     "firmware": [
+      "i915/mtl_gsc_1.bin",
       "i915/skl_huc_2.0.0.bin",
       "i915/bxt_huc_2.0.0.bin",
       "i915/kbl_huc_4.0.0.bin",
@@ -3011,6 +3099,7 @@
       "i915/tgl_huc_7.9.3.bin",
       "i915/tgl_huc.bin",
       "i915/dg2_huc_gsc.bin",
+      "i915/mtl_huc_gsc.bin",
       "i915/skl_guc_70.1.1.bin",
       "i915/bxt_guc_70.1.1.bin",
       "i915/kbl_guc_70.1.1.bin",
@@ -3031,6 +3120,7 @@
       "i915/adlp_guc_70.1.1.bin",
       "i915/adlp_guc_70.bin",
       "i915/dg2_guc_70.bin",
+      "i915/mtl_guc_70.bin",
       "i915/bxt_dmc_ver1_07.bin",
       "i915/skl_dmc_ver1_27.bin",
       "i915/kbl_dmc_ver1_04.bin",
@@ -3042,7 +3132,8 @@
       "i915/adls_dmc_ver2_01.bin",
       "i915/adlp_dmc_ver2_16.bin",
       "i915/adlp_dmc.bin",
-      "i915/dg2_dmc_ver2_08.bin"
+      "i915/dg2_dmc_ver2_08.bin",
+      "i915/mtl_dmc.bin"
     ]
   },
   "ib_qib": {
@@ -3057,6 +3148,10 @@
   },
   "ice": {
     "alias": [
+      "pci:v00008086d000012D4sv*sd*bc*sc*i*",
+      "pci:v00008086d000012D3sv*sd*bc*sc*i*",
+      "pci:v00008086d000012D2sv*sd*bc*sc*i*",
+      "pci:v00008086d000012D1sv*sd*bc*sc*i*",
       "pci:v00008086d00001888sv*sd*bc*sc*i*",
       "pci:v00008086d0000151Dsv*sd*bc*sc*i*",
       "pci:v00008086d0000124Fsv*sd*bc*sc*i*",
@@ -3261,6 +3356,7 @@
   },
   "iwlwifi": {
     "alias": [
+      "pci:v00008086d0000E440sv*sd*bc*sc*i*",
       "pci:v00008086d00007740sv*sd*bc*sc*i*",
       "pci:v00008086d0000A840sv*sd*bc*sc*i*",
       "pci:v00008086d0000272Bsv*sd*bc*sc*i*",
@@ -3270,13 +3366,12 @@
       "pci:v00008086d00007F70sv*sd*bc*sc*i*",
       "pci:v00008086d000054F0sv*sd*bc*sc*i*",
       "pci:v00008086d000051F1sv*sd*bc*sc*i*",
+      "pci:v00008086d000051F1sv*sd*bc*sc*i*",
       "pci:v00008086d000051F0sv*sd*bc*sc*i*",
       "pci:v00008086d00007AF0sv*sd*bc*sc*i*",
       "pci:v00008086d00007A70sv*sd*bc*sc*i*",
-      "pci:v00008086d00002726sv*sd*bc*sc*i*",
       "pci:v00008086d00002725sv*sd*bc*sc*i*",
       "pci:v00008086d00002723sv*sd*bc*sc*i*",
-      "pci:v00008086d00002720sv*sd*bc*sc*i*",
       "pci:v00008086d0000A0F0sv*sd*bc*sc*i*",
       "pci:v00008086d000043F0sv*sd*bc*sc*i*",
       "pci:v00008086d00004DF0sv*sd*bc*sc*i*",
@@ -3695,42 +3790,39 @@
       "iwlwifi-8000C-36.ucode",
       "iwlwifi-9260-th-b0-jf-b0-46.ucode",
       "iwlwifi-9000-pu-b0-jf-b0-46.ucode",
-      "iwlwifi-BzBnj-b0-fm-b0-74.ucode",
-      "iwlwifi-gl-b0-fm-b0-74.ucode",
-      "iwlwifi-bz-a0-fm4-a0-74.ucode",
-      "iwlwifi-BzBnj-a0-hr-b0-74.ucode",
-      "iwlwifi-BzBnj-a0-gf4-a0-74.ucode",
-      "iwlwifi-BzBnj-a0-gf-a0-74.ucode",
-      "iwlwifi-BzBnj-a0-fm4-a0-74.ucode",
-      "iwlwifi-BzBnj-a0-fm-a0-74.ucode",
-      "iwlwifi-gl-a0-fm-a0-74.ucode",
-      "iwlwifi-bz-a0-fm-a0-74.ucode",
-      "iwlwifi-bz-a0-mr-a0-74.ucode",
-      "iwlwifi-bz-a0-gf4-a0-74.ucode",
-      "iwlwifi-bz-a0-gf-a0-74.ucode",
-      "iwlwifi-bz-a0-hr-b0-74.ucode",
-      "iwlwifi-SoSnj-a0-mr-a0-74.ucode",
-      "iwlwifi-ma-a0-fm-a0-74.ucode",
-      "iwlwifi-ma-a0-mr-a0-74.ucode",
-      "iwlwifi-ma-a0-gf4-a0-74.ucode",
-      "iwlwifi-ma-a0-gf-a0-74.ucode",
-      "iwlwifi-ma-a0-hr-b0-74.ucode",
-      "iwlwifi-SoSnj-a0-jf-b0-74.ucode",
-      "iwlwifi-SoSnj-a0-hr-b0-74.ucode",
-      "iwlwifi-SoSnj-a0-gf-a0-74.ucode",
-      "iwlwifi-SoSnj-a0-gf4-a0-74.ucode",
-      "iwlwifi-ty-a0-gf-a0-74.ucode",
-      "iwlwifi-so-a0-gf-a0-74.ucode",
-      "iwlwifi-so-a0-hr-b0-74.ucode",
-      "iwlwifi-so-a0-jf-b0-74.ucode",
-      "iwlwifi-cc-a0-74.ucode",
-      "iwlwifi-QuQnj-b0-jf-b0-74.ucode",
-      "iwlwifi-QuZ-a0-jf-b0-74.ucode",
-      "iwlwifi-QuZ-a0-hr-b0-74.ucode",
-      "iwlwifi-Qu-b0-jf-b0-74.ucode",
-      "iwlwifi-Qu-c0-hr-b0-74.ucode",
-      "iwlwifi-QuQnj-b0-hr-b0-74.ucode",
-      "iwlwifi-Qu-b0-hr-b0-74.ucode"
+      "iwlwifi-cc-a0-77.ucode",
+      "iwlwifi-QuZ-a0-jf-b0-77.ucode",
+      "iwlwifi-QuZ-a0-hr-b0-77.ucode",
+      "iwlwifi-Qu-b0-jf-b0-77.ucode",
+      "iwlwifi-Qu-c0-hr-b0-77.ucode",
+      "iwlwifi-Qu-b0-hr-b0-77.ucode",
+      "iwlwifi-ma-b0-mr-a0-86.ucode",
+      "iwlwifi-ma-b0-gf4-a0-86.ucode",
+      "iwlwifi-ma-b0-gf-a0-86.ucode",
+      "iwlwifi-ma-b0-hr-b0-86.ucode",
+      "iwlwifi-ma-a0-mr-a0-86.ucode",
+      "iwlwifi-ma-a0-gf4-a0-86.ucode",
+      "iwlwifi-ma-a0-gf-a0-86.ucode",
+      "iwlwifi-ma-a0-hr-b0-86.ucode",
+      "iwlwifi-ty-a0-gf-a0-86.ucode",
+      "iwlwifi-so-a0-gf-a0-86.ucode",
+      "iwlwifi-so-a0-hr-b0-86.ucode",
+      "iwlwifi-so-a0-jf-b0-86.ucode",
+      "iwlwifi-gl-c0-fm-c0-86.ucode",
+      "iwlwifi-gl-b0-fm-b0-86.ucode",
+      "iwlwifi-bz-a0-fm4-b0-86.ucode",
+      "iwlwifi-bz-a0-fm-c0-86.ucode",
+      "iwlwifi-bz-a0-fm-b0-86.ucode",
+      "iwlwifi-bz-a0-gf4-a0-86.ucode",
+      "iwlwifi-bz-a0-gf-a0-86.ucode",
+      "iwlwifi-bz-a0-hr-b0-86.ucode",
+      "iwlwifi-sc-a0-wh-a0-86.ucode",
+      "iwlwifi-sc-a0-gf4-a0-86.ucode",
+      "iwlwifi-sc-a0-gf-a0-86.ucode",
+      "iwlwifi-sc-a0-hr-b0-86.ucode",
+      "iwlwifi-sc-a0-hr-b0-86.ucode",
+      "iwlwifi-sc-a0-fm-c0-86.ucode",
+      "iwlwifi-sc-a0-fm-b0-86.ucode"
     ]
   },
   "jr3_pci": {
@@ -3984,20 +4076,7 @@
   },
   "mscc": {
     "alias": [
-      "mdio:0000000000000111000001111100????",
-      "mdio:0000000000000111000001111011????",
-      "mdio:0000000000000111000001111101????",
-      "mdio:0000000000000111000001001010????",
-      "mdio:0000000000000111000001001101????",
-      "mdio:0000000000000111000001111110????",
-      "mdio:0000000000000111000001001110????",
-      "mdio:0000000000000111000001110111????",
-      "mdio:0000000000000111000001110110????",
-      "mdio:0000000000000111000001010111????",
-      "mdio:0000000000000111000001010110????",
-      "mdio:0000000000000111000001100111????",
-      "mdio:0000000000000111000001001100????",
-      "mdio:0000000000000111000001100011????"
+      "mdio:0000000000000111000001??????????"
     ],
     "firmware": [
       "microchip/mscc_vsc8574_revb_int8051_29e8.bin",
@@ -4150,6 +4229,7 @@
     "alias": [
       "pci:v000014C3d00000616sv*sd*bc*sc*i*",
       "pci:v000014C3d00000608sv*sd*bc*sc*i*",
+      "pci:v00000B48d00007922sv*sd*bc*sc*i*",
       "pci:v000014C3d00007922sv*sd*bc*sc*i*",
       "pci:v000014C3d00007961sv*sd*bc*sc*i*"
     ],
@@ -4169,6 +4249,22 @@
     "firmware": [
       "mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin",
       "mediatek/WIFI_RAM_CODE_MT7961_1.bin"
+    ]
+  },
+  "mwifiex_pcie": {
+    "alias": [
+      "pci:v00001B4Bd00002B42sv*sd*bc*sc*i*",
+      "pci:v000011ABd00002B42sv*sd*bc*sc*i*",
+      "pci:v000011ABd00002B38sv*sd*bc*sc*i*",
+      "pci:v000011ABd00002B30sv*sd*bc*sc*i*"
+    ],
+    "firmware": [
+      "mrvl/pcieusb8997_combo_v4.bin",
+      "mrvl/pcieuart8997_combo_v4.bin",
+      "mrvl/pcie8897_uapsta.bin",
+      "mrvl/pcie8897_uapsta_a0.bin",
+      "mrvl/pcie8897_uapsta.bin",
+      "mrvl/pcie8766_uapsta.bin"
     ]
   },
   "mwifiex_sdio": {
@@ -4412,6 +4508,70 @@
       "nvidia/ga104/nvdec/scrubber.bin",
       "nvidia/ga103/nvdec/scrubber.bin",
       "nvidia/ga102/nvdec/scrubber.bin",
+      "nvidia/ad107/gsp/gsp-535.113.01.bin",
+      "nvidia/ad107/gsp/bootloader-535.113.01.bin",
+      "nvidia/ad107/gsp/booter_unload-535.113.01.bin",
+      "nvidia/ad107/gsp/booter_load-535.113.01.bin",
+      "nvidia/ad106/gsp/gsp-535.113.01.bin",
+      "nvidia/ad106/gsp/bootloader-535.113.01.bin",
+      "nvidia/ad106/gsp/booter_unload-535.113.01.bin",
+      "nvidia/ad106/gsp/booter_load-535.113.01.bin",
+      "nvidia/ad104/gsp/gsp-535.113.01.bin",
+      "nvidia/ad104/gsp/bootloader-535.113.01.bin",
+      "nvidia/ad104/gsp/booter_unload-535.113.01.bin",
+      "nvidia/ad104/gsp/booter_load-535.113.01.bin",
+      "nvidia/ad103/gsp/gsp-535.113.01.bin",
+      "nvidia/ad103/gsp/bootloader-535.113.01.bin",
+      "nvidia/ad103/gsp/booter_unload-535.113.01.bin",
+      "nvidia/ad103/gsp/booter_load-535.113.01.bin",
+      "nvidia/ad102/gsp/gsp-535.113.01.bin",
+      "nvidia/ad102/gsp/bootloader-535.113.01.bin",
+      "nvidia/ad102/gsp/booter_unload-535.113.01.bin",
+      "nvidia/ad102/gsp/booter_load-535.113.01.bin",
+      "nvidia/ga107/gsp/gsp-535.113.01.bin",
+      "nvidia/ga107/gsp/bootloader-535.113.01.bin",
+      "nvidia/ga107/gsp/booter_unload-535.113.01.bin",
+      "nvidia/ga107/gsp/booter_load-535.113.01.bin",
+      "nvidia/ga106/gsp/gsp-535.113.01.bin",
+      "nvidia/ga106/gsp/bootloader-535.113.01.bin",
+      "nvidia/ga106/gsp/booter_unload-535.113.01.bin",
+      "nvidia/ga106/gsp/booter_load-535.113.01.bin",
+      "nvidia/ga104/gsp/gsp-535.113.01.bin",
+      "nvidia/ga104/gsp/bootloader-535.113.01.bin",
+      "nvidia/ga104/gsp/booter_unload-535.113.01.bin",
+      "nvidia/ga104/gsp/booter_load-535.113.01.bin",
+      "nvidia/ga103/gsp/gsp-535.113.01.bin",
+      "nvidia/ga103/gsp/bootloader-535.113.01.bin",
+      "nvidia/ga103/gsp/booter_unload-535.113.01.bin",
+      "nvidia/ga103/gsp/booter_load-535.113.01.bin",
+      "nvidia/ga102/gsp/gsp-535.113.01.bin",
+      "nvidia/ga102/gsp/bootloader-535.113.01.bin",
+      "nvidia/ga102/gsp/booter_unload-535.113.01.bin",
+      "nvidia/ga102/gsp/booter_load-535.113.01.bin",
+      "nvidia/ga100/gsp/gsp-535.113.01.bin",
+      "nvidia/ga100/gsp/bootloader-535.113.01.bin",
+      "nvidia/ga100/gsp/booter_unload-535.113.01.bin",
+      "nvidia/ga100/gsp/booter_load-535.113.01.bin",
+      "nvidia/tu117/gsp/gsp-535.113.01.bin",
+      "nvidia/tu117/gsp/bootloader-535.113.01.bin",
+      "nvidia/tu117/gsp/booter_unload-535.113.01.bin",
+      "nvidia/tu117/gsp/booter_load-535.113.01.bin",
+      "nvidia/tu116/gsp/gsp-535.113.01.bin",
+      "nvidia/tu116/gsp/bootloader-535.113.01.bin",
+      "nvidia/tu116/gsp/booter_unload-535.113.01.bin",
+      "nvidia/tu116/gsp/booter_load-535.113.01.bin",
+      "nvidia/tu106/gsp/gsp-535.113.01.bin",
+      "nvidia/tu106/gsp/bootloader-535.113.01.bin",
+      "nvidia/tu106/gsp/booter_unload-535.113.01.bin",
+      "nvidia/tu106/gsp/booter_load-535.113.01.bin",
+      "nvidia/tu104/gsp/gsp-535.113.01.bin",
+      "nvidia/tu104/gsp/bootloader-535.113.01.bin",
+      "nvidia/tu104/gsp/booter_unload-535.113.01.bin",
+      "nvidia/tu104/gsp/booter_load-535.113.01.bin",
+      "nvidia/tu102/gsp/gsp-535.113.01.bin",
+      "nvidia/tu102/gsp/bootloader-535.113.01.bin",
+      "nvidia/tu102/gsp/booter_unload-535.113.01.bin",
+      "nvidia/tu102/gsp/booter_load-535.113.01.bin",
       "nvidia/gm206/gr/sw_method_init.bin",
       "nvidia/gm206/gr/sw_bundle_init.bin",
       "nvidia/gm206/gr/sw_nonctx.bin",
@@ -5212,6 +5372,8 @@
   },
   "r8152": {
     "alias": [
+      "usb:v0B05p1976d*dc*dsc*dp*ic*isc*ip*in*",
+      "usb:v2001pB301d*dc*dsc*dp*ic*isc*ip*in*",
       "usb:v2357p0601d*dc*dsc*dp*ic*isc*ip*in*",
       "usb:v0955p09FFd*dc*dsc*dp*ic*isc*ip*in*",
       "usb:v13B1p0041d*dc*dsc*dp*ic*isc*ip*in*",
@@ -5302,23 +5464,6 @@
       "RTL8192E/data.img",
       "RTL8192E/main.img",
       "RTL8192E/boot.img"
-    ]
-  },
-  "r8192u_usb": {
-    "alias": [
-      "usb:v043Ep7A01d*dc*dsc*dp*ic*isc*ip*in*",
-      "usb:v5A57p0290d*dc*dsc*dp*ic*isc*ip*in*",
-      "usb:v2001p3301d*dc*dsc*dp*ic*isc*ip*in*",
-      "usb:v1740p9201d*dc*dsc*dp*ic*isc*ip*in*",
-      "usb:v0DF6p0031d*dc*dsc*dp*ic*isc*ip*in*",
-      "usb:v050Dp805Ed*dc*dsc*dp*ic*isc*ip*in*",
-      "usb:v07AAp0043d*dc*dsc*dp*ic*isc*ip*in*",
-      "usb:v0BDAp8709d*dc*dsc*dp*ic*isc*ip*in*"
-    ],
-    "firmware": [
-      "RTL8192U/data.img",
-      "RTL8192U/main.img",
-      "RTL8192U/boot.img"
     ]
   },
   "r8712u": {
@@ -6965,6 +7110,12 @@
   },
   "rtl8xxxu": {
     "alias": [
+      "usb:v0BDAp318Bd*dc*dsc*dp*icFFiscFFipFFin*",
+      "usb:v7392pB722d*dc*dsc*dp*icFFiscFFipFFin*",
+      "usb:v0B05p18F1d*dc*dsc*dp*icFFiscFFipFFin*",
+      "usb:v0BDApF192d*dc*dsc*dp*icFFiscFFipFFin*",
+      "usb:v0BDAp2005d*dc*dsc*dp*icFFiscFFipFFin*",
+      "usb:v0BDApB711d*dc*dsc*dp*icFFiscFFipFFin*",
       "usb:v0BDApFFEFd*dc*dsc*dp*icFFiscFFipFFin*",
       "usb:v7392pB811d*dc*dsc*dp*icFFiscFFipFFin*",
       "usb:v0B05p18F0d*dc*dsc*dp*icFFiscFFipFFin*",
@@ -6992,6 +7143,9 @@
       "usb:v0BDAp8724d*dc*dsc*dp*icFFiscFFipFFin*"
     ],
     "firmware": [
+      "rtlwifi/rtl8192fufw.bin",
+      "rtlwifi/rtl8710bufw_UMC.bin",
+      "rtlwifi/rtl8710bufw_SMIC.bin",
       "rtlwifi/rtl8188fufw.bin",
       "rtlwifi/rtl8723bu_bt.bin",
       "rtlwifi/rtl8723bu_nic.bin",
@@ -7039,7 +7193,7 @@
   "rtw89_8852b": {
     "alias": [],
     "firmware": [
-      "rtw89/rtw8852b_fw.bin"
+      "rtw89/rtw8852b_fw-1.bin"
     ]
   },
   "rtw89_8852c": {
@@ -7643,6 +7797,16 @@
       "riptide.hex"
     ]
   },
+  "snd-soc-rt5677": {
+    "alias": [
+      "acpi*:RT5677CE:*",
+      "of:N*T*Crealtek,rt5677C*",
+      "of:N*T*Crealtek,rt5677"
+    ],
+    "firmware": [
+      "rt5677_elf_vad"
+    ]
+  },
   "snd-usb-6fire": {
     "alias": [
       "usb:v0CCDp0080d*dc*dsc*dp*ic*isc*ip*in*"
@@ -7856,6 +8020,7 @@
     "firmware": [
       "tigon/tg3_tso5.bin",
       "tigon/tg3_tso.bin",
+      "tigon/tg357766.bin",
       "tigon/tg3.bin"
     ]
   },
