@@ -25,6 +25,8 @@ def is_source_available(section):
     return True
 
 def check_section(section):
+    if section.licence is None:
+        return DistState.undistributable
     if re.search(r'^BSD\b'
                  r'|^GPLv2 or OpenIB\.org BSD\b'
                  r'|\bPermission\s+is\s+hereby\s+granted\s+for\s+the\s+'
