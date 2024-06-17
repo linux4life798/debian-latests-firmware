@@ -1,4 +1,4 @@
-firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
+firmware-nonfree (20230625-3~exp1) experimental; urgency=medium
 
   Several firmware files were moved from firmware-misc-nonfree into
   their own package:

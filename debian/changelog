@@ -1,4 +1,4 @@
-firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
+firmware-nonfree (20230625-3~exp1) experimental; urgency=medium
 
   [ Diederik de Haas ]
   * Update to linux-support 6.8.11
@@ -81,7 +81,7 @@ firmware-nonfree (20230625-3~exp1) UNRELEASED; urgency=medium
   * Update to linux-support 6.8.12
   * cirrus: Don't trigger initramfs-tools
 
- -- Diederik de Haas <didi.debian@cknow.org>  Thu, 18 Jan 2024 14:00:00 +0100
+ -- Ben Hutchings <benh@debian.org>  Mon, 17 Jun 2024 19:54:51 +0200
 
 firmware-nonfree (20230625-2) unstable; urgency=medium
 
