@@ -8,62 +8,17 @@ replaces: libertas-firmware
 provides: libertas-firmware
 files:
  lbtf_usb.bin
- libertas_cs.fw
- libertas_cs_helper.fw
- sd8385.bin
- sd8385_helper.bin
- sd8686.bin
- sd8686_helper.bin
- sd8688.bin
- sd8688_helper.bin
+ libertas_cs*
+ sd8385*.bin
+ sd8686*.bin
+ sd8688*.bin
  usb8388.bin
- libertas/cf8381.bin
- libertas/cf8381_helper.bin
- libertas/cf8385.bin
- libertas/cf8385_helper.bin
- libertas/gspi8686.bin
- libertas/gspi8686_hlp.bin
- libertas/gspi8686_v9.bin
- libertas/gspi8686_v9_helper.bin
- libertas/gspi8688.bin
- libertas/gspi8688_helper.bin
- libertas/sd8385.bin
- libertas/sd8385_helper.bin
- libertas/sd8686_v8.bin
- libertas/sd8686_v8_helper.bin
- libertas/sd8686_v9.bin
- libertas/sd8686_v9_helper.bin
- libertas/sd8688.bin
- libertas/sd8688_helper.bin
- libertas/usb8388_olpc.bin
- libertas/usb8388_v5.bin
- libertas/usb8388_v9.bin
- libertas/usb8682.bin
- mrvl/pcie8897_uapsta.bin
- mrvl/pcie8997_wlan_v4.bin
- mrvl/pcieuart8997_combo_v4.bin
- mrvl/pcieusb8997_combo_v4.bin
- mrvl/sd8688.bin
- mrvl/sd8688_helper.bin
- mrvl/sd8787_uapsta.bin
- mrvl/sd8797_uapsta.bin
- mrvl/sd8801_uapsta.bin
- mrvl/sd8887_uapsta.bin
- mrvl/sd8897_uapsta.bin
- mrvl/sdsd8977_combo_v2.bin
- mrvl/sdsd8997_combo_v4.bin
- mrvl/usb8766_uapsta.bin
- mrvl/usb8797_uapsta.bin
- mrvl/usb8801_uapsta.bin
- mrvl/usb8897_uapsta.bin
- mrvl/usbusb8997_combo_v4.bin
- mwl8k/fmimage_8366.fw
- mwl8k/fmimage_8366_ap-2.fw
- mwl8k/fmimage_8366_ap-3.fw
- mwl8k/fmimage_8687.fw
- mwl8k/fmimage_8764_ap-1.fw
- mwl8k/helper_8366.fw
- mwl8k/helper_8687.fw
+ libertas/*
+ mrvl/*
+ mwl8k/*
+files-excluded:
+ mrvl/cpt*/*
+ mrvl/prestera/*
 
 [lbtf_usb.bin_base]
 desc: Libertas 88W8388 'Thinfirm' firmware

@@ -4,6 +4,7 @@ import io
 import json
 import locale
 import os
+import pathlib
 import re
 import sys
 
@@ -11,7 +12,7 @@ sys.path.insert(0, "debian/lib/python")
 sys.path.append(sys.argv[1] + "/lib/python")
 locale.setlocale(locale.LC_CTYPE, "C.UTF-8")
 
-from config import Config
+from config import Config, pattern_to_re
 from debian_linux.debian import BinaryPackage, PackageRelation, _ControlFileDict
 from debian_linux.debian import PackageDescription as PackageDescriptionBase
 import debian_linux.gencontrol
@@ -91,7 +92,19 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
 
         self.do_source(packages)
         self.do_extra(packages, makefile)
+
+        self.file_errors = False
+        self.file_packages = {}
         self.do_main(packages, makefile)
+        for canon_path, package_suffixes in self.file_packages.items():
+            if len(package_suffixes) > 1:
+                print(f'E: {canon_path!s} is included in multiple packages:',
+                      ', '.join(f'firmware-{suffix}'
+                                for suffix in package_suffixes),
+                      file=sys.stderr)
+                self.file_errors = True
+        if self.file_errors:
+            raise Exception('error(s) found in file lists')
 
         self.write(packages, makefile)
 
@@ -141,7 +154,9 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
             if optional not in vars:
                 vars[optional] = ''
 
-        package_dir = "debian/config/%s" % package
+        cur_dir = pathlib.Path.cwd()
+        install_dir = pathlib.Path('debian/build/install')
+        package_dir = pathlib.Path('debian/config') / package
 
         try:
             os.unlink('debian/firmware-%s.bug-presubj' % package)
@@ -149,65 +164,93 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
             pass
         os.symlink('bug-presubj', 'debian/firmware-%s.bug-presubj' % package)
 
-        files_orig = config_entry['files']
+        files_include = [(pattern, pattern_to_re(pattern))
+                         for pattern in config_entry['files']]
+        files_exclude = [pattern_to_re(pattern)
+                         for pattern in config_entry.get('files-excluded', [])]
+        files_added = set()
+        files_unused = set()
         files_real = {}
-        files_unused = []
         links = {}
         links_rev = {}
 
-        # Look for additional and replacement files in binary package config
-        for root, dirs, files in os.walk(package_dir):
-            try:
-                dirs.remove('.svn')
-            except ValueError:
-                pass
-            for f in files:
-                cur_path = root + '/' + f
-                if root != package_dir:
-                    f = root[len(package_dir) + 1 : ] + '/' + f
-                if os.path.islink(cur_path):
-                    if f in files_orig:
-                        links[f] = os.readlink(cur_path)
-                    continue
-                f1 = f.rsplit('-', 1)
-                if f in files_orig:
-                    files_real[f] = f, cur_path, None
-                    continue
-                if len(f1) > 1:
-                    f_base, f_version = f1
-                    if f_base in files_orig:
-                        if f_base in files_real:
-                            raise RuntimeError("Multiple files for %s" % f_base)
-                        files_real[f_base] = f_base, package_dir + '/' + f, \
-                                             f_version
+        # List all additional and replacement files in binary package
+        # config so we can:
+        # - match dangling symlinks which pathlib.Path.glob() would ignore
+        # - warn if any are unused
+        for root, dir_names, file_names in os.walk(package_dir):
+            root = pathlib.Path(root)
+            for name in file_names:
+                if not (root == package_dir \
+                        and name in ['defines', 'LICENSE.install',
+                                     'update.py', 'update.sh']):
+                    canon_path = root.relative_to(package_dir) / name
+                    files_added.add(canon_path)
+                    files_unused.add(canon_path)
+
+        for pattern, pattern_re in files_include:
+            matched = False
+            matched_more = False
+
+            for paths, is_added in [
+                (((canon_path, package_dir / canon_path)
+                  for canon_path in files_added
+                  if pattern_re.fullmatch(str(canon_path))),
+                 True),
+                (((cur_path.relative_to(install_dir), cur_path)
+                  for cur_path in install_dir.glob(pattern)),
+                 False)
+            ]:
+                for canon_path, cur_path in paths:
+                    canon_name = str(canon_path)
+                    if any(exc_pattern_re.fullmatch(canon_name)
+                           for exc_pattern_re in files_exclude):
                         continue
-                # Whitelist files not expected to be installed as firmware
-                if f in ['defines', 'LICENSE.install',
-                         'update.py', 'update.sh']:
-                    continue
-                files_unused.append(f)
 
-        # Take all the other files from upstream
-        for f in files_orig:
-            if f not in files_real and f not in links:
-                f_upstream = os.path.join('debian/build/install', f)
-                if os.path.islink(f_upstream):
-                    links[f] = os.readlink(f_upstream)
-                elif os.path.isfile(f_upstream):
-                    files_real[f] = f, f_upstream, None
+                    matched = True
 
-        for f in links:
-            link_target = os.path.normpath(os.path.join(f, '..', links[f]))
-            links_rev.setdefault(link_target, []).append(f)
+                    # Skip if already matched by earlier pattern or in
+                    # other directory
+                    if canon_path in files_real or canon_path in links:
+                        continue
+
+                    matched_more = True
+                    if is_added:
+                        files_unused.remove(canon_path)
+                    if cur_path.is_symlink():
+                        links[canon_path] = cur_path.readlink()
+                    elif cur_path.is_file():
+                        files_real[canon_path] = cur_path
+
+                    self.file_packages.setdefault(canon_path, []) \
+                                      .append(package)
+
+            # Non-matching pattern is an error
+            if not matched:
+                print(f'E: {package}: {pattern} did not match anything',
+                      file=sys.stderr)
+                self.file_errors = True
+            # Redundant pattern deserves a warning
+            elif not matched_more:
+                print(f'W: {package}: pattern {pattern} is redundant with earlier patterns',
+                      file=sys.stderr)
+
+        for canon_path in links:
+            link_target = ((canon_path.parent / links[canon_path])
+                           .resolve(strict=False)
+                           .relative_to(cur_dir))
+            links_rev.setdefault(link_target, []).append(canon_path)
 
         if files_unused:
-            print('W: %s: unused files:' % package, ' '.join(files_unused),
+            print(f'W: {package}: unused files:',
+                  ', '.join(str(path) for path in files_unused),
                   file=sys.stderr)
 
-        makeflags['FILES'] = ' '.join(["%s:%s" % (i[1], i[0]) for i in sorted(files_real.values())])
+        makeflags['FILES'] = ' '.join([f'"{source}":"{dest}"'
+                                       for dest, source in sorted(files_real.items())])
         vars['files_real'] = ' '.join(["/lib/firmware/%s" % i for i in config_entry['files']])
 
-        makeflags['LINKS'] = ' '.join(["%s:%s" % (link, target)
+        makeflags['LINKS'] = ' '.join([f'"{link}":"{target}"'
                                        for link, target in sorted(links.items())])
 
         files_desc = ["Contents:"]
@@ -218,28 +261,33 @@ class GenControl(debian_linux.gencontrol.Gencontrol):
         wrap = TextWrapper(width = 71, fix_sentence_endings = True,
                            initial_indent = ' * ',
                            subsequent_indent = '   ').wrap
-        for f in config_entry['files']:
+        for canon_path, is_link in sorted(
+            [(path, False) for path in files_real]
+            + [(path, True) for path in links]
+        ):
+            canon_name = str(canon_path)
             firmware_meta_list.append(self.substitute(firmware_meta_temp,
-                                                      {'filename': f}))
-            for module_name in self.firmware_modules.get(f, []):
+                                                      {'filename': canon_name}))
+            for module_name in self.firmware_modules.get(canon_name, []):
                 module_names.add(module_name)
-            if f in links:
+            if is_link:
                 continue
-            f, f_real, version = files_real[f]
-            c = self.config.get(('base', package, f), {})
+            cur_path = files_real[canon_path]
+            c = self.config.get(('base', package, canon_name), {})
             desc = c.get('desc')
-            if version is None:
-                version = c.get('version')
+            version = c.get('version')
             try:
-                f = f + ', ' + ', '.join(sorted(links_rev[f]))
+                canon_names = (canon_name + ', '
+                               + ', '.join(str(path) for path in
+                                           sorted(links_rev[canon_path])))
             except KeyError:
-                pass
+                canon_names = canon_name
             if desc and version:
-                desc = "%s, version %s (%s)" % (desc, version, f)
+                desc = "%s, version %s (%s)" % (desc, version, canon_names)
             elif desc:
-                desc = "%s (%s)" % (desc, f)
+                desc = "%s (%s)" % (desc, canon_names)
             else:
-                desc = "%s" % f
+                desc = "%s" % canon_names
             files_desc.extend(wrap(desc))
 
         modaliases = set()

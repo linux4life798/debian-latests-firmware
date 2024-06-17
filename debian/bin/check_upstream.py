@@ -11,7 +11,7 @@ rules_defs = dict((match.group(1), match.group(2))
 sys.path.append('/usr/share/linux-support-%s/lib/python' %
                 rules_defs['KERNELVERSION'])
 from debian_linux.firmware import FirmwareWhence
-from config import Config
+from config import Config, pattern_to_re
 
 class DistState(Enum):
     undistributable = 1
@@ -54,10 +54,16 @@ def main(source_dir='.'):
                  package in config['base',]['packages']]
     with open("debian/copyright") as f:
         exclusions = deb822.Deb822(f).get("Files-Excluded", '').strip().split()
-    packaged_files = {}
+
+    package_file_res = []
     for package in config['base',]['packages']:
-        for filename in config['base', package]['files']:
-            packaged_files[filename] = package
+        config_entry = config['base', package]
+        package_file_res.append(
+            ([pattern_to_re(pattern)
+              for pattern in config_entry['files']],
+             [pattern_to_re(pattern)
+              for pattern in config_entry.get('files-exclude', [])])
+        )
 
     for section in FirmwareWhence(open(os.path.join(source_dir, 'WHENCE'))):
         dist_state = check_section(section)
@@ -65,9 +71,15 @@ def main(source_dir='.'):
             if dist_state == DistState.non_free:
                 if not any(fnmatch.fnmatch(file_info.binary, exclusion)
                            for exclusion in exclusions):
-                    if file_info.binary in packaged_files:
+                    if any(
+                        (any(inc_re.fullmatch(file_info.binary)
+                             for inc_re in inc_res)
+                         and not any(exc_re.fullmatch(file_info.binary)
+                                    for exc_re in exc_res))
+                        for inc_res, exc_res in package_file_res
+                    ):
                         update_file(source_dir, over_dirs, file_info.binary)
-                    elif os.path.isfile(filename):
+                    elif os.path.isfile(file_info.binary):
                         print('I: %s is not included in any binary package' %
                               file_info.binary)
                     else:

@@ -5,74 +5,10 @@ recommends: firmware-atheros
 breaks: firmware-qcom-media (<< 20200421-1~)
 replaces: firmware-qcom-media (<< 20200421-1~)
 files:
- qcom/a300_pfp.fw
- qcom/a300_pm4.fw
- qcom/a330_pfp.fw
- qcom/a330_pm4.fw
- qcom/a420_pfp.fw
- qcom/a420_pm4.fw
- qcom/a530_pfp.fw
- qcom/a530_pm4.fw
- qcom/a530_zap.mdt
- qcom/a530v3_gpmu.fw2
- qcom/a530v3_gpmu.fw2
- qcom/a630_gmu.bin
- qcom/a630_sqe.fw
- qcom/a650_gmu.bin
- qcom/a650_sqe.fw
- qcom/a660_gmu.bin
- qcom/a660_sqe.fw
- qcom/leia_pfp_470.fw
- qcom/leia_pm4_470.fw
- qcom/apq8016/mba.mbn
- qcom/apq8016/modem.mbn
- qcom/apq8016/wcnss.mbn
- qcom/apq8016/WCNSS_qcom_wlan_nv_sbc.bin
- qcom/apq8096/a530_zap.mbn
- qcom/apq8096/adsp.mbn
- qcom/apq8096/adspr.jsn
- qcom/apq8096/adspua.jsn
- qcom/apq8096/mba.mbn
- qcom/apq8096/modem.mbn
- qcom/apq8096/modemr.jsn
- qcom/sc8280xp/LENOVO/21BX/adspr.jsn
- qcom/sc8280xp/LENOVO/21BX/adspua.jsn
- qcom/sc8280xp/LENOVO/21BX/battmgr.jsn
- qcom/sc8280xp/LENOVO/21BX/cdspr.jsn
- qcom/sc8280xp/LENOVO/21BX/qcadsp8280.mbn
- qcom/sc8280xp/LENOVO/21BX/qccdsp8280.mbn
- qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
- qcom/sc8280xp/LENOVO/21BX/qcslpi8280.mbn
- qcom/sdm845/a630_zap.mbn
- qcom/sdm845/adsp.mbn
- qcom/sdm845/adspr.jsn
- qcom/sdm845/adspua.jsn
- qcom/sdm845/cdsp.mbn
- qcom/sdm845/cdspr.jsn
- qcom/sdm845/mba.mbn
- qcom/sdm845/modem.mbn
- qcom/sdm845/modem_nm.mbn
- qcom/sdm845/modemuw.jsn
- qcom/sdm845/wlanmdsp.mbn
- qcom/sm8250/a650_zap.mbn
- qcom/sm8250/adsp.mbn
- qcom/sm8250/adspr.jsn
- qcom/sm8250/adspua.jsn
- qcom/sm8250/cdsp.mbn
- qcom/sm8250/cdspr.jsn
- qcom/venus-1.8/venus.mbn
- qcom/venus-1.8/venus.mdt
- qcom/venus-4.2/venus.mbn
- qcom/venus-4.2/venus.mdt
- qcom/venus-5.2/venus.mbn
- qcom/venus-5.2/venus.mdt
- qcom/venus-5.4/venus.mbn
- qcom/venus-5.4/venus.mdt
- qcom/vpu-1.0/venus.mbn
- qcom/vpu-1.0/venus.mdt
- qcom/vpu-2.0/venus.mbn
- qcom/yamato_pfp.fw
- qcom/yamato_pm4.fw
+ qcom/**/*
+files-excluded:
+ qcom/LENOVO/21BX
+ qcom/sc8280xp/LENOVO/21BX/21BX
 
 [qcom/a300_pfp.fw_base]
 desc: Qualcomm Adreno 300 PFP firmware

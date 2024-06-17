@@ -5,11 +5,7 @@ longdesc:
 replaces: firmware-libertas (<< 20230625-3~)
 breaks: firmware-libertas (<< 20230625-3~)
 files:
- mrvl/prestera/mvsw_prestera_fw-v2.0.img
- mrvl/prestera/mvsw_prestera_fw-v3.0.img
- mrvl/prestera/mvsw_prestera_fw-v4.0.img
- mrvl/prestera/mvsw_prestera_fw-v4.1.img
- mrvl/prestera/mvsw_prestera_fw_arm64-v4.1.img
+ mrvl/prestera/*
 
 [mrvl/prestera/mvsw_prestera_fw-v2.0.img_base]
 desc: Prestera ASIC firmware v2
