@@ -2,7 +2,6 @@
 desc: Cirrus Logic audio chips
 longdesc:
  Cirrus Logic audio chips like smart amplifiers, converters and DSPs
-support: initramfs-tools
 files:
  cirrus/cs35l41-dsp1-spk-cali-103c896e.wmfw
  cirrus/cs35l41-dsp1-spk-cali-103c896e-l0.bin
