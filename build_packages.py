@@ -7,6 +7,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import pathlib
 from jinja2 import Environment, FileSystemLoader
 
 
@@ -15,6 +16,20 @@ def version_str() -> str:
         return subprocess.check_output(["git", "describe"]).strip().decode("utf-8")
     except subprocess.CalledProcessError:
         return "0"
+
+def remove_microcode(fwdir: str) -> None:
+    """Remove microcode related files from firmware directory
+
+    - amd/
+    - amd-ucode/
+    - amdtee/
+    """
+
+    p = pathlib.Path(fwdir)
+    shutil.rmtree(p / "amd")
+    shutil.rmtree(p / "amd-ucode")
+    shutil.rmtree(p / "amdtee")
+
 
 
 def prep_tree(package) -> tuple:
@@ -28,6 +43,7 @@ def prep_tree(package) -> tuple:
     os.makedirs(fwdir, exist_ok=False)
 
     subprocess.check_output(["./copy-firmware.sh", fwdir])
+    remove_microcode(fwdir)
     shutil.copy("WHENCE", os.path.join(builddir, "WHENCE"))
 
     return (tmpdir, builddir, fwdir, targetdir)
@@ -57,7 +73,7 @@ def build_deb_package(package, builddir) -> None:
             w.write(template.render(d))
 
     with open(os.path.join(builddir, "debian", "install"), "w") as w:
-        w.write("updates lib/firmware\n")
+        w.write("updates/* usr/lib/firmware\n")
 
     with open(os.path.join(builddir, "debian", "docs"), "w") as w:
         w.write("WHENCE\n")
