@@ -21,11 +21,11 @@ package.
 %define __strip /bin/true
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/lib/firmware
-cp -aR {{ cwd }}/updates %{buildroot}/lib/firmware
+cp -aR {{ cwd }}/updates/* %{buildroot}/lib/firmware
 
 %files
 %defattr(-,root,root,-)
-/lib/firmware/updates/*
+/lib/firmware/*
 
 %post
 dracut -fp --regenerate-all
