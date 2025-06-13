@@ -51,6 +51,19 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      - name: Debug git state
+        run: |
+          git remote -vv
+          git branch -vv
+
+      - run: git describe || echo "'git describe' failed"
+      - run: git describe --tags || echo "'git describe --tags' failed"
+      - run: git tag -l || echo "'git tag -l' failed"
+      - run: git show-ref --tags || echo "'git show-ref --tags' failed"
+      - run: git config --list
+      - run: git log --oneline -n 5
+      - run: git show-ref --tags
+
       - name: Build Debian package
         run: make deb
 
