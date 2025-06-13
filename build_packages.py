@@ -13,7 +13,7 @@ from jinja2 import Environment, FileSystemLoader
 
 def version_str() -> str:
     try:
-        return subprocess.check_output(["git", "describe"]).strip().decode("utf-8")
+        return subprocess.check_output(["git", "describe", "--tags"]).strip().decode("utf-8")
     except subprocess.CalledProcessError:
         return "0"
 
