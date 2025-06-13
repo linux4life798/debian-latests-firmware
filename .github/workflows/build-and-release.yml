@@ -7,7 +7,11 @@ name: Build and Release Packages
 #   We use the debian package revision "-number" suffix to iterate on the
 #   upstream linux-firmware tags.
 #   git tag --sign 20250613-8
-# - Push the tag to github
+# - Push the tag to github. For some reason, you need to wait for the first push
+#   build to complete, before pushing this tag. Otherwise, you will see that git
+#   describe will fail in the debian pkg build step, resulting in an incorrectly
+#   versioned deb pkg. This might be due to git checkout caching.
+#   git push github 20250613-8
 #
 # - Wait for the build to complete
 # - Download the packages and test
