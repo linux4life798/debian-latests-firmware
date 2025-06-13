@@ -38,9 +38,6 @@ jobs:
       - name: Build Debian package
         run: make deb
 
-      - name: Build RPM package
-        run: make rpm
-
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -54,6 +51,5 @@ jobs:
         with:
           files: |
             dist/*.deb
-            dist/*.rpm
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
