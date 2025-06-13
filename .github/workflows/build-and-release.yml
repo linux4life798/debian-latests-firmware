@@ -1,0 +1,59 @@
+name: Build and Release Packages
+
+permissions:
+  contents: write
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        # Unfortunately, we need tags for git describe to function properly,
+        # which means we will probably need all revision history.
+        #
+        # You must push the upstream linux tags to this github repo for
+        # git describe to work.
+        with:
+          # fetch-depth: 0
+          fetch-tags: true
+
+      - name: Install Ubuntu dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential git rdfind debhelper rpm
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build Debian package
+        run: make deb
+
+      - name: Build RPM package
+        run: make rpm
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: packages
+          path: dist/*
+
+      - name: Create Release
+        id: create_release
+        if: github.ref_type == 'tag'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/*.deb
+            dist/*.rpm
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

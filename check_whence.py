@@ -79,6 +79,7 @@ def main():
             ".codespell.cfg",
             ".editorconfig",
             ".gitignore",
+            ".github/workflows/build-and-release.yml",
             ".gitlab-ci.yml",
             ".pre-commit-config.yaml",
             "Dockerfile",
@@ -95,6 +96,7 @@ def main():
             "contrib/templates/rpm.spec",
             "copy-firmware.sh",
             "dedup-firmware.sh",
+            "requirements.txt",
         ]
     )
     known_prefixes = set(name for name in whence_list if name.endswith("/"))
