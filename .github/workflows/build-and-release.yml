@@ -28,14 +28,21 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        # Unfortunately, we need tags for git describe to function properly,
-        # which means we will probably need all revision history.
-        #
-        # You must push the upstream linux tags to this github repo for
-        # git describe to work.
+        if: github.ref_type != 'tag'
         with:
           fetch-depth: 0
           fetch-tags: true
+
+      - name: Checkout repository for tag
+        uses: actions/checkout@v4
+        if: github.ref_type == 'tag'
+        # Unfortunately, `git describe` will not function correctly if this
+        # action is triggered by an annotated tag, unless we force it to fetch
+        # ${{ github.ref }}.
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+          ref: ${{ github.ref }}
 
       - name: Install Ubuntu dependencies
         run: |
@@ -50,6 +57,15 @@ jobs:
 
       - name: Install Python dependencies
         run: pip install -r requirements.txt
+
+      # Show git describe, since GitHub has an issue with annotated tags.
+      # When the issue is not mitigated, the following two git describes will
+      # show different tags. Normal `git describe` will show nothing or an old
+      # tag, where `git describe --tags` will show the latest/correct tag.
+      - name: Show git describe
+        run: git describe || echo "'git describe' failed"
+      - name: Show git describe --tags
+        run: git describe --tags || echo "'git describe --tags' failed"
 
       - name: Build Debian package
         run: make deb
