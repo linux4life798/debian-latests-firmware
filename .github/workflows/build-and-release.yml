@@ -1,5 +1,17 @@
 name: Build and Release Packages
 
+# Process for release:
+# - Pull in upstream linux-firmware changes
+# - Push branch debian-latest-without-microcode to github
+# - Created signed and annotated tag based on the upstream tag.
+#   We use the debian package revision "-number" suffix to iterate on the
+#   upstream linux-firmware tags.
+#   git tag --sign 20250613-8
+# - Push the tag to github
+#
+# - Wait for the build to complete
+# - Download the packages and test
+
 permissions:
   contents: write
 
