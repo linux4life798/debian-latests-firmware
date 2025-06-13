@@ -36,6 +36,8 @@ jobs:
         with:
           fetch-depth: 0
           fetch-tags: true
+      - name: Fetch Tags Manually to Get Current Tag Annotation
+        run: git fetch --tags
 
       - name: Install Ubuntu dependencies
         run: |
