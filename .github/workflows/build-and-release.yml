@@ -6,6 +6,9 @@ name: Build and Release Packages
 # - Created signed and annotated tag based on the upstream tag.
 #   We use the debian package revision "-number" suffix to iterate on the
 #   upstream linux-firmware tags.
+#   You can use git `git log --pretty=format:"%h%d %s [%an]"` to get
+#   a changelog of upstream changes.
+#   git log --pretty=format:"%h%d %s [%an]" 20250509..HEAD | cat
 #   git tag --sign 20250613-8
 # - Push the tag to github.
 #   git push github 20250613-8
