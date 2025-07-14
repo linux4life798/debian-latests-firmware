@@ -86,6 +86,7 @@ def main():
             "Makefile",
             "LICENSE",
             "README.md",
+            "UPSTREAM_README.md",
             "WHENCE",
             "build_packages.py",
             "check_whence.py",
@@ -96,6 +97,7 @@ def main():
             "contrib/templates/rpm.spec",
             "copy-firmware.sh",
             "dedup-firmware.sh",
+            "release-message.sh",
             "requirements.txt",
         ]
     )
