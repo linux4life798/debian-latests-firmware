@@ -86,7 +86,7 @@ def main():
             "Makefile",
             "LICENSE",
             "README.md",
-            "UPSTREAM_README.md",
+            "README_UPSTREAM.md",
             "WHENCE",
             "build_packages.py",
             "check_whence.py",
