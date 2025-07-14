@@ -112,6 +112,7 @@ def main():
             "contrib/process_linux_firmware.py",
             "copy-firmware.sh",
             "dedup-firmware.sh",
+            "release-message.sh",
         ]
     )
 
