@@ -1032,31 +1032,31 @@ Version: 74.a5e9588b.0
 
 File: intel/iwlwifi/iwlwifi-cc-a0-77.ucode
 Link: iwlwifi-cc-a0-77.ucode -> intel/iwlwifi/iwlwifi-cc-a0-77.ucode
-Version: 74.6eaf654b.0
+Version: 74.30b1cbd8.0
 
 File: intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-77.ucode
 Link: iwlwifi-Qu-b0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-77.ucode
-Version: 74.6eaf654b.0
+Version: 74.30b1cbd8.0
 
 File: intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-77.ucode
 Link: iwlwifi-Qu-b0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-77.ucode
-Version: 74.6eaf654b.0
+Version: 74.30b1cbd8.0
 
 File: intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-77.ucode
 Link: iwlwifi-Qu-c0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-77.ucode
-Version: 74.6eaf654b.0
+Version: 74.30b1cbd8.0
 
 File: intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-77.ucode
 Link: iwlwifi-Qu-c0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-77.ucode
-Version: 74.6eaf654b.0
+Version: 74.30b1cbd8.0
 
 File: intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-77.ucode
 Link: iwlwifi-QuZ-a0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-77.ucode
-Version: 74.6eaf654b.0
+Version: 74.30b1cbd8.0
 
 File: intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-77.ucode
 Link: iwlwifi-QuZ-a0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-77.ucode
-Version: 74.6eaf654b.0
+Version: 74.30b1cbd8.0
 
 File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-77.ucode
 Link: iwlwifi-ty-a0-gf-a0-77.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-77.ucode
@@ -1088,7 +1088,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-89.ucode
 Link: iwlwifi-ty-a0-gf-a0-89.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-89.ucode
-Version: 86.2e78fa67.0
+Version: 86.7207fc64.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-77.ucode
 Link: iwlwifi-so-a0-gf4-a0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-77.ucode
@@ -1120,7 +1120,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-89.ucode
 Link: iwlwifi-so-a0-gf4-a0-89.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-89.ucode
-Version: 86.2e78fa67.0
+Version: 86.7207fc64.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-77.ucode
 Link: iwlwifi-so-a0-gf-a0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-77.ucode
@@ -1152,7 +1152,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-89.ucode
 Link: iwlwifi-so-a0-gf-a0-89.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-89.ucode
-Version: 86.2e78fa67.0
+Version: 86.7207fc64.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-77.ucode
 Link: iwlwifi-so-a0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-77.ucode
@@ -1180,7 +1180,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-89.ucode
 Link: iwlwifi-so-a0-hr-b0-89.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-89.ucode
-Version: 86.2e78fa67.0
+Version: 86.7207fc64.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-jf-b0-77.ucode
 Link: iwlwifi-so-a0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-jf-b0-77.ucode
@@ -1203,7 +1203,7 @@ Version: 95.d661c37c.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-hr-b0-100.ucode
 Link: iwlwifi-bz-b0-hr-b0-100.ucode -> intel/iwlwifi/iwlwifi-bz-b0-hr-b0-100.ucode
-Version: 97.09e46595.0
+Version: 97.de068435d.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-hr-b0.pnvm
 Link: iwlwifi-bz-b0-hr-b0.pnvm -> intel/iwlwifi/iwlwifi-bz-b0-hr-b0.pnvm
@@ -1230,7 +1230,7 @@ Version: 95.d661c37c.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-gf-a0-100.ucode
 Link: iwlwifi-bz-b0-gf-a0-100.ucode -> intel/iwlwifi/iwlwifi-bz-b0-gf-a0-100.ucode
-Version: 97.09e46595.0
+Version: 97.de068435d.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-gf-a0.pnvm
 Link: iwlwifi-bz-b0-gf-a0.pnvm -> intel/iwlwifi/iwlwifi-bz-b0-gf-a0.pnvm
@@ -1271,6 +1271,10 @@ File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-100.ucode
 Link: iwlwifi-gl-c0-fm-c0-100.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-100.ucode
 Version: 97.3f3ef548.0
 
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-101.ucode
+Link: iwlwifi-gl-c0-fm-c0-101.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-101.ucode
+Version: 98.6ef20b19.0
+
 File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0.pnvm
 Link: iwlwifi-gl-c0-fm-c0.pnvm -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0.pnvm
 
@@ -1302,6 +1306,10 @@ File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-100.ucode
 Link: iwlwifi-bz-b0-fm-c0-100.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-100.ucode
 Version: 97.3f3ef548.0
 
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-101.ucode
+Link: iwlwifi-bz-b0-fm-c0-101.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-101.ucode
+Version: 98.6ef20b19.0
+
 File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0.pnvm
 Link: iwlwifi-bz-b0-fm-c0.pnvm -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0.pnvm
 
@@ -1315,7 +1323,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-gf-a0-89.ucode
 Link: iwlwifi-ma-b0-gf-a0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-gf-a0-89.ucode
-Version: 86.2e78fa67.0
+Version: 86.7207fc64.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-gf-a0.pnvm
 Link: iwlwifi-ma-b0-gf-a0.pnvm -> intel/iwlwifi/iwlwifi-ma-b0-gf-a0.pnvm
@@ -1330,7 +1338,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-gf4-a0-89.ucode
 Link: iwlwifi-ma-b0-gf4-a0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-gf4-a0-89.ucode
-Version: 86.2e78fa67.0
+Version: 86.7207fc64.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-gf4-a0.pnvm
 Link: iwlwifi-ma-b0-gf4-a0.pnvm -> intel/iwlwifi/iwlwifi-ma-b0-gf4-a0.pnvm
@@ -1345,7 +1353,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-hr-b0-89.ucode
 Link: iwlwifi-ma-b0-hr-b0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-hr-b0-89.ucode
-Version: 86.2e78fa67.0
+Version: 86.7207fc64.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1398,7 +1406,7 @@ File: intel/ipu/ipu7_fw.bin
 Version: master_release_20240628_1854
 
 File: intel/ipu/ipu7ptl_fw.bin
-Version: master_release_20250515_1232
+Version: master_release_20250515_1232_ProductSigned
 
 Licence: Redistributable. See LICENSE.intel for details
 
@@ -4215,7 +4223,7 @@ File: intel/ibt-0093-4150.sfi
 File: intel/ibt-0093-4150.ddc
 File: intel/ibt-0093-1050.sfi
 File: intel/ibt-0093-1050.ddc
-Version: BT_BlazarU_S_REL87482_23.150.25254.87482
+Version: BT_BlazarU_S_REL91726_23.160.25341.91726
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4223,7 +4231,7 @@ File: intel/ibt-0180-4150.sfi
 File: intel/ibt-0180-4150.ddc
 File: intel/ibt-0180-1050.sfi
 File: intel/ibt-0180-1050.ddc
-Version: BT_Magnetar_REL103831_23.50.25133.103831
+Version: BT_Magnetar_REL103882_23.50.25205.103882
 
 File: intel/ibt-0190-0291.sfi
 File: intel/ibt-0190-0291-iml.sfi
@@ -4239,7 +4247,7 @@ File: intel/ibt-0190-0291-pci.ddc
 File: intel/ibt-0190-0291-pci.sfi
 File: intel/ibt-0190-0291-usb.ddc
 File: intel/ibt-0190-0291-usb.sfi
-Version: BT_BlazarI_S_REL95112_23.150.25254.95112
+Version: BT_BlazarI_S_REL99289_23.160.25341.99289
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -4429,6 +4437,8 @@ File: intel/qat/qat_895xcc.bin
 Link: qat_895xcc.bin -> intel/qat/qat_895xcc.bin
 File: intel/qat/qat_895xcc_mmp.bin
 Link: qat_895xcc_mmp.bin -> intel/qat/qat_895xcc_mmp.bin
+Link: qat_mmp.bin -> intel/qat/qat_895xcc_mmp.bin
+Link: intel/qat/qat_mmp.bin -> qat_895xcc_mmp.bin
 File: intel/qat/qat_c3xxx.bin
 Link: qat_c3xxx.bin -> intel/qat/qat_c3xxx.bin
 File: intel/qat/qat_c3xxx_mmp.bin
@@ -4437,7 +4447,6 @@ File: intel/qat/qat_c62x.bin
 Link: qat_c62x.bin -> intel/qat/qat_c62x.bin
 File: intel/qat/qat_c62x_mmp.bin
 Link: qat_c62x_mmp.bin -> intel/qat/qat_c62x_mmp.bin
-Link: qat_mmp.bin -> intel/qat/qat_895xcc_mmp.bin
 File: intel/qat/qat_4xxx.bin
 Link: qat_4xxx.bin -> intel/qat/qat_4xxx.bin
 File: intel/qat/qat_4xxx_mmp.bin
@@ -4724,15 +4733,23 @@ File: qca/nvm_usb_00130200_0107.bin
 File: qca/nvm_usb_00130200_0109.bin
 File: qca/nvm_usb_00130200_0110.bin
 File: qca/rampatch_usb_00130201.bin
-Version: BTFW.HSP.2.1.0-00653-USB_PATCHZ-3
+Version: BTFW.HSP.2.1.0-00659-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201.bin
+Version: BTFW.HSP.2.1.0-00659-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_010a.bin
+Version: BTFW.HSP.2.1.0-00659-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_010b.bin
+Version: BTFW.HSP.2.1.0-00659-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_0303.bin
+Version: BTFW.HSP.2.1.0-00659-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_gf.bin
+Version: BTFW.HSP.2.1.0-00659-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_gf_010a.bin
+Version: BTFW.HSP.2.1.0-00659-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_gf_010b.bin
+Version: BTFW.HSP.2.1.0-00659-USB_UART_PATCHZ-1
 File: qca/nvm_usb_00130201_gf_0303.bin
+Version: BTFW.HSP.2.1.0-00659-USB_UART_PATCHZ-1
 File: qca/rampatch_usb_00190200.bin
 File: qca/QCA2066/rampatch_usb_00130201.bin
 Version: BTFW.HSP.2.1.0-00653-VER_PATCHZ-3
@@ -5309,10 +5326,13 @@ File: i915/bmg_dmc.bin
 Version: DMC API/APB ver 2 release 6 for Battlemage
 
 File: i915/xe2lpd_dmc.bin
-Version: DMC API/APB ver 2 release 28 for Xe2LPD
+Version: DMC API/APB ver 2 release 29 for Xe2LPD
 
 File: i915/xe3lpd_dmc.bin
-Version: DMC API/APB ver 2 release 29 for Xe3LPD
+Version: DMC API/APB ver 2 release 32 for Xe3LPD
+
+File: i915/xe3lpd_3002_dmc.bin
+Version: DMC API/APB ver 2 release 27 for Xe3LPD_3002
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
@@ -5765,63 +5785,18 @@ Firmware images needed for GSP-RM:
 File: nvidia/tu102/gsp/bootloader-535.113.01.bin
 File: nvidia/tu102/gsp/booter_load-535.113.01.bin
 File: nvidia/tu102/gsp/booter_unload-535.113.01.bin
-File: nvidia/tu102/gsp/bootloader-570.144.bin
-File: nvidia/tu102/gsp/booter_load-570.144.bin
-File: nvidia/tu102/gsp/booter_unload-570.144.bin
-Link: nvidia/tu104/gsp -> ../tu102/gsp
-Link: nvidia/tu106/gsp -> ../tu102/gsp
-
 File: nvidia/tu116/gsp/booter_load-535.113.01.bin
 File: nvidia/tu116/gsp/booter_unload-535.113.01.bin
 Link: nvidia/tu116/gsp/bootloader-535.113.01.bin -> ../../tu102/gsp/bootloader-535.113.01.bin
-File: nvidia/tu116/gsp/booter_load-570.144.bin
-File: nvidia/tu116/gsp/booter_unload-570.144.bin
-Link: nvidia/tu116/gsp/bootloader-570.144.bin -> ../../tu102/gsp/bootloader-570.144.bin
-Link: nvidia/tu117/gsp -> ../tu116/gsp
-
 File: nvidia/ga100/gsp/bootloader-535.113.01.bin
 File: nvidia/ga100/gsp/booter_load-535.113.01.bin
 File: nvidia/ga100/gsp/booter_unload-535.113.01.bin
-File: nvidia/ga100/gsp/bootloader-570.144.bin
-File: nvidia/ga100/gsp/booter_load-570.144.bin
-File: nvidia/ga100/gsp/booter_unload-570.144.bin
-
 File: nvidia/ga102/gsp/bootloader-535.113.01.bin
 File: nvidia/ga102/gsp/booter_load-535.113.01.bin
 File: nvidia/ga102/gsp/booter_unload-535.113.01.bin
-File: nvidia/ga102/gsp/bootloader-570.144.bin
-File: nvidia/ga102/gsp/booter_load-570.144.bin
-File: nvidia/ga102/gsp/booter_unload-570.144.bin
-Link: nvidia/ga103/gsp -> ../ga102/gsp
-Link: nvidia/ga104/gsp -> ../ga102/gsp
-Link: nvidia/ga106/gsp -> ../ga102/gsp
-Link: nvidia/ga107/gsp -> ../ga102/gsp
-
 File: nvidia/ad102/gsp/bootloader-535.113.01.bin
 File: nvidia/ad102/gsp/booter_load-535.113.01.bin
 File: nvidia/ad102/gsp/booter_unload-535.113.01.bin
-File: nvidia/ad102/gsp/bootloader-570.144.bin
-File: nvidia/ad102/gsp/booter_load-570.144.bin
-File: nvidia/ad102/gsp/booter_unload-570.144.bin
-File: nvidia/ad102/gsp/scrubber-570.144.bin
-Link: nvidia/ad103 -> ad102
-Link: nvidia/ad104 -> ad102
-Link: nvidia/ad106 -> ad102
-Link: nvidia/ad107 -> ad102
-
-File: nvidia/gh100/gsp/bootloader-570.144.bin
-File: nvidia/gh100/gsp/fmc-570.144.bin
-
-File: nvidia/gb100/gsp/bootloader-570.144.bin
-File: nvidia/gb100/gsp/fmc-570.144.bin
-Link: nvidia/gb102 -> gb100
-
-File: nvidia/gb202/gsp/bootloader-570.144.bin
-File: nvidia/gb202/gsp/fmc-570.144.bin
-Link: nvidia/gb203 -> gb202
-Link: nvidia/gb205 -> gb202
-Link: nvidia/gb206 -> gb202
-Link: nvidia/gb207 -> gb202
 
 File: nvidia/tu102/gsp/gsp-535.113.01.bin
 Origin: gsp_tu10x.bin from NVIDIA-Linux-x86_64-535.113.01.run
@@ -5831,6 +5806,32 @@ Link: nvidia/ga100/gsp/gsp-535.113.01.bin -> ../../tu102/gsp/gsp-535.113.01.bin
 File: nvidia/ga102/gsp/gsp-535.113.01.bin
 Origin: gsp_ga10x.bin from NVIDIA-Linux-x86_64-535.113.01.run
 Link: nvidia/ad102/gsp/gsp-535.113.01.bin -> ../../ga102/gsp/gsp-535.113.01.bin
+
+File: nvidia/tu102/gsp/gen_bootloader-570.144.bin
+File: nvidia/tu102/gsp/bootloader-570.144.bin
+File: nvidia/tu102/gsp/booter_load-570.144.bin
+File: nvidia/tu102/gsp/booter_unload-570.144.bin
+Link: nvidia/tu116/gsp/gen_bootloader-570.144.bin -> ../../tu102/gsp/gen_bootloader-570.144.bin
+File: nvidia/tu116/gsp/booter_load-570.144.bin
+File: nvidia/tu116/gsp/booter_unload-570.144.bin
+Link: nvidia/tu116/gsp/bootloader-570.144.bin -> ../../tu102/gsp/bootloader-570.144.bin
+Link: nvidia/ga100/gsp/gen_bootloader-570.144.bin -> ../../tu102/gsp/gen_bootloader-570.144.bin
+File: nvidia/ga100/gsp/bootloader-570.144.bin
+File: nvidia/ga100/gsp/booter_load-570.144.bin
+File: nvidia/ga100/gsp/booter_unload-570.144.bin
+File: nvidia/ga102/gsp/bootloader-570.144.bin
+File: nvidia/ga102/gsp/booter_load-570.144.bin
+File: nvidia/ga102/gsp/booter_unload-570.144.bin
+File: nvidia/ad102/gsp/bootloader-570.144.bin
+File: nvidia/ad102/gsp/booter_load-570.144.bin
+File: nvidia/ad102/gsp/booter_unload-570.144.bin
+File: nvidia/ad102/gsp/scrubber-570.144.bin
+File: nvidia/gh100/gsp/bootloader-570.144.bin
+File: nvidia/gh100/gsp/fmc-570.144.bin
+File: nvidia/gb100/gsp/bootloader-570.144.bin
+File: nvidia/gb100/gsp/fmc-570.144.bin
+File: nvidia/gb202/gsp/bootloader-570.144.bin
+File: nvidia/gb202/gsp/fmc-570.144.bin
 
 File: nvidia/tu102/gsp/gsp-570.144.bin
 Origin: gsp_tu10x.bin from NVIDIA-Linux-x86_64-570.144.run
@@ -5843,6 +5844,24 @@ Link: nvidia/ad102/gsp/gsp-570.144.bin -> ../../ga102/gsp/gsp-570.144.bin
 Link: nvidia/gh100/gsp/gsp-570.144.bin -> ../../ga102/gsp/gsp-570.144.bin
 Link: nvidia/gb100/gsp/gsp-570.144.bin -> ../../ga102/gsp/gsp-570.144.bin
 Link: nvidia/gb202/gsp/gsp-570.144.bin -> ../../ga102/gsp/gsp-570.144.bin
+
+Link: nvidia/tu104/gsp -> ../tu102/gsp
+Link: nvidia/tu106/gsp -> ../tu102/gsp
+Link: nvidia/tu117/gsp -> ../tu116/gsp
+Link: nvidia/ga103/gsp -> ../ga102/gsp
+Link: nvidia/ga104/gsp -> ../ga102/gsp
+Link: nvidia/ga106/gsp -> ../ga102/gsp
+Link: nvidia/ga107/gsp -> ../ga102/gsp
+Link: nvidia/ad103 -> ad102
+Link: nvidia/ad104 -> ad102
+Link: nvidia/ad106 -> ad102
+Link: nvidia/ad107 -> ad102
+Link: nvidia/gb102 -> gb100
+Link: nvidia/gb203 -> gb202
+Link: nvidia/gb205 -> gb202
+Link: nvidia/gb206 -> gb202
+Link: nvidia/gb207 -> gb202
+
 Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
@@ -6131,9 +6150,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20250903123148a
+Version: 20250523103150a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20250903123103
+Version: 20250523103106
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6410,7 +6429,8 @@ File: qcom/vpu/vpu20_p1_gen2.mbn
 
 Version: VIDEO.VPU.2.4.2-00025
 
-File: qcom/vpu/vpu30_p4.mbn
+File: qcom/vpu/vpu30_p4_s7.mbn
+Link: qcom/vpu/vpu30_p4.mbn -> vpu30_p4_s7.mbn
 
 Version: VIDEO.VPU.3.1-0096
 
@@ -6422,11 +6442,13 @@ File: qcom/vpu/vpu30_p4_s6_16mb.mbn
 
 Version: VIDEO.VPU.3.1-0093
 
-File: qcom/vpu/vpu33_p4.mbn
+File: qcom/vpu/vpu33_p4_s7.mbn
+Link: qcom/vpu/vpu33_p4.mbn -> vpu33_p4_s7.mbn
 
 Version: VIDEO.VPU.3.4-0054
 
-File: qcom/vpu/vpu35_p4.mbn
+File: qcom/vpu/vpu35_p4_s7.mbn
+Link: qcom/vpu/vpu35_p4.mbn -> vpu35_p4_s7.mbn
 
 Version: VIDEO.VPU.3.5-0040
 
@@ -8428,10 +8450,11 @@ Originates from https://github.com/nxp-imx/imx-firmware/tree/lf-6.1.22_2.0.0/nxp
 Driver: qcom-sc8280xp - Qualcomm ASoC tplg Firmware
 File: qcom/sc8280xp/LENOVO/21BX/audioreach-tplg.bin
 Link: qcom/sc8280xp/SC8280XP-LENOVO-X13S-tplg.bin -> LENOVO/21BX/audioreach-tplg.bin
-Version: v0.1.0
+Version: v1.0.0
+Info: DATE=15.10.2025
 
 Licence: Redistributable. See LICENCE.linaro for details
-Originates from https://git.linaro.org/people/srinivas.kandagatla/audioreach-topology.git
+Originates from https://github.com/linux-msm/audioreach-topology.git
 --------------------------------------------------------------------------
 
 Driver: amlogic - Amlogic SoC Firmware
@@ -8495,7 +8518,8 @@ Originates from https://github.com/linux-msm/audioreach-topology.git
 Driver: qcom-sm8550 - Qualcomm ASoC tplg Firmware
 File: qcom/sm8550/SM8550-HDK-tplg.bin
 File: qcom/sm8550/SM8550-QRD-tplg.bin
-Version: v0.1.0
+Version: v1.0.0
+Info: DATE=15.10.2025
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://git.codelinaro.org/linaro/qcomlt/audioreach-topology.git
@@ -8505,7 +8529,8 @@ Originates from https://git.codelinaro.org/linaro/qcomlt/audioreach-topology.git
 Driver: qcom-sm8650 - Qualcomm ASoC tplg Firmware
 File: qcom/sm8650/SM8650-QRD-tplg.bin
 File: qcom/sm8650/SM8650-MTP-tplg.bin
-Version: v0.1.0
+Version: v1.0.0
+Info: DATE=15.10.2025
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://git.codelinaro.org/linaro/qcomlt/audioreach-topology.git
@@ -8515,13 +8540,13 @@ Originates from https://git.codelinaro.org/linaro/qcomlt/audioreach-topology.git
 Driver: qcom-x1e80100 - Qualcomm ASoC tplg Firmware
 File: qcom/x1e80100/LENOVO/21N1/X1E80100-LENOVO-Thinkpad-T14s-tplg.bin
 Link: qcom/x1e80100/X1E80100-LENOVO-Thinkpad-T14s-tplg.bin -> LENOVO/21N1/X1E80100-LENOVO-Thinkpad-T14s-tplg.bin
-Version: v0.1.0
-Info: DATE=17.03.2025
+Version: v1.0.0
+Info: DATE=15.10.2025
 
 File: qcom/x1e80100/LENOVO/83ED/X1E80100-LENOVO-Yoga-Slim7x-tplg.bin
 Link: qcom/x1e80100/X1E80100-LENOVO-Yoga-Slim7x-tplg.bin -> LENOVO/83ED/X1E80100-LENOVO-Yoga-Slim7x-tplg.bin
-Version: v0.1.0
-Info: DATE=17.03.2025
+Version: v1.0.0
+Info: DATE=15.10.2025
 
 File: qcom/x1e80100/X1E80100-EVK-tplg.bin
 Version: v0.1.0
@@ -8740,6 +8765,8 @@ License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 Driver: ish - Intel Integrated Sensor Hub
 File: intel/ish/ish_lnlm.bin
 Version: 5.8.0.7716
+File: intel/ish/ish_ptl.bin
+Version: 5.8.1.7778
 
 License: Redistributable. See LICENSE.intel for details
 
