@@ -1355,6 +1355,10 @@ File: intel/iwlwifi/iwlwifi-ma-b0-hr-b0-89.ucode
 Link: iwlwifi-ma-b0-hr-b0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-hr-b0-89.ucode
 Version: 86.7207fc64.0
 
+File: intel/iwlwifi/iwlwifi-sc-a0-wh-b0-101.ucode
+Link: iwlwifi-sc-a0-wh-b0-101.ucode -> intel/iwlwifi/iwlwifi-sc-a0-wh-b0-101.ucode
+Version: 98.80584591.0
+
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
@@ -2792,6 +2796,7 @@ File: amdgpu/smu_14_0_2.bin
 File: amdgpu/smu_14_0_3.bin
 File: amdgpu/smu_14_0_3_kicker.bin
 File: amdgpu/umsch_mm_4_0_0.bin
+File: amdgpu/vce_1_0_0.bin
 File: amdgpu/vcn_3_1_2.bin
 File: amdgpu/vcn_4_0_0.bin
 File: amdgpu/vcn_4_0_2.bin
@@ -3615,6 +3620,9 @@ Version: 0.0.4
 File: rtl_nic/rtl8125k-1.fw
 Version: 0.0.1
 
+File: rtl_nic/rtl9151a-1.fw
+Version: 0.0.1
+
 File: rtl_nic/rtl8126a-2.fw
 Version: 0.0.2
 
@@ -4382,7 +4390,7 @@ Version: 2024-11-21
 RawFile: amd-ucode/microcode_amd_fam19h.bin
 Version: 2025-10-27
 RawFile: amd-ucode/microcode_amd_fam1ah.bin
-Version: 2025-10-30
+Version: 2025-11-13
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
@@ -4854,6 +4862,39 @@ File: qca/msnv11.b0a
 Version: BTFW.MOSELLE.1.1.3-00100-MSL_PATCHZ-1
 File: qca/msnv11.b09
 Version: BTFW.MOSELLE.1.1.3-00100-MSL_PATCHZ-1
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
+Driver: qca - Qualcomm Atheros Bluetooth support for WCN685x uart interface chips
+
+File: qca/wcnhpbtfw21.tlv
+Version: BTFW.HSP.2.1.0-00660-USB_UART_PATCHZ-6
+File: qca/wcnhpnv21.bin
+File: qca/wcnhpnv21g.bin
+File: qca/wcnhpnv21.b8c
+File: qca/wcnhpnv21.b9f
+File: qca/wcnhpnv21.ba0
+File: qca/wcnhpnv21.ba1
+File: qca/wcnhpnv21.ba2
+File: qca/wcnhpnv21.ba3
+File: qca/wcnhpnv21.ba4
+File: qca/wcnhpnv21.baa
+File: qca/wcnhpnv21.bb8
+File: qca/wcnhpnv21.b10c
+File: qca/wcnhpnv21.b111
+File: qca/wcnhpnv21g.b8c
+File: qca/wcnhpnv21g.b9f
+File: qca/wcnhpnv21g.ba0
+File: qca/wcnhpnv21g.ba1
+File: qca/wcnhpnv21g.ba2
+File: qca/wcnhpnv21g.ba3
+File: qca/wcnhpnv21g.ba4
+File: qca/wcnhpnv21g.baa
+File: qca/wcnhpnv21g.bb8
+File: qca/wcnhpnv21g.b10c
+File: qca/wcnhpnv21g.b111
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
@@ -6157,9 +6198,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20251020143135a
+Version: 20251118163143a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20251020143009
+Version: 20251118163139
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6168,7 +6209,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20251020143443
+Version: 20251118163447
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6207,22 +6248,22 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
-Driver: mt7996e - MediaTek Wireless MACs for MT7996/MT7992
+Driver: mt7996e - MediaTek Wireless MACs for MT7996/MT7992/MT7990
 
 File: mediatek/mt7996/mt7996_wm.bin
-Version: 20240809121753
+Version: 20251111002938
 File: mediatek/mt7996/mt7996_wm_233.bin
-Version: 20240809122249
+Version: 20251111003337
 File: mediatek/mt7996/mt7996_wa.bin
-Version: 20240809121718
+Version: 20251111002848
 File: mediatek/mt7996/mt7996_wa_233.bin
-Version: 20240809122214
+Version: 20251111003249
 File: mediatek/mt7996/mt7996_rom_patch.bin
-Version: 20240809121758a
+Version: 20251111002942a
 File: mediatek/mt7996/mt7996_rom_patch_233.bin
-Version: 20240809122254a
+Version: 20251111003341a
 File: mediatek/mt7996/mt7996_dsp.bin
-Version: 20240809121650
+Version: 20251111002821
 File: mediatek/mt7996/mt7996_eeprom.bin
 Version: 20230518
 File: mediatek/mt7996/mt7996_eeprom_2i5i6i.bin
@@ -6233,21 +6274,21 @@ File: mediatek/mt7996/mt7996_eeprom_233_2i5i6i.bin
 Version: 20231129
 
 File: mediatek/mt7996/mt7992_wm.bin
-Version: 20240809131242
+Version: 20251113125714
 File: mediatek/mt7996/mt7992_wm_23.bin
-Version: 20240809124856
+Version: 20251113124751
 File: mediatek/mt7996/mt7992_wa.bin
-Version: 20240809131202
+Version: 20251113125621
 File: mediatek/mt7996/mt7992_wa_23.bin
-Version: 20240809124757
+Version: 20251113124712
 File: mediatek/mt7996/mt7992_rom_patch.bin
-Version: 20240809131205a
+Version: 20251113130209a
 File: mediatek/mt7996/mt7992_rom_patch_23.bin
-Version: 20240809124802a
+Version: 20251113125214a
 File: mediatek/mt7996/mt7992_dsp.bin
-Version: 20240809131139
+Version: 20251113125550
 File: mediatek/mt7996/mt7992_dsp_23.bin
-Version: 20240809124734
+Version: 20251113124647
 File: mediatek/mt7996/mt7992_eeprom.bin
 Version: 20230928
 File: mediatek/mt7996/mt7992_eeprom_2i5i.bin
@@ -6258,6 +6299,15 @@ File: mediatek/mt7996/mt7992_eeprom_23.bin
 Version: 20231006
 File: mediatek/mt7996/mt7992_eeprom_23_2i5i.bin
 Version: 20230811
+
+File: mediatek/mt7996/mt7990_wm.bin
+Version: 20251112210146
+File: mediatek/mt7996/mt7990_rom_patch.bin
+Version: 20251112210058a
+File: mediatek/mt7996/mt7990_eeprom.bin
+Version: 20240910
+File: mediatek/mt7996/mt7990_eeprom_2i5i.bin
+Version: 20240906
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6406,11 +6456,7 @@ Version: VIDEO.VE.5.2-00023-PROD-2
 File: qcom/venus-5.4/venus.mbn
 Link: qcom/venus-5.4/venus.mdt -> venus.mbn
 
-Version: VIDEO.VE.5.4-00059-PROD-1
-
-File: qcom/venus-5.4/venus_s2.mbn
-
-Version: VIDEO.VE.5.4-00060-PROD-1
+Version: VIDEO.VE.5.4-00062-PROD-1
 
 File: qcom/venus-6.0/venus.mbn
 
@@ -6594,17 +6640,6 @@ File: qcom/apq8096/mba.mbn
 File: qcom/apq8096/modem.mbn
 Version: MPSS.TH.2.0.1-00481
 RawFile: qcom/apq8096/modemr.jsn
-File: qcom/kaanapali/adsp.mbn
-File: qcom/kaanapali/adsp_dtb.mbn
-Version: LPAIDSP.HT.1.2-00769-KAANAPALI-1
-RawFile: qcom/kaanapali/adspr.jsn
-RawFile: qcom/kaanapali/adsps.jsn
-RawFile: qcom/kaanapali/adspua.jsn
-RawFile: qcom/kaanapali/adspuo.jsn
-File: qcom/kaanapali/cdsp.mbn
-File: qcom/kaanapali/cdsp_dtb.mbn
-Version: CDSP.HT.3.2-00684-KAANAPALI-1
-RawFile: qcom/kaanapali/cdspr.jsn
 File: qcom/qcm2290/adsp.mbn
 Version: ADSP.VT.5.4.1.c4-00013-KAMORTA-1
 RawFile: qcom/qcm2290/adspr.jsn
@@ -6636,6 +6671,11 @@ Version: ADSP.HT.5.5.c8-00217-KODIAK-1
 RawFile: qcom/qcs6490/radxa/dragon-q6a/adspr.jsn
 RawFile: qcom/qcs6490/radxa/dragon-q6a/adsps.jsn
 RawFile: qcom/qcs6490/radxa/dragon-q6a/adspua.jsn
+File: qcom/qcs6490/Thundercomm/RubikPi3/adsp.mbn
+Version: ADSP.HT.5.5.c8-00217-KODIAK-1
+RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adspr.jsn
+RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adsps.jsn
+RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adspua.jsn
 File: qcom/qcs615/adsp.mbn
 Version: ADSP.VT.5.2.c6-00059-SM6150-1
 RawFile: qcom/qcs615/adspr.jsn
@@ -6747,6 +6787,17 @@ https://github.com/andersson/pil-squasher
 cdsp.mbn has been converted from 21-cdsp_split/firmware/cdsp.* using
 https://github.com/andersson/pil-squasher
 
+File: qcom/kaanapali/adsp.mbn
+File: qcom/kaanapali/adsp_dtb.mbn
+Version: LPAIDSP.HT.1.6-00223-KAANAPALI-1
+RawFile: qcom/kaanapali/adspr.jsn
+RawFile: qcom/kaanapali/adsps.jsn
+RawFile: qcom/kaanapali/adspua.jsn
+RawFile: qcom/kaanapali/adspuo.jsn
+File: qcom/kaanapali/cdsp.mbn
+File: qcom/kaanapali/cdsp_dtb.mbn
+Version: CDSP.HT.3.2-00726.1-KAANAPALI-1
+RawFile: qcom/kaanapali/cdspr.jsn
 File: qcom/kaanapali/soccp.mbn
 File: qcom/kaanapali/soccp_dtb.mbn
 Version: SOCCP.FW.2.1-00204-KAANAPALI_SOCCP_PACK-1
@@ -6775,6 +6826,18 @@ Version: DSP.AT.1.0.1-00163-LEMANS-1
 RawFile: qcom/qcs8300/cdspr.jsn
 File: qcom/qcs8300/gpdsp0.mbn
 Version: DSP.AT.1.0.1-00163-LEMANS-1
+
+File: qcom/sm8750/adsp.mbn
+File: qcom/sm8750/adsp_dtb.mbn
+Version: LPAIDSP.HT.1.2.c1-00379-PAKALA-1
+RawFile: qcom/sm8750/adspr.jsn
+RawFile: qcom/sm8750/adsps.jsn
+RawFile: qcom/sm8750/adspua.jsn
+RawFile: qcom/sm8750/adspuo.jsn
+File: qcom/sm8750/cdsp.mbn
+File: qcom/sm8750/cdsp_dtb.mbn
+Version: CDSP.HT.3.1-00883-PAKALA-1
+RawFile: qcom/sm8750/cdspr.jsn
 
 Licence: Redistributable. See LICENSE.qcom-2 and qcom/NOTICE.txt for details
 
@@ -8030,6 +8093,7 @@ File: cirrus/cs35l56/CS35L56_Rev3.11.26.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28B.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.13.3R.wmfw
+File: cirrus/cs35l56/CS35L56_Rev4.5.9.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp2.bin
@@ -8146,6 +8210,36 @@ File: cirrus/cs35l56-b0-dsp1-misc-10280d33-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280d33-spkid1-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280d33-spkid1-amp3.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280d33-spkid1-amp4.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1-l2u3.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8c52.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp2.bin
@@ -8398,6 +8492,34 @@ Use of Cirrus Logic drivers, firmware and other materials is permitted
 only in connection with Cirrus Logic hardware products.
 
 Copyright © 2023 Cirrus Logic, Inc. and Cirrus Logic International
+Semiconductor Ltd. All Rights Reserved.
+
+---------------------------------------------------------------------------
+
+Driver: cs42l45 - CS42L45 SDCA audio driver
+
+File: sdca/1fa/1028/db3/1.bin
+File: sdca/1fa/1028/db3/2.bin
+File: sdca/1fa/1028/db3/3.bin
+File: sdca/1fa/1028/db3/4.bin
+File: sdca/1fa/1028/db3/42450005.bin
+Link: sdca/1fa/1028/db4/1.bin -> ../db3/1.bin
+Link: sdca/1fa/1028/db4/2.bin -> ../db3/2.bin
+Link: sdca/1fa/1028/db4/3.bin -> ../db3/3.bin
+Link: sdca/1fa/1028/db4/4.bin -> ../db3/4.bin
+Link: sdca/1fa/1028/db4/42450005.bin -> ../db3/42450005.bin
+File: sdca/1fa/1028/db9/1.bin
+File: sdca/1fa/1028/db9/2.bin
+File: sdca/1fa/1028/db9/3.bin
+File: sdca/1fa/1028/db9/4.bin
+File: sdca/1fa/1028/db9/42450005.bin
+
+License: Redistributable. See LICENSE.cirrus for details.
+
+Use of Cirrus Logic drivers, firmware and other materials is permitted
+only in connection with Cirrus Logic hardware products.
+
+Copyright © 2025 Cirrus Logic, Inc. and Cirrus Logic International
 Semiconductor Ltd. All Rights Reserved.
 
 --------------------------------------------------------------------------
@@ -8741,18 +8863,34 @@ Link: TAS2XXX8DE8.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
 Link: TAS2XXX8DE9.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
 Link: TAS2XXX8DE80.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
 Link: TAS2XXX8DE81.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX8DE8-0.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
+Link: TAS2XXX8DE8-1.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
 Link: TAS2XXX8DE90.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
 Link: TAS2XXX8DE91.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
+Link: TAS2XXX8DE9-0.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
+Link: TAS2XXX8DE9-1.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
 Link: TAS2XXX8E17.bin -> ti/audio/tas2781/TAS2XXX8E17.bin
 Link: TAS2XXX8E19.bin -> ti/audio/tas2781/TAS2XXX8E19.bin
 Link: TAS2XXX8E1C.bin -> ti/audio/tas2781/TAS2XXX8E1C.bin
 Link: TAS2XXX8E8A.bin -> ti/audio/tas2781/TAS2XXX8E8A.bin
 Link: TAS2XXX8ED5.bin -> ti/audio/tas2781/TAS2XXX8ED5.bin
+Link: TAS2XXX8ED5-0.bin -> ti/audio/tas2781/TAS2XXX8ED5.bin
+Link: TAS2XXX8ED5-1.bin -> ti/audio/tas2781/TAS2XXX8ED5.bin
 Link: TAS2XXX8ED6.bin -> ti/audio/tas2781/TAS2XXX8ED6.bin
+Link: TAS2XXX8ED6-0.bin -> ti/audio/tas2781/TAS2XXX8ED6.bin
+Link: TAS2XXX8ED6-1.bin -> ti/audio/tas2781/TAS2XXX8ED6.bin
 Link: TAS2XXX8ED7.bin -> ti/audio/tas2781/TAS2XXX8ED7.bin
+Link: TAS2XXX8ED7-0.bin -> ti/audio/tas2781/TAS2XXX8ED7.bin
+Link: TAS2XXX8ED7-1.bin -> ti/audio/tas2781/TAS2XXX8ED7.bin
 Link: TAS2XXX8ED8.bin -> ti/audio/tas2781/TAS2XXX8ED8.bin
+Link: TAS2XXX8ED8-0.bin -> ti/audio/tas2781/TAS2XXX8ED8.bin
+Link: TAS2XXX8ED8-1.bin -> ti/audio/tas2781/TAS2XXX8ED8.bin
 Link: TAS2XXX8ED9.bin -> ti/audio/tas2781/TAS2XXX8ED9.bin
+Link: TAS2XXX8ED9-0.bin -> ti/audio/tas2781/TAS2XXX8ED9.bin
+Link: TAS2XXX8ED9-1.bin -> ti/audio/tas2781/TAS2XXX8ED9.bin
 Link: TAS2XXX8EDA.bin -> ti/audio/tas2781/TAS2XXX8EDA.bin
+Link: TAS2XXX8EDA-0.bin -> ti/audio/tas2781/TAS2XXX8EDA.bin
+Link: TAS2XXX8EDA-1.bin -> ti/audio/tas2781/TAS2XXX8EDA.bin
 Link: TAS2XXX8F40.bin -> ti/audio/tas2781/TAS2XXX8F40.bin
 Link: TAS2XXX8F41.bin -> ti/audio/tas2781/TAS2XXX8F41.bin
 Link: TAS2XXX8F42.bin -> ti/audio/tas2781/TAS2XXX8F42.bin
@@ -8914,5 +9052,11 @@ License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Driver: sdx61 - Qualcomm SDX61 firmware image file for Foxconn vendor
 File: qcom/sdx61/foxconn/prog_firehose_lite.elf
+
+License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+---------------------------------------------------------------------------
+
+Driver: sdx35 - Qualcomm SDX35 firmware image file for Foxconn vendor
+File: qcom/sdx35/foxconn/xbl_s_devprg_ns.melf
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
