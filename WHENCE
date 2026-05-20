@@ -4070,6 +4070,17 @@ File: ath12k/QCN9274/hw2.0/board-2.bin
 File: ath12k/QCN9274/hw2.0/firmware-2.bin
 Version: WLAN.WBE.1.6-01243-QCAHKSWPL_SILICONZ-1
 File: ath12k/QCN9274/hw2.0/Notice.txt
+File: ath12k/IPQ5424/hw1.0/board-2.bin
+File: ath12k/IPQ5424/hw1.0/iu_fw.mbn
+File: ath12k/IPQ5424/hw1.0/q6_fw0.mbn
+File: ath12k/IPQ5424/hw1.0/q6_fw1.mbn
+File: ath12k/IPQ5424/hw1.0/qdsp6sw_dtb.mbn
+Version: WLAN.WBE.1.6-01275-QCAHKSWPL_SILICONZ-1
+File: ath12k/IPQ5424/hw1.0/Notice.txt
+File: ath12k/QCC2072/hw1.0/board-2.bin
+File: ath12k/QCC2072/hw1.0/firmware-2.bin
+Version: WLAN.COL.1.0.c2-00074-QCACOLSWPL_V1_TO_SILICONZ-1
+File: ath12k/QCC2072/hw1.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -4244,15 +4255,15 @@ Link: intel/ibt-18-1.ddc -> ibt-18-0-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 
 File: intel/ibt-20-0-3.sfi
-Version: BT_Quasar_REL53843_22.180.2607.53843
+Version: BT_CyclonePeak_A0_REL53636
 File: intel/ibt-20-0-3.ddc
 Version: BT_CyclonePeak_A0_REL53636
 File: intel/ibt-20-1-3.sfi
-Version: BT_Quasar_REL53843_22.180.2607.53843
+Version: BT_CyclonePeak_A0_REL53636
 File: intel/ibt-20-1-3.ddc
 Version: BT_CyclonePeak_A0_REL53636
 File: intel/ibt-20-1-4.sfi
-Version: BT_Quasar_REL53843_22.180.2607.53843
+Version: BT_CyclonePeak_A0_REL53636
 File: intel/ibt-20-1-4.ddc
 Version: BT_CyclonePeak_A0_REL53636
 
@@ -4310,13 +4321,13 @@ File: intel/ibt-0093-4150.sfi
 File: intel/ibt-0093-4150.ddc
 File: intel/ibt-0093-1050.sfi
 File: intel/ibt-0093-1050.ddc
-Version: BT_BlazaruHrpGfp_S_REL297_24.00.26071.297
+Version: BT_BlazaruHrpGfp_S_REL308_24.00.26134.308
 
 File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
 File: intel/ibt-0093-0291.sfi
 File: intel/ibt-0093-0291.ddc
-Version: BT_BlazarU_S_REL105597_24.30.26081.105597
+Version: BT_BlazarU_S_REL110262_24.40.26135.110262
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4328,35 +4339,30 @@ Version: BT_Magnetar_REL103882_23.50.25205.103882
 
 File: intel/ibt-0190-0291.sfi
 File: intel/ibt-0190-0291.ddc
-File: intel/ibt-0190-0041.sfi
+Version: BT_BlazariGfp_S_REL233_24.00.26071.233
+
+#Below fw files are for BlazarIW for WCL
+File: intel/ibt-1190-0041-iml.sfi
 File: intel/ibt-0190-0041-iml.sfi
-File: intel/ibt-0190-0041.ddc
 File: intel/ibt-0190-0041-pci.ddc
 File: intel/ibt-0190-0041-pci.sfi
 File: intel/ibt-0190-0041-usb.ddc
 File: intel/ibt-0190-0041-usb.sfi
-Version: BT_BlazariGfp_S_REL233_24.00.26071.233
-
-#below fw files are for BlazarIW for WCL
-File: intel/ibt-1190-0041-iml.sfi
 File: intel/ibt-1190-0041-pci.ddc
 File: intel/ibt-1190-0041-pci.sfi
 File: intel/ibt-1190-0041-usb.sfi
 File: intel/ibt-1190-0041-usb.ddc
-Version: BT_BlazariGfp_S_REL182_24.00.25515.182
+Version: BT_BlazariGfp_S_REL244_24.00.26134.244
 
 File: intel/ibt-0190-0291-iml.sfi
 File: intel/ibt-0190-0291-usb.ddc
 File: intel/ibt-0190-0291-usb.sfi
 File: intel/ibt-0190-0291-pci.ddc
 File: intel/ibt-0190-0291-pci.sfi
-Version: BT_BlazarI_S_REL113003_24.30.26081.113003
-
-# Below fw files are for BlazarIW for WCL
 File: intel/ibt-1190-01a1-iml.sfi
 File: intel/ibt-1190-01a1-pci.ddc
 File: intel/ibt-1190-01a1-pci.sfi
-Version: BT_BlazarI_S_REL109279_24.20.26022.109279
+Version: BT_BlazarI_S_REL117603_24.40.26135.117603
 
 File: intel/ibt-00a0-01a1-iml.sfi
 File: intel/ibt-00a0-01a1-pci.ddc
@@ -4368,12 +4374,12 @@ File: intel/ibt-00a0-0291-pci.ddc
 File: intel/ibt-00a0-0291-pci.sfi
 File: intel/ibt-00a0-0291-usb.ddc
 File: intel/ibt-00a0-0291-usb.sfi
-Version: BT_Scorpius_S_REL79662_24.30.26081.79662
+Version: BT_Scorpius_S_REL85926_24.40.26135.85926
 
 File: intel/ibt-00a0-0041-iml.sfi
 File: intel/ibt-00a0-0041-pci.ddc
 File: intel/ibt-00a0-0041-pci.sfi
-Version: BT_ScorpiusGfp_S_REL281_24.00.26071.281
+Version: BT_ScorpiusGfp_S_REL291_24.00.26134.291
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -4389,6 +4395,7 @@ Link: rtl_bt/rtl8723bs_config-OBDA0623.bin -> rtl8723bs_config.bin
 File: rtl_bt/rtl8723cs_xx_fw.bin
 File: rtl_bt/rtl8723cs_xx_config.bin
 File: rtl_bt/rtl8761a_fw.bin
+Link: rtl_bt/rtl8761a_config.bin -> rtl8761bu_config.bin
 File: rtl_bt/rtl8761b_fw.bin
 File: rtl_bt/rtl8761b_config.bin
 File: rtl_bt/rtl8761bu_fw.bin
@@ -4503,7 +4510,7 @@ Version: 2024-11-21
 RawFile: amd-ucode/microcode_amd_fam19h.bin
 Version: 2025-10-27
 RawFile: amd-ucode/microcode_amd_fam1ah.bin
-Version: 2025-12-02
+Version: 2026-04-16
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
@@ -4868,23 +4875,23 @@ File: qca/nvm_usb_00130200_0107.bin
 File: qca/nvm_usb_00130200_0109.bin
 File: qca/nvm_usb_00130200_0110.bin
 File: qca/rampatch_usb_00130201.bin
-Version: BTFW.HSP.2.1.0-00665-USB_UART_PATCHZ-1
+Version: BTFW.HSP.2.1.0-00666-USB_UART_PATCHZ-3
 File: qca/nvm_usb_00130201.bin
-Version: BTFW.HSP.2.1.0-00665-USB_UART_PATCHZ-1
+Version: BTFW.HSP.2.1.0-00666-USB_UART_PATCHZ-3
 File: qca/nvm_usb_00130201_010a.bin
-Version: BTFW.HSP.2.1.0-00665-USB_UART_PATCHZ-1
+Version: BTFW.HSP.2.1.0-00666-USB_UART_PATCHZ-3
 File: qca/nvm_usb_00130201_010b.bin
-Version: BTFW.HSP.2.1.0-00665-USB_UART_PATCHZ-1
+Version: BTFW.HSP.2.1.0-00666-USB_UART_PATCHZ-3
 File: qca/nvm_usb_00130201_0303.bin
-Version: BTFW.HSP.2.1.0-00665-USB_UART_PATCHZ-1
+Version: BTFW.HSP.2.1.0-00666-USB_UART_PATCHZ-3
 File: qca/nvm_usb_00130201_gf.bin
-Version: BTFW.HSP.2.1.0-00665-USB_UART_PATCHZ-1
+Version: BTFW.HSP.2.1.0-00666-USB_UART_PATCHZ-3
 File: qca/nvm_usb_00130201_gf_010a.bin
-Version: BTFW.HSP.2.1.0-00665-USB_UART_PATCHZ-1
+Version: BTFW.HSP.2.1.0-00666-USB_UART_PATCHZ-3
 File: qca/nvm_usb_00130201_gf_010b.bin
-Version: BTFW.HSP.2.1.0-00665-USB_UART_PATCHZ-1
+Version: BTFW.HSP.2.1.0-00666-USB_UART_PATCHZ-3
 File: qca/nvm_usb_00130201_gf_0303.bin
-Version: BTFW.HSP.2.1.0-00665-USB_UART_PATCHZ-1
+Version: BTFW.HSP.2.1.0-00666-USB_UART_PATCHZ-3
 File: qca/rampatch_usb_00190200.bin
 File: qca/QCA2066/rampatch_usb_00130201.bin
 Version: BTFW.HSP.2.1.0-00653-VER_PATCHZ-3
@@ -5507,10 +5514,10 @@ File: i915/xe2lpd_dmc.bin
 Version: DMC API/APB ver 2 release 29 for Xe2LPD
 
 File: i915/xe3lpd_dmc.bin
-Version: DMC API/APB ver 2 release 33 for Xe3LPD
+Version: DMC API/APB ver 2 release 34 for Xe3LPD
 
 File: i915/xe3lpd_3002_dmc.bin
-Version: DMC API/APB ver 2 release 28 for Xe3LPD_3002
+Version: DMC API/APB ver 2 release 29 for Xe3LPD_3002
 
 File: i915/xe3p_lpd_dmc.bin
 Version: DMC API/APB ver 2 release 33 for Xe3p_LPD
@@ -5524,13 +5531,13 @@ File: xe/lnl_gsc_1.bin
 Version: GSC API/APB v1.0, release 104.0.5.1429, SVN 1 for Lunarlake
 
 File: xe/lnl_guc_70.bin
-Version: GuC API/APB ver 70.60.0 for Lunarlake
+Version: GuC API/APB ver 70.65.0 for Lunarlake
 
 File: xe/lnl_huc.bin
 Version: HuC API/APB ver 9.4.13 for Lunarlake
 
 File: xe/bmg_guc_70.bin
-Version: GuC API/APB ver 70.60.0 for Battlemage
+Version: GuC API/APB ver 70.65.0 for Battlemage
 
 File: xe/bmg_huc.bin
 Version: HuC API/APB ver 8.2.10 for Battlemage
@@ -5542,7 +5549,7 @@ File: xe/ptl_gsc_1.bin
 Version: GSC API/APB v1.0, release 105.0.2.1397, SVN 1 for Pantherlake
 
 File: xe/ptl_guc_70.bin
-Version: GuC API/APB ver 70.60.0 for Pantherlake
+Version: GuC API/APB ver 70.65.0 for Pantherlake
 
 File: xe/ptl_huc.bin
 Version: HuC API/APB ver 10.3.3 for Pantherlake
@@ -6104,8 +6111,6 @@ Driver: mtk-vpu - MediaTek VPU video processing unit driver
 
 File: mediatek/mt8173/vpu_d.bin
 File: mediatek/mt8173/vpu_p.bin
-Link: vpu_d.bin -> mediatek/mt8173/vpu_d.bin
-Link: vpu_p.bin -> mediatek/mt8173/vpu_p.bin
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6376,9 +6381,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 Wireless MACs
 
 File: mediatek/mt7925/WIFI_MT7925_PATCH_MCU_1_1_hdr.bin
-Version: 20260106153007a
+Version: 20260414153001a
 File: mediatek/mt7925/WIFI_RAM_CODE_MT7925_1_1.bin
-Version: 20260106152802
+Version: 20260414153105
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6387,7 +6392,18 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 bluetooth chipset
 
 File: mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin
-Version: 20260106153314
+Version: 20260414153243
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
+Driver: mt7927 - MediaTek MT7927 Wireless MACs
+
+File: mediatek/mt7927/WIFI_MT6639_PATCH_MCU_2_1_hdr.bin
+Version: 20260414133750a
+File: mediatek/mt7927/WIFI_RAM_CODE_MT6639_2_1.bin
+Version: 20260414134255
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6640,6 +6656,10 @@ https://developer.qualcomm.com/hardware/dragonboard-410c/tools
 
 Driver: iris - Qualcomm Iris video codec accelerator
 
+File: qcom/vpu/ar50lt_p1_gen2_s6.mbn
+
+Version: VIDEO.VPU.2.6.2-0005
+
 File: qcom/vpu/vpu20_p1_gen2_s6.mbn
 Link: qcom/vpu/vpu20_p1_gen2.mbn -> vpu20_p1_gen2_s6.mbn
 
@@ -6858,7 +6878,7 @@ Version: MPSS.HA.1.1-00435-KD_ALL_PACK-1
 RawFile: qcom/qcm2290/modemr.jsn
 RawFile: qcom/qcm2290/modemuw.jsn
 File: qcom/qcm6490/adsp.mbn
-Version: ADSP.HT.5.5.c8-00246-KODIAK-1
+Version: ADSP.HT.5.5.c8-00249.1-KODIAK-1
 RawFile: qcom/qcm6490/adspr.jsn
 RawFile: qcom/qcm6490/adsps.jsn
 RawFile: qcom/qcm6490/adspua.jsn
@@ -6992,7 +7012,7 @@ https://github.com/andersson/pil-squasher
 
 File: qcom/glymur/adsp.mbn
 File: qcom/glymur/adsp_dtb.mbn
-Version: LPAIDSP.HT.1.6.c1-00007-GLYMUR-3
+Version: LPAIDSP.HT.1.6.2-00001-GLYMUR-1
 RawFile: qcom/glymur/adspr.jsn
 RawFile: qcom/glymur/adsps.jsn
 RawFile: qcom/glymur/adspua.jsn
@@ -7002,14 +7022,14 @@ Version: CDSP.HT.3.3-00311-GLYMUR-1
 RawFile: qcom/glymur/cdspr.jsn
 File: qcom/kaanapali/adsp.mbn
 File: qcom/kaanapali/adsp_dtb.mbn
-Version: LPAIDSP.HT.1.6-00223-KAANAPALI-1
+Version: LPAIDSP.HT.1.6.1-00002-KAANAPALI-1
 RawFile: qcom/kaanapali/adspr.jsn
 RawFile: qcom/kaanapali/adsps.jsn
 RawFile: qcom/kaanapali/adspua.jsn
 RawFile: qcom/kaanapali/adspuo.jsn
 File: qcom/kaanapali/cdsp.mbn
 File: qcom/kaanapali/cdsp_dtb.mbn
-Version: CDSP.HT.3.2-00726.1-KAANAPALI-1
+Version: CDSP.HT.3.2.c1-00001-KAANAPALI-3
 RawFile: qcom/kaanapali/cdspr.jsn
 File: qcom/kaanapali/soccp.mbn
 File: qcom/kaanapali/soccp_dtb.mbn
@@ -7024,6 +7044,7 @@ Version: DSP.AT.1.0.1-00196-LEMANS-2
 RawFile: qcom/qcs8300/cdspr.jsn
 File: qcom/qcs8300/gpdsp0.mbn
 Version: DSP.AT.1.0.1-00196-LEMANS-2
+RawFile: qcom/qcs8300/gpdspr.jsn
 File: qcom/sa8775p/adsp.mbn
 Version: DSP.AT.1.0.1-00196-LEMANS-2
 RawFile: qcom/sa8775p/adspr.jsn
@@ -7033,6 +7054,7 @@ Version: DSP.AT.1.0.1-00196-LEMANS-2
 File: qcom/sa8775p/cdsp1.mbn
 Version: DSP.AT.1.0.1-00196-LEMANS-2
 RawFile: qcom/sa8775p/cdspr.jsn
+RawFile: qcom/sa8775p/cdsp1r.jsn
 File: qcom/sa8775p/gpdsp0.mbn
 Version: DSP.AT.1.0.1-00196-LEMANS-2
 File: qcom/sa8775p/gpdsp1.mbn
@@ -7052,11 +7074,14 @@ Version: CDSP.HT.3.1-00889-PAKALA-1
 RawFile: qcom/sm8750/cdspr.jsn
 File: qcom/x1e80100/adsp.mbn
 File: qcom/x1e80100/adsp_dtb.mbn
-Version: ADSP.HT.5.9-00828-HAMOA-1
+Version: ADSP.HT.5.9-00839-HAMOA-1
 RawFile: qcom/x1e80100/adspr.jsn
 RawFile: qcom/x1e80100/adsps.jsn
 RawFile: qcom/x1e80100/adspua.jsn
 RawFile: qcom/x1e80100/battmgr.jsn
+File: qcom/shikra/cdsp.mbn
+Version: CDSP.VT.2.4.3-00076-SHIKRA-1
+RawFile: qcom/shikra/cdspr.jsn
 
 Licence: Redistributable. See LICENSE.qcom-2 and qcom/NOTICE.txt for details
 
@@ -7071,7 +7096,7 @@ File: qcom/x1e80100/dell/xps13-9345/qcadsp8380.mbn
 File: qcom/x1e80100/dell/xps13-9345/qccdsp8380.mbn
 File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
 
-License: Redistributable. See LICENSE.dell for details
+Licence: Redistributable. See LICENSE.dell and qcom/NOTICE.txt for details
 
 --------------------------------------------------------------------------
 
@@ -7276,9 +7301,26 @@ Licence: Redistributable. See LICENCE.Marvell for details.
 
 --------------------------------------------------------------------------
 
+Driver: lt7911exc - Lontium EDP to MIPI DSI bridge
+
+File: Lontium/lt7911exc_fw.bin
+
+License: Redistributable. See LICENSE.Lontium for details.
+
+--------------------------------------------------------------------------
+
 Driver: lt8713sx - Lontium DP Hub
 
-File: lt8713sx_fw.bin
+File: Lontium/lt8713sx_fw.bin
+Link: lt8713sx_fw.bin -> Lontium/lt8713sx_fw.bin
+
+License: Redistributable. See LICENSE.Lontium for details.
+
+--------------------------------------------------------------------------
+
+Driver: lt9611c - Lontium MIPI DSI to HDMI bridge
+
+File: Lontium/lt9611c_fw.bin
 
 License: Redistributable. See LICENSE.Lontium for details.
 
@@ -7286,7 +7328,8 @@ License: Redistributable. See LICENSE.Lontium for details.
 
 Driver: lt9611uxc - Lontium DSI to HDMI bridge
 
-File: lt9611uxc_fw.bin
+File: Lontium/lt9611uxc_fw.bin
+Link: lt9611uxc_fw.bin -> Lontium/lt9611uxc_fw.bin
 
 License: Redistributable. See LICENSE.Lontium for details.
 
@@ -8394,11 +8437,13 @@ File: cirrus/cs35l56/CS35L56_Rev3.11.26.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28B.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.12.2.wmfw
+File: cirrus/cs35l56/CS35L56_Rev3.13.0.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.13.3.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.13.3R.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.13.4.wmfw
 File: cirrus/cs35l56/CS35L56_Rev4.5.3.wmfw
 File: cirrus/cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l56/CS35L56_Rev4.7.2.wmfw
 File: cirrus/cs35l63/CS35L63_Rev2.5.4.wmfw
 File: cirrus/cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
@@ -9088,6 +9133,12 @@ File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid1-l1u0.bin
 File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid1-l1u1.bin
 File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid1-l2u2.bin
 File: cirrus/cs35l57-b2-dsp1-misc-17aa2355-spkid1-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-17aa235c.wmfw -> cs35l56/CS35L56_Rev4.7.2.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-17aa235c-l2u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa235c-l2u4.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-17aa235d.wmfw -> cs35l56/CS35L56_Rev4.7.2.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-17aa235d-l2u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-17aa235d-l2u4.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa3806-spkid0.wmfw -> cs35l56/CS35L56_Rev3.13.3.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa3806-spkid0-l0u0.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa3806-spkid0-l0u1.bin
@@ -9177,6 +9228,15 @@ File: cirrus/cs35l56-b0-dsp1-misc-17aa3953-spkid0-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa3956-spkid1.wmfw -> cs35l56/CS35L56_Rev3.12.2.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa3956-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa3956-spkid1-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa395b.wmfw -> cs35l56/CS35L56_Rev3.13.0.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa395b-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa395b-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa395f-spkid0.wmfw -> cs35l56/CS35L56_Rev3.13.4.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa395f-spkid0-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa395f-spkid0-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa3960-spkid1.wmfw -> cs35l56/CS35L56_Rev3.13.4.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa3960-spkid1-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa3960-spkid1-amp2.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
@@ -9442,10 +9502,8 @@ Licence: Redistributable. See LICENSE.amlogic for details
 Driver: powervr - Imagination Technologies PowerVR graphics driver
 
 File: powervr/rogue_33.15.11.3_v1.fw
-Version: 1.0.OS@6503725
-
 File: powervr/rogue_36.53.104.796_v1.fw
-Version: 1.0.OS@6852738
+Version: 1.1.OS@6976702
 
 License: Redistributable. See LICENSE.powervr for details
 
@@ -9731,30 +9789,283 @@ File: ti/audio/tas2783/8EXX-X-C.bin
 File: ti/audio/tas2783/8EXX-X-D.bin
 File: ti/audio/tas2783/8EF6-X-9.bin
 File: ti/audio/tas2783/8EF6-X-C.bin
+File: ti/audio/tas2783/1534-2-0x8.bin
+File: ti/audio/tas2783/1534-2-0xB.bin
+File: ti/audio/tas2783/16F4-1-0x9.bin
+File: ti/audio/tas2783/16F4-1-0xC.bin
+File: ti/audio/tas2783/1714-1-0x8.bin
+File: ti/audio/tas2783/1714-1-0xB.bin
+File: ti/audio/tas2783/1954-0-0-0x8.bin
+File: ti/audio/tas2783/1954-0-0-0xB.bin
+File: ti/audio/tas2783/1954-0-1-0x8.bin
+File: ti/audio/tas2783/1954-0-1-0xB.bin
+File: ti/audio/tas2783/1954-1-0-0x8.bin
+File: ti/audio/tas2783/1954-1-0-0xB.bin
+File: ti/audio/tas2783/1954-1-1-0x8.bin
+File: ti/audio/tas2783/1954-1-1-0xB.bin
+File: ti/audio/tas2783/1964-0-0-0x8.bin
+File: ti/audio/tas2783/1964-0-0-0xB.bin
+File: ti/audio/tas2783/1964-0-1-0x8.bin
+File: ti/audio/tas2783/1964-0-1-0xB.bin
+File: ti/audio/tas2783/1964-1-0-0x8.bin
+File: ti/audio/tas2783/1964-1-0-0xB.bin
+File: ti/audio/tas2783/1964-1-1-0x8.bin
+File: ti/audio/tas2783/1964-1-1-0xB.bin
+File: ti/audio/tas2783/1994-0-2-0xB.bin
+File: ti/audio/tas2783/1994-0-2-0xC.bin
+File: ti/audio/tas2783/1994-1-2-0xB.bin
+File: ti/audio/tas2783/1994-1-2-0xC.bin
+File: ti/audio/tas2783/1AC4-0-0-0x8.bin
+File: ti/audio/tas2783/1AC4-0-0-0xB.bin
+File: ti/audio/tas2783/1AC4-1-0-0x8.bin
+File: ti/audio/tas2783/1AC4-1-0-0xB.bin
+File: ti/audio/tas2783/1AD4-0-2-0xB.bin
+File: ti/audio/tas2783/1AD4-0-2-0xC.bin
+File: ti/audio/tas2783/1AD4-1-2-0xB.bin
+File: ti/audio/tas2783/1AD4-1-2-0xC.bin
+File: ti/audio/tas2783/1AD4-2-2-0xB.bin
+File: ti/audio/tas2783/1AD4-2-2-0xC.bin
+File: ti/audio/tas2783/1AD4-3-2-0xB.bin
+File: ti/audio/tas2783/1AD4-3-2-0xC.bin
+File: ti/audio/tas2783/1B04-0-2-0x8.bin
+File: ti/audio/tas2783/1B04-0-2-0xB.bin
+File: ti/audio/tas2783/1B04-1-2-0x8.bin
+File: ti/audio/tas2783/1B04-1-2-0xB.bin
+File: ti/audio/tas2783/1B94-0-0-0xB.bin
+File: ti/audio/tas2783/1B94-0-0-0xC.bin
+File: ti/audio/tas2783/1B94-1-0-0xB.bin
+File: ti/audio/tas2783/1B94-1-0-0xC.bin
+File: ti/audio/tas2783/1B94-2-0-0xB.bin
+File: ti/audio/tas2783/1B94-2-0-0xC.bin
+File: ti/audio/tas2783/1B94-3-0-0xB.bin
+File: ti/audio/tas2783/1B94-3-0-0xC.bin
+File: ti/audio/tas2783/3431-2-0x8.bin
+File: ti/audio/tas2783/3431-2-0xB.bin
+File: ti/audio/tas2783/35C1-1-0x9.bin
+File: ti/audio/tas2783/35C1-1-0xC.bin
+File: ti/audio/tas2783/35D1-1-0x9.bin
+File: ti/audio/tas2783/35D1-1-0xC.bin
+File: ti/audio/tas2783/35E1-1-0x9.bin
+File: ti/audio/tas2783/35E1-1-0xC.bin
+File: ti/audio/tas2783/36A1-1-0x9.bin
+File: ti/audio/tas2783/36A1-1-0xC.bin
+File: ti/audio/tas2783/36B1-1-0x9.bin
+File: ti/audio/tas2783/36B1-1-0xC.bin
+File: ti/audio/tas2783/8E86-1-0x9.bin
+File: ti/audio/tas2783/8E86-1-0xA.bin
+File: ti/audio/tas2783/8E86-1-0xC.bin
+File: ti/audio/tas2783/8E86-1-0xD.bin
+File: ti/audio/tas2783/8E86-2-0x9.bin
+File: ti/audio/tas2783/8E86-2-0xA.bin
+File: ti/audio/tas2783/8E86-2-0xC.bin
+File: ti/audio/tas2783/8E86-2-0xD.bin
+File: ti/audio/tas2783/8E87-1-0x9.bin
+File: ti/audio/tas2783/8E87-1-0xA.bin
+File: ti/audio/tas2783/8E87-1-0xC.bin
+File: ti/audio/tas2783/8E87-1-0xD.bin
+File: ti/audio/tas2783/8E87-2-0x9.bin
+File: ti/audio/tas2783/8E87-2-0xA.bin
+File: ti/audio/tas2783/8E87-2-0xC.bin
+File: ti/audio/tas2783/8E87-2-0xD.bin
+File: ti/audio/tas2783/8EA1-0-0-0x9.bin
+File: ti/audio/tas2783/8EA1-0-0-0xC.bin
+File: ti/audio/tas2783/8EA1-1-0-0x9.bin
+File: ti/audio/tas2783/8EA1-1-0-0xC.bin
+File: ti/audio/tas2783/8EA2-0-0-0x9.bin
+File: ti/audio/tas2783/8EA2-0-0-0xC.bin
+File: ti/audio/tas2783/8EA2-1-0-0x9.bin
+File: ti/audio/tas2783/8EA2-1-0-0xC.bin
+File: ti/audio/tas2783/8EA4-0-2-0x9.bin
+File: ti/audio/tas2783/8EA4-0-2-0xC.bin
+File: ti/audio/tas2783/8EA4-1-2-0x9.bin
+File: ti/audio/tas2783/8EA4-1-2-0xC.bin
+File: ti/audio/tas2783/8EA5-0-2-0x9.bin
+File: ti/audio/tas2783/8EA5-0-2-0xC.bin
+File: ti/audio/tas2783/8EA5-1-2-0x9.bin
+File: ti/audio/tas2783/8EA5-1-2-0xC.bin
+File: ti/audio/tas2783/8EA6-0-2-0x9.bin
+File: ti/audio/tas2783/8EA6-0-2-0xC.bin
+File: ti/audio/tas2783/8EA6-1-2-0x9.bin
+File: ti/audio/tas2783/8EA6-1-2-0xC.bin
+File: ti/audio/tas2783/8EA7-0-2-0x9.bin
+File: ti/audio/tas2783/8EA7-0-2-0xC.bin
+File: ti/audio/tas2783/8EA7-1-2-0x9.bin
+File: ti/audio/tas2783/8EA7-1-2-0xC.bin
+File: ti/audio/tas2783/8EA8-0-2-0x9.bin
+File: ti/audio/tas2783/8EA8-0-2-0xC.bin
+File: ti/audio/tas2783/8EA8-1-2-0x9.bin
+File: ti/audio/tas2783/8EA8-1-2-0xC.bin
+File: ti/audio/tas2783/8EB4-1-0xA.bin
+File: ti/audio/tas2783/8EB4-1-0xD.bin
+File: ti/audio/tas2783/8EB4-2-0x9.bin
+File: ti/audio/tas2783/8EB4-2-0xC.bin
+File: ti/audio/tas2783/8ED0-1-0xC.bin
+File: ti/audio/tas2783/8ED0-2-0x9.bin
+File: ti/audio/tas2783/8EF5-0-0x9.bin
+File: ti/audio/tas2783/8EF5-0-0xA.bin
+File: ti/audio/tas2783/8EF5-0-0xC.bin
+File: ti/audio/tas2783/8EF5-0-0xD.bin
+File: ti/audio/tas2783/8EF6-2-0x9.bin
+File: ti/audio/tas2783/8EF6-2-0xC.bin
+File: ti/audio/tas2783/8F6D-0-0x9.bin
+File: ti/audio/tas2783/8F6D-0-0xA.bin
+File: ti/audio/tas2783/8F6D-0-0xC.bin
+File: ti/audio/tas2783/8F6D-0-0xD.bin
+File: ti/audio/tas2783/8F7B-1-0x9.bin
+File: ti/audio/tas2783/8F7B-1-0xA.bin
+File: ti/audio/tas2783/8F7B-1-0xC.bin
+File: ti/audio/tas2783/8F7B-1-0xD.bin
+File: ti/audio/tas2783/8F7B-2-0x9.bin
+File: ti/audio/tas2783/8F7B-2-0xA.bin
+File: ti/audio/tas2783/8F7B-2-0xC.bin
+File: ti/audio/tas2783/8F7B-2-0xD.bin
+File: ti/audio/tas2783/8FA4-0-0x9.bin
+File: ti/audio/tas2783/8FA4-0-0xA.bin
+File: ti/audio/tas2783/8FA4-0-0xC.bin
+File: ti/audio/tas2783/8FA4-0-0xD.bin
+File: ti/audio/tas2783/8FA5-0-0x9.bin
+File: ti/audio/tas2783/8FA5-0-0xA.bin
+File: ti/audio/tas2783/8FA5-0-0xC.bin
+File: ti/audio/tas2783/8FA5-0-0xD.bin
 
-Link: 8E86-1-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
-Link: 8E86-1-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
-Link: 8E86-1-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
-Link: 8E86-1-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
-Link: 8E86-2-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
-Link: 8E86-2-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
-Link: 8E86-2-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
-Link: 8E86-2-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
-Link: 8E87-1-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
-Link: 8E87-1-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
-Link: 8E87-1-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
-Link: 8E87-1-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
-Link: 8E87-2-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
-Link: 8E87-2-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
-Link: 8E87-2-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
-Link: 8E87-2-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
-Link: 8EF5-0-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
-Link: 8EF5-0-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
-Link: 8EF5-0-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
-Link: 8EF5-0-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
-Link: 8EF6-2-9.bin -> ti/audio/tas2783/8EF6-X-9.bin
-Link: 8EF6-2-C.bin -> ti/audio/tas2783/8EF6-X-C.bin
-
+Link: 1534-2-0x8.bin -> ti/audio/tas2783/1534-2-0x8.bin
+Link: 1534-2-0xB.bin -> ti/audio/tas2783/1534-2-0xB.bin
+Link: 16F4-1-0x9.bin -> ti/audio/tas2783/16F4-1-0x9.bin
+Link: 16F4-1-0xC.bin -> ti/audio/tas2783/16F4-1-0xC.bin
+Link: 1714-1-0x8.bin -> ti/audio/tas2783/1714-1-0x8.bin
+Link: 1714-1-0xB.bin -> ti/audio/tas2783/1714-1-0xB.bin
+Link: 1954-0-0-0x8.bin -> ti/audio/tas2783/1954-0-0-0x8.bin
+Link: 1954-0-0-0xB.bin -> ti/audio/tas2783/1954-0-0-0xB.bin
+Link: 1954-0-1-0x8.bin -> ti/audio/tas2783/1954-0-1-0x8.bin
+Link: 1954-0-1-0xB.bin -> ti/audio/tas2783/1954-0-1-0xB.bin
+Link: 1954-1-0-0x8.bin -> ti/audio/tas2783/1954-1-0-0x8.bin
+Link: 1954-1-0-0xB.bin -> ti/audio/tas2783/1954-1-0-0xB.bin
+Link: 1954-1-1-0x8.bin -> ti/audio/tas2783/1954-1-1-0x8.bin
+Link: 1954-1-1-0xB.bin -> ti/audio/tas2783/1954-1-1-0xB.bin
+Link: 1964-0-0-0x8.bin -> ti/audio/tas2783/1964-0-0-0x8.bin
+Link: 1964-0-0-0xB.bin -> ti/audio/tas2783/1964-0-0-0xB.bin
+Link: 1964-0-1-0x8.bin -> ti/audio/tas2783/1964-0-1-0x8.bin
+Link: 1964-0-1-0xB.bin -> ti/audio/tas2783/1964-0-1-0xB.bin
+Link: 1964-1-0-0x8.bin -> ti/audio/tas2783/1964-1-0-0x8.bin
+Link: 1964-1-0-0xB.bin -> ti/audio/tas2783/1964-1-0-0xB.bin
+Link: 1964-1-1-0x8.bin -> ti/audio/tas2783/1964-1-1-0x8.bin
+Link: 1964-1-1-0xB.bin -> ti/audio/tas2783/1964-1-1-0xB.bin
+Link: 1994-0-2-0xB.bin -> ti/audio/tas2783/1994-0-2-0xB.bin
+Link: 1994-0-2-0xC.bin -> ti/audio/tas2783/1994-0-2-0xC.bin
+Link: 1994-1-2-0xB.bin -> ti/audio/tas2783/1994-1-2-0xB.bin
+Link: 1994-1-2-0xC.bin -> ti/audio/tas2783/1994-1-2-0xC.bin
+Link: 1AC4-0-0-0x8.bin -> ti/audio/tas2783/1AC4-0-0-0x8.bin
+Link: 1AC4-0-0-0xB.bin -> ti/audio/tas2783/1AC4-0-0-0xB.bin
+Link: 1AC4-1-0-0x8.bin -> ti/audio/tas2783/1AC4-1-0-0x8.bin
+Link: 1AC4-1-0-0xB.bin -> ti/audio/tas2783/1AC4-1-0-0xB.bin
+Link: 1AD4-0-2-0xB.bin -> ti/audio/tas2783/1AD4-0-2-0xB.bin
+Link: 1AD4-0-2-0xC.bin -> ti/audio/tas2783/1AD4-0-2-0xC.bin
+Link: 1AD4-1-2-0xB.bin -> ti/audio/tas2783/1AD4-1-2-0xB.bin
+Link: 1AD4-1-2-0xC.bin -> ti/audio/tas2783/1AD4-1-2-0xC.bin
+Link: 1AD4-2-2-0xB.bin -> ti/audio/tas2783/1AD4-2-2-0xB.bin
+Link: 1AD4-2-2-0xC.bin -> ti/audio/tas2783/1AD4-2-2-0xC.bin
+Link: 1AD4-3-2-0xB.bin -> ti/audio/tas2783/1AD4-3-2-0xB.bin
+Link: 1AD4-3-2-0xC.bin -> ti/audio/tas2783/1AD4-3-2-0xC.bin
+Link: 1B04-0-2-0x8.bin -> ti/audio/tas2783/1B04-0-2-0x8.bin
+Link: 1B04-0-2-0xB.bin -> ti/audio/tas2783/1B04-0-2-0xB.bin
+Link: 1B04-1-2-0x8.bin -> ti/audio/tas2783/1B04-1-2-0x8.bin
+Link: 1B04-1-2-0xB.bin -> ti/audio/tas2783/1B04-1-2-0xB.bin
+Link: 1B94-0-0-0xB.bin -> ti/audio/tas2783/1B94-0-0-0xB.bin
+Link: 1B94-0-0-0xC.bin -> ti/audio/tas2783/1B94-0-0-0xC.bin
+Link: 1B94-1-0-0xB.bin -> ti/audio/tas2783/1B94-1-0-0xB.bin
+Link: 1B94-1-0-0xC.bin -> ti/audio/tas2783/1B94-1-0-0xC.bin
+Link: 1B94-2-0-0xB.bin -> ti/audio/tas2783/1B94-2-0-0xB.bin
+Link: 1B94-2-0-0xC.bin -> ti/audio/tas2783/1B94-2-0-0xC.bin
+Link: 1B94-3-0-0xB.bin -> ti/audio/tas2783/1B94-3-0-0xB.bin
+Link: 1B94-3-0-0xC.bin -> ti/audio/tas2783/1B94-3-0-0xC.bin
+Link: 3431-2-0x8.bin -> ti/audio/tas2783/3431-2-0x8.bin
+Link: 3431-2-0xB.bin -> ti/audio/tas2783/3431-2-0xB.bin
+Link: 35C1-1-0x9.bin -> ti/audio/tas2783/35C1-1-0x9.bin
+Link: 35C1-1-0xC.bin -> ti/audio/tas2783/35C1-1-0xC.bin
+Link: 35D1-1-0x9.bin -> ti/audio/tas2783/35D1-1-0x9.bin
+Link: 35D1-1-0xC.bin -> ti/audio/tas2783/35D1-1-0xC.bin
+Link: 35E1-1-0x9.bin -> ti/audio/tas2783/35E1-1-0x9.bin
+Link: 35E1-1-0xC.bin -> ti/audio/tas2783/35E1-1-0xC.bin
+Link: 36A1-1-0x9.bin -> ti/audio/tas2783/36A1-1-0x9.bin
+Link: 36A1-1-0xC.bin -> ti/audio/tas2783/36A1-1-0xC.bin
+Link: 36B1-1-0x9.bin -> ti/audio/tas2783/36B1-1-0x9.bin
+Link: 36B1-1-0xC.bin -> ti/audio/tas2783/36B1-1-0xC.bin
+Link: 8E86-1-0x9.bin -> ti/audio/tas2783/8E86-1-0x9.bin
+Link: 8E86-1-0xA.bin -> ti/audio/tas2783/8E86-1-0xA.bin
+Link: 8E86-1-0xC.bin -> ti/audio/tas2783/8E86-1-0xC.bin
+Link: 8E86-1-0xD.bin -> ti/audio/tas2783/8E86-1-0xD.bin
+Link: 8E86-2-0x9.bin -> ti/audio/tas2783/8E86-2-0x9.bin
+Link: 8E86-2-0xA.bin -> ti/audio/tas2783/8E86-2-0xA.bin
+Link: 8E86-2-0xC.bin -> ti/audio/tas2783/8E86-2-0xC.bin
+Link: 8E86-2-0xD.bin -> ti/audio/tas2783/8E86-2-0xD.bin
+Link: 8E87-1-0x9.bin -> ti/audio/tas2783/8E87-1-0x9.bin
+Link: 8E87-1-0xA.bin -> ti/audio/tas2783/8E87-1-0xA.bin
+Link: 8E87-1-0xC.bin -> ti/audio/tas2783/8E87-1-0xC.bin
+Link: 8E87-1-0xD.bin -> ti/audio/tas2783/8E87-1-0xD.bin
+Link: 8E87-2-0x9.bin -> ti/audio/tas2783/8E87-2-0x9.bin
+Link: 8E87-2-0xA.bin -> ti/audio/tas2783/8E87-2-0xA.bin
+Link: 8E87-2-0xC.bin -> ti/audio/tas2783/8E87-2-0xC.bin
+Link: 8E87-2-0xD.bin -> ti/audio/tas2783/8E87-2-0xD.bin
+Link: 8EA1-0-0-0x9.bin -> ti/audio/tas2783/8EA1-0-0-0x9.bin
+Link: 8EA1-0-0-0xC.bin -> ti/audio/tas2783/8EA1-0-0-0xC.bin
+Link: 8EA1-1-0-0x9.bin -> ti/audio/tas2783/8EA1-1-0-0x9.bin
+Link: 8EA1-1-0-0xC.bin -> ti/audio/tas2783/8EA1-1-0-0xC.bin
+Link: 8EA2-0-0-0x9.bin -> ti/audio/tas2783/8EA2-0-0-0x9.bin
+Link: 8EA2-0-0-0xC.bin -> ti/audio/tas2783/8EA2-0-0-0xC.bin
+Link: 8EA2-1-0-0x9.bin -> ti/audio/tas2783/8EA2-1-0-0x9.bin
+Link: 8EA2-1-0-0xC.bin -> ti/audio/tas2783/8EA2-1-0-0xC.bin
+Link: 8EA4-0-2-0x9.bin -> ti/audio/tas2783/8EA4-0-2-0x9.bin
+Link: 8EA4-0-2-0xC.bin -> ti/audio/tas2783/8EA4-0-2-0xC.bin
+Link: 8EA4-1-2-0x9.bin -> ti/audio/tas2783/8EA4-1-2-0x9.bin
+Link: 8EA4-1-2-0xC.bin -> ti/audio/tas2783/8EA4-1-2-0xC.bin
+Link: 8EA5-0-2-0x9.bin -> ti/audio/tas2783/8EA5-0-2-0x9.bin
+Link: 8EA5-0-2-0xC.bin -> ti/audio/tas2783/8EA5-0-2-0xC.bin
+Link: 8EA5-1-2-0x9.bin -> ti/audio/tas2783/8EA5-1-2-0x9.bin
+Link: 8EA5-1-2-0xC.bin -> ti/audio/tas2783/8EA5-1-2-0xC.bin
+Link: 8EA6-0-2-0x9.bin -> ti/audio/tas2783/8EA6-0-2-0x9.bin
+Link: 8EA6-0-2-0xC.bin -> ti/audio/tas2783/8EA6-0-2-0xC.bin
+Link: 8EA6-1-2-0x9.bin -> ti/audio/tas2783/8EA6-1-2-0x9.bin
+Link: 8EA6-1-2-0xC.bin -> ti/audio/tas2783/8EA6-1-2-0xC.bin
+Link: 8EA7-0-2-0x9.bin -> ti/audio/tas2783/8EA7-0-2-0x9.bin
+Link: 8EA7-0-2-0xC.bin -> ti/audio/tas2783/8EA7-0-2-0xC.bin
+Link: 8EA7-1-2-0x9.bin -> ti/audio/tas2783/8EA7-1-2-0x9.bin
+Link: 8EA7-1-2-0xC.bin -> ti/audio/tas2783/8EA7-1-2-0xC.bin
+Link: 8EA8-0-2-0x9.bin -> ti/audio/tas2783/8EA8-0-2-0x9.bin
+Link: 8EA8-0-2-0xC.bin -> ti/audio/tas2783/8EA8-0-2-0xC.bin
+Link: 8EA8-1-2-0x9.bin -> ti/audio/tas2783/8EA8-1-2-0x9.bin
+Link: 8EA8-1-2-0xC.bin -> ti/audio/tas2783/8EA8-1-2-0xC.bin
+Link: 8EB4-1-0xA.bin -> ti/audio/tas2783/8EB4-1-0xA.bin
+Link: 8EB4-1-0xD.bin -> ti/audio/tas2783/8EB4-1-0xD.bin
+Link: 8EB4-2-0x9.bin -> ti/audio/tas2783/8EB4-2-0x9.bin
+Link: 8EB4-2-0xC.bin -> ti/audio/tas2783/8EB4-2-0xC.bin
+Link: 8ED0-1-0xC.bin -> ti/audio/tas2783/8ED0-1-0xC.bin
+Link: 8ED0-2-0x9.bin -> ti/audio/tas2783/8ED0-2-0x9.bin
+Link: 8EF5-0-0x9.bin -> ti/audio/tas2783/8EF5-0-0x9.bin
+Link: 8EF5-0-0xA.bin -> ti/audio/tas2783/8EF5-0-0xA.bin
+Link: 8EF5-0-0xC.bin -> ti/audio/tas2783/8EF5-0-0xC.bin
+Link: 8EF5-0-0xD.bin -> ti/audio/tas2783/8EF5-0-0xD.bin
+Link: 8EF6-2-0x9.bin -> ti/audio/tas2783/8EF6-2-0x9.bin
+Link: 8EF6-2-0xC.bin -> ti/audio/tas2783/8EF6-2-0xC.bin
+Link: 8F6D-0-0x9.bin -> ti/audio/tas2783/8F6D-0-0x9.bin
+Link: 8F6D-0-0xA.bin -> ti/audio/tas2783/8F6D-0-0xA.bin
+Link: 8F6D-0-0xC.bin -> ti/audio/tas2783/8F6D-0-0xC.bin
+Link: 8F6D-0-0xD.bin -> ti/audio/tas2783/8F6D-0-0xD.bin
+Link: 8F7B-1-0x9.bin -> ti/audio/tas2783/8F7B-1-0x9.bin
+Link: 8F7B-1-0xA.bin -> ti/audio/tas2783/8F7B-1-0xA.bin
+Link: 8F7B-1-0xC.bin -> ti/audio/tas2783/8F7B-1-0xC.bin
+Link: 8F7B-1-0xD.bin -> ti/audio/tas2783/8F7B-1-0xD.bin
+Link: 8F7B-2-0x9.bin -> ti/audio/tas2783/8F7B-2-0x9.bin
+Link: 8F7B-2-0xA.bin -> ti/audio/tas2783/8F7B-2-0xA.bin
+Link: 8F7B-2-0xC.bin -> ti/audio/tas2783/8F7B-2-0xC.bin
+Link: 8F7B-2-0xD.bin -> ti/audio/tas2783/8F7B-2-0xD.bin
+Link: 8FA4-0-0x9.bin -> ti/audio/tas2783/8FA4-0-0x9.bin
+Link: 8FA4-0-0xA.bin -> ti/audio/tas2783/8FA4-0-0xA.bin
+Link: 8FA4-0-0xC.bin -> ti/audio/tas2783/8FA4-0-0xC.bin
+Link: 8FA4-0-0xD.bin -> ti/audio/tas2783/8FA4-0-0xD.bin
+Link: 8FA5-0-0x9.bin -> ti/audio/tas2783/8FA5-0-0x9.bin
+Link: 8FA5-0-0xA.bin -> ti/audio/tas2783/8FA5-0-0xA.bin
+Link: 8FA5-0-0xC.bin -> ti/audio/tas2783/8FA5-0-0xC.bin
+Link: 8FA5-0-0xD.bin -> ti/audio/tas2783/8FA5-0-0xD.bin
 Licence: Redistributable. LICENCE.ti-tspa for details. Marked:
 	 Copyright (C) 2026 Texas Instruments
 
@@ -9855,13 +10166,17 @@ File: HP/ish/ish_lnlm_12128606_f9751b71.bin
 Link: intel/ish/ish_lnlm_12128606_f9751b71.bin -> ../../HP/ish/ish_lnlm_12128606_f9751b71.bin
 Version: 5.8.200.7720_1029
 
+File: HP/ish/ish_ptl_12128606_581.7779.0.bin
+Version: 5.8.1.7779
+
 License: Redistributable. See LICENCE.HP for details
 
 File: dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
 Link: intel/ish/ish_lnlm_39ceeaf8.bin -> ../../dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
 
 File: dell/ish/ish_ptl_39ceeaf8_581.7779.0.bin
-Link: intel/ish/ish_ptl_39ceeaf8.bin -> ../../dell/ish/ish_ptl_39ceeaf8_581.7779.0.bin
+File: dell/ish/ish_ptl_39ceeaf8_581.7783.0.bin
+Link: intel/ish/ish_ptl_39ceeaf8.bin -> ../../dell/ish/ish_ptl_39ceeaf8_581.7783.0.bin
 
 License: Redistributable. See LICENSE.dell for details
 
@@ -9951,3 +10266,15 @@ Driver: pcie-rcar-gen4 - Renesas R-Car Gen4 PCIe controller
 File: rcar_gen4_pcie.bin
 
 Licence: Redistributable. See LICENCE.r8a779g_pcie_phy for details.
+--------------------------------------------------------------------------
+
+Driver: PCM6240 - Texas Instruments PCM6240 Family Audio ADC/DAC Device
+
+File: ti/pcm6240/pcm6240-i2c-1-2dev.bin
+
+Version: 1.0
+
+Licence: Redistributable. See LICENCE.ti-tspa for details.
+
+Info:
+Firmware file generated via https://git.ti.com/cgit/lpaa-android-drivers/tasdevice-linux-driver/tree/json/tool/Non_Integrated_Bin_Tool_v1.4.1 and branch-master.
