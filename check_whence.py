@@ -21,14 +21,14 @@ def list_whence():
             if match:
                 if match.group(1):
                     for name in re.split(r", | and ", match.group(1)):
-                        yield name
+                        yield "LICENSES/" + name
                     continue
                 if match.group(2):
                     # Just one word - may or may not be a filename
                     if not re.search(
                         r"unknown|distributable", match.group(2), re.IGNORECASE
                     ):
-                        yield match.group(2)
+                        yield "LICENSES/" + match.group(2)
                         continue
 
 
@@ -76,6 +76,7 @@ def main():
     whence_links = list(zip(*links_list))[0]
     known_files = set(name for name in whence_list if not name.endswith("/")) | set(
         [
+            "AGENTS.md",
             ".codespell.cfg",
             ".editorconfig",
             ".gitignore",
