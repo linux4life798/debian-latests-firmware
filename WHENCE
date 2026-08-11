@@ -259,6 +259,8 @@ File: ql2400_fw.bin
 Version: 8.07.00 MID
 File: ql2500_fw.bin
 Version: 8.08.207 MIDQ
+File: ql2900_fw.bin
+Version: 10.34.03
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
@@ -920,31 +922,31 @@ Version: 74.a5e9588b.0
 
 File: intel/iwlwifi/iwlwifi-cc-a0-77.ucode
 Link: iwlwifi-cc-a0-77.ucode -> intel/iwlwifi/iwlwifi-cc-a0-77.ucode
-Version: 74.f39cc7f9.0
+Version: 74.aa2dd297.0
 
 File: intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-77.ucode
 Link: iwlwifi-Qu-b0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-77.ucode
-Version: 74.f39cc7f9.0
+Version: 74.aa2dd297.0
 
 File: intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-77.ucode
 Link: iwlwifi-Qu-b0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-77.ucode
-Version: 74.f39cc7f9.0
+Version: 74.aa2dd297.0
 
 File: intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-77.ucode
 Link: iwlwifi-Qu-c0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-77.ucode
-Version: 74.f39cc7f9.0
+Version: 74.aa2dd297.0
 
 File: intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-77.ucode
 Link: iwlwifi-Qu-c0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-77.ucode
-Version: 74.f39cc7f9.0
+Version: 74.aa2dd297.0
 
 File: intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-77.ucode
 Link: iwlwifi-QuZ-a0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-77.ucode
-Version: 74.f39cc7f9.0
+Version: 74.aa2dd297.0
 
 File: intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-77.ucode
 Link: iwlwifi-QuZ-a0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-77.ucode
-Version: 74.f39cc7f9.0
+Version: 74.aa2dd297.0
 
 File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-77.ucode
 Link: iwlwifi-ty-a0-gf-a0-77.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-77.ucode
@@ -976,7 +978,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-89.ucode
 Link: iwlwifi-ty-a0-gf-a0-89.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-89.ucode
-Version: 86.735b75a4.0
+Version: 86.f7dcb3ee.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-77.ucode
 Link: iwlwifi-so-a0-gf4-a0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-77.ucode
@@ -1008,7 +1010,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-89.ucode
 Link: iwlwifi-so-a0-gf4-a0-89.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-89.ucode
-Version: 86.735b75a4.0
+Version: 86.f7dcb3ee.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-77.ucode
 Link: iwlwifi-so-a0-gf-a0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-77.ucode
@@ -1040,7 +1042,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-89.ucode
 Link: iwlwifi-so-a0-gf-a0-89.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-89.ucode
-Version: 86.735b75a4.0
+Version: 86.f7dcb3ee.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-77.ucode
 Link: iwlwifi-so-a0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-77.ucode
@@ -1068,7 +1070,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-89.ucode
 Link: iwlwifi-so-a0-hr-b0-89.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-89.ucode
-Version: 86.735b75a4.0
+Version: 86.f7dcb3ee.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-jf-b0-77.ucode
 Link: iwlwifi-so-a0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-jf-b0-77.ucode
@@ -1091,7 +1093,7 @@ Version: 95.d661c37c.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-hr-b0-100.ucode
 Link: iwlwifi-bz-b0-hr-b0-100.ucode -> intel/iwlwifi/iwlwifi-bz-b0-hr-b0-100.ucode
-Version: 97.de068435d.0
+Version: 97.a03b104c.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-hr-b0.pnvm
 Link: iwlwifi-bz-b0-hr-b0.pnvm -> intel/iwlwifi/iwlwifi-bz-b0-hr-b0.pnvm
@@ -1118,7 +1120,7 @@ Version: 95.d661c37c.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-gf-a0-100.ucode
 Link: iwlwifi-bz-b0-gf-a0-100.ucode -> intel/iwlwifi/iwlwifi-bz-b0-gf-a0-100.ucode
-Version: 97.de068435d.0
+Version: 97.a03b104c.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-gf-a0.pnvm
 Link: iwlwifi-bz-b0-gf-a0.pnvm -> intel/iwlwifi/iwlwifi-bz-b0-gf-a0.pnvm
@@ -1167,6 +1169,10 @@ File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c103.ucode
 Link: iwlwifi-gl-c0-fm-c0-c103.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c103.ucode
 Version: 103.1a5cc88d.0
 
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c106.ucode
+Link: iwlwifi-gl-c0-fm-c0-c106.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c106.ucode
+Version: 106.c88d33af.0
+
 File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c101.ucode
 Link: iwlwifi-gl-c0-fm-c0-c101.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c101.ucode
 Version: 101.6e695a70.0
@@ -1210,10 +1216,6 @@ File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-101.ucode
 Link: iwlwifi-bz-b0-fm-c0-101.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-101.ucode
 Version: 98.6ef20b19.0
 
-File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c103.ucode
-Link: iwlwifi-bz-b0-fm-c0-c103.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c103.ucode
-Version: 103.1a5cc88d.0
-
 File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c101.ucode
 Link: iwlwifi-bz-b0-fm-c0-c101.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c101.ucode
 Version: 101.6e695a70.0
@@ -1221,6 +1223,14 @@ Version: 101.6e695a70.0
 File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c102.ucode
 Link: iwlwifi-bz-b0-fm-c0-c102.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c102.ucode
 Version: 102.07fca168.0
+
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c103.ucode
+Link: iwlwifi-bz-b0-fm-c0-c103.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c103.ucode
+Version: 103.1a5cc88d.0
+
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c106.ucode
+Link: iwlwifi-bz-b0-fm-c0-c106.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c106.ucode
+Version: 106.c88d33af.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0.pnvm
 Link: iwlwifi-bz-b0-fm-c0.pnvm -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0.pnvm
@@ -1235,7 +1245,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-gf-a0-89.ucode
 Link: iwlwifi-ma-b0-gf-a0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-gf-a0-89.ucode
-Version: 86.735b75a4.0
+Version: 86.f7dcb3ee.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-gf-a0.pnvm
 Link: iwlwifi-ma-b0-gf-a0.pnvm -> intel/iwlwifi/iwlwifi-ma-b0-gf-a0.pnvm
@@ -1250,7 +1260,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-gf4-a0-89.ucode
 Link: iwlwifi-ma-b0-gf4-a0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-gf4-a0-89.ucode
-Version: 86.735b75a4.0
+Version: 86.f7dcb3ee.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-gf4-a0.pnvm
 Link: iwlwifi-ma-b0-gf4-a0.pnvm -> intel/iwlwifi/iwlwifi-ma-b0-gf4-a0.pnvm
@@ -1265,7 +1275,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-hr-b0-89.ucode
 Link: iwlwifi-ma-b0-hr-b0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-hr-b0-89.ucode
-Version: 86.735b75a4.0
+Version: 86.f7dcb3ee.0
 
 File: intel/iwlwifi/iwlwifi-sc-a0-wh-b0-101.ucode
 Link: iwlwifi-sc-a0-wh-b0-101.ucode -> intel/iwlwifi/iwlwifi-sc-a0-wh-b0-101.ucode
@@ -1274,6 +1284,10 @@ Version: 98.80584591.0
 File: intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c103.ucode
 Link: iwlwifi-sc-a0-wh-b0-c103.ucode -> intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c103.ucode
 Version: 103.1a5cc88d.0
+
+File: intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c106.ucode
+Link: iwlwifi-sc-a0-wh-b0-c106.ucode -> intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c106.ucode
+Version: 106.c88d33af.0
 
 File: intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c101.ucode
 Link: iwlwifi-sc-a0-wh-b0-c101.ucode -> intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c101.ucode
@@ -1285,7 +1299,7 @@ Version: 102.07fca168.0
 
 File: intel/iwlwifi/iwlwifi-sc-a0-gf-a0-100.ucode
 Link: iwlwifi-sc-a0-gf-a0-100.ucode -> intel/iwlwifi/iwlwifi-sc-a0-gf-a0-100.ucode
-Version: 97.de068435d.0
+Version: 97.a03b104c.0
 
 File: intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c101.ucode
 Link: iwlwifi-sc-a0-fm-c0-c101.ucode -> intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c101.ucode
@@ -1303,9 +1317,17 @@ File: intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c103.ucode
 Link: iwlwifi-sc-a0-fm-c0-c103.ucode -> intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c103.ucode
 Version: 103.1a5cc88d.0
 
+File: intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c106.ucode
+Link: iwlwifi-sc-a0-fm-c0-c106.ucode -> intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c106.ucode
+Version: 106.c88d33af.0
+
 File: intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c103.ucode
 Link: iwlwifi-bz-b0-wh-b0-c103.ucode -> intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c103.ucode
 Version: 103.1a5cc88d.0
+
+File: intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c106.ucode
+Link: iwlwifi-bz-b0-wh-b0-c106.ucode -> intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c106.ucode
+Version: 106.c88d33af.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2045,7 +2067,7 @@ Driver: an8811hb - Airoha 2.5G Ethernet Phy
 
 File: airoha/an8811hb/EthMD32_CRC.DM.bin
 File: airoha/an8811hb/EthMD32_CRC.DSP.bin
-Version: 25110702
+Version: 26071602
 
 Licence: Redistributable. See LICENSE.airoha for details.
 
@@ -2073,7 +2095,9 @@ Licence: Redistributable. See LICENSE.airoha for details.
 Driver: airoha-npu-7583 - Airoha Network Processor Unit driver for AN7583 SoC
 
 File: airoha/an7583_npu_data.bin
+Version: 0.5
 File: airoha/an7583_npu_rv32.bin
+Version: 0.5
 
 Licence: Redistributable. See LICENSE.airoha for details.
 
@@ -2702,6 +2726,8 @@ File: amdgpu/psp_13_0_12_sos.bin
 File: amdgpu/psp_13_0_12_ta.bin
 File: amdgpu/psp_13_0_14_sos.bin
 File: amdgpu/psp_13_0_14_ta.bin
+File: amdgpu/psp_13_0_15_sos.bin
+File: amdgpu/psp_13_0_15_ta.bin
 File: amdgpu/psp_14_0_0_ta.bin
 File: amdgpu/psp_14_0_0_toc.bin
 File: amdgpu/psp_14_0_1_ta.bin
@@ -2844,35 +2870,6 @@ File: ueagle-atm/eagleIV.fw
 Version: 1.0
 
 Licence: Redistributable. See LICENCE.ueagle-atm4-firmware for details
-
---------------------------------------------------------------------------
-
-Driver: ueagle-atm - Driver for USB ADSL Modems based on Eagle I,II,III
-
-File: ueagle-atm/930-fpga.bin
-File: ueagle-atm/CMVeiWO.bin
-File: ueagle-atm/CMVepFR10.bin
-File: ueagle-atm/DSP9p.bin
-File: ueagle-atm/eagleIII.fw
-File: ueagle-atm/adi930.fw
-File: ueagle-atm/CMVep.bin
-File: ueagle-atm/CMVepFR.bin
-File: ueagle-atm/DSPei.bin
-File: ueagle-atm/CMV9i.bin
-File: ueagle-atm/CMVepES03.bin
-File: ueagle-atm/CMVepIT.bin
-File: ueagle-atm/DSPep.bin
-File: ueagle-atm/CMV9p.bin
-File: ueagle-atm/CMVepES.bin
-File: ueagle-atm/CMVepWO.bin
-File: ueagle-atm/eagleI.fw
-File: ueagle-atm/CMVei.bin
-File: ueagle-atm/CMVepFR04.bin
-File: ueagle-atm/DSP9i.bin
-File: ueagle-atm/eagleII.fw
-Version: 1.1
-
-Licence: Redistributable. See LICENCE.ueagle for details
 
 --------------------------------------------------------------------------
 
@@ -3360,6 +3357,7 @@ File: rtw88/rtw8822b_fw.bin
 File: rtw88/rtw8822c_fw.bin
 File: rtw88/rtw8822c_wow_fw.bin
 File: rtw88/README
+File: rtw88/rtw8723b_fw.bin
 File: rtw88/rtw8723d_fw.bin
 File: rtw88/rtw8821c_fw.bin
 File: rtw88/rtw8703b_fw.bin
@@ -3399,6 +3397,8 @@ File: rtw89/rtw8922a_fw-1.bin
 File: rtw89/rtw8922a_fw-2.bin
 File: rtw89/rtw8922a_fw-3.bin
 File: rtw89/rtw8922a_fw-4.bin
+File: rtw89/rtw8922d_fw.bin
+File: rtw89/rtw8922ds_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -4178,7 +4178,7 @@ File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
 File: intel/ibt-0093-0291.sfi
 File: intel/ibt-0093-0291.ddc
-Version: BT_BlazarU_S_REL112962_24.50.26182.112962
+Version: BT_BlazarU_S_REL117936_24.60.26262.117936
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4210,12 +4210,12 @@ File: intel/ibt-0190-0291-usb.ddc
 File: intel/ibt-0190-0291-usb.sfi
 File: intel/ibt-0190-0291-pci.ddc
 File: intel/ibt-0190-0291-pci.sfi
-Version: BT_BlazarI_S_REL120290_24.50.26182.120290
+Version: BT_BlazarI_S_REL125325_24.60.26262.125325
 
 File: intel/ibt-1190-01a1-iml.sfi
 File: intel/ibt-1190-01a1-pci.ddc
 File: intel/ibt-1190-01a1-pci.sfi
-Version: BT_BlazarI_S_REL120290_24.50.26182.120290
+Version: BT_BlazarI_S_REL125325_24.60.26262.125325
 
 File: intel/ibt-00a0-01a1-iml.sfi
 File: intel/ibt-00a0-01a1-pci.ddc
@@ -4227,7 +4227,7 @@ File: intel/ibt-00a0-0291-pci.ddc
 File: intel/ibt-00a0-0291-pci.sfi
 File: intel/ibt-00a0-0291-usb.ddc
 File: intel/ibt-00a0-0291-usb.sfi
-Version: BT_Scorpius_S_REL88847_24.50.26182.88847
+Version: BT_Scorpius_S_REL94250_24.60.26262.94250
 
 File: intel/ibt-00a0-0041-iml.sfi
 File: intel/ibt-00a0-0041-pci.ddc
@@ -4345,6 +4345,7 @@ File: amd/amd_sev_fam19h_modelaxh.sbin
 Version: 2025-2-20
 File: amd/amd_sev_fam1ah_model0xh.sbin
 Version: 2025-2-20
+File: amd/README.md
 
 License: Redistributable. See LICENSE.amd-sev for details
 
@@ -4888,6 +4889,10 @@ File: qca/wcnhpnv21g.baa
 File: qca/wcnhpnv21g.bb8
 File: qca/wcnhpnv21g.b10c
 File: qca/wcnhpnv21g.b111
+File: qca/wcnhpbtfw10.tlv
+Version: BTFM.HSP.1.0.0-00978-QCAHSPROMZ-2
+File: qca/wcnhpnv10.bin
+File: qca/wcnhpnv10.b06
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and NOTICE.qca for details
 
@@ -4960,7 +4965,7 @@ Licence: Redistributable. See LICENSE.qcom and NOTICE.qca for details
 Driver: qca - Qualcomm Atheros Bluetooth support for QCA6698AQ chips
 
 File: qca/QCA6698/hpbtfw21.tlv
-Version: BTFW.HSP.2.1.2-00035-PATCHZ-1
+Version: BTFW.HSP.2.1.2-00072-PATCHZ-2
 File: qca/QCA6698/hpnv21.b206
 File: qca/QCA6698/hpnv21.b207
 File: qca/QCA6698/hpnv21.bin
@@ -5388,13 +5393,13 @@ File: xe/lnl_gsc_1.bin
 Version: GSC API/APB v1.0, release 104.0.5.1429, SVN 1 for Lunarlake
 
 File: xe/lnl_guc_70.bin
-Version: GuC API/APB ver 70.65.0 for Lunarlake
+Version: GuC API/APB ver 70.72.1 for Lunarlake
 
 File: xe/lnl_huc.bin
 Version: HuC API/APB ver 9.4.13 for Lunarlake
 
 File: xe/bmg_guc_70.bin
-Version: GuC API/APB ver 70.65.0 for Battlemage
+Version: GuC API/APB ver 70.72.1 for Battlemage
 
 File: xe/bmg_huc.bin
 Version: HuC API/APB ver 8.2.10 for Battlemage
@@ -5406,10 +5411,13 @@ File: xe/ptl_gsc_1.bin
 Version: GSC API/APB v1.0, release 105.0.2.1397, SVN 1 for Pantherlake
 
 File: xe/ptl_guc_70.bin
-Version: GuC API/APB ver 70.65.0 for Pantherlake
+Version: GuC API/APB ver 70.72.1 for Pantherlake
 
 File: xe/ptl_huc.bin
 Version: HuC API/APB ver 10.3.3 for Pantherlake
+
+File: xe/nvl_guc_70.bin
+Version: GuC API/APB ver 70.72.1 for Novalake S
 
 License: Redistributable. See LICENSE.xe for details
 --------------------------------------------------------------------------
@@ -6220,9 +6228,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20260605203307a
+Version: 20260724143257a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20260605203411
+Version: 20260724143402
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6231,7 +6239,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20260605203811
+Version: 20260724143815
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6499,7 +6507,7 @@ Version: VIDEO.VE.5.2-00023-PROD-2
 File: qcom/venus-5.4/venus.mbn
 Link: qcom/venus-5.4/venus.mdt -> venus.mbn
 
-Version: VIDEO.VE.5.4-00063-PROD-1
+Version: VIDEO.VE.5.4-00064-PROD-1
 
 File: qcom/venus-6.0/venus.mbn
 
@@ -6524,6 +6532,10 @@ https://developer.qualcomm.com/hardware/dragonboard-410c/tools
 --------------------------------------------------------------------------
 
 Driver: iris - Qualcomm Iris video codec accelerator
+
+File: qcom/vpu/vpu30_p1_s7.mbn
+
+Version: VIDEO.VPU.3.1-0100
 
 File: qcom/vpu/ar50lt_p1_gen2_s6.mbn
 
@@ -6677,6 +6689,12 @@ File: qcom/gen71500_sqe.fw
 Version: v1.81
 File: qcom/x1p42100/gen71500_zap.mbn
 Version: v0.13
+File: qcom/gen71700_gmu.bin
+Version: v4.09.00
+File: qcom/gen71700_sqe.fw
+Version: v1.82
+File: qcom/eliza/gen71700_zap.mbn
+Version: v0.15
 File: qcom/gen80000_aqe.fw
 Version: v0.14
 File: qcom/gen80000_gmu.bin
@@ -6891,6 +6909,13 @@ File: qcom/glymur/cdsp.mbn
 File: qcom/glymur/cdsp_dtb.mbn
 Version: CDSP.HT.3.3-00315-GLYMUR-1
 RawFile: qcom/glymur/cdspr.jsn
+File: qcom/hawi/adsp.mbn
+File: qcom/hawi/adsp_dtb.mbn
+Version: LPAIDSP.HT.1.6-00701.4-HAWI-2
+RawFile: qcom/hawi/adspr.jsn
+RawFile: qcom/hawi/adsps.jsn
+RawFile: qcom/hawi/adspua.jsn
+RawFile: qcom/hawi/adspuo.jsn
 File: qcom/kaanapali/adsp.mbn
 File: qcom/kaanapali/adsp_dtb.mbn
 Version: LPAIDSP.HT.1.6.1-00035-KAANAPALI-1
@@ -6907,29 +6932,29 @@ File: qcom/kaanapali/soccp_dtb.mbn
 Version: SOCCP.FW.2.1-00204-KAANAPALI_SOCCP_PACK-1
 RawFile: qcom/kaanapali/soccpr.jsn
 File: qcom/qcs8300/adsp.mbn
-Version: DSP.AT.1.0.1-00201-LEMANS-2
+Version: DSP.AT.1.0.1-00204-LEMANS-1
 RawFile: qcom/qcs8300/adspr.jsn
 RawFile: qcom/qcs8300/adspua.jsn
 File: qcom/qcs8300/cdsp0.mbn
-Version: DSP.AT.1.0.1-00201-LEMANS-2
+Version: DSP.AT.1.0.1-00204-LEMANS-1
 RawFile: qcom/qcs8300/cdspr.jsn
 File: qcom/qcs8300/gpdsp0.mbn
-Version: DSP.AT.1.0.1-00201-LEMANS-2
+Version: DSP.AT.1.0.1-00204-LEMANS-1
 RawFile: qcom/qcs8300/gpdspr.jsn
 File: qcom/sa8775p/adsp.mbn
-Version: DSP.AT.1.0.1-00201-LEMANS-2
+Version: DSP.AT.1.0.1-00204-LEMANS-1
 RawFile: qcom/sa8775p/adspr.jsn
 RawFile: qcom/sa8775p/adspua.jsn
 File: qcom/sa8775p/cdsp0.mbn
-Version: DSP.AT.1.0.1-00201-LEMANS-2
+Version: DSP.AT.1.0.1-00204-LEMANS-1
 File: qcom/sa8775p/cdsp1.mbn
-Version: DSP.AT.1.0.1-00201-LEMANS-2
+Version: DSP.AT.1.0.1-00204-LEMANS-1
 RawFile: qcom/sa8775p/cdspr.jsn
 RawFile: qcom/sa8775p/cdsp1r.jsn
 File: qcom/sa8775p/gpdsp0.mbn
-Version: DSP.AT.1.0.1-00201-LEMANS-2
+Version: DSP.AT.1.0.1-00204-LEMANS-1
 File: qcom/sa8775p/gpdsp1.mbn
-Version: DSP.AT.1.0.1-00201-LEMANS-2
+Version: DSP.AT.1.0.1-00204-LEMANS-1
 RawFile: qcom/sa8775p/gpdsp1r.jsn
 RawFile: qcom/sa8775p/gpdspr.jsn
 File: qcom/sm8750/adsp.mbn
@@ -6958,7 +6983,7 @@ File: qcom/shikra/lpaicp_dtb.mbn
 Version: LPAICP.FW.1.2-00135-SHIKRA_LPAICP_PACK-1
 RawFile: qcom/shikra/lpaicpr.jsn
 File: qcom/shikra/cqs/qdsp6sw.mbn
-Version: MPSS.JO.4.0-00194-SHIKRA_LWG_PACK-1
+Version: MPSS.JO.4.0-00194.2-SHIKRA_LWG_PACK-1
 
 Licence: Redistributable. See LICENSE.qcom-2 and NOTICE.qcom for details
 
@@ -8320,6 +8345,7 @@ File: cirrus/cs35l56/CS35L56_Rev3.13.3R.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.13.4.wmfw
 File: cirrus/cs35l56/CS35L56_Rev4.5.3.wmfw
 File: cirrus/cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l56/CS35L56_Rev4.7.0.wmfw
 File: cirrus/cs35l56/CS35L56_Rev4.7.2.wmfw
 File: cirrus/cs35l63/CS35L63_Rev2.5.4.wmfw
 File: cirrus/cs35l63/CS35L63_Rev2.5.7.wmfw
@@ -8491,6 +8517,18 @@ File: cirrus/cs35l56-b2-dsp1-misc-10280dd6-02-ampr.bin
 Link: cirrus/cs35l56-b2-dsp1-misc-10280dd6-03.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
 File: cirrus/cs35l56-b2-dsp1-misc-10280dd6-03-ampl.bin
 File: cirrus/cs35l56-b2-dsp1-misc-10280dd6-03-ampr.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e13-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e13-spkid0-00-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e2b-spkid0-00-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e13-spkid0-00-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e2b-spkid0-00-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e13-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e13-spkid1-00-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e2b-spkid1-00-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e13-spkid1-00-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e2b-spkid1-00-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e14-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e14-spkid0-00-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e2c-spkid0-00-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e14-spkid0-00-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e2c-spkid0-00-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e14-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e14-spkid1-00-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e2c-spkid1-00-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e14-spkid1-00-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e2c-spkid1-00-l1u3.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid0-02-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid0-02-l3u3.bin
@@ -9042,6 +9080,28 @@ File: cirrus/cs35l56-b0-dsp1-misc-10433451-l1u0.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10433451-l1u1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10433451-l1u2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10433451-l1u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-144dc1dc.wmfw -> cs35l56/CS35L56_Rev4.7.0.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-144dc1dc-l1u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-144dc1dc-l1u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-144dc1dc-l1u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-144dc1dc-l2u3.bin
+File: cirrus/cs35l57-b2-dsp1-misc-144dc1dc-l2u4.bin
+File: cirrus/cs35l57-b2-dsp1-misc-144dc1dc-l2u5.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-144dc1de.wmfw -> cs35l56/CS35L56_Rev4.7.0.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-144dc1de-l1u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-144dc1de-l1u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-144dc1de-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-144dc1de-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-144dc910.wmfw -> cs35l56/CS35L56_Rev4.7.0.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-144dc910-l1u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-144dc910-l2u1.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-144dca0a.wmfw -> cs35l56/CS35L56_Rev4.7.0.wmfw
+Link: cirrus/cs35l57-b2-dsp1-misc-144dca0a-l1u0.bin -> cs35l57-b2-dsp1-misc-144dc1dc-l1u0.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-144dca0a-l1u1.bin -> cs35l57-b2-dsp1-misc-144dc1dc-l1u1.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-144dca0a-l1u2.bin -> cs35l57-b2-dsp1-misc-144dc1dc-l1u2.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-144dca0a-l2u3.bin -> cs35l57-b2-dsp1-misc-144dc1dc-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-144dca0a-l2u4.bin -> cs35l57-b2-dsp1-misc-144dc1dc-l2u4.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-144dca0a-l2u5.bin -> cs35l57-b2-dsp1-misc-144dc1dc-l2u5.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.20.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid0-ampl.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid0-ampr.bin
@@ -9248,6 +9308,16 @@ Link: sdca/1fa/1028/dba/2.bin -> ../db3/2.bin
 Link: sdca/1fa/1028/dba/3.bin -> ../db3/3.bin
 Link: sdca/1fa/1028/dba/4.bin -> ../db3/4.bin
 Link: sdca/1fa/1028/dba/42450005.bin -> ../db3/42450005.bin
+Link: sdca/1fa/1028/e13/1.bin -> ../db3/1.bin
+Link: sdca/1fa/1028/e13/2.bin -> ../db3/2.bin
+Link: sdca/1fa/1028/e13/3.bin -> ../db3/3.bin
+Link: sdca/1fa/1028/e13/4.bin -> ../db3/4.bin
+Link: sdca/1fa/1028/e13/42450005.bin -> ../db3/42450005.bin
+Link: sdca/1fa/1028/e14/1.bin -> ../db3/1.bin
+Link: sdca/1fa/1028/e14/2.bin -> ../db3/2.bin
+Link: sdca/1fa/1028/e14/3.bin -> ../db3/3.bin
+Link: sdca/1fa/1028/e14/4.bin -> ../db3/4.bin
+Link: sdca/1fa/1028/e14/42450005.bin -> ../db3/42450005.bin
 File: sdca/1fa/1028/e1a/1.bin
 File: sdca/1fa/1028/e1a/2.bin
 File: sdca/1fa/1028/e1a/3.bin
@@ -9507,6 +9577,7 @@ Licence: Redistributable. See LICENSE.amlogic for details
 Driver: powervr - Imagination Technologies PowerVR graphics driver
 
 File: powervr/rogue_33.15.11.3_v1.fw
+File: powervr/rogue_36.52.104.182_v1.fw
 File: powervr/rogue_36.53.104.796_v1.fw
 Version: 1.1.OS@6976702
 
@@ -9523,6 +9594,7 @@ File: qcom/qcs6490/radxa/dragon-q6a/QCS6490-Radxa-Dragon-Q6A-tplg.bin
 Link: qcom/qcs6490/QCS6490-Radxa-Dragon-Q6A-tplg.bin -> radxa/dragon-q6a/QCS6490-Radxa-Dragon-Q6A-tplg.bin
 File: qcom/qcs6490/Thundercomm/RubikPi3/QCS6490-Thundercomm-RubikPi3-tplg.bin
 Link: qcom/qcs6490/QCS6490-Thundercomm-RubikPi3-tplg.bin -> Thundercomm/RubikPi3/QCS6490-Thundercomm-RubikPi3-tplg.bin
+File: qcom/qcs6490/QCS6490-RB3Gen2-Industrial-Mezz-tplg.bin
 File: qcom/qcs6490/QCS6490-RB3Gen2-tplg.bin
 File: qcom/qcs8300/MONACO-EVK-tplg.bin
 File: qcom/qcs8300/arduino-monza-tplg.bin
@@ -9533,6 +9605,8 @@ Link: qcom/sc8280xp/SC8280XP-LENOVO-X13S-tplg.bin -> LENOVO/21BX/audioreach-tplg
 File: qcom/sm8450/SM8450-HDK-tplg.bin
 File: qcom/sm8550/SM8550-HDK-tplg.bin
 File: qcom/sm8550/SM8550-QRD-tplg.bin
+File: qcom/sm8650/ayaneo/ps2/SM8650-APS2-tplg.bin
+File: qcom/sm8650/SM8650-HDK-tplg.bin
 File: qcom/sm8650/SM8650-QRD-tplg.bin
 File: qcom/sm8650/SM8650-MTP-tplg.bin
 File: qcom/sm8750/SM8750-MTP-tplg.bin
@@ -9560,9 +9634,10 @@ File: qcom/x1e80100/dell/xps13-9345/X1E80100-Dell-XPS-13-9345-tplg.bin
 Link: qcom/x1e80100/X1E80100-Dell-XPS-13-9345-tplg.bin -> dell/xps13-9345/X1E80100-Dell-XPS-13-9345-tplg.bin
 File: qcom/x1e80100/hp/omnibook-x14/X1E80100-HP-OMNIBOOK-X14-tplg.bin
 Link: qcom/x1e80100/X1E80100-HP-OMNIBOOK-X14-tplg.bin -> hp/omnibook-x14/X1E80100-HP-OMNIBOOK-X14-tplg.bin
+File: qcom/x1e80100/X1P42100-Microsoft-Surface-Pro-12in-tplg.bin
 
-Version: v1.0.3
-Info: DATE=07.04.2026
+Version: v1.0.4
+Info: DATE=05.06.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
@@ -9660,6 +9735,9 @@ File: ti/audio/tas2781/TAS2XXX8F40.bin
 File: ti/audio/tas2781/TAS2XXX8F41.bin
 File: ti/audio/tas2781/TAS2XXX8F42.bin
 File: ti/audio/tas2781/TAS2XXX8F62.bin
+File: ti/audio/tas2781/TAS2XXX8F7E.bin
+File: ti/audio/tas2781/TAS2XXX8F94.bin
+File: ti/audio/tas2781/TAS2XXX8F95.bin
 File: ti/audio/tas2781/TXNW2781RCA0.bin
 File: ti/audio/tas2781/TXNW2781RCA1.bin
 File: ti/audio/tas2781/TIAS2781RCA2.bin
@@ -9784,6 +9862,9 @@ Link: TAS2XXX8F40.bin -> ti/audio/tas2781/TAS2XXX8F40.bin
 Link: TAS2XXX8F41.bin -> ti/audio/tas2781/TAS2XXX8F41.bin
 Link: TAS2XXX8F42.bin -> ti/audio/tas2781/TAS2XXX8F42.bin
 Link: TAS2XXX8F62.bin -> ti/audio/tas2781/TAS2XXX8F62.bin
+Link: TAS2XXX8F7E.bin -> ti/audio/tas2781/TAS2XXX8F7E.bin
+Link: TAS2XXX8F94.bin -> ti/audio/tas2781/TAS2XXX8F94.bin
+Link: TAS2XXX8F95.bin -> ti/audio/tas2781/TAS2XXX8F95.bin
 Link: TIAS2781RCA2.bin -> ti/audio/tas2781/TIAS2781RCA2.bin
 Link: TIAS2781RCA4.bin -> ti/audio/tas2781/TIAS2781RCA4.bin
 Link: TXNW2781RCA1.bin -> ti/audio/tas2781/TXNW2781RCA0.bin
@@ -9806,6 +9887,22 @@ File: ti/audio/tas2783/8EF6-X-9.bin
 File: ti/audio/tas2783/8EF6-X-C.bin
 File: ti/audio/tas2783/1534-2-0x8.bin
 File: ti/audio/tas2783/1534-2-0xB.bin
+File: ti/audio/tas2783/15E2-0-0x8.bin
+File: ti/audio/tas2783/15E2-0-0x9.bin
+File: ti/audio/tas2783/15E2-0-0xA.bin
+File: ti/audio/tas2783/15E2-0-0xB.bin
+File: ti/audio/tas2783/15E2-0-0xC.bin
+File: ti/audio/tas2783/15E2-0-0xD.bin
+File: ti/audio/tas2783/15E2-0-0xE.bin
+File: ti/audio/tas2783/15E2-0-0xF.bin
+File: ti/audio/tas2783/15E2-1-0x8.bin
+File: ti/audio/tas2783/15E2-1-0x9.bin
+File: ti/audio/tas2783/15E2-1-0xA.bin
+File: ti/audio/tas2783/15E2-1-0xB.bin
+File: ti/audio/tas2783/15E2-1-0xC.bin
+File: ti/audio/tas2783/15E2-1-0xD.bin
+File: ti/audio/tas2783/15E2-1-0xE.bin
+File: ti/audio/tas2783/15E2-1-0xF.bin
 File: ti/audio/tas2783/16F4-1-0x9.bin
 File: ti/audio/tas2783/16F4-1-0xC.bin
 File: ti/audio/tas2783/1714-1-0x8.bin
@@ -9854,6 +9951,10 @@ File: ti/audio/tas2783/1B94-2-0-0xB.bin
 File: ti/audio/tas2783/1B94-2-0-0xC.bin
 File: ti/audio/tas2783/1B94-3-0-0xB.bin
 File: ti/audio/tas2783/1B94-3-0-0xC.bin
+File: ti/audio/tas2783/1C64-0-0-0x8.bin
+File: ti/audio/tas2783/1C64-0-0-0xB.bin
+File: ti/audio/tas2783/1C64-1-0-0x8.bin
+File: ti/audio/tas2783/1C64-1-0-0xB.bin
 File: ti/audio/tas2783/3431-2-0x8.bin
 File: ti/audio/tas2783/3431-2-0xB.bin
 File: ti/audio/tas2783/35C1-1-0x9.bin
@@ -9942,9 +10043,61 @@ File: ti/audio/tas2783/8FA5-0-0x9.bin
 File: ti/audio/tas2783/8FA5-0-0xA.bin
 File: ti/audio/tas2783/8FA5-0-0xC.bin
 File: ti/audio/tas2783/8FA5-0-0xD.bin
+File: ti/audio/tas2783/8FF4-1-0xC.bin
+File: ti/audio/tas2783/8FF4-1-0xD.bin
+File: ti/audio/tas2783/8FF4-2-0x9.bin
+File: ti/audio/tas2783/8FF4-2-0xA.bin
+File: ti/audio/tas2783/8FF5-1-0xC.bin
+File: ti/audio/tas2783/8FF5-1-0xD.bin
+File: ti/audio/tas2783/8FF5-2-0x9.bin
+File: ti/audio/tas2783/8FF5-2-0xA.bin
+File: ti/audio/tas2783/8FF7-1-0xC.bin
+File: ti/audio/tas2783/8FF7-2-0x9.bin
+File: ti/audio/tas2783/9001-1-0xA.bin
+File: ti/audio/tas2783/9001-1-0xD.bin
+File: ti/audio/tas2783/9001-2-0x9.bin
+File: ti/audio/tas2783/9001-2-0xC.bin
+File: ti/audio/tas2783/9013-0-2-0x9.bin
+File: ti/audio/tas2783/9013-0-2-0xC.bin
+File: ti/audio/tas2783/9013-1-2-0x9.bin
+File: ti/audio/tas2783/9013-1-2-0xC.bin
+File: ti/audio/tas2783/9014-0-2-0x9.bin
+File: ti/audio/tas2783/9014-0-2-0xC.bin
+File: ti/audio/tas2783/9014-1-2-0x9.bin
+File: ti/audio/tas2783/9014-1-2-0xC.bin
+File: ti/audio/tas2783/9015-0-2-0x9.bin
+File: ti/audio/tas2783/9015-0-2-0xC.bin
+File: ti/audio/tas2783/9015-1-2-0x9.bin
+File: ti/audio/tas2783/9015-1-2-0xC.bin
+File: ti/audio/tas2783/9026-0-2-0x9.bin
+File: ti/audio/tas2783/9026-0-2-0xC.bin
+File: ti/audio/tas2783/9026-1-2-0x9.bin
+File: ti/audio/tas2783/9026-1-2-0xC.bin
+File: ti/audio/tas2783/9028-2-0xC.bin
+File: ti/audio/tas2783/9028-2-0xD.bin
+File: ti/audio/tas2783/9028-3-0x9.bin
+File: ti/audio/tas2783/9028-3-0xA.bin
+File: ti/audio/tas2783/9029-2-0xC.bin
+File: ti/audio/tas2783/9029-3-0x9.bin
 
 Link: 1534-2-0x8.bin -> ti/audio/tas2783/1534-2-0x8.bin
 Link: 1534-2-0xB.bin -> ti/audio/tas2783/1534-2-0xB.bin
+Link: 15E2-0-0x8.bin -> ti/audio/tas2783/15E2-0-0x8.bin
+Link: 15E2-0-0x9.bin -> ti/audio/tas2783/15E2-0-0x9.bin
+Link: 15E2-0-0xA.bin -> ti/audio/tas2783/15E2-0-0xA.bin
+Link: 15E2-0-0xB.bin -> ti/audio/tas2783/15E2-0-0xB.bin
+Link: 15E2-0-0xC.bin -> ti/audio/tas2783/15E2-0-0xC.bin
+Link: 15E2-0-0xD.bin -> ti/audio/tas2783/15E2-0-0xD.bin
+Link: 15E2-0-0xE.bin -> ti/audio/tas2783/15E2-0-0xE.bin
+Link: 15E2-0-0xF.bin -> ti/audio/tas2783/15E2-0-0xF.bin
+Link: 15E2-1-0x8.bin -> ti/audio/tas2783/15E2-1-0x8.bin
+Link: 15E2-1-0x9.bin -> ti/audio/tas2783/15E2-1-0x9.bin
+Link: 15E2-1-0xA.bin -> ti/audio/tas2783/15E2-1-0xA.bin
+Link: 15E2-1-0xB.bin -> ti/audio/tas2783/15E2-1-0xB.bin
+Link: 15E2-1-0xC.bin -> ti/audio/tas2783/15E2-1-0xC.bin
+Link: 15E2-1-0xD.bin -> ti/audio/tas2783/15E2-1-0xD.bin
+Link: 15E2-1-0xE.bin -> ti/audio/tas2783/15E2-1-0xE.bin
+Link: 15E2-1-0xF.bin -> ti/audio/tas2783/15E2-1-0xF.bin
 Link: 16F4-1-0x9.bin -> ti/audio/tas2783/16F4-1-0x9.bin
 Link: 16F4-1-0xC.bin -> ti/audio/tas2783/16F4-1-0xC.bin
 Link: 1714-1-0x8.bin -> ti/audio/tas2783/1714-1-0x8.bin
@@ -9993,6 +10146,10 @@ Link: 1B94-2-0-0xB.bin -> ti/audio/tas2783/1B94-2-0-0xB.bin
 Link: 1B94-2-0-0xC.bin -> ti/audio/tas2783/1B94-2-0-0xC.bin
 Link: 1B94-3-0-0xB.bin -> ti/audio/tas2783/1B94-3-0-0xB.bin
 Link: 1B94-3-0-0xC.bin -> ti/audio/tas2783/1B94-3-0-0xC.bin
+Link: 1C64-0-0-0x8.bin -> ti/audio/tas2783/1C64-0-0-0x8.bin
+Link: 1C64-0-0-0xB.bin -> ti/audio/tas2783/1C64-0-0-0xB.bin
+Link: 1C64-1-0-0x8.bin -> ti/audio/tas2783/1C64-1-0-0x8.bin
+Link: 1C64-1-0-0xB.bin -> ti/audio/tas2783/1C64-1-0-0xB.bin
 Link: 3431-2-0x8.bin -> ti/audio/tas2783/3431-2-0x8.bin
 Link: 3431-2-0xB.bin -> ti/audio/tas2783/3431-2-0xB.bin
 Link: 35C1-1-0x9.bin -> ti/audio/tas2783/35C1-1-0x9.bin
@@ -10081,6 +10238,42 @@ Link: 8FA5-0-0x9.bin -> ti/audio/tas2783/8FA5-0-0x9.bin
 Link: 8FA5-0-0xA.bin -> ti/audio/tas2783/8FA5-0-0xA.bin
 Link: 8FA5-0-0xC.bin -> ti/audio/tas2783/8FA5-0-0xC.bin
 Link: 8FA5-0-0xD.bin -> ti/audio/tas2783/8FA5-0-0xD.bin
+Link: 8FF4-1-0xC.bin -> ti/audio/tas2783/8FF4-1-0xC.bin
+Link: 8FF4-1-0xD.bin -> ti/audio/tas2783/8FF4-1-0xD.bin
+Link: 8FF4-2-0x9.bin -> ti/audio/tas2783/8FF4-2-0x9.bin
+Link: 8FF4-2-0xA.bin -> ti/audio/tas2783/8FF4-2-0xA.bin
+Link: 8FF5-1-0xC.bin -> ti/audio/tas2783/8FF5-1-0xC.bin
+Link: 8FF5-1-0xD.bin -> ti/audio/tas2783/8FF5-1-0xD.bin
+Link: 8FF5-2-0x9.bin -> ti/audio/tas2783/8FF5-2-0x9.bin
+Link: 8FF5-2-0xA.bin -> ti/audio/tas2783/8FF5-2-0xA.bin
+Link: 8FF7-1-0xC.bin -> ti/audio/tas2783/8FF7-1-0xC.bin
+Link: 8FF7-2-0x9.bin -> ti/audio/tas2783/8FF7-2-0x9.bin
+Link: 9001-1-0xA.bin -> ti/audio/tas2783/9001-1-0xA.bin
+Link: 9001-1-0xD.bin -> ti/audio/tas2783/9001-1-0xD.bin
+Link: 9001-2-0x9.bin -> ti/audio/tas2783/9001-2-0x9.bin
+Link: 9001-2-0xC.bin -> ti/audio/tas2783/9001-2-0xC.bin
+Link: 9013-0-2-0x9.bin -> ti/audio/tas2783/9013-0-2-0x9.bin
+Link: 9013-0-2-0xC.bin -> ti/audio/tas2783/9013-0-2-0xC.bin
+Link: 9013-1-2-0x9.bin -> ti/audio/tas2783/9013-1-2-0x9.bin
+Link: 9013-1-2-0xC.bin -> ti/audio/tas2783/9013-1-2-0xC.bin
+Link: 9014-0-2-0x9.bin -> ti/audio/tas2783/9014-0-2-0x9.bin
+Link: 9014-0-2-0xC.bin -> ti/audio/tas2783/9014-0-2-0xC.bin
+Link: 9014-1-2-0x9.bin -> ti/audio/tas2783/9014-1-2-0x9.bin
+Link: 9014-1-2-0xC.bin -> ti/audio/tas2783/9014-1-2-0xC.bin
+Link: 9015-0-2-0x9.bin -> ti/audio/tas2783/9015-0-2-0x9.bin
+Link: 9015-0-2-0xC.bin -> ti/audio/tas2783/9015-0-2-0xC.bin
+Link: 9015-1-2-0x9.bin -> ti/audio/tas2783/9015-1-2-0x9.bin
+Link: 9015-1-2-0xC.bin -> ti/audio/tas2783/9015-1-2-0xC.bin
+Link: 9026-0-2-0x9.bin -> ti/audio/tas2783/9026-0-2-0x9.bin
+Link: 9026-0-2-0xC.bin -> ti/audio/tas2783/9026-0-2-0xC.bin
+Link: 9026-1-2-0x9.bin -> ti/audio/tas2783/9026-1-2-0x9.bin
+Link: 9026-1-2-0xC.bin -> ti/audio/tas2783/9026-1-2-0xC.bin
+Link: 9028-2-0xC.bin -> ti/audio/tas2783/9028-2-0xC.bin
+Link: 9028-2-0xD.bin -> ti/audio/tas2783/9028-2-0xD.bin
+Link: 9028-3-0x9.bin -> ti/audio/tas2783/9028-3-0x9.bin
+Link: 9028-3-0xA.bin -> ti/audio/tas2783/9028-3-0xA.bin
+Link: 9029-2-0xC.bin -> ti/audio/tas2783/9029-2-0xC.bin
+Link: 9029-3-0x9.bin -> ti/audio/tas2783/9029-3-0x9.bin
 Licence: Redistributable. LICENCE.ti-tspa for details. Marked:
 	 Copyright (C) 2026 Texas Instruments
 
@@ -10228,15 +10421,15 @@ License: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 Driver: intel_vpu - Intel NPU driver
 
 File: intel/vpu/vpu_37xx_v1.bin
-Version: 20260505*MTL_CLIENT_SILICON-NVR+NN-deployment*3b1e1e826d34b0aeea5cc6d75b017eb4cbf5b735*3b1e1e826d34b0aeea5cc6d75b017eb4cbf5b735*3b1e1e826d3
+Version: 20260630*MTL_CLIENT_SILICON-NVR+NN-deployment*3b431d96211eb618edf1f7c444daa8185f1e686c*3b431d96211eb618edf1f7c444daa8185f1e686c*3b431d96211
 Link: intel/vpu/vpu_37xx_v0.0.bin -> vpu_37xx_v1.bin
 
 File: intel/vpu/vpu_40xx_v1.bin
-Version: May  5 2026*NPU40xx*build/ci/npu-fw-ci-ci_branch_UD202620_npu_release_26ww17-20260422_094127-fc285c23e1bf595d6430660503e8616549c01a34-8-g3b1e1e826d3*3b1e1e826d34b0aeea5cc6d75b017eb4cbf5b735
+Version: Jun 30 2026*NPU40xx*build/ci/npu-fw-ci-ci_branch_UD202628_npu_release_26ww25-20260626_085052-f9a611865dbf3e6b37a17a0b01a7e81e7fc812e7-1-g3b431d96211*3b431d96211eb618edf1f7c444daa8185f1e686c
 Link: intel/vpu/vpu_40xx_v0.0.bin -> vpu_40xx_v1.bin
 
 File: intel/vpu/vpu_50xx_v1.bin
-Version: May  5 2026*NPU50xx*build/ci/npu-fw-ci-ci_branch_UD202620_npu_release_26ww17-20260422_094127-fc285c23e1bf595d6430660503e8616549c01a34-8-g3b1e1e826d3*3b1e1e826d34b0aeea5cc6d75b017eb4cbf5b735
+Version: Jun 30 2026*NPU50xx*build/ci/npu-fw-ci-ci_branch_UD202628_npu_release_26ww25-20260626_085052-f9a611865dbf3e6b37a17a0b01a7e81e7fc812e7-1-g3b431d96211*3b431d96211eb618edf1f7c444daa8185f1e686c
 Link: intel/vpu/vpu_50xx_v0.0.bin -> vpu_50xx_v1.bin
 
 License: Redistributable. See LICENSE.intel_vpu for details
@@ -10293,3 +10486,17 @@ Licence: Redistributable. See LICENCE.ti-tspa for details.
 
 Info:
 Firmware file generated via https://git.ti.com/cgit/lpaa-android-drivers/tasdevice-linux-driver/tree/json/tool/Non_Integrated_Bin_Tool_v1.4.1 and branch-master.
+---------------------------------------------------------------------------
+
+Driver: mm81x - Morse Micro mm81x Wi-Fi HaLow driver.
+
+File: morsemicro/mm81x/v56/mm8108.bin
+File: morsemicro/mm81x/v56/bcf_mm8108_mf15457.bin
+File: morsemicro/mm81x/v56/bcf_aw_hm677.bin
+Link: morsemicro/mm81x/v56/bcf_boardtype_0804.bin -> bcf_mm8108_mf15457.bin
+Link: morsemicro/mm81x/v56/bcf_boardtype_0807.bin -> bcf_mm8108_mf15457.bin
+Link: morsemicro/mm81x/v56/bcf_boardtype_0a02.bin -> bcf_aw_hm677.bin
+
+Version: 56
+
+License: Redistributable. See LICENCE.morsemicro for details.
