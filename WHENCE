@@ -6928,6 +6928,10 @@ Version: SLPI.HY.4.1-00061-MAKENA-1
 File: qcom/sc8280xp/LENOVO/21BX/qcvss8280.mbn
 Version: video-firmware.1.1-b158087140355883dc40b004032856a8feb5d565
 
+# Radxa Dragon Q8B
+File: qcom/sc8280xp/radxa/dragon-q8b/qcadsp8280.mbn
+Version: ADSP.HT.5.6.c2-00037-MAKENA-1
+
 # Lenovo T14s
 File: qcom/x1e80100/LENOVO/21N1/qcvss8380.mbn
 Version: vfw-3.1:rel0085-070fa3311d9ef968015fee7fea07198d7eb208a1
