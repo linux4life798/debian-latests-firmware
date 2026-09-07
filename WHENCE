@@ -6898,6 +6898,8 @@ File: qcom/sdm845/Thundercomm/db845c/slpi.mbn
 Version: SLPI.HY.1.0-00365-SDM845AZL-1
 RawFile: qcom/sdm845/Thundercomm/db845c/slpir.jsn
 RawFile: qcom/sdm845/Thundercomm/db845c/slpius.jsn
+File: qcom/sdm845/SHIFT/axolotl/a630_zap.mbn
+Info: Extracted from the SHIFT6mq's vendor partition
 
 # qcom/sm8250
 File: qcom/sm8250/adsp.mbn
