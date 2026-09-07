@@ -7046,7 +7046,7 @@ Link: qcom/qcs8300/gpdspr.jsn -> ../sa8775p/gpdsp0.mbn
 
 # qcom/sa8775p
 File: qcom/sa8775p/adsp.mbn
-Version: DSP.AT.1.0.1-00204-LEMANS-1
+Version: DSP.AT.1.0.1-00205-LEMANS-1
 RawFile: qcom/sa8775p/adspr.jsn
 RawFile: qcom/sa8775p/adspua.jsn
 File: qcom/sa8775p/cdsp0.mbn
