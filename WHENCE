@@ -7022,16 +7022,14 @@ Version: SOCCP.FW.2.1-00204-KAANAPALI_SOCCP_PACK-1
 RawFile: qcom/kaanapali/soccpr.jsn
 
 # qcom/qcs8300
-File: qcom/qcs8300/adsp.mbn
-Version: DSP.AT.1.0.1-00204-LEMANS-1
-RawFile: qcom/qcs8300/adspr.jsn
-RawFile: qcom/qcs8300/adspua.jsn
+Link: qcom/qcs8300/adsp.mbn -> ../sa8775p/adsp.mbn
+Link: qcom/qcs8300/adspr.jsn -> ../sa8775p/adspr.jsn
+Link: qcom/qcs8300/adspua.jsn -> ../sa8775p/adspua.jsn
 File: qcom/qcs8300/cdsp0.mbn
 Version: DSP.AT.1.0.1-00204-LEMANS-1
 RawFile: qcom/qcs8300/cdspr.jsn
-File: qcom/qcs8300/gpdsp0.mbn
-Version: DSP.AT.1.0.1-00204-LEMANS-1
-RawFile: qcom/qcs8300/gpdspr.jsn
+Link: qcom/qcs8300/gpdsp0.mbn -> ../sa8775p/gpdsp0.mbn
+Link: qcom/qcs8300/gpdspr.jsn -> ../sa8775p/gpdsp0.mbn
 
 # qcom/sa8775p
 File: qcom/sa8775p/adsp.mbn
