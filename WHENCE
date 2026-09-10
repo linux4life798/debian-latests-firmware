@@ -922,31 +922,31 @@ Version: 74.a5e9588b.0
 
 File: intel/iwlwifi/iwlwifi-cc-a0-77.ucode
 Link: iwlwifi-cc-a0-77.ucode -> intel/iwlwifi/iwlwifi-cc-a0-77.ucode
-Version: 74.aa2dd297.0
+Version: 74.8dbafb52.0
 
 File: intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-77.ucode
 Link: iwlwifi-Qu-b0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-hr-b0-77.ucode
-Version: 74.aa2dd297.0
+Version: 74.8dbafb52.0
 
 File: intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-77.ucode
 Link: iwlwifi-Qu-b0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-b0-jf-b0-77.ucode
-Version: 74.aa2dd297.0
+Version: 74.8dbafb52.0
 
 File: intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-77.ucode
 Link: iwlwifi-Qu-c0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-hr-b0-77.ucode
-Version: 74.aa2dd297.0
+Version: 74.8dbafb52.0
 
 File: intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-77.ucode
 Link: iwlwifi-Qu-c0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-Qu-c0-jf-b0-77.ucode
-Version: 74.aa2dd297.0
+Version: 74.8dbafb52.0
 
 File: intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-77.ucode
 Link: iwlwifi-QuZ-a0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-hr-b0-77.ucode
-Version: 74.aa2dd297.0
+Version: 74.8dbafb52.0
 
 File: intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-77.ucode
 Link: iwlwifi-QuZ-a0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-QuZ-a0-jf-b0-77.ucode
-Version: 74.aa2dd297.0
+Version: 74.8dbafb52.0
 
 File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-77.ucode
 Link: iwlwifi-ty-a0-gf-a0-77.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-77.ucode
@@ -978,7 +978,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-ty-a0-gf-a0-89.ucode
 Link: iwlwifi-ty-a0-gf-a0-89.ucode -> intel/iwlwifi/iwlwifi-ty-a0-gf-a0-89.ucode
-Version: 86.f7dcb3ee.0
+Version: 86.d2579d43.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-77.ucode
 Link: iwlwifi-so-a0-gf4-a0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-77.ucode
@@ -1010,7 +1010,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-gf4-a0-89.ucode
 Link: iwlwifi-so-a0-gf4-a0-89.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf4-a0-89.ucode
-Version: 86.f7dcb3ee.0
+Version: 86.d2579d43.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-77.ucode
 Link: iwlwifi-so-a0-gf-a0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-77.ucode
@@ -1042,7 +1042,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-gf-a0-89.ucode
 Link: iwlwifi-so-a0-gf-a0-89.ucode -> intel/iwlwifi/iwlwifi-so-a0-gf-a0-89.ucode
-Version: 86.f7dcb3ee.0
+Version: 86.d2579d43.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-77.ucode
 Link: iwlwifi-so-a0-hr-b0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-77.ucode
@@ -1070,7 +1070,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-hr-b0-89.ucode
 Link: iwlwifi-so-a0-hr-b0-89.ucode -> intel/iwlwifi/iwlwifi-so-a0-hr-b0-89.ucode
-Version: 86.f7dcb3ee.0
+Version: 86.d2579d43.0
 
 File: intel/iwlwifi/iwlwifi-so-a0-jf-b0-77.ucode
 Link: iwlwifi-so-a0-jf-b0-77.ucode -> intel/iwlwifi/iwlwifi-so-a0-jf-b0-77.ucode
@@ -1093,7 +1093,7 @@ Version: 95.d661c37c.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-hr-b0-100.ucode
 Link: iwlwifi-bz-b0-hr-b0-100.ucode -> intel/iwlwifi/iwlwifi-bz-b0-hr-b0-100.ucode
-Version: 97.a03b104c.0
+Version: 97.dc7aa42e.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-hr-b0.pnvm
 Link: iwlwifi-bz-b0-hr-b0.pnvm -> intel/iwlwifi/iwlwifi-bz-b0-hr-b0.pnvm
@@ -1120,7 +1120,7 @@ Version: 95.d661c37c.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-gf-a0-100.ucode
 Link: iwlwifi-bz-b0-gf-a0-100.ucode -> intel/iwlwifi/iwlwifi-bz-b0-gf-a0-100.ucode
-Version: 97.a03b104c.0
+Version: 97.dc7aa42e.0
 
 File: intel/iwlwifi/iwlwifi-bz-b0-gf-a0.pnvm
 Link: iwlwifi-bz-b0-gf-a0.pnvm -> intel/iwlwifi/iwlwifi-bz-b0-gf-a0.pnvm
@@ -1172,6 +1172,10 @@ Version: 103.1a5cc88d.0
 File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c106.ucode
 Link: iwlwifi-gl-c0-fm-c0-c106.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c106.ucode
 Version: 106.c88d33af.0
+
+File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c107.ucode
+Link: iwlwifi-gl-c0-fm-c0-c107.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c107.ucode
+Version: 107.1b444747.0
 
 File: intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c101.ucode
 Link: iwlwifi-gl-c0-fm-c0-c101.ucode -> intel/iwlwifi/iwlwifi-gl-c0-fm-c0-c101.ucode
@@ -1232,6 +1236,10 @@ File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c106.ucode
 Link: iwlwifi-bz-b0-fm-c0-c106.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c106.ucode
 Version: 106.c88d33af.0
 
+File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c107.ucode
+Link: iwlwifi-bz-b0-fm-c0-c107.ucode -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0-c107.ucode
+Version: 107.1b444747.0
+
 File: intel/iwlwifi/iwlwifi-bz-b0-fm-c0.pnvm
 Link: iwlwifi-bz-b0-fm-c0.pnvm -> intel/iwlwifi/iwlwifi-bz-b0-fm-c0.pnvm
 
@@ -1245,7 +1253,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-gf-a0-89.ucode
 Link: iwlwifi-ma-b0-gf-a0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-gf-a0-89.ucode
-Version: 86.f7dcb3ee.0
+Version: 86.d2579d43.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-gf-a0.pnvm
 Link: iwlwifi-ma-b0-gf-a0.pnvm -> intel/iwlwifi/iwlwifi-ma-b0-gf-a0.pnvm
@@ -1260,7 +1268,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-gf4-a0-89.ucode
 Link: iwlwifi-ma-b0-gf4-a0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-gf4-a0-89.ucode
-Version: 86.f7dcb3ee.0
+Version: 86.d2579d43.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-gf4-a0.pnvm
 Link: iwlwifi-ma-b0-gf4-a0.pnvm -> intel/iwlwifi/iwlwifi-ma-b0-gf4-a0.pnvm
@@ -1275,7 +1283,7 @@ Version: 83.fb5c9aeb.0
 
 File: intel/iwlwifi/iwlwifi-ma-b0-hr-b0-89.ucode
 Link: iwlwifi-ma-b0-hr-b0-89.ucode -> intel/iwlwifi/iwlwifi-ma-b0-hr-b0-89.ucode
-Version: 86.f7dcb3ee.0
+Version: 86.d2579d43.0
 
 File: intel/iwlwifi/iwlwifi-sc-a0-wh-b0-101.ucode
 Link: iwlwifi-sc-a0-wh-b0-101.ucode -> intel/iwlwifi/iwlwifi-sc-a0-wh-b0-101.ucode
@@ -1289,6 +1297,10 @@ File: intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c106.ucode
 Link: iwlwifi-sc-a0-wh-b0-c106.ucode -> intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c106.ucode
 Version: 106.c88d33af.0
 
+File: intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c107.ucode
+Link: iwlwifi-sc-a0-wh-b0-c107.ucode -> intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c107.ucode
+Version: 107.1b444747.0
+
 File: intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c101.ucode
 Link: iwlwifi-sc-a0-wh-b0-c101.ucode -> intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c101.ucode
 Version: 101.6e695a70.0
@@ -1299,7 +1311,7 @@ Version: 102.07fca168.0
 
 File: intel/iwlwifi/iwlwifi-sc-a0-gf-a0-100.ucode
 Link: iwlwifi-sc-a0-gf-a0-100.ucode -> intel/iwlwifi/iwlwifi-sc-a0-gf-a0-100.ucode
-Version: 97.a03b104c.0
+Version: 97.dc7aa42e.0
 
 File: intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c101.ucode
 Link: iwlwifi-sc-a0-fm-c0-c101.ucode -> intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c101.ucode
@@ -1321,6 +1333,10 @@ File: intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c106.ucode
 Link: iwlwifi-sc-a0-fm-c0-c106.ucode -> intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c106.ucode
 Version: 106.c88d33af.0
 
+File: intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c107.ucode
+Link: iwlwifi-sc-a0-fm-c0-c107.ucode -> intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c107.ucode
+Version: 107.1b444747.0
+
 File: intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c103.ucode
 Link: iwlwifi-bz-b0-wh-b0-c103.ucode -> intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c103.ucode
 Version: 103.1a5cc88d.0
@@ -1328,6 +1344,10 @@ Version: 103.1a5cc88d.0
 File: intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c106.ucode
 Link: iwlwifi-bz-b0-wh-b0-c106.ucode -> intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c106.ucode
 Version: 106.c88d33af.0
+
+File: intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c107.ucode
+Link: iwlwifi-bz-b0-wh-b0-c107.ucode -> intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c107.ucode
+Version: 107.1b444747.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2673,6 +2693,20 @@ File: amdgpu/gc_11_5_3_mes1.bin
 File: amdgpu/gc_11_5_3_mes_2.bin
 File: amdgpu/gc_11_5_3_pfp.bin
 File: amdgpu/gc_11_5_3_rlc.bin
+File: amdgpu/gc_11_7_0_imu.bin
+File: amdgpu/gc_11_7_0_me.bin
+File: amdgpu/gc_11_7_0_mec.bin
+File: amdgpu/gc_11_7_0_mes1.bin
+File: amdgpu/gc_11_7_0_mes_2.bin
+File: amdgpu/gc_11_7_0_pfp.bin
+File: amdgpu/gc_11_7_0_rlc.bin
+File: amdgpu/gc_11_7_1_imu.bin
+File: amdgpu/gc_11_7_1_me.bin
+File: amdgpu/gc_11_7_1_mec.bin
+File: amdgpu/gc_11_7_1_mes1.bin
+File: amdgpu/gc_11_7_1_mes_2.bin
+File: amdgpu/gc_11_7_1_pfp.bin
+File: amdgpu/gc_11_7_1_rlc.bin
 File: amdgpu/gc_12_0_0_imu.bin
 File: amdgpu/gc_12_0_0_me.bin
 File: amdgpu/gc_12_0_0_mec.bin
@@ -2702,6 +2736,7 @@ File: amdgpu/dcn_3_5_dmcub.bin
 File: amdgpu/dcn_3_5_1_dmcub.bin
 File: amdgpu/dcn_3_6_dmcub.bin
 File: amdgpu/dcn_4_0_1_dmcub.bin
+File: amdgpu/dcn_4_2_dmcub.bin
 File: amdgpu/psp_13_0_0_sos.bin
 File: amdgpu/psp_13_0_0_sos_kicker.bin
 File: amdgpu/psp_13_0_0_ta.bin
@@ -2742,6 +2777,10 @@ File: amdgpu/psp_14_0_4_ta.bin
 File: amdgpu/psp_14_0_4_toc.bin
 File: amdgpu/psp_14_0_5_ta.bin
 File: amdgpu/psp_14_0_5_toc.bin
+File: amdgpu/psp_15_0_0_ta.bin
+File: amdgpu/psp_15_0_0_toc.bin
+File: amdgpu/psp_15_0_9_ta.bin
+File: amdgpu/psp_15_0_9_toc.bin
 File: amdgpu/sdma_4_4_2.bin
 File: amdgpu/sdma_4_4_4.bin
 File: amdgpu/sdma_4_4_5.bin
@@ -2755,6 +2794,7 @@ File: amdgpu/sdma_6_1_0.bin
 File: amdgpu/sdma_6_1_1.bin
 File: amdgpu/sdma_6_1_2.bin
 File: amdgpu/sdma_6_1_3.bin
+File: amdgpu/sdma_6_1_4.bin
 File: amdgpu/sdma_7_0_0.bin
 File: amdgpu/sdma_7_0_1.bin
 File: amdgpu/smu_13_0_0.bin
@@ -2778,6 +2818,8 @@ File: amdgpu/vcn_4_0_6.bin
 File: amdgpu/vcn_4_0_6_1.bin
 File: amdgpu/vcn_5_0_0.bin
 File: amdgpu/vcn_5_0_1.bin
+File: amdgpu/vcn_5_3_0.bin
+File: amdgpu/vpe_2_0_0.bin
 File: amdgpu/vpe_6_1_0.bin
 File: amdgpu/vpe_6_1_1.bin
 File: amdgpu/vpe_6_1_3.bin
@@ -3930,7 +3972,7 @@ Version: WLAN.WBE.1.6-01275-QCAHKSWPL_SILICONZ-1
 File: ath12k/IPQ5424/hw1.0/Notice.txt
 File: ath12k/QCC2072/hw1.0/board-2.bin
 File: ath12k/QCC2072/hw1.0/firmware-2.bin
-Version: WLAN.COL.1.0.c2-00074-QCACOLSWPL_V1_TO_SILICONZ-1
+Version: WLAN.COL.1.0.c2-00277-QCACOLSWPL_V1_TO_SILICONZ-1
 File: ath12k/QCC2072/hw1.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
@@ -4178,7 +4220,7 @@ File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
 File: intel/ibt-0093-0291.sfi
 File: intel/ibt-0093-0291.ddc
-Version: BT_BlazarU_S_REL117936_24.60.26262.117936
+Version: BT_BlazarU_S_REL120611_24.70.26293.120611
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4215,19 +4257,15 @@ Version: BT_BlazarI_S_REL125325_24.60.26262.125325
 File: intel/ibt-1190-01a1-iml.sfi
 File: intel/ibt-1190-01a1-pci.ddc
 File: intel/ibt-1190-01a1-pci.sfi
-Version: BT_BlazarI_S_REL125325_24.60.26262.125325
+Version: BT_BlazarI_S_REL127988_24.70.26293.127988
 
 File: intel/ibt-00a0-01a1-iml.sfi
 File: intel/ibt-00a0-01a1-pci.ddc
 File: intel/ibt-00a0-01a1-pci.sfi
-File: intel/ibt-00a0-01a1-usb.ddc
-File: intel/ibt-00a0-01a1-usb.sfi
 File: intel/ibt-00a0-0291-iml.sfi
 File: intel/ibt-00a0-0291-pci.ddc
 File: intel/ibt-00a0-0291-pci.sfi
-File: intel/ibt-00a0-0291-usb.ddc
-File: intel/ibt-00a0-0291-usb.sfi
-Version: BT_Scorpius_S_REL94250_24.60.26262.94250
+Version: BT_Scorpius_S_REL96982_24.70.26293.96982
 
 File: intel/ibt-00a0-0041-iml.sfi
 File: intel/ibt-00a0-0041-pci.ddc
@@ -4522,7 +4560,7 @@ Licence: Redistributable. See LICENCE.it913x for details
 Driver: snd_soc_catpt - Intel AudioDSP driver for HSW/BDW platforms
 
 File: intel/catpt/bdw/dsp_basefw.bin
-Version: 44b81c4d5397a63108356f58f036953d9b288c4e
+Version: 039b7b566e35f96de8fda81f75706b6ae8c4b8b9
 Link: intel/IntcSST2.bin -> catpt/bdw/dsp_basefw.bin
 
 License: Redistributable. See LICENCE.IntcSST2 for details
@@ -4533,16 +4571,18 @@ Driver: snd_soc_avs - Intel AudioDSP driver for cAVS platforms
 
 File: intel/avs/skl/dsp_basefw.bin
 File: intel/avs/skl/dsp_mod_7CAD0808-AB10-CD23-EF45-12AB34CD56EF.bin
-Version: 9.21.00.4899
+Version: 9.21.00.5020
 Link: intel/dsp_fw_release.bin -> avs/skl/dsp_basefw.bin
 Link: intel/dsp_fw_kbl.bin -> avs/skl/dsp_basefw.bin
 File: intel/avs/apl/dsp_basefw.bin
-Version: 9.22.01.4917
+Version: 9.22.01.5018
 Link: intel/dsp_fw_bxtn.bin -> avs/apl/dsp_basefw.bin
 Link: intel/dsp_fw_glk.bin -> avs/apl/dsp_basefw.bin
 File: intel/avs/cnl/dsp_basefw.bin
 Version: 10.23.00.8551
 Link: intel/dsp_fw_cnl.bin -> avs/cnl/dsp_basefw.bin
+File: intel/avs/lkf/dsp_basefw.bin
+Version: 10.28.00.12823
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -4789,14 +4829,27 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and NOTICE.qca for 
 
 --------------------------------------------------------------------------
 
+Driver: qca - Qualcomm Atheros Bluetooth support for WCN7750 chips
+
+File: qca/ornbtfw10.tlv
+Version: BTFW.ORNE.1.0.1-00155-PATCH-1
+File: qca/ornnv10.bin
+Version: BTFW.ORNE.1.0.1-00155-PATCH-1
+File: qca/ornbcscal10.bin
+Version: BTFW.ORNE.1.0.1-00155-PATCH-1
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and NOTICE.qca for details
+
+--------------------------------------------------------------------------
+
 Driver: btqca - Qualcomm Atheros Bluetooth support for QCA_QCC2072 chip
 
 File: qca/ornbtfw11.tlv
-Version: BTFW.ORNE.1.1.0-00295-PATCHZ-1
+Version: BTFW.ORNE.1.1.0-00340-PATCH-1
 File: qca/ornnv11.bin
-Version: BTFW.ORNE.1.1.0-00295-PATCHZ-1
+Version: BTFW.ORNE.1.1.0-00340-PATCH-1
 File: qca/ornbcscal11.bin
-Version: BTFW.ORNE.1.1.0-00295-PATCHZ-1
+Version: BTFW.ORNE.1.1.0-00340-PATCH-1
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and NOTICE.qca for details
 
@@ -4822,7 +4875,7 @@ Driver: qca - Qualcomm Atheros Bluetooth support for WCN3988 chips
 File: qca/apbtfw10.tlv
 Version: BTFM.CHE.2.0.0-00082-QCACHROMZ-1
 File: qca/apbtfw11.tlv
-Version: BTFM.CHE.2.1.5.c5-00042-QCACHROMZ-2
+Version: BTFM.CHE.2.1.5.c5-00060-QCACHROMZ-3
 File: qca/apnv10.bin
 File: qca/apnv11.bin
 
@@ -4956,6 +5009,8 @@ File: qca/hmtbtfw20.tlv
 Version: BTFW.HAMILTON.2.0.1-00349-WOS_PATCHZ-2
 File: qca/hmtnv20.b10f
 File: qca/hmtnv20.b112
+File: qca/hmtnv20.b201
+File: qca/hmtnv20.b202
 File: qca/hmtnv20.bin
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qca for details
@@ -6248,9 +6303,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 Wireless MACs
 
 File: mediatek/mt7925/WIFI_MT7925_PATCH_MCU_1_1_hdr.bin
-Version: 20260605184651a
+Version: 20260813113015a
 File: mediatek/mt7925/WIFI_RAM_CODE_MT7925_1_1.bin
-Version: 20260605184805
+Version: 20260813113118
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6259,7 +6314,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 bluetooth chipset
 
 File: mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin
-Version: 20260605184935
+Version: 20260813113236
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6563,6 +6618,10 @@ File: qcom/vpu/vpu30_p4_s6_16mb.mbn
 
 Version: VIDEO.VPU.3.1-0093
 
+File: qcom/vpu/vpu33_p2_s7.mbn
+
+Version: VIDEO.VPU.3.4-0062
+
 File: qcom/vpu/vpu33_p4_s7.mbn
 Link: qcom/vpu/vpu33_p4.mbn -> vpu33_p4_s7.mbn
 
@@ -6575,7 +6634,7 @@ Version: VIDEO.VPU.3.5-0040
 
 File: qcom/vpu/vpu36_p4_s7.mbn
 
-Version: VIDEO.VPU.3.6-0032
+Version: VIDEO.VPU.3.6-0049
 
 File: qcom/vpu/vpu40_p2_s7.mbn
 
@@ -6651,7 +6710,6 @@ File: qcom/a663_gmu.bin
 Version: v3.05.01
 File: qcom/sa8775p/a663_zap.mbn
 Version: v0.09
-File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/a702_sqe.fw
 Version: v0.49
 File: qcom/qcm2290/a702_zap.mbn
@@ -6725,6 +6783,18 @@ Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 Binary files supplied originally from
 https://developer.qualcomm.com/hardware/dragonboard-410c/tools
 
+# Adreno ZAP shaders for Dell
+File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
+
+Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
+
+# Adreno ZAP shaders for Lenovo
+File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
+File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
+File: qcom/x1e80100/LENOVO/83ED/qcdxkmsuc8380.mbn
+
+Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+
 --------------------------------------------------------------------------
 
 Driver: adreno - Qualcomm Adreno GPU firmware
@@ -6743,12 +6813,15 @@ https://github.com/genesi/linux-legacy/tree/master/drivers/mxc/amd-gpu
 
 Driver: qcom_q6v5_pas - Qualcomm remoteproc firmware
 
+# qcom/apq8016
 File: qcom/apq8016/mba.mbn
 File: qcom/apq8016/modem.mbn
 Version: MPSS.DPM.2.0.2.C1.23-00008
 File: qcom/apq8016/wcnss.mbn
 Version: CNSS.PR.2.0.1.2.C1-00074
 File: qcom/apq8016/WCNSS_qcom_wlan_nv_sbc.bin
+
+# qcom/apq8096
 File: qcom/apq8096/adsp.mbn
 Version: ADSP.8996.2.7.1-00138
 RawFile: qcom/apq8096/adspr.jsn
@@ -6757,6 +6830,8 @@ File: qcom/apq8096/mba.mbn
 File: qcom/apq8096/modem.mbn
 Version: MPSS.TH.2.0.1-00481
 RawFile: qcom/apq8096/modemr.jsn
+
+# qcom/qcm2290
 File: qcom/qcm2290/adsp.mbn
 Version: ADSP.VT.5.4.1.c4-00013-KAMORTA-1
 RawFile: qcom/qcm2290/adspr.jsn
@@ -6766,8 +6841,10 @@ File: qcom/qcm2290/modem.mbn
 Version: MPSS.HA.1.1-00435-KD_ALL_PACK-1
 RawFile: qcom/qcm2290/modemr.jsn
 RawFile: qcom/qcm2290/modemuw.jsn
+
+# qcom/qcm6490
 File: qcom/qcm6490/adsp.mbn
-Version: ADSP.HT.5.5.c8-00249.1-KODIAK-1
+Version: ADSP.HT.5.5.c8-00256.2-KODIAK-1
 RawFile: qcom/qcm6490/adspr.jsn
 RawFile: qcom/qcm6490/adsps.jsn
 RawFile: qcom/qcm6490/adspua.jsn
@@ -6776,6 +6853,8 @@ File: qcom/qcm6490/cdsp.mbn
 Version: CDSP.HT.2.5.c3-00134-KODIAK-1
 RawFile: qcom/qcm6490/cdspr.jsn
 File: qcom/qcm6490/ipa_fws.mbn
+
+# qcom/qcs6490
 Link: qcom/qcs6490/adsp.mbn -> ../qcm6490/adsp.mbn
 Link: qcom/qcs6490/adspr.jsn -> ../qcm6490/adspr.jsn
 Link: qcom/qcs6490/adsps.jsn -> ../qcm6490/adsps.jsn
@@ -6795,14 +6874,18 @@ Version: ADSP.HT.5.5.c8-00217-KODIAK-1
 RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adspr.jsn
 RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adsps.jsn
 RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adspua.jsn
+
+# qcom/qcs615
 File: qcom/qcs615/adsp.mbn
-Version: ADSP.VT.5.2.c6-00073-SM6150-1
+Version: ADSP.VT.5.2.c6-00084.1-SM6150-1
 RawFile: qcom/qcs615/adspr.jsn
 RawFile: qcom/qcs615/adsps.jsn
 RawFile: qcom/qcs615/adspua.jsn
 File: qcom/qcs615/cdsp.mbn
 Version: CDSP.VT.2.2.c4-00019-SM6150-1
 RawFile: qcom/qcs615/cdspr.jsn
+
+# qcom/qrb4210
 File: qcom/qrb4210/adsp.mbn
 Version: ADSP.VT.5.4.1.c4-00013-KAMORTA-1
 RawFile: qcom/qrb4210/adspr.jsn
@@ -6815,6 +6898,8 @@ File: qcom/qrb4210/modem.mbn
 Version: MPSS.HA.1.1-00435-KD_ALL_PACK-1
 RawFile: qcom/qrb4210/modemr.jsn
 RawFile: qcom/qrb4210/modemuw.jsn
+
+# qcom/sdm845
 File: qcom/sdm845/adsp.mbn
 Version: ADSP.HT.4.0-00593-SDM845-1
 RawFile: qcom/sdm845/adspr.jsn
@@ -6826,6 +6911,10 @@ File: qcom/sdm845/Thundercomm/db845c/slpi.mbn
 Version: SLPI.HY.1.0-00365-SDM845AZL-1
 RawFile: qcom/sdm845/Thundercomm/db845c/slpir.jsn
 RawFile: qcom/sdm845/Thundercomm/db845c/slpius.jsn
+File: qcom/sdm845/SHIFT/axolotl/a630_zap.mbn
+Info: Extracted from the SHIFT6mq's vendor partition
+
+# qcom/sm8250
 File: qcom/sm8250/adsp.mbn
 Version: ADSP.HT.5.3.c2-00082-SM8250-1
 RawFile: qcom/sm8250/adspr.jsn
@@ -6837,6 +6926,8 @@ File: qcom/sm8250/Thundercomm/RB5/slpi.mbn
 Version: SLPI.HY.3.1-00049-SM8250AZL-2
 RawFile: qcom/sm8250/Thundercomm/RB5/slpir.jsn
 RawFile: qcom/sm8250/Thundercomm/RB5/slpius.jsn
+
+# Lenovo X13s
 RawFile: qcom/sc8280xp/LENOVO/21BX/adspr.jsn
 RawFile: qcom/sc8280xp/LENOVO/21BX/adspua.jsn
 RawFile: qcom/sc8280xp/LENOVO/21BX/battmgr.jsn
@@ -6849,12 +6940,18 @@ File: qcom/sc8280xp/LENOVO/21BX/qcslpi8280.mbn
 Version: SLPI.HY.4.1-00061-MAKENA-1
 File: qcom/sc8280xp/LENOVO/21BX/qcvss8280.mbn
 Version: video-firmware.1.1-b158087140355883dc40b004032856a8feb5d565
+
+# Radxa Dragon Q8B
+File: qcom/sc8280xp/radxa/dragon-q8b/qcadsp8280.mbn
+Version: ADSP.HT.5.6.c2-00037-MAKENA-1
+
+# Lenovo T14s
 File: qcom/x1e80100/LENOVO/21N1/qcvss8380.mbn
 Version: vfw-3.1:rel0085-070fa3311d9ef968015fee7fea07198d7eb208a1
 RawFile: qcom/x1e80100/LENOVO/21N1/adspua.jsn
 File: qcom/x1e80100/cdsp.mbn
 File: qcom/x1e80100/cdsp_dtb.mbn
-Version: CDSP.HT.2.9.c1-00082-HAMOA-1
+Version: CDSP.HT.2.9.c1-00094-HAMOA-1
 RawFile: qcom/x1e80100/cdspr.jsn
 File: qcom/x1e80100/LENOVO/21N1/qcadsp8380.mbn
 Version: ADSP.HT.5.9-00787.2-HAMOA-1
@@ -6865,8 +6962,9 @@ RawFile: qcom/x1e80100/LENOVO/21N1/adsps.jsn
 File: qcom/x1e80100/LENOVO/21N1/qccdsp8380.mbn
 Version: CDSP.HT.2.9-00447-HAMOA-2
 RawFile: qcom/x1e80100/LENOVO/21N1/cdspr.jsn
-File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
 RawFile: qcom/x1e80100/LENOVO/21N1/battmgr.jsn
+
+# Lenovo Yoga Slim 7x
 File: qcom/x1e80100/LENOVO/83ED/adsp_dtbs.elf
 RawFile: qcom/x1e80100/LENOVO/83ED/adspr.jsn
 RawFile: qcom/x1e80100/LENOVO/83ED/adsps.jsn
@@ -6879,7 +6977,6 @@ File: qcom/x1e80100/LENOVO/83ED/qcav1e8380.mbn
 Version: CDSP.HT.2.9.c2-00051-HAMOA-1
 File: qcom/x1e80100/LENOVO/83ED/qccdsp8380.mbn
 Version: CDSP.HT.2.9.c2-00051-HAMOA-1
-File: qcom/x1e80100/LENOVO/83ED/qcdxkmsuc8380.mbn
 File: qcom/x1e80100/LENOVO/83ED/qcvss8380.mbn
 Version: video-firmware.3.1-e5aea20c64cb6df9a1c9be99e206053b36424939
 
@@ -6899,6 +6996,7 @@ https://github.com/andersson/pil-squasher
 cdsp.mbn has been converted from 21-cdsp_split/firmware/cdsp.* using
 https://github.com/andersson/pil-squasher
 
+# qcom/glymur
 File: qcom/glymur/adsp.mbn
 File: qcom/glymur/adsp_dtb.mbn
 Version: LPAIDSP.HT.1.6.2-00020-GLYMUR-2
@@ -6909,6 +7007,8 @@ File: qcom/glymur/cdsp.mbn
 File: qcom/glymur/cdsp_dtb.mbn
 Version: CDSP.HT.3.3-00315-GLYMUR-1
 RawFile: qcom/glymur/cdspr.jsn
+
+# qcom/hawi
 File: qcom/hawi/adsp.mbn
 File: qcom/hawi/adsp_dtb.mbn
 Version: LPAIDSP.HT.1.6-00701.4-HAWI-2
@@ -6916,6 +7016,8 @@ RawFile: qcom/hawi/adspr.jsn
 RawFile: qcom/hawi/adsps.jsn
 RawFile: qcom/hawi/adspua.jsn
 RawFile: qcom/hawi/adspuo.jsn
+
+# qcom/kaanapali
 File: qcom/kaanapali/adsp.mbn
 File: qcom/kaanapali/adsp_dtb.mbn
 Version: LPAIDSP.HT.1.6.1-00035-KAANAPALI-1
@@ -6931,18 +7033,20 @@ File: qcom/kaanapali/soccp.mbn
 File: qcom/kaanapali/soccp_dtb.mbn
 Version: SOCCP.FW.2.1-00204-KAANAPALI_SOCCP_PACK-1
 RawFile: qcom/kaanapali/soccpr.jsn
-File: qcom/qcs8300/adsp.mbn
-Version: DSP.AT.1.0.1-00204-LEMANS-1
-RawFile: qcom/qcs8300/adspr.jsn
-RawFile: qcom/qcs8300/adspua.jsn
+
+# qcom/qcs8300
+Link: qcom/qcs8300/adsp.mbn -> ../sa8775p/adsp.mbn
+Link: qcom/qcs8300/adspr.jsn -> ../sa8775p/adspr.jsn
+Link: qcom/qcs8300/adspua.jsn -> ../sa8775p/adspua.jsn
 File: qcom/qcs8300/cdsp0.mbn
 Version: DSP.AT.1.0.1-00204-LEMANS-1
 RawFile: qcom/qcs8300/cdspr.jsn
-File: qcom/qcs8300/gpdsp0.mbn
-Version: DSP.AT.1.0.1-00204-LEMANS-1
-RawFile: qcom/qcs8300/gpdspr.jsn
+Link: qcom/qcs8300/gpdsp0.mbn -> ../sa8775p/gpdsp0.mbn
+Link: qcom/qcs8300/gpdspr.jsn -> ../sa8775p/gpdsp0.mbn
+
+# qcom/sa8775p
 File: qcom/sa8775p/adsp.mbn
-Version: DSP.AT.1.0.1-00204-LEMANS-1
+Version: DSP.AT.1.0.1-00205-LEMANS-1
 RawFile: qcom/sa8775p/adspr.jsn
 RawFile: qcom/sa8775p/adspua.jsn
 File: qcom/sa8775p/cdsp0.mbn
@@ -6957,6 +7061,22 @@ File: qcom/sa8775p/gpdsp1.mbn
 Version: DSP.AT.1.0.1-00204-LEMANS-1
 RawFile: qcom/sa8775p/gpdsp1r.jsn
 RawFile: qcom/sa8775p/gpdspr.jsn
+
+# qcom/nord
+File: qcom/nord/adsp.mbn
+File: qcom/nord/adsp1.mbn
+File: qcom/nord/adsp_dtb.mbn
+File: qcom/nord/adsp1_dtb.mbn
+Version: HPASS.AT.1.0.1-00003-NORD-1
+RawFile: qcom/nord/adspr.jsn
+RawFile: qcom/nord/adspua.jsn
+RawFile: qcom/nord/adsp1r.jsn
+File: qcom/nord/cdsp.mbn
+File: qcom/nord/cdsp_dtb.mbn
+Version: NSP.AT.1.0-00579-NORD-1
+RawFile: qcom/nord/cdspr.jsn
+
+# qcom/sm8750
 File: qcom/sm8750/adsp.mbn
 File: qcom/sm8750/adsp_dtb.mbn
 Version: LPAIDSP.HT.1.2.c2-00021-PAKALA-1
@@ -6968,6 +7088,14 @@ File: qcom/sm8750/cdsp.mbn
 File: qcom/sm8750/cdsp_dtb.mbn
 Version: CDSP.HT.3.1-00889-PAKALA-1
 RawFile: qcom/sm8750/cdspr.jsn
+
+# qcom/eliza
+File: qcom/eliza/cdsp.mbn
+File: qcom/eliza/cdsp_dtb.mbn
+Version: CDSP.HT.3.1-00889-PAKALA-1
+RawFile: qcom/eliza/cdspr.jsn
+
+# qcom/x1e80100
 File: qcom/x1e80100/adsp.mbn
 File: qcom/x1e80100/adsp_dtb.mbn
 Version: ADSP.HT.5.9-00839-HAMOA-1
@@ -6975,6 +7103,8 @@ RawFile: qcom/x1e80100/adspr.jsn
 RawFile: qcom/x1e80100/adsps.jsn
 RawFile: qcom/x1e80100/adspua.jsn
 RawFile: qcom/x1e80100/battmgr.jsn
+
+# qcom/shikra
 File: qcom/shikra/cdsp.mbn
 Version: CDSP.VT.2.4.3-00088-SHIKRA-1
 RawFile: qcom/shikra/cdspr.jsn
@@ -6987,6 +7117,7 @@ Version: MPSS.JO.4.0-00194.2-SHIKRA_LWG_PACK-1
 
 Licence: Redistributable. See LICENSE.qcom-2 and NOTICE.qcom for details
 
+# Dell XPS13
 File: qcom/x1e80100/dell/xps13-9345/adsp_dtbs.elf
 RawFile: qcom/x1e80100/dell/xps13-9345/adspr.jsn
 RawFile: qcom/x1e80100/dell/xps13-9345/adsps.jsn
@@ -6996,7 +7127,6 @@ File: qcom/x1e80100/dell/xps13-9345/cdsp_dtbs.elf
 RawFile: qcom/x1e80100/dell/xps13-9345/cdspr.jsn
 File: qcom/x1e80100/dell/xps13-9345/qcadsp8380.mbn
 File: qcom/x1e80100/dell/xps13-9345/qccdsp8380.mbn
-File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
 
 Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
 
@@ -8015,10 +8145,15 @@ Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid0-r0.bin -> cs35l41-dsp1-spk-pr
 Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid1-l0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid1-r0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-10431584.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-104319f4.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-10431584-spkid0-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431584-spkid0-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431584-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431584-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104319f4-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431584-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104319f4-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431584-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104319f4-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431584-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104319f4-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431584-spkid1-r0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-10433601-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid0-l0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-10433601-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid0-r0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-10433601-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid1-l0.bin
@@ -8790,6 +8925,15 @@ File: cirrus/cs35l56-b2-dsp1-misc-10280e53-spkid2-ampr.bin
 Link: cirrus/cs35l56-b2-dsp1-misc-10280e53-spkid3.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
 File: cirrus/cs35l56-b2-dsp1-misc-10280e53-spkid3-ampl.bin
 File: cirrus/cs35l56-b2-dsp1-misc-10280e53-spkid3-ampr.bin
+Link: cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid1.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+Link: cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid1-ampl.bin -> cs35l56-b2-dsp1-misc-10280e53-spkid1-ampl.bin
+Link: cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid1-ampr.bin -> cs35l56-b2-dsp1-misc-10280e53-spkid1-ampr.bin
+Link: cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid2.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+Link: cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid2-ampl.bin -> cs35l56-b2-dsp1-misc-10280e53-spkid2-ampl.bin
+Link: cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid2-ampr.bin -> cs35l56-b2-dsp1-misc-10280e53-spkid2-ampr.bin
+Link: cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid3.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+Link: cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid3-ampl.bin -> cs35l56-b2-dsp1-misc-10280e53-spkid3-ampl.bin
+Link: cirrus/cs35l56-b2-dsp1-misc-10280e54-spkid3-ampr.bin -> cs35l56-b2-dsp1-misc-10280e53-spkid3-ampr.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e5f-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e5f-spkid0-01-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e5f-spkid0-01-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u3.bin
@@ -8898,12 +9042,36 @@ Link: cirrus/cs35l56-b0-dsp1-misc-10280e87-spkid0-l3u1.bin -> cs35l56-b0-dsp1-mi
 Link: cirrus/cs35l56-b0-dsp1-misc-10280e87-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.28.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-10280e87-spkid1-l2u3.bin -> cs35l56-b0-dsp1-misc-10280d13-spkid1-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-10280e87-spkid1-l3u1.bin -> cs35l56-b0-dsp1-misc-10280d13-spkid1-amp1.bin
-Link: cirrus/cs35l56-b0-dsp1-misc-103c8c52.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid0-02-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid0-02-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid1-02-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid1-02-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid2-02-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid2-02-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid3-02-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efb-spkid3-02-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid0-05-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid0-05-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid1-05-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid1-05-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid2-05-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid2-05-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3-05-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280efc-spkid3-05-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u3.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-103c8c52.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp3.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp4.bin
-Link: cirrus/cs35l56-b0-dsp1-misc-103c8c53.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
+Link: cirrus/cs35l56-b0-dsp1-misc-103c8c53.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c53-amp3.bin
@@ -8918,12 +9086,12 @@ File: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp1.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp2.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp3.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d08-amp4.bin
-Link: cirrus/cs35l54-b0-dsp1-misc-103c8d85.wmfw -> cs35l56/CS35L56_Rev3.11.11.1.wmfw
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d85.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d85-amp1.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d85-amp2.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d85-amp3.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d85-amp4.bin
-Link: cirrus/cs35l54-b0-dsp1-misc-103c8d86.wmfw -> cs35l56/CS35L56_Rev3.11.11.1.wmfw
+Link: cirrus/cs35l54-b0-dsp1-misc-103c8d86.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d86-amp1.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d86-amp2.bin
 File: cirrus/cs35l54-b0-dsp1-misc-103c8d86-amp3.bin
@@ -8982,6 +9150,11 @@ Link: cirrus/cs35l56-b0-dsp1-misc-103c8e1c-amp2.bin -> cs35l56-b0-dsp1-misc-103c
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8e2c.wmfw -> cs35l56/CS35L56_Rev3.11.11.1.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8e2c-amp1.bin -> cs35l56-b0-dsp1-misc-103c8d90-amp1.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8e2c-amp2.bin -> cs35l56-b0-dsp1-misc-103c8d90-amp2.bin
+Link: cirrus/cs35l54-b0-dsp1-misc-103c900c.wmfw -> cs35l56/CS35L56_Rev3.11.18.wmfw
+Link: cirrus/cs35l54-b0-dsp1-misc-103c900c-amp1.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp1.bin
+Link: cirrus/cs35l54-b0-dsp1-misc-103c900c-amp2.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp2.bin
+Link: cirrus/cs35l54-b0-dsp1-misc-103c900c-amp3.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp3.bin
+Link: cirrus/cs35l54-b0-dsp1-misc-103c900c-amp4.bin -> cs35l54-b0-dsp1-misc-103c8d01-amp4.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-10431024-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-10431024-spkid0-amp1.bin -> cs35l56-b0-dsp1-misc-10431044-spkid0-amp1.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-10431024-spkid0-amp2.bin -> cs35l56-b0-dsp1-misc-10431044-spkid0-amp2.bin
@@ -9048,6 +9221,9 @@ File: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid0-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431c63-spkid1-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-10431c74.wmfw -> cs35l56/CS35L56_Rev3.13.4.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-10431c74-l2u0.bin
+File: cirrus/cs35l56-b0-dsp1-misc-10431c74-l2u1.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-10431df3.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10431df3-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431df3-amp2.bin
@@ -9218,6 +9394,9 @@ File: cirrus/cs35l56-b0-dsp1-misc-17aa391e-spkid0-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa3921-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.21.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa3921-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa3921-spkid1-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa3921.wmfw -> cs35l56/CS35L56_Rev3.11.21.wmfw
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa3921-amp1.bin -> cs35l56-b0-dsp1-misc-17aa3921-spkid1-amp1.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa3921-amp2.bin -> cs35l56-b0-dsp1-misc-17aa3921-spkid1-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa392c-spkid1.wmfw -> cs35l56/CS35L56_Rev3.11.21.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa392c-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa392c-spkid1-amp2.bin
@@ -9288,196 +9467,240 @@ Semiconductor Ltd. All Rights Reserved.
 
 Driver: cs42l45 - CS42L45 SDCA audio driver
 
-File: sdca/1fa/1028/db3/1.bin
-File: sdca/1fa/1028/db3/2.bin
-File: sdca/1fa/1028/db3/3.bin
-File: sdca/1fa/1028/db3/4.bin
-File: sdca/1fa/1028/db3/42450005.bin
-Link: sdca/1fa/1028/db4/1.bin -> ../db3/1.bin
-Link: sdca/1fa/1028/db4/2.bin -> ../db3/2.bin
-Link: sdca/1fa/1028/db4/3.bin -> ../db3/3.bin
-Link: sdca/1fa/1028/db4/4.bin -> ../db3/4.bin
-Link: sdca/1fa/1028/db4/42450005.bin -> ../db3/42450005.bin
-Link: sdca/1fa/1028/db9/1.bin -> ../db3/1.bin
-Link: sdca/1fa/1028/db9/2.bin -> ../db3/2.bin
-Link: sdca/1fa/1028/db9/3.bin -> ../db3/3.bin
-Link: sdca/1fa/1028/db9/4.bin -> ../db3/4.bin
-Link: sdca/1fa/1028/db9/42450005.bin -> ../db3/42450005.bin
-Link: sdca/1fa/1028/dba/1.bin -> ../db3/1.bin
-Link: sdca/1fa/1028/dba/2.bin -> ../db3/2.bin
-Link: sdca/1fa/1028/dba/3.bin -> ../db3/3.bin
-Link: sdca/1fa/1028/dba/4.bin -> ../db3/4.bin
-Link: sdca/1fa/1028/dba/42450005.bin -> ../db3/42450005.bin
-Link: sdca/1fa/1028/e13/1.bin -> ../db3/1.bin
-Link: sdca/1fa/1028/e13/2.bin -> ../db3/2.bin
-Link: sdca/1fa/1028/e13/3.bin -> ../db3/3.bin
-Link: sdca/1fa/1028/e13/4.bin -> ../db3/4.bin
-Link: sdca/1fa/1028/e13/42450005.bin -> ../db3/42450005.bin
-Link: sdca/1fa/1028/e14/1.bin -> ../db3/1.bin
-Link: sdca/1fa/1028/e14/2.bin -> ../db3/2.bin
-Link: sdca/1fa/1028/e14/3.bin -> ../db3/3.bin
-Link: sdca/1fa/1028/e14/4.bin -> ../db3/4.bin
-Link: sdca/1fa/1028/e14/42450005.bin -> ../db3/42450005.bin
-File: sdca/1fa/1028/e1a/1.bin
-File: sdca/1fa/1028/e1a/2.bin
-File: sdca/1fa/1028/e1a/3.bin
-File: sdca/1fa/1028/e1a/4.bin
-File: sdca/1fa/1028/e1a/42450005.bin
-Link: sdca/1fa/1028/e1b/1.bin -> ../e1a/1.bin
-Link: sdca/1fa/1028/e1b/2.bin -> ../e1a/2.bin
-Link: sdca/1fa/1028/e1b/3.bin -> ../e1a/3.bin
-Link: sdca/1fa/1028/e1b/4.bin -> ../e1a/4.bin
-Link: sdca/1fa/1028/e1b/42450005.bin -> ../e1a/42450005.bin
-Link: sdca/1fa/1028/e1c/1.bin -> ../e1a/1.bin
-Link: sdca/1fa/1028/e1c/2.bin -> ../e1a/2.bin
-Link: sdca/1fa/1028/e1c/3.bin -> ../e1a/3.bin
-Link: sdca/1fa/1028/e1c/4.bin -> ../e1a/4.bin
-Link: sdca/1fa/1028/e1c/42450005.bin -> ../e1a/42450005.bin
-Link: sdca/1fa/1028/e1d/1.bin -> ../e1a/1.bin
-Link: sdca/1fa/1028/e1d/2.bin -> ../e1a/2.bin
-Link: sdca/1fa/1028/e1d/3.bin -> ../e1a/3.bin
-Link: sdca/1fa/1028/e1d/4.bin -> ../e1a/4.bin
-Link: sdca/1fa/1028/e1d/42450005.bin -> ../e1a/42450005.bin
-Link: sdca/1fa/1028/e1e/1.bin -> ../e1a/1.bin
-Link: sdca/1fa/1028/e1e/2.bin -> ../e1a/2.bin
-Link: sdca/1fa/1028/e1e/3.bin -> ../e1a/3.bin
-Link: sdca/1fa/1028/e1e/4.bin -> ../e1a/4.bin
-Link: sdca/1fa/1028/e1e/42450005.bin -> ../e1a/42450005.bin
-Link: sdca/1fa/1028/e1f/1.bin -> ../e1a/1.bin
-Link: sdca/1fa/1028/e1f/2.bin -> ../e1a/2.bin
-Link: sdca/1fa/1028/e1f/3.bin -> ../e1a/3.bin
-Link: sdca/1fa/1028/e1f/4.bin -> ../e1a/4.bin
-Link: sdca/1fa/1028/e1f/42450005.bin -> ../e1a/42450005.bin
-Link: sdca/1fa/1028/e20/1.bin -> ../e1a/1.bin
-Link: sdca/1fa/1028/e20/2.bin -> ../e1a/2.bin
-Link: sdca/1fa/1028/e20/3.bin -> ../e1a/3.bin
-Link: sdca/1fa/1028/e20/4.bin -> ../e1a/4.bin
-Link: sdca/1fa/1028/e20/42450005.bin -> ../e1a/42450005.bin
-Link: sdca/1fa/1028/e38/1.bin -> ../e1a/1.bin
-Link: sdca/1fa/1028/e38/2.bin -> ../e1a/2.bin
-Link: sdca/1fa/1028/e38/3.bin -> ../e1a/3.bin
-Link: sdca/1fa/1028/e38/4.bin -> ../e1a/4.bin
-Link: sdca/1fa/1028/e38/42450005.bin -> ../e1a/42450005.bin
-Link: sdca/1fa/1028/e3e/1.bin -> ../e1a/1.bin
-Link: sdca/1fa/1028/e3e/2.bin -> ../e1a/2.bin
-Link: sdca/1fa/1028/e3e/3.bin -> ../e1a/3.bin
-Link: sdca/1fa/1028/e3e/4.bin -> ../e1a/4.bin
-Link: sdca/1fa/1028/e3e/42450005.bin -> ../e1a/42450005.bin
-Link: sdca/1fa/1028/e3f/1.bin -> ../e1a/1.bin
-Link: sdca/1fa/1028/e3f/2.bin -> ../e1a/2.bin
-Link: sdca/1fa/1028/e3f/3.bin -> ../e1a/3.bin
-Link: sdca/1fa/1028/e3f/4.bin -> ../e1a/4.bin
-Link: sdca/1fa/1028/e3f/42450005.bin -> ../e1a/42450005.bin
-Link: sdca/1fa/1028/e82/1.bin -> ../e1a/1.bin
-Link: sdca/1fa/1028/e82/2.bin -> ../e1a/2.bin
-Link: sdca/1fa/1028/e82/3.bin -> ../e1a/3.bin
-Link: sdca/1fa/1028/e82/4.bin -> ../e1a/4.bin
-Link: sdca/1fa/1028/e82/42450005.bin -> ../e1a/42450005.bin
-Link: sdca/1fa/1028/e83/1.bin -> ../e1a/1.bin
-Link: sdca/1fa/1028/e83/2.bin -> ../e1a/2.bin
-Link: sdca/1fa/1028/e83/3.bin -> ../e1a/3.bin
-Link: sdca/1fa/1028/e83/4.bin -> ../e1a/4.bin
-Link: sdca/1fa/1028/e83/42450005.bin -> ../e1a/42450005.bin
-Link: sdca/1fa/1028/e84/1.bin -> ../e1a/1.bin
-Link: sdca/1fa/1028/e84/2.bin -> ../e1a/2.bin
-Link: sdca/1fa/1028/e84/3.bin -> ../e1a/3.bin
-Link: sdca/1fa/1028/e84/4.bin -> ../e1a/4.bin
-Link: sdca/1fa/1028/e84/42450005.bin -> ../e1a/42450005.bin
-Link: sdca/1fa/1028/e85/1.bin -> ../e1a/1.bin
-Link: sdca/1fa/1028/e85/2.bin -> ../e1a/2.bin
-Link: sdca/1fa/1028/e85/3.bin -> ../e1a/3.bin
-Link: sdca/1fa/1028/e85/4.bin -> ../e1a/4.bin
-Link: sdca/1fa/1028/e85/42450005.bin -> ../e1a/42450005.bin
-File: sdca/1fa/1028/e22/1.bin
-File: sdca/1fa/1028/e22/2.bin
-File: sdca/1fa/1028/e22/3.bin
-File: sdca/1fa/1028/e22/4.bin
-File: sdca/1fa/1028/e22/42450005.bin
-Link: sdca/1fa/1028/e21/1.bin -> ../e22/1.bin
-Link: sdca/1fa/1028/e21/2.bin -> ../e22/2.bin
-Link: sdca/1fa/1028/e21/3.bin -> ../e22/3.bin
-Link: sdca/1fa/1028/e21/4.bin -> ../e22/4.bin
-Link: sdca/1fa/1028/e21/42450005.bin -> ../e22/42450005.bin
-Link: sdca/1fa/1028/e23/1.bin -> ../e22/1.bin
-Link: sdca/1fa/1028/e23/2.bin -> ../e22/2.bin
-Link: sdca/1fa/1028/e23/3.bin -> ../e22/3.bin
-Link: sdca/1fa/1028/e23/4.bin -> ../e22/4.bin
-Link: sdca/1fa/1028/e23/42450005.bin -> ../e22/42450005.bin
-Link: sdca/1fa/1028/e24/1.bin -> ../e22/1.bin
-Link: sdca/1fa/1028/e24/2.bin -> ../e22/2.bin
-Link: sdca/1fa/1028/e24/3.bin -> ../e22/3.bin
-Link: sdca/1fa/1028/e24/4.bin -> ../e22/4.bin
-Link: sdca/1fa/1028/e24/42450005.bin -> ../e22/42450005.bin
-Link: sdca/1fa/1028/e25/1.bin -> ../e22/1.bin
-Link: sdca/1fa/1028/e25/2.bin -> ../e22/2.bin
-Link: sdca/1fa/1028/e25/3.bin -> ../e22/3.bin
-Link: sdca/1fa/1028/e25/4.bin -> ../e22/4.bin
-Link: sdca/1fa/1028/e25/42450005.bin -> ../e22/42450005.bin
-Link: sdca/1fa/1028/e26/1.bin -> ../e22/1.bin
-Link: sdca/1fa/1028/e26/2.bin -> ../e22/2.bin
-Link: sdca/1fa/1028/e26/3.bin -> ../e22/3.bin
-Link: sdca/1fa/1028/e26/4.bin -> ../e22/4.bin
-Link: sdca/1fa/1028/e26/42450005.bin -> ../e22/42450005.bin
-Link: sdca/1fa/1028/e27/1.bin -> ../e22/1.bin
-Link: sdca/1fa/1028/e27/2.bin -> ../e22/2.bin
-Link: sdca/1fa/1028/e27/3.bin -> ../e22/3.bin
-Link: sdca/1fa/1028/e27/4.bin -> ../e22/4.bin
-Link: sdca/1fa/1028/e27/42450005.bin -> ../e22/42450005.bin
-Link: sdca/1fa/1028/e28/1.bin -> ../e22/1.bin
-Link: sdca/1fa/1028/e28/2.bin -> ../e22/2.bin
-Link: sdca/1fa/1028/e28/3.bin -> ../e22/3.bin
-Link: sdca/1fa/1028/e28/4.bin -> ../e22/4.bin
-Link: sdca/1fa/1028/e28/42450005.bin -> ../e22/42450005.bin
-Link: sdca/1fa/1028/e2b/1.bin -> ../e22/1.bin
-Link: sdca/1fa/1028/e2b/2.bin -> ../e22/2.bin
-Link: sdca/1fa/1028/e2b/3.bin -> ../e22/3.bin
-Link: sdca/1fa/1028/e2b/4.bin -> ../e22/4.bin
-Link: sdca/1fa/1028/e2b/42450005.bin -> ../e22/42450005.bin
-Link: sdca/1fa/1028/e2c/1.bin -> ../e22/1.bin
-Link: sdca/1fa/1028/e2c/2.bin -> ../e22/2.bin
-Link: sdca/1fa/1028/e2c/3.bin -> ../e22/3.bin
-Link: sdca/1fa/1028/e2c/4.bin -> ../e22/4.bin
-Link: sdca/1fa/1028/e2c/42450005.bin -> ../e22/42450005.bin
-Link: sdca/1fa/1028/e5f/1.bin -> ../e22/1.bin
-Link: sdca/1fa/1028/e5f/2.bin -> ../e22/2.bin
-Link: sdca/1fa/1028/e5f/3.bin -> ../e22/3.bin
-Link: sdca/1fa/1028/e5f/4.bin -> ../e22/4.bin
-Link: sdca/1fa/1028/e5f/42450005.bin -> ../e22/42450005.bin
-Link: sdca/1fa/1028/e60/1.bin -> ../e22/1.bin
-Link: sdca/1fa/1028/e60/2.bin -> ../e22/2.bin
-Link: sdca/1fa/1028/e60/3.bin -> ../e22/3.bin
-Link: sdca/1fa/1028/e60/4.bin -> ../e22/4.bin
-Link: sdca/1fa/1028/e60/42450005.bin -> ../e22/42450005.bin
-Link: sdca/1fa/1028/e65/1.bin -> ../e22/1.bin
-Link: sdca/1fa/1028/e65/2.bin -> ../e22/2.bin
-Link: sdca/1fa/1028/e65/3.bin -> ../e22/3.bin
-Link: sdca/1fa/1028/e65/4.bin -> ../e22/4.bin
-Link: sdca/1fa/1028/e65/42450005.bin -> ../e22/42450005.bin
-Link: sdca/1fa/1028/e66/1.bin -> ../e22/1.bin
-Link: sdca/1fa/1028/e66/2.bin -> ../e22/2.bin
-Link: sdca/1fa/1028/e66/3.bin -> ../e22/3.bin
-Link: sdca/1fa/1028/e66/4.bin -> ../e22/4.bin
-Link: sdca/1fa/1028/e66/42450005.bin -> ../e22/42450005.bin
-File: sdca/1fa/17aa/2352/1.bin
-File: sdca/1fa/17aa/2352/2.bin
-File: sdca/1fa/17aa/2352/3.bin
-File: sdca/1fa/17aa/2352/4.bin
-File: sdca/1fa/17aa/2352/42450005.bin
-Link: sdca/1fa/17aa/2353/1.bin -> ../2352/1.bin
-Link: sdca/1fa/17aa/2353/2.bin -> ../2352/2.bin
-Link: sdca/1fa/17aa/2353/3.bin -> ../2352/3.bin
-Link: sdca/1fa/17aa/2353/4.bin -> ../2352/4.bin
-Link: sdca/1fa/17aa/2353/42450005.bin -> ../2352/42450005.bin
-Link: sdca/1fa/17aa/5158/1.bin -> ../2352/1.bin
-Link: sdca/1fa/17aa/5158/2.bin -> ../2352/2.bin
-Link: sdca/1fa/17aa/5158/3.bin -> ../2352/3.bin
-Link: sdca/1fa/17aa/5158/4.bin -> ../2352/4.bin
-Link: sdca/1fa/17aa/5158/42450005.bin -> ../2352/42450005.bin
-Link: sdca/1fa/17aa/5159/1.bin -> ../2352/1.bin
-Link: sdca/1fa/17aa/5159/2.bin -> ../2352/2.bin
-Link: sdca/1fa/17aa/5159/3.bin -> ../2352/3.bin
-Link: sdca/1fa/17aa/5159/4.bin -> ../2352/4.bin
-Link: sdca/1fa/17aa/5159/42450005.bin -> ../2352/42450005.bin
+File: sdca/1fa/cs42l45_primer1.bin
+File: sdca/1fa/cs42l45_primer2.bin
+File: sdca/1fa/cs42l45_primer3.bin
+File: sdca/1fa/cs42l45_primer4.bin
+
+File: sdca/1fa/1028/cs42l45_v20260703.bin
+Link: sdca/1fa/1028/db3/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/db3/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/db3/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/db3/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/db3/42450005.bin -> ../cs42l45_v20260703.bin
+Link: sdca/1fa/1028/db4/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/db4/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/db4/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/db4/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/db4/42450005.bin -> ../cs42l45_v20260703.bin
+Link: sdca/1fa/1028/db9/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/db9/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/db9/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/db9/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/db9/42450005.bin -> ../cs42l45_v20260703.bin
+Link: sdca/1fa/1028/dba/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/dba/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/dba/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/dba/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/dba/42450005.bin -> ../cs42l45_v20260703.bin
+Link: sdca/1fa/1028/e13/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e13/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e13/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e13/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e13/42450005.bin -> ../cs42l45_v20260703.bin
+Link: sdca/1fa/1028/e14/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e14/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e14/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e14/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e14/42450005.bin -> ../cs42l45_v20260703.bin
+
+File: sdca/1fa/1028/cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e1a/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e1a/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e1a/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e1a/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e1a/42450005.bin -> ../cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e1b/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e1b/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e1b/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e1b/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e1b/42450005.bin -> ../cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e1c/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e1c/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e1c/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e1c/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e1c/42450005.bin -> ../cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e1d/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e1d/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e1d/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e1d/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e1d/42450005.bin -> ../cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e1e/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e1e/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e1e/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e1e/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e1e/42450005.bin -> ../cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e1f/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e1f/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e1f/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e1f/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e1f/42450005.bin -> ../cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e20/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e20/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e20/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e20/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e20/42450005.bin -> ../cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e38/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e38/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e38/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e38/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e38/42450005.bin -> ../cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e3e/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e3e/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e3e/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e3e/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e3e/42450005.bin -> ../cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e3f/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e3f/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e3f/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e3f/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e3f/42450005.bin -> ../cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e82/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e82/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e82/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e82/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e82/42450005.bin -> ../cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e83/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e83/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e83/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e83/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e83/42450005.bin -> ../cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e84/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e84/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e84/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e84/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e84/42450005.bin -> ../cs42l45_v20260225.bin
+Link: sdca/1fa/1028/e85/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e85/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e85/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e85/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e85/42450005.bin -> ../cs42l45_v20260225.bin
+
+File: sdca/1fa/1028/cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e22/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e22/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e22/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e22/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e22/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e21/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e21/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e21/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e21/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e21/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e23/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e23/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e23/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e23/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e23/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e24/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e24/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e24/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e24/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e24/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e25/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e25/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e25/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e25/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e25/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e26/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e26/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e26/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e26/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e26/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e27/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e27/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e27/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e27/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e27/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e28/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e28/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e28/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e28/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e28/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e2b/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e2b/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e2b/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e2b/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e2b/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e2c/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e2c/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e2c/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e2c/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e2c/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e5f/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e5f/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e5f/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e5f/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e5f/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e60/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e60/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e60/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e60/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e60/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e65/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e65/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e65/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e65/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e65/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/e66/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/e66/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/e66/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/e66/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/e66/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/efb/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/efb/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/efb/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/efb/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/efb/42450005.bin -> ../cs42l45_v20260615.bin
+Link: sdca/1fa/1028/efc/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/1028/efc/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/1028/efc/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/1028/efc/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/1028/efc/42450005.bin -> ../cs42l45_v20260615.bin
+
+File: sdca/1fa/17aa/cs42l45_v20260522.bin
+Link: sdca/1fa/17aa/2352/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/17aa/2352/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/17aa/2352/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/17aa/2352/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/17aa/2352/42450005.bin -> ../cs42l45_v20260522.bin
+Link: sdca/1fa/17aa/2353/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/17aa/2353/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/17aa/2353/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/17aa/2353/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/17aa/2353/42450005.bin -> ../cs42l45_v20260522.bin
+Link: sdca/1fa/17aa/5158/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/17aa/5158/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/17aa/5158/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/17aa/5158/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/17aa/5158/42450005.bin -> ../cs42l45_v20260522.bin
+Link: sdca/1fa/17aa/5159/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/17aa/5159/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/17aa/5159/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/17aa/5159/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/17aa/5159/42450005.bin -> ../cs42l45_v20260522.bin
+
+File: sdca/1fa/144d/cs42l45_v20260820.bin
+Link: sdca/1fa/144d/c1dc/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/144d/c1dc/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/144d/c1dc/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/144d/c1dc/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/144d/c1dc/42450005.bin -> ../cs42l45_v20260820.bin
+Link: sdca/1fa/144d/c1de/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/144d/c1de/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/144d/c1de/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/144d/c1de/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/144d/c1de/42450005.bin -> ../cs42l45_v20260820.bin
+Link: sdca/1fa/144d/c910/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/144d/c910/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/144d/c910/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/144d/c910/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/144d/c910/42450005.bin -> ../cs42l45_v20260820.bin
+Link: sdca/1fa/144d/ca0a/1.bin -> ../../cs42l45_primer1.bin
+Link: sdca/1fa/144d/ca0a/2.bin -> ../../cs42l45_primer2.bin
+Link: sdca/1fa/144d/ca0a/3.bin -> ../../cs42l45_primer3.bin
+Link: sdca/1fa/144d/ca0a/4.bin -> ../../cs42l45_primer4.bin
+Link: sdca/1fa/144d/ca0a/42450005.bin -> ../cs42l45_v20260820.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
@@ -9643,12 +9866,30 @@ Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://github.com/linux-msm/audioreach-topology.git
 
 --------------------------------------------------------------------------
-Driver: ti-tas2781 - tas2781 firmware
+
+Driver: ti-tas257x - tas257x firmware
+
+File: ti/audio/tas257x/tas2573-2amp-reg.bin
 File: ti/audio/tas257x/tas2572-1-1amp-reg.bin
 File: ti/audio/tas257x/tas2572-2-1amp-reg.bin
 File: ti/audio/tas257x/tas2572-3-1amp-reg.bin
 File: ti/audio/tas257x/tas2572-3amp-reg.bin
 File: ti/audio/tas257x/tas257x-1amp-reg.bin
+
+Link: tas2573-2amp-reg.bin -> ti/audio/tas257x/tas2573-2amp-reg.bin
+Link: tas2572-1-1amp-reg.bin -> ti/audio/tas257x/tas2572-1-1amp-reg.bin
+Link: tas2572-2-1amp-reg.bin -> ti/audio/tas257x/tas2572-2-1amp-reg.bin
+Link: tas2572-3-1amp-reg.bin -> ti/audio/tas257x/tas2572-3-1amp-reg.bin
+Link: tas2572-3amp-reg.bin -> ti/audio/tas257x/tas2572-3amp-reg.bin
+Link: tas257x-1amp-reg.bin -> ti/audio/tas257x/tas257x-1amp-reg.bin
+
+Licence: Redistributable. See LICENCE.ti-tspa for details. Marked:
+	 Copyright (C) 2023 - 2026 Texas Instruments
+
+--------------------------------------------------------------------------
+
+Driver: ti-tas2781 - tas2781 firmware
+
 File: ti/audio/tas2781/TAS2XXX0C94.bin
 File: ti/audio/tas2781/TAS2XXX0C95.bin
 File: ti/audio/tas2781/TAS2XXX0C96.bin
@@ -9742,11 +9983,7 @@ File: ti/audio/tas2781/TXNW2781RCA0.bin
 File: ti/audio/tas2781/TXNW2781RCA1.bin
 File: ti/audio/tas2781/TIAS2781RCA2.bin
 File: ti/audio/tas2781/TIAS2781RCA4.bin
-Link: tas2572-1-1amp-reg.bin -> ti/audio/tas257x/tas2572-1-1amp-reg.bin
-Link: tas2572-2-1amp-reg.bin -> ti/audio/tas257x/tas2572-2-1amp-reg.bin
-Link: tas2572-3-1amp-reg.bin -> ti/audio/tas257x/tas2572-3-1amp-reg.bin
-Link: tas2572-3amp-reg.bin -> ti/audio/tas257x/tas2572-3amp-reg.bin
-Link: tas257x-1amp-reg.bin -> ti/audio/tas257x/tas257x-1amp-reg.bin
+
 Link: TAS2XXX0C94.bin -> ti/audio/tas2781/TAS2XXX0C94.bin
 Link: TAS2XXX0C95.bin -> ti/audio/tas2781/TAS2XXX0C95.bin
 Link: TAS2XXX0C96.bin -> ti/audio/tas2781/TAS2XXX0C96.bin
@@ -10274,14 +10511,17 @@ Link: 9028-3-0x9.bin -> ti/audio/tas2783/9028-3-0x9.bin
 Link: 9028-3-0xA.bin -> ti/audio/tas2783/9028-3-0xA.bin
 Link: 9029-2-0xC.bin -> ti/audio/tas2783/9029-2-0xC.bin
 Link: 9029-3-0x9.bin -> ti/audio/tas2783/9029-3-0x9.bin
+
 Licence: Redistributable. LICENCE.ti-tspa for details. Marked:
 	 Copyright (C) 2026 Texas Instruments
 
 --------------------------------------------------------------------------
 
 Driver: ti-tas2563 - tas2563 firmware
+
 File: ti/audio/tas2563/TAS2XXX3870.bin
 File: ti/audio/tas2563/INT8866RCA2.bin
+
 Link: TAS2XXX3870.bin -> ti/audio/tas2563/TAS2XXX3870.bin
 Link: INT8866RCA2.bin -> ti/audio/tas2563/INT8866RCA2.bin
 
@@ -10447,6 +10687,7 @@ Originates from https://source.chromium.org/chromiumos/chromiumos/codesearch/+/m
 
 Driver: qcom-geni-se - Qualcomm QUPv3 firmware image file
 File: qcom/sa8775p/qupv3fw.elf
+File: qcom/nord/qupv3fw.elf
 File: qcom/qcm6490/qupv3fw.elf
 File: qcom/qcs615/qupv3fw.elf
 Link: qcom/qcs6490/qupv3fw.elf -> ../qcm6490/qupv3fw.elf
